@@ -1,0 +1,5 @@
+Hay que instalar las liberias necesarias para que funcione esta cosa
+por ejemplo, pillow creo, biopython, xmltamp2 y xhtml2pdf 
+esta ultima hay que instalarla en python 3 asi: pip install --pre xhtml2pdf 
+
+Falta hacer el PDF y encontrar una manera de transformar los XML en XSLT para poder hacer los SVG
