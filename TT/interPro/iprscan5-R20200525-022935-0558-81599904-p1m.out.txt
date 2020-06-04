@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="ef5188a746358a0ed78964e8c0467bcc">MAQRTGLEDPERYLFVDRAVIYNPATQADWTAKKLVWIPSERHGFEAASIKEERGDEVMVELAENGKKAMVNKDDIQKMNPPKFSKVEDMAELTCLNEASVLHNLKDRYYSGLIYTYSGLFCVVINPYKNLPIYSENIIEMYRGKKRHEMPPHIYAISESAYRCMLQDREDQSILCTGESGAGKTENTKKVIQYLAHVASSHKGRKDHNIPGELERQLLQANPILESFGNAKTVKNDNSSRFGKFIRINFDVTGYIVGANIETYLLEKSRAVRQAKDERTFHIFYQLLSGAGEHLKSDLLLEGFNNYRFLSNGYIPIPGQQDKDNFQETMEAMHIMGFSHEEILSMLKVVSSVLQFGNISFKKERNTDQASMPENTVAQKLCHLLGMNVMEFTRAILTPRIKVGRDYVQKAQTKEQADFAVEALAKATYERLFRWLVHRINKALDRTKRQGASFIGILDIAGFEIFELNSFEQLCINYTNEKLQQLFNHTMFILEQEEYQREGIEWNFIDFGLDLQPCIDLIERPANPPGVLALLDEECWFPKATDKTFVEKLVQEQGSHSKFQKPRQLKDKADFCIIHYAGKVDYKADEWLMKNMDPLNDNVATLLHQSSDRFVAELWKDEIQNIQRASFYDSVSGLHEPPVDRIVGLDQVTGMTETAFGSAYKTKKGMFRTVGQLYKESLTKLMATLRNTNPNFVRCIIPNHEKRAGKLDPHLVLDQLRCNGVLEGIRICRQGFPNRIVFQEFRQRYEILTPNAIPKGFMDGKQACERMIRALELDPNLYRIGQSKIFFRAGVLAHLEEERDLKITDIIIFFQAVCRGYLARKAFAKKQQQLSALKVLQRNCAAYLKLRHWQWWRVFTKVKPLLQVTRQEEELQAKDEELLKVKEKQTKVEGELEEMERKHQQLLEEKNILAEQLQAETELFAEAEEMRARLAAKKQELEEILHDLESRVEEEEERNQILQNEKKKMQAHIQDLEEQLDEEEGARQKLQLEKVTAEAKIKKMEEEILLLEDQNSKFIKEKKLMEDRIAECSSQLAEEEEKAKNLAKIRNKQEVMISDLEERLKKEEKTRQELEKAKRKLDGETTDLQDQIAELQAQIDELKIQLAKKEEELQGALARGDDETLHKNNALKVVRELQAQIAELQEDFESEKASRNKAEKQKRDLSEELEALKTELEDTLDTTAAQQELRTKREQEVAELKKALEEETKNHEAQIQDMRQRHATALEELSEQLEQAKRFKANLEKNKQGLETDNKELACEVKVLQQVKAESEHKRKKLDAQVQELHAKVSEGDRLRVELAEKANKLQNELDNVSTLLEEAEKKGIKFAKDAAGLESQLQDTQELLQEETRQKLNLSGRIRQLEEEKNSLQEQQEEEEEARKNLEKQVLALQSQLTDTKKKVDDDLGTIESLEEAKKKLLKDVEALSQRLEEKALAYDKLEKTKNRLQQELDDLMVDLDHQRQIVSNLEKKQKKFDQLLAEEKNISARYAEERDRAEAEAREKETKALSLARALEEALEAKEEFERQNKQLRADMEDLMSSKDDVGKNVHELEKSKRALEQQVEEMRTQLEELEDELQATEDAKLRLEVNMQAMKAQFERDLQTRDEQNEEKKRLLIKQVRELEAELEDERKQRALAVASKKKMEIDLKDLEAQIEAANKARDEVIKQLRKLQAQMKDYQRELEEARASRDEIFAQSKESEKKLKSLEAEILQLQEELASSERARRHAEQERDELADEIANSASGKSALLDEKRRLEARIAQLEEELEEEQSNMELLNDRFRKTTLQVDTLNAELAAERSAAQKSDNARQQLERQNKELKAKLQELEGAVKSKFKATISALEAKIGQLEEQLEQEAKERAAANKLVRRTEKKLKEIFMQVEDERRHADQYKEQMEKANARMKQLKRQLEEAEEEATRANASRRKLQRELDDATEANEGLSREVSTLKNRLRRGGPISFSSSRSGRRQLHIEGASLELSDDDTESKTSDVNETQPPQSE</sequence>
+    <xref id="tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE" name="tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE Myosin heavy chain 10 OS=Equus caballus OX=9796 GN=MYH10 PE=3 SV=2"/>
+    <matches>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="1296" end="1323">
+            <location-fragments>
+              <coils-location-fragment start="1296" end="1323" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="868" end="1119">
+            <location-fragments>
+              <coils-location-fragment start="868" end="1119" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="1127" end="1288">
+            <location-fragments>
+              <coils-location-fragment start="1127" end="1288" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="1605" end="1737">
+            <location-fragments>
+              <coils-location-fragment start="1605" end="1737" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="1745" end="1948">
+            <location-fragments>
+              <coils-location-fragment start="1745" end="1948" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="1331" end="1400">
+            <location-fragments>
+              <coils-location-fragment start="1331" end="1400" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="1408" end="1596">
+            <location-fragments>
+              <coils-location-fragment start="1408" end="1596" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <fingerprints-match evalue="2.2E-65" graphscan="IIIII">
+        <signature ac="PR00193" desc="Myosin heavy chain signature" name="MYOSINHEAVY">
+          <entry ac="IPR001609" desc="Myosin head, motor domain" name="Myosin_head_motor_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003774" name="motor activity"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0016459" name="myosin complex"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR00193</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="5.56E-13" score="65.9" start="115" end="134">
+            <location-fragments>
+              <fingerprints-location-fragment start="115" end="134" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="1.0E-16" score="72.15" start="171" end="196">
+            <location-fragments>
+              <fingerprints-location-fragment start="171" end="196" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="1.0E-16" score="77.87" start="223" end="250">
+            <location-fragments>
+              <fingerprints-location-fragment start="223" end="250" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="4" pvalue="1.0E-16" score="79.78" start="454" end="482">
+            <location-fragments>
+              <fingerprints-location-fragment start="454" end="482" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="5" pvalue="6.18E-11" score="40.94" start="508" end="536">
+            <location-fragments>
+              <fingerprints-location-fragment start="508" end="536" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <hmmer2-match evalue="0.0" score="1341.2">
+        <signature ac="SM00242" name="MYSc_2a">
+          <entry ac="IPR001609" desc="Myosin head, motor domain" name="Myosin_head_motor_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003774" name="motor activity"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0016459" name="myosin complex"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00242</model-ac>
+        <locations>
+          <hmmer2-location score="1341.2" evalue="0.0" hmm-start="1" hmm-end="771" hmm-length="771" hmm-bounds="COMPLETE" start="79" end="805">
+            <location-fragments>
+              <hmmer2-location-fragment start="79" end="805" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="6.4E-4" score="29.0">
+        <signature ac="SM00015" name="iq_5">
+          <entry ac="IPR000048" desc="IQ motif, EF-hand binding site" name="IQ_motif_EF-hand-BS" type="BINDING_SITE">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00015</model-ac>
+        <locations>
+          <hmmer2-location score="29.0" evalue="6.4E-4" hmm-start="1" hmm-end="23" hmm-length="23" hmm-bounds="COMPLETE" start="806" end="828">
+            <location-fragments>
+              <hmmer2-location-fragment start="806" end="828" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="0.0" score="1707.9">
+        <signature ac="PF01576" desc="Myosin tail" name="Myosin_tail_1">
+          <entry ac="IPR002928" desc="Myosin tail" name="Myosin_tail" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003774" name="motor activity"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0016459" name="myosin complex"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF01576</model-ac>
+        <locations>
+          <hmmer3-location env-end="1949" env-start="869" post-processed="true" score="1707.6" evalue="0.0" hmm-start="1" hmm-end="1081" hmm-length="1081" hmm-bounds="COMPLETE" start="869" end="1949">
+            <location-fragments>
+              <hmmer3-location-fragment start="869" end="1949" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="7.6E-5" score="22.1">
+        <signature ac="PF00612" desc="IQ calmodulin-binding motif" name="IQ">
+          <entry ac="IPR000048" desc="IQ motif, EF-hand binding site" name="IQ_motif_EF-hand-BS" type="BINDING_SITE">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00612</model-ac>
+        <locations>
+          <hmmer3-location env-end="828" env-start="808" post-processed="true" score="20.4" evalue="2.6E-4" hmm-start="2" hmm-end="20" hmm-length="21" hmm-bounds="INCOMPLETE" start="809" end="827">
+            <location-fragments>
+              <hmmer3-location-fragment start="809" end="827" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="4.1E-28" score="99.3">
+        <signature ac="G3DSA:3.30.70.3240">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1vomA05</model-ac>
+        <locations>
+          <hmmer3-location env-end="807" env-start="735" post-processed="true" score="96.5" evalue="3.1E-27" hmm-start="1" hmm-end="69" hmm-length="72" hmm-bounds="N_TERMINAL_COMPLETE" start="735" end="806">
+            <location-fragments>
+              <hmmer3-location-fragment start="735" end="806" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.7E-41" score="143.2">
+        <signature ac="G3DSA:1.20.5.1050">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2fxoB00</model-ac>
+        <locations>
+          <hmmer3-location env-end="989" env-start="861" post-processed="true" score="77.5" evalue="3.8E-21" hmm-start="3" hmm-end="124" hmm-length="129" hmm-bounds="INCOMPLETE" start="864" end="985">
+            <location-fragments>
+              <hmmer3-location-fragment start="864" end="985" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="1101" env-start="982" post-processed="true" score="26.7" evalue="1.9E-5" hmm-start="16" hmm-end="127" hmm-length="129" hmm-bounds="C_TERMINAL_COMPLETE" start="986" end="1101">
+            <location-fragments>
+              <hmmer3-location-fragment start="986" end="1101" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="1016.3">
+        <signature ac="PF00063" desc="Myosin head (motor domain)" name="Myosin_head">
+          <entry ac="IPR001609" desc="Myosin head, motor domain" name="Myosin_head_motor_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003774" name="motor activity"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0016459" name="myosin complex"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00063</model-ac>
+        <locations>
+          <hmmer3-location env-end="792" env-start="87" post-processed="true" score="1016.3" evalue="0.0" hmm-start="1" hmm-end="677" hmm-length="677" hmm-bounds="COMPLETE" start="87" end="792">
+            <location-fragments>
+              <hmmer3-location-fragment start="87" end="792" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="8.7E-13" score="47.8">
+        <signature ac="PF02736" desc="Myosin N-terminal SH3-like domain" name="Myosin_N">
+          <entry ac="IPR004009" desc="Myosin, N-terminal, SH3-like" name="Myosin_N" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0016459" name="myosin complex"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003774" name="motor activity"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF02736</model-ac>
+        <locations>
+          <hmmer3-location env-end="73" env-start="33" post-processed="true" score="46.4" evalue="2.4E-12" hmm-start="1" hmm-end="40" hmm-length="40" hmm-bounds="COMPLETE" start="33" end="73">
+            <location-fragments>
+              <hmmer3-location-fragment start="33" end="73" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.6E-26" score="93.9">
+        <signature ac="G3DSA:4.10.270.10">
+          <entry ac="IPR027401" desc="Myosin IQ motif-containing domain superfamily" name="Myosin_IQ_contain_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2bl0A00</model-ac>
+        <locations>
+          <hmmer3-location env-end="866" env-start="805" post-processed="true" score="91.7" evalue="7.9E-26" hmm-start="2" hmm-end="62" hmm-length="63" hmm-bounds="INCOMPLETE" start="807" end="863">
+            <location-fragments>
+              <hmmer3-location-fragment start="807" end="863" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="1971" end="1986">
+            <location-fragments>
+              <mobidblite-location-fragment start="1971" end="1986" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="1718" end="1738">
+            <location-fragments>
+              <mobidblite-location-fragment start="1718" end="1738" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1895" end="1997">
+            <location-fragments>
+              <mobidblite-location-fragment start="1895" end="1997" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1148" end="1170">
+            <location-fragments>
+              <mobidblite-location-fragment start="1148" end="1170" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1718" end="1739">
+            <location-fragments>
+              <mobidblite-location-fragment start="1718" end="1739" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="1895" end="1936">
+            <location-fragments>
+              <mobidblite-location-fragment start="1895" end="1936" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="4325.2">
+        <signature ac="PTHR45615" name="FAMILY NOT NAMED">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR45615</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="1993" hmm-start="1" hmm-end="1962" hmm-length="1986" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="1973">
+            <location-fragments>
+              <panther-location-fragment start="1" end="1973" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="4325.2">
+        <signature ac="PTHR45615:SF24" name="MYOSIN-10">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR45615:SF24</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="1993" hmm-start="1" hmm-end="1962" hmm-length="1986" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="1973">
+            <location-fragments>
+              <panther-location-fragment start="1" end="1973" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <profilescan-match>
+        <signature ac="PS51844" desc="Myosin N-terminal SH3-like domain profile." name="SH3_LIKE">
+          <entry ac="IPR004009" desc="Myosin, N-terminal, SH3-like" name="Myosin_N" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0016459" name="myosin complex"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003774" name="motor activity"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51844</model-ac>
+        <locations>
+          <profilescan-location score="20.272" start="31" end="81">
+            <location-fragments>
+              <profilescan-location-fragment start="31" end="81" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>TAKKLVWIPSERHGFEAASIKEERGDEVMVELAeNGKKAMVNKDDIQKMNP</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50096" desc="IQ motif profile." name="IQ">
+          <entry ac="IPR000048" desc="IQ motif, EF-hand binding site" name="IQ_motif_EF-hand-BS" type="BINDING_SITE">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50096</model-ac>
+        <locations>
+          <profilescan-location score="8.828" start="807" end="836">
+            <location-fragments>
+              <profilescan-location-fragment start="807" end="836" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>ITDIIIFFQAVCRGYLARKAFAKKQQQLSA</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51456" desc="Myosin motor domain profile." name="MYOSIN_MOTOR">
+          <entry ac="IPR001609" desc="Myosin head, motor domain" name="Myosin_head_motor_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003774" name="motor activity"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0016459" name="myosin complex"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51456</model-ac>
+        <locations>
+          <profilescan-location score="285.907" start="85" end="804">
+            <location-fragments>
+              <profilescan-location-fragment start="85" end="804" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>SKVEDMAELTCLNEASVLHNLKDRYYSGLIYTYSGLFCVVINPYKNLPIYSENIIEMYRGKKRHEMPPHIYAISESAYRCMLQDREDQSILCTGESGAGKTENTKKVIQYLAHVASSHKGrkdhniPGELERQLLQANPILESFGNAKTVKNDNSSRFGKFIRINFDVTGYIVGANIETYLLEKSRAVRQAKDERTFHIFYQLLSGAGEHLKSDLLLEGFNNYRFLS-NGYIPIPGQQDKDNFQETMEAMHIMGFSHEEILSMLKVVSSVLQFGNISFKKERNTDQASMPENTVAQKLCHLLGMNVMEFTRAILTPRIKVGRDYVQKAQTKEQADFAVEALAKATYERLFRWLVHRINKALDRTKRQgASFIGILDIAGFEIFELNSFEQLCINYTNEKLQQLFNHTMFILEQEEYQREGIEWNFIDFgLDLQPCIDLIERpaNPPGVLALLDEECWFPKATDKTFVEKLVQEQGSHSKFQKPRQLKdKADFCIIHYAGKVDYKADEWLMKNMDPLNDNVATLLHQSSDRFVAELWKDEIQNIQRAsfydsvsglheppvdrivgldqvtgmtetaFGSAYKTKKGMfrTVGQLYKESLTKLMATLRNTNPNFVRCIIPNHEKRAGKLDPHLVLDQLRCNGVLEGIRICRQGFPNRIVFQEFRQRYEILTPNAI-PKGFMDGKQACERMIRALELDPNLYRIGQSKIFFRAGVLAHLEEERD</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <rpsblast-match>
+        <signature ac="cd14920" desc="MYSc_Myh10" name="MYSc_Myh10">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd14920</model-ac>
+        <locations>
+          <rpsblast-location evalue="0.0" score="1440.19" start="99" end="792">
+            <location-fragments>
+              <rpsblast-location-fragment start="99" end="792" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="purine-binding loop" numLocations="9">
+                <site-locations>
+                  <site-location residue="N" start="130" end="130"/>
+                  <site-location residue="I" start="133" end="133"/>
+                  <site-location residue="Y" start="128" end="128"/>
+                  <site-location residue="L" start="131" end="131"/>
+                  <site-location residue="N" start="126" end="126"/>
+                  <site-location residue="P" start="132" end="132"/>
+                  <site-location residue="Y" start="134" end="134"/>
+                  <site-location residue="P" start="127" end="127"/>
+                  <site-location residue="K" start="129" end="129"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="P-loop" numLocations="8">
+                <site-locations>
+                  <site-location residue="T" start="185" end="185"/>
+                  <site-location residue="K" start="184" end="184"/>
+                  <site-location residue="G" start="178" end="178"/>
+                  <site-location residue="S" start="180" end="180"/>
+                  <site-location residue="A" start="182" end="182"/>
+                  <site-location residue="G" start="183" end="183"/>
+                  <site-location residue="G" start="181" end="181"/>
+                  <site-location residue="E" start="179" end="179"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="switch I region" numLocations="11">
+                <site-locations>
+                  <site-location residue="K" start="232" end="232"/>
+                  <site-location residue="T" start="233" end="233"/>
+                  <site-location residue="R" start="241" end="241"/>
+                  <site-location residue="S" start="239" end="239"/>
+                  <site-location residue="V" start="234" end="234"/>
+                  <site-location residue="A" start="231" end="231"/>
+                  <site-location residue="N" start="238" end="238"/>
+                  <site-location residue="K" start="235" end="235"/>
+                  <site-location residue="N" start="236" end="236"/>
+                  <site-location residue="S" start="240" end="240"/>
+                  <site-location residue="D" start="237" end="237"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="switch II region" numLocations="6">
+                <site-locations>
+                  <site-location residue="D" start="459" end="459"/>
+                  <site-location residue="I" start="460" end="460"/>
+                  <site-location residue="F" start="463" end="463"/>
+                  <site-location residue="G" start="462" end="462"/>
+                  <site-location residue="A" start="461" end="461"/>
+                  <site-location residue="E" start="464" end="464"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="converter subdomain" numLocations="57">
+                <site-locations>
+                  <site-location residue="G" start="785" end="785"/>
+                  <site-location residue="E" start="769" end="769"/>
+                  <site-location residue="M" start="771" end="771"/>
+                  <site-location residue="L" start="752" end="752"/>
+                  <site-location residue="M" start="762" end="762"/>
+                  <site-location residue="I" start="772" end="772"/>
+                  <site-location residue="F" start="790" end="790"/>
+                  <site-location residue="D" start="763" end="763"/>
+                  <site-location residue="K" start="788" end="788"/>
+                  <site-location residue="Q" start="766" end="766"/>
+                  <site-location residue="P" start="758" end="758"/>
+                  <site-location residue="I" start="784" end="784"/>
+                  <site-location residue="R" start="783" end="783"/>
+                  <site-location residue="Q" start="786" end="786"/>
+                  <site-location residue="L" start="777" end="777"/>
+                  <site-location residue="F" start="742" end="742"/>
+                  <site-location residue="L" start="781" end="781"/>
+                  <site-location residue="I" start="757" end="757"/>
+                  <site-location residue="N" start="755" end="755"/>
+                  <site-location residue="E" start="776" end="776"/>
+                  <site-location residue="S" start="787" end="787"/>
+                  <site-location residue="G" start="764" end="764"/>
+                  <site-location residue="F" start="745" end="745"/>
+                  <site-location residue="K" start="765" end="765"/>
+                  <site-location residue="T" start="753" end="753"/>
+                  <site-location residue="A" start="767" end="767"/>
+                  <site-location residue="A" start="756" end="756"/>
+                  <site-location residue="R" start="746" end="746"/>
+                  <site-location residue="Y" start="782" end="782"/>
+                  <site-location residue="E" start="750" end="750"/>
+                  <site-location residue="I" start="740" end="740"/>
+                  <site-location residue="N" start="738" end="738"/>
+                  <site-location residue="R" start="792" end="792"/>
+                  <site-location residue="L" start="775" end="775"/>
+                  <site-location residue="I" start="751" end="751"/>
+                  <site-location residue="R" start="739" end="739"/>
+                  <site-location residue="F" start="791" end="791"/>
+                  <site-location residue="R" start="748" end="748"/>
+                  <site-location residue="R" start="770" end="770"/>
+                  <site-location residue="N" start="780" end="780"/>
+                  <site-location residue="F" start="736" end="736"/>
+                  <site-location residue="P" start="754" end="754"/>
+                  <site-location residue="K" start="759" end="759"/>
+                  <site-location residue="F" start="761" end="761"/>
+                  <site-location residue="P" start="779" end="779"/>
+                  <site-location residue="A" start="774" end="774"/>
+                  <site-location residue="Q" start="743" end="743"/>
+                  <site-location residue="V" start="741" end="741"/>
+                  <site-location residue="C" start="768" end="768"/>
+                  <site-location residue="R" start="773" end="773"/>
+                  <site-location residue="Q" start="747" end="747"/>
+                  <site-location residue="I" start="789" end="789"/>
+                  <site-location residue="Y" start="749" end="749"/>
+                  <site-location residue="P" start="737" end="737"/>
+                  <site-location residue="G" start="760" end="760"/>
+                  <site-location residue="D" start="778" end="778"/>
+                  <site-location residue="E" start="744" end="744"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="SH1 helix" numLocations="10">
+                <site-locations>
+                  <site-location residue="G" start="724" end="724"/>
+                  <site-location residue="C" start="732" end="732"/>
+                  <site-location residue="E" start="727" end="727"/>
+                  <site-location residue="I" start="731" end="731"/>
+                  <site-location residue="G" start="728" end="728"/>
+                  <site-location residue="V" start="725" end="725"/>
+                  <site-location residue="L" start="726" end="726"/>
+                  <site-location residue="R" start="730" end="730"/>
+                  <site-location residue="I" start="729" end="729"/>
+                  <site-location residue="R" start="733" end="733"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="relay loop" numLocations="22">
+                <site-locations>
+                  <site-location residue="D" start="510" end="510"/>
+                  <site-location residue="E" start="497" end="497"/>
+                  <site-location residue="H" start="489" end="489"/>
+                  <site-location residue="E" start="502" end="502"/>
+                  <site-location residue="F" start="511" end="511"/>
+                  <site-location residue="I" start="509" end="509"/>
+                  <site-location residue="I" start="493" end="493"/>
+                  <site-location residue="W" start="506" end="506"/>
+                  <site-location residue="N" start="507" end="507"/>
+                  <site-location residue="G" start="503" end="503"/>
+                  <site-location residue="Y" start="499" end="499"/>
+                  <site-location residue="T" start="490" end="490"/>
+                  <site-location residue="L" start="494" end="494"/>
+                  <site-location residue="Q" start="496" end="496"/>
+                  <site-location residue="E" start="505" end="505"/>
+                  <site-location residue="E" start="495" end="495"/>
+                  <site-location residue="N" start="488" end="488"/>
+                  <site-location residue="M" start="491" end="491"/>
+                  <site-location residue="F" start="508" end="508"/>
+                  <site-location residue="F" start="492" end="492"/>
+                  <site-location residue="I" start="504" end="504"/>
+                  <site-location residue="E" start="498" end="498"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="ATP binding site" numLocations="34">
+                <site-locations>
+                  <site-location residue="I" start="460" end="460"/>
+                  <site-location residue="K" start="232" end="232"/>
+                  <site-location residue="G" start="178" end="178"/>
+                  <site-location residue="S" start="180" end="180"/>
+                  <site-location residue="A" start="182" end="182"/>
+                  <site-location residue="V" start="234" end="234"/>
+                  <site-location residue="L" start="131" end="131"/>
+                  <site-location residue="N" start="126" end="126"/>
+                  <site-location residue="P" start="132" end="132"/>
+                  <site-location residue="D" start="237" end="237"/>
+                  <site-location residue="N" start="130" end="130"/>
+                  <site-location residue="I" start="133" end="133"/>
+                  <site-location residue="T" start="233" end="233"/>
+                  <site-location residue="Y" start="134" end="134"/>
+                  <site-location residue="N" start="236" end="236"/>
+                  <site-location residue="A" start="461" end="461"/>
+                  <site-location residue="F" start="463" end="463"/>
+                  <site-location residue="K" start="184" end="184"/>
+                  <site-location residue="G" start="183" end="183"/>
+                  <site-location residue="R" start="241" end="241"/>
+                  <site-location residue="N" start="238" end="238"/>
+                  <site-location residue="K" start="235" end="235"/>
+                  <site-location residue="G" start="181" end="181"/>
+                  <site-location residue="P" start="127" end="127"/>
+                  <site-location residue="K" start="129" end="129"/>
+                  <site-location residue="E" start="464" end="464"/>
+                  <site-location residue="D" start="459" end="459"/>
+                  <site-location residue="T" start="185" end="185"/>
+                  <site-location residue="Y" start="128" end="128"/>
+                  <site-location residue="S" start="239" end="239"/>
+                  <site-location residue="A" start="231" end="231"/>
+                  <site-location residue="E" start="179" end="179"/>
+                  <site-location residue="G" start="462" end="462"/>
+                  <site-location residue="S" start="240" end="240"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd06503" desc="ATP-synt_Fo_b" name="ATP-synt_Fo_b">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd06503</model-ac>
+        <locations>
+          <rpsblast-location evalue="0.0030758" score="37.8023" start="1651" end="1752">
+            <location-fragments>
+              <rpsblast-location-fragment start="1651" end="1752" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites/>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="1.52E-8">
+        <signature ac="SSF90257" name="Myosin rod fragments">
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0053562</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="126" start="1376" end="1478">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="1376" end="1478" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="3.49E-18">
+        <signature ac="SSF90257" name="Myosin rod fragments">
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0053562</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="126" start="1264" end="1378">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="1264" end="1378" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="4.19E-7">
+        <signature ac="SSF90257" name="Myosin rod fragments">
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0053562</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="126" start="1090" end="1178">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="1090" end="1178" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="0.0">
+        <signature ac="SSF52540" name="P-loop containing nucleoside triphosphate hydrolases">
+          <entry ac="IPR027417" desc="P-loop containing nucleoside triphosphate hydrolase" name="P-loop_NTPase" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0045376</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="795" start="36" end="866">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="661" end="866" dc-status="N_TERMINAL_DISC"/>
+              <superfamilyhmmer3-location-fragment start="36" end="631" dc-status="C_TERMINAL_DISC"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="2.49E-21">
+        <signature ac="SSF90257" name="Myosin rod fragments">
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0053562</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="126" start="984" end="1099">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="984" end="1099" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="4.84E-24">
+        <signature ac="SSF90257" name="Myosin rod fragments">
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0053562</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="126" start="864" end="989">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="864" end="989" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

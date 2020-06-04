@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="98566244ee829a45be8f961220354705">CCACTGCACTCACCGCACCCGGCCAATTTTTGTGTTTTTAGTAGAGACTAAATACCATATAGTGAACACCTAAGACGGGGGGCCTTGGATCCAGGGCGATTCAGAGGGCCCCGGTCGGAGCTGTCGGAGATTGAGCGCGCGCGGTCCCGGGATCTCCGACGAGGCCCTGGACCCCCGGGCGGCGAAGCTGCGGCGCGGCGCCCCCTGGAGGCCGCGGGACCCCTGGCCGGTCCGCGCAGGCGCAGCGGGGTCGCAGGGCGCGGCGGGTTCCAGCGCGGGGATGGCGCTGTCCGCGGAGGACCGGGCGCTGGTGCGCGCCCTGTGGAAGAAGCTGGGCAGCAACGTCGGCGTCTACACGACAGAGGCCCTGGAAAGGTGCGGCAGGCTGGGCGCCCCCGCCCCCAGGGGCCCTCCCTCCCCAAGCCCCCCGGACGCGCCTCACCCACGTTCCTCTCGCAGGACCTTCCTGGCTTTCCCCGCCACGAAGACCTACTTCTCCCACCTGGACCTGAGCCCCGGCTCCTCACAAGTCAGAGCCCACGGCCAGAAGGTGGCGGACGCGCTGAGCCTCGCCGTGGAGCGCCTGGACGACCTACCCCACGCGCTGTCCGCGCTGAGCCACCTGCACGCGTGCCAGCTGCGAGTGGACCCGGCCAGCTTCCAGGTGAGCGGCTGCCGTGCTGGGCCCCTGTCCCCGGGAGGGCCCCGGCGGGGTGGGTGCGGGGGGCGTGCGGGGCGGGTGCAGGCGAGTGAGCCTTGAGCGCTCGCCGCAGCTCCTGGGCCACTGCCTGCTGGTAACCCTCGCCCGGCACTACCCCGGAGACTTCAGCCCCGCGCTGCAGGCGTCGCTGGACAAGTTCCTGAGCCACGTTATCTCGGCGCTGGTTTCCGAGTACCGCTGAACTGTGGGTGGGTGGCCGCGGGATCCCCAGGCGACCTTCCCCGTGTTTGAGTAAAGCCTCTCCCAGGAGCAGCCTTCTTGCCGTGCTCTCTCGAGGTCAGGACGCGAGAGGAAGGCGC</sequence>
+    <xref id="HSGLTH1" name="HSGLTH1 Human theta 1-globin gene"/>
+    <matches>
+      <patternscan-match>
+        <signature ac="PS60024" desc="Agouti domain signature." name="AGOUTI_1">
+          <entry ac="IPR027300" desc="Agouti domain" name="Agouti_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005102" name="signaling receptor binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS60024</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="396" end="438">
+            <location-fragments>
+              <patternscan-location-fragment start="396" end="438" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>CcgccccCaggggcCCtcCctCcCcaagccCcCcggacgcgcC</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <patternscan-match>
+        <signature ac="PS00243" desc="Integrins beta chain cysteine-rich domain signature." name="INTEGRIN_BETA">
+          <entry ac="IPR015812" desc="Integrin beta subunit" name="Integrin_bsu" type="FAMILY"/>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS00243</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="509" end="522">
+            <location-fragments>
+              <patternscan-location-fragment start="509" end="522" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>CtGaGcCcCggCtC</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.678" start="1" end="25">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="25" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-TM" name="SignalP-TM">
+          <signature-library-release library="SIGNALP_GRAM_POSITIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-TM</model-ac>
+        <locations>
+          <signalp-location score="0.815" start="1" end="25">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="25" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_GRAM_NEGATIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.776" start="1" end="25">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="25" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+    </matches>
+  </protein>
+</protein-matches>

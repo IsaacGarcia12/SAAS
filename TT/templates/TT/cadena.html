@@ -1,0 +1,9 @@
+{% extends 'TT/base.html'%}
+{% block content %}
+{% load static %}
+<div>
+    <h1>Esta es la cadena que se ingreso</h1>
+    {{cadena}} <br>
+    <a href="{%url 'index'%}">Regresar a pantalla inicial</a>
+</div>
+{% endblock %}

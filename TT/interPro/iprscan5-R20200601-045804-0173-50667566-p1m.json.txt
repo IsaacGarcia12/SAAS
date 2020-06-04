@@ -1,0 +1,596 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MGSQALPHGHMQTLIFLDLEATGLPYSQPKITELCLLAVHRHALENSSMSEGQPPPVPKPPRVVDKLSLCIAPGKPCSSGASEITGLTTAGLEAHGRQRFNDNLATLLQVFLQRQPQPCCLVAHNGDRYDFPLLQAELASLSVISPLDGTFCVDSIAALKTLEQASSPSEHGPRKSYSLGSIYTRLYGQAPTDSHTAEGDVLALLSICQWKPQALLQWVDKHARPFSTIKPMYGMAATTGTASPRLCAATTSSPLATANLSPSNGRSRGKRPTSPPPENVPEAPSREGLLAPLGLLTFLTLAIAVLYGIFLASPGQ",
+  "md5" : "156ca33e756036dc93e9b54e7b4a8a8f",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "PTHR13058:SF25",
+      "name" : "THREE-PRIME REPAIR EXONUCLEASE 1",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 266,
+      "hmmStart" : 6,
+      "hmmEnd" : 267,
+      "hmmLength" : 268,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 267,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 266,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.6E-126,
+    "familyName" : "Not available",
+    "score" : 423.7,
+    "model-ac" : "PTHR13058:SF25"
+  }, {
+    "signature" : {
+      "accession" : "PTHR13058",
+      "name" : "THREE PRIME REPAIR EXONUCLEASE 1, 2",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 266,
+      "hmmStart" : 6,
+      "hmmEnd" : 267,
+      "hmmLength" : 268,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 267,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 266,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.6E-126,
+    "familyName" : "Not available",
+    "score" : 423.7,
+    "model-ac" : "PTHR13058"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 254,
+      "end" : 285,
+      "location-fragments" : [ {
+        "start" : 254,
+        "end" : 285,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SSF53098",
+      "name" : "Ribonuclease H-like",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR012337",
+        "name" : "RNaseH-like_sf",
+        "description" : "Ribonuclease H-like superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 10,
+      "end" : 233,
+      "hmmLength" : 226,
+      "location-fragments" : [ {
+        "start" : 10,
+        "end" : 233,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 9.99E-53,
+    "model-ac" : "0054813"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 254,
+      "end" : 270,
+      "location-fragments" : [ {
+        "start" : 254,
+        "end" : 270,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 289,
+      "end" : 311,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 289,
+        "end" : 311,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "SM00479",
+      "name" : "exoiiiendus",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR013520",
+        "name" : "Exonuclease_RNaseT/DNA_pol3",
+        "description" : "Exonuclease, RNase T/DNA polymerase III",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 13,
+      "end" : 217,
+      "hmmStart" : 1,
+      "hmmEnd" : 196,
+      "hmmLength" : 196,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.7E-14,
+      "score" : 64.2,
+      "location-fragments" : [ {
+        "start" : 13,
+        "end" : 217,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.7E-14,
+    "score" : 64.2,
+    "model-ac" : "SM00479"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 289,
+      "end" : 312,
+      "location-fragments" : [ {
+        "start" : 289,
+        "end" : 312,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.420.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR036397",
+        "name" : "RNaseH_sf",
+        "description" : "Ribonuclease H superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "nucleic acid binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003676"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 10,
+      "end" : 229,
+      "hmmStart" : 2,
+      "hmmEnd" : 220,
+      "hmmLength" : 220,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.5E-67,
+      "score" : 228.2,
+      "envelopeStart" : 10,
+      "envelopeEnd" : 229,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 10,
+        "end" : 229,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.0E-67,
+    "score" : 228.4,
+    "model-ac" : "3mxjA01"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 288,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 288,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "cd06136",
+      "name" : "TREX1_2",
+      "description" : "TREX1_2",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 14,
+      "end" : 211,
+      "sites" : [ {
+        "description" : "active site",
+        "numLocations" : 15,
+        "siteLocations" : [ {
+          "start" : 128,
+          "end" : 128,
+          "residue" : "R"
+        }, {
+          "start" : 81,
+          "end" : 81,
+          "residue" : "A"
+        }, {
+          "start" : 130,
+          "end" : 130,
+          "residue" : "D"
+        }, {
+          "start" : 18,
+          "end" : 18,
+          "residue" : "D"
+        }, {
+          "start" : 19,
+          "end" : 19,
+          "residue" : "L"
+        }, {
+          "start" : 179,
+          "end" : 179,
+          "residue" : "L"
+        }, {
+          "start" : 200,
+          "end" : 200,
+          "residue" : "D"
+        }, {
+          "start" : 21,
+          "end" : 21,
+          "residue" : "A"
+        }, {
+          "start" : 85,
+          "end" : 85,
+          "residue" : "T"
+        }, {
+          "start" : 195,
+          "end" : 195,
+          "residue" : "H"
+        }, {
+          "start" : 124,
+          "end" : 124,
+          "residue" : "H"
+        }, {
+          "start" : 125,
+          "end" : 125,
+          "residue" : "N"
+        }, {
+          "start" : 24,
+          "end" : 24,
+          "residue" : "L"
+        }, {
+          "start" : 20,
+          "end" : 20,
+          "residue" : "E"
+        }, {
+          "start" : 129,
+          "end" : 129,
+          "residue" : "Y"
+        } ]
+      }, {
+        "description" : "substrate binding site",
+        "numLocations" : 14,
+        "siteLocations" : [ {
+          "start" : 128,
+          "end" : 128,
+          "residue" : "R"
+        }, {
+          "start" : 81,
+          "end" : 81,
+          "residue" : "A"
+        }, {
+          "start" : 18,
+          "end" : 18,
+          "residue" : "D"
+        }, {
+          "start" : 179,
+          "end" : 179,
+          "residue" : "L"
+        }, {
+          "start" : 19,
+          "end" : 19,
+          "residue" : "L"
+        }, {
+          "start" : 200,
+          "end" : 200,
+          "residue" : "D"
+        }, {
+          "start" : 85,
+          "end" : 85,
+          "residue" : "T"
+        }, {
+          "start" : 21,
+          "end" : 21,
+          "residue" : "A"
+        }, {
+          "start" : 195,
+          "end" : 195,
+          "residue" : "H"
+        }, {
+          "start" : 124,
+          "end" : 124,
+          "residue" : "H"
+        }, {
+          "start" : 125,
+          "end" : 125,
+          "residue" : "N"
+        }, {
+          "start" : 24,
+          "end" : 24,
+          "residue" : "L"
+        }, {
+          "start" : 20,
+          "end" : 20,
+          "residue" : "E"
+        }, {
+          "start" : 129,
+          "end" : 129,
+          "residue" : "Y"
+        } ]
+      }, {
+        "description" : "nucleotide product binding site",
+        "numLocations" : 4,
+        "siteLocations" : [ {
+          "start" : 20,
+          "end" : 20,
+          "residue" : "E"
+        }, {
+          "start" : 85,
+          "end" : 85,
+          "residue" : "T"
+        }, {
+          "start" : 21,
+          "end" : 21,
+          "residue" : "A"
+        }, {
+          "start" : 195,
+          "end" : 195,
+          "residue" : "H"
+        } ]
+      }, {
+        "description" : "dimer interface",
+        "numLocations" : 22,
+        "siteLocations" : [ {
+          "start" : 101,
+          "end" : 101,
+          "residue" : "N"
+        }, {
+          "start" : 66,
+          "end" : 66,
+          "residue" : "K"
+        }, {
+          "start" : 70,
+          "end" : 70,
+          "residue" : "C"
+        }, {
+          "start" : 33,
+          "end" : 33,
+          "residue" : "E"
+        }, {
+          "start" : 115,
+          "end" : 115,
+          "residue" : "Q"
+        }, {
+          "start" : 198,
+          "end" : 198,
+          "residue" : "E"
+        }, {
+          "start" : 111,
+          "end" : 111,
+          "residue" : "F"
+        }, {
+          "start" : 68,
+          "end" : 68,
+          "residue" : "S"
+        }, {
+          "start" : 69,
+          "end" : 69,
+          "residue" : "L"
+        }, {
+          "start" : 40,
+          "end" : 40,
+          "residue" : "H"
+        }, {
+          "start" : 67,
+          "end" : 67,
+          "residue" : "L"
+        }, {
+          "start" : 116,
+          "end" : 116,
+          "residue" : "P"
+        }, {
+          "start" : 98,
+          "end" : 98,
+          "residue" : "Q"
+        }, {
+          "start" : 85,
+          "end" : 85,
+          "residue" : "T"
+        }, {
+          "start" : 110,
+          "end" : 110,
+          "residue" : "V"
+        }, {
+          "start" : 99,
+          "end" : 99,
+          "residue" : "R"
+        }, {
+          "start" : 62,
+          "end" : 62,
+          "residue" : "R"
+        }, {
+          "start" : 113,
+          "end" : 113,
+          "residue" : "Q"
+        }, {
+          "start" : 65,
+          "end" : 65,
+          "residue" : "D"
+        }, {
+          "start" : 107,
+          "end" : 107,
+          "residue" : "L"
+        }, {
+          "start" : 103,
+          "end" : 103,
+          "residue" : "N"
+        }, {
+          "start" : 114,
+          "end" : 114,
+          "residue" : "R"
+        } ]
+      }, {
+        "description" : "catalytic site",
+        "numLocations" : 5,
+        "siteLocations" : [ {
+          "start" : 20,
+          "end" : 20,
+          "residue" : "E"
+        }, {
+          "start" : 18,
+          "end" : 18,
+          "residue" : "D"
+        }, {
+          "start" : 130,
+          "end" : 130,
+          "residue" : "D"
+        }, {
+          "start" : 200,
+          "end" : 200,
+          "residue" : "D"
+        }, {
+          "start" : 195,
+          "end" : 195,
+          "residue" : "H"
+        } ]
+      } ],
+      "evalue" : 6.69329E-77,
+      "score" : 231.068,
+      "location-fragments" : [ {
+        "start" : 14,
+        "end" : 211,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd06136"
+  }, {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 313,
+      "end" : 316,
+      "location-fragments" : [ {
+        "start" : 313,
+        "end" : 316,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  } ],
+  "xref" : [ {
+    "name" : "tr|Q5BK16|Q5BK16_RAT RCG26064 OS=Rattus norvegicus OX=10116 GN=Trex1 PE=1 SV=1",
+    "id" : "tr|Q5BK16|Q5BK16_RAT"
+  } ]
+} ]
+}

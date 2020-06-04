@@ -1,0 +1,951 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MSILSLLLCHSYVFFLAYLVQCLFEIIIFQIWGCDKRINLDKEIRVVFGGKDYTDIESKFARRTPENTVEDTCHLIPGVTESVANCHFNHSSKTFMVIHGWTVTGMYESWVPKLVAALYKREPDSNVIVVDWLRRAQHHYPESADYTKLVGEDVARFINWMEDEFKYSVDNVHLLGYSLGAHAAGVAGSRTNTKVSRITGLDPAGPNFEYAEATSRLSPDDAQFVDVLHTFTRGSPGRSIGIQKPVGHVDIYPNGGSFQPGCNIQDALRVISQKGFGDMDQLVKCSHERSIHLFIDSLLNEENPSKAYRCNSKEAFEKGLCLSCRKNRCNNVGYEINKVRAKRSSKMYLKTRSQMPYKVFHYQVKIYFSGTETTTYTNQAFEISLYGTVAESENIPFTLPEVSANNTYSFLIYTEVDIGELLMLKLKWITESYFSWSSWWGRPTFTIEKIRVKAGETQKKIVFCSREKVSKLQKGKEAPVFVKCHDKSLNKKSGW",
+  "md5" : "6ce339ae84ceb6fd318b3f97569bacf3",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 12,
+      "end" : 32,
+      "location-fragments" : [ {
+        "start" : 12,
+        "end" : 32,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "cd00707",
+      "name" : "Pancreat_lipase_like",
+      "description" : "Pancreat_lipase_like",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : {
+        "accession" : "IPR033906",
+        "name" : "Lipase_N",
+        "description" : "Lipase, N-terminal",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "lipid metabolic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006629"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 56,
+      "end" : 353,
+      "sites" : [ {
+        "description" : "catalytic triad",
+        "numLocations" : 3,
+        "siteLocations" : [ {
+          "start" : 287,
+          "end" : 287,
+          "residue" : "H"
+        }, {
+          "start" : 202,
+          "end" : 202,
+          "residue" : "D"
+        }, {
+          "start" : 178,
+          "end" : 178,
+          "residue" : "S"
+        } ]
+      }, {
+        "description" : "active site flap/lid",
+        "numLocations" : 4,
+        "siteLocations" : [ {
+          "start" : 262,
+          "end" : 262,
+          "residue" : "C"
+        }, {
+          "start" : 284,
+          "end" : 284,
+          "residue" : "K"
+        }, {
+          "start" : 263,
+          "end" : 263,
+          "residue" : "N"
+        }, {
+          "start" : 285,
+          "end" : 285,
+          "residue" : "C"
+        } ]
+      }, {
+        "description" : "nucleophilic elbow",
+        "numLocations" : 5,
+        "siteLocations" : [ {
+          "start" : 180,
+          "end" : 180,
+          "residue" : "G"
+        }, {
+          "start" : 176,
+          "end" : 176,
+          "residue" : "G"
+        }, {
+          "start" : 178,
+          "end" : 178,
+          "residue" : "S"
+        }, {
+          "start" : 179,
+          "end" : 179,
+          "residue" : "L"
+        }, {
+          "start" : 177,
+          "end" : 177,
+          "residue" : "Y"
+        } ]
+      } ],
+      "evalue" : 2.95082E-124,
+      "score" : 361.946,
+      "location-fragments" : [ {
+        "start" : 56,
+        "end" : 353,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00707"
+  }, {
+    "signature" : {
+      "accession" : "PF01477",
+      "name" : "PLAT",
+      "description" : "PLAT/LH2 domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR001024",
+        "name" : "PLAT/LH2_dom",
+        "description" : "PLAT/LH2 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 362,
+      "end" : 482,
+      "hmmStart" : 1,
+      "hmmEnd" : 117,
+      "hmmLength" : 117,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 9.4E-25,
+      "score" : 87.4,
+      "envelopeStart" : 362,
+      "envelopeEnd" : 482,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 362,
+        "end" : 482,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.1E-25,
+    "score" : 88.2,
+    "model-ac" : "PF01477"
+  }, {
+    "signature" : {
+      "accession" : "TIGR03230",
+      "name" : "TIGR03230",
+      "description" : "lipo_lipase: lipoprotein lipase",
+      "signatureLibraryRelease" : {
+        "library" : "TIGRFAM",
+        "version" : "15.0"
+      },
+      "entry" : {
+        "accession" : "IPR002330",
+        "name" : "Lipo_Lipase",
+        "description" : "Lipoprotein lipase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "lipid metabolic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006629"
+        }, {
+          "name" : "lipoprotein lipase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004465"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 52,
+      "end" : 492,
+      "hmmStart" : 1,
+      "hmmEnd" : 442,
+      "hmmLength" : 442,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.0,
+      "score" : 867.6,
+      "envelopeStart" : 52,
+      "envelopeEnd" : 492,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 52,
+        "end" : 492,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 867.8,
+    "model-ac" : "TIGR03230"
+  }, {
+    "signature" : {
+      "accession" : "PS50095",
+      "name" : "PLAT",
+      "description" : "PLAT domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001024",
+        "name" : "PLAT/LH2_dom",
+        "description" : "PLAT/LH2 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 360,
+      "end" : 483,
+      "score" : 22.625,
+      "alignment" : "FHYQVKIYFSGtETTTYTNQAFEISLYGTVAESENIPF---TLPEVSANNTYSFLIYTEVDIGELLMLKLKWITESyfswsswwGRPTFTIEKIRVKAGETQKKIVFCSREKVSKLQKGKEAPVFVK",
+      "location-fragments" : [ {
+        "start" : 360,
+        "end" : 483,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50095"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.40.50.1820",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR029058",
+        "name" : "AB_hydrolase",
+        "description" : "Alpha/Beta hydrolase fold",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 36,
+      "end" : 358,
+      "hmmStart" : 31,
+      "hmmEnd" : 336,
+      "hmmLength" : 338,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.8E-99,
+      "score" : 334.6,
+      "envelopeStart" : 36,
+      "envelopeEnd" : 358,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 36,
+        "end" : 358,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.0E-99,
+    "score" : 335.0,
+    "model-ac" : "1lpbB01"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 29,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 29,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "SSF49723",
+      "name" : "Lipase/lipooxygenase domain (PLAT/LH2 domain)",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036392",
+        "name" : "PLAT/LH2_dom_sf",
+        "description" : "PLAT/LH2 domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 359,
+      "end" : 482,
+      "hmmLength" : 112,
+      "location-fragments" : [ {
+        "start" : 359,
+        "end" : 482,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.8E-27,
+    "model-ac" : "0038208"
+  }, {
+    "signature" : {
+      "accession" : "SM00308",
+      "name" : "LH2_4",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR001024",
+        "name" : "PLAT/LH2_dom",
+        "description" : "PLAT/LH2 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 360,
+      "end" : 484,
+      "hmmStart" : 1,
+      "hmmEnd" : 157,
+      "hmmLength" : 157,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.5E-26,
+      "score" : 104.2,
+      "location-fragments" : [ {
+        "start" : 360,
+        "end" : 484,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.5E-26,
+    "score" : 104.2,
+    "model-ac" : "SM00308"
+  }, {
+    "signature" : {
+      "accession" : "PR00821",
+      "name" : "TAGLIPASE",
+      "description" : "Triacylglycerol lipase family signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR000734",
+        "name" : "TAG_lipase",
+        "description" : "Triacylglycerol lipase family",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "triglyceride lipase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004806"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 82,
+      "end" : 101,
+      "pvalue" : 2.15E-11,
+      "score" : 53.83,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 82,
+        "end" : 101,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 104,
+      "end" : 118,
+      "pvalue" : 3.98E-5,
+      "score" : 50.0,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 104,
+        "end" : 118,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 128,
+      "end" : 143,
+      "pvalue" : 4.97E-6,
+      "score" : 51.46,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 128,
+        "end" : 143,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 148,
+      "end" : 167,
+      "pvalue" : 2.26E-11,
+      "score" : 46.83,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 148,
+        "end" : 167,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 171,
+      "end" : 189,
+      "pvalue" : 3.44E-13,
+      "score" : 78.6,
+      "motifNumber" : 5,
+      "location-fragments" : [ {
+        "start" : 171,
+        "end" : 189,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 285,
+      "end" : 300,
+      "pvalue" : 8.14E-9,
+      "score" : 68.54,
+      "motifNumber" : 6,
+      "location-fragments" : [ {
+        "start" : 285,
+        "end" : 300,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 316,
+      "end" : 333,
+      "pvalue" : 2.85E-9,
+      "score" : 57.04,
+      "motifNumber" : 7,
+      "location-fragments" : [ {
+        "start" : 316,
+        "end" : 333,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 356,
+      "end" : 371,
+      "pvalue" : 1.41E-8,
+      "score" : 53.54,
+      "motifNumber" : 8,
+      "location-fragments" : [ {
+        "start" : 356,
+        "end" : 371,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 407,
+      "end" : 428,
+      "pvalue" : 1.74E-10,
+      "score" : 58.48,
+      "motifNumber" : 9,
+      "location-fragments" : [ {
+        "start" : 407,
+        "end" : 428,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 9.7E-73,
+    "graphscan" : "IIIIIIIII",
+    "model-ac" : "PR00821"
+  }, {
+    "signature" : {
+      "accession" : "SSF53474",
+      "name" : "alpha/beta-Hydrolases",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR029058",
+        "name" : "AB_hydrolase",
+        "description" : "Alpha/Beta hydrolase fold",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 55,
+      "end" : 357,
+      "hmmLength" : 330,
+      "location-fragments" : [ {
+        "start" : 55,
+        "end" : 357,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 6.97E-76,
+    "model-ac" : "0043326"
+  }, {
+    "signature" : {
+      "accession" : "cd01758",
+      "name" : "PLAT_LPL",
+      "description" : "PLAT_LPL",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 360,
+      "end" : 484,
+      "sites" : [ ],
+      "evalue" : 6.92394E-59,
+      "score" : 188.754,
+      "location-fragments" : [ {
+        "start" : 360,
+        "end" : 484,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd01758"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 33,
+      "end" : 495,
+      "location-fragments" : [ {
+        "start" : 33,
+        "end" : 495,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 11,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 11,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "PR00822",
+      "name" : "LIPOLIPASE",
+      "description" : "Lipoprotein lipase signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR002330",
+        "name" : "Lipo_Lipase",
+        "description" : "Lipoprotein lipase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "lipid metabolic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006629"
+        }, {
+          "name" : "lipoprotein lipase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004465"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 61,
+      "end" : 78,
+      "pvalue" : 2.01E-11,
+      "score" : 81.67,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 61,
+        "end" : 78,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 102,
+      "end" : 126,
+      "pvalue" : 1.0E-16,
+      "score" : 99.2,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 102,
+        "end" : 126,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 133,
+      "end" : 149,
+      "pvalue" : 2.29E-9,
+      "score" : 78.82,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 133,
+        "end" : 149,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 185,
+      "end" : 197,
+      "pvalue" : 2.91E-7,
+      "score" : 72.31,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 185,
+        "end" : 197,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 233,
+      "end" : 249,
+      "pvalue" : 1.89E-13,
+      "score" : 98.82,
+      "motifNumber" : 5,
+      "location-fragments" : [ {
+        "start" : 233,
+        "end" : 249,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 366,
+      "end" : 381,
+      "pvalue" : 5.11E-9,
+      "score" : 70.62,
+      "motifNumber" : 6,
+      "location-fragments" : [ {
+        "start" : 366,
+        "end" : 381,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 432,
+      "end" : 449,
+      "pvalue" : 7.24E-9,
+      "score" : 70.0,
+      "motifNumber" : 7,
+      "location-fragments" : [ {
+        "start" : 432,
+        "end" : 449,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 466,
+      "end" : 489,
+      "pvalue" : 6.33E-15,
+      "score" : 80.42,
+      "motifNumber" : 8,
+      "location-fragments" : [ {
+        "start" : 466,
+        "end" : 489,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.4E-80,
+    "graphscan" : "IIIIIIII",
+    "model-ac" : "PR00822"
+  }, {
+    "signature" : {
+      "accession" : "PTHR11610",
+      "name" : "LIPASE",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : {
+        "accession" : "IPR000734",
+        "name" : "TAG_lipase",
+        "description" : "Triacylglycerol lipase family",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "triglyceride lipase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004806"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 47,
+      "end" : 472,
+      "hmmStart" : 31,
+      "hmmEnd" : 456,
+      "hmmLength" : 478,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 19,
+      "envelopeEnd" : 491,
+      "location-fragments" : [ {
+        "start" : 47,
+        "end" : 472,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 863.2,
+    "model-ac" : "PTHR11610"
+  }, {
+    "signature" : {
+      "accession" : "PIRSF000865",
+      "name" : "LPL_LIPH",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PIRSF",
+        "version" : "3.10"
+      },
+      "entry" : {
+        "accession" : "IPR016272",
+        "name" : "Lipase_LIPH",
+        "description" : "Lipase, LIPH-type",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "lipid metabolic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006629"
+        }, {
+          "name" : "carboxylic ester hydrolase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0052689"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 8,
+      "end" : 486,
+      "hmmStart" : 50,
+      "hmmEnd" : 486,
+      "hmmLength" : 485,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.0,
+      "score" : 566.4,
+      "envelopeStart" : 8,
+      "envelopeEnd" : 486,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 8,
+        "end" : 486,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 566.6,
+    "model-ac" : "PIRSF000865"
+  }, {
+    "signature" : {
+      "accession" : "PF00151",
+      "name" : "Lipase",
+      "description" : "Lipase",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR013818",
+        "name" : "Lipase/vitellogenin",
+        "description" : "Lipase/vitellogenin",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "triglyceride lipase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004806"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 45,
+      "end" : 357,
+      "hmmStart" : 25,
+      "hmmEnd" : 336,
+      "hmmLength" : 336,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 5.1E-127,
+      "score" : 423.7,
+      "envelopeStart" : 27,
+      "envelopeEnd" : 357,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 45,
+        "end" : 357,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.8E-127,
+    "score" : 424.1,
+    "model-ac" : "PF00151"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.60.60.20",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 360,
+      "end" : 475,
+      "hmmStart" : 1,
+      "hmmEnd" : 103,
+      "hmmLength" : 110,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.8E-30,
+      "score" : 106.5,
+      "envelopeStart" : 360,
+      "envelopeEnd" : 475,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 360,
+        "end" : 475,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.4E-30,
+    "score" : 107.4,
+    "model-ac" : "2pplA02"
+  }, {
+    "signature" : {
+      "accession" : "PTHR11610:SF3",
+      "name" : "LIPOPROTEIN LIPASE",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : {
+        "accession" : "IPR002330",
+        "name" : "Lipo_Lipase",
+        "description" : "Lipoprotein lipase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "lipid metabolic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006629"
+        }, {
+          "name" : "lipoprotein lipase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004465"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 47,
+      "end" : 472,
+      "hmmStart" : 31,
+      "hmmEnd" : 456,
+      "hmmLength" : 478,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 19,
+      "envelopeEnd" : 491,
+      "location-fragments" : [ {
+        "start" : 47,
+        "end" : 472,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 863.2,
+    "model-ac" : "PTHR11610:SF3"
+  } ],
+  "xref" : [ {
+    "name" : "tr|H0V2A3|H0V2A3_CAVPO Lipoprotein lipase OS=Cavia porcellus OX=10141 GN=Lpl PE=3 SV=2",
+    "id" : "tr|H0V2A3|H0V2A3_CAVPO"
+  } ]
+} ]
+}

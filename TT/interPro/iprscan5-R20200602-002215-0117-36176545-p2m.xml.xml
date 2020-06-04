@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="ead54aa8a62a9e8baf5f8192ea0b03fb">MAAIRKKLVIVGDGACGKTCLLIVFSKDQFPEVYVPTVFENYVADIEVDGKQVELALWDTAGQEDYDRLRPLSYPDTDVILMCFSIDSPDSLENIPEKWTPEVKHFCPNVPIILVGNKKDLRNDEHTRRELAKMKQEPVKPEEGRDMANRIGAFGYMECSAKTKDGVREVFEMATRAALQARRGKKKSGCLVL</sequence>
+    <xref id="tr|H0VQ69|H0VQ69_CAVPO" name="tr|H0VQ69|H0VQ69_CAVPO Ras homolog family member A OS=Cavia porcellus OX=10141 GN=RHOA PE=4 SV=1"/>
+    <matches>
+      <fingerprints-match evalue="2.5E-37" graphscan="IiIII">
+        <signature ac="PR00449" desc="Transforming protein P21 ras signature" name="RASTRNSFRMNG">
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR00449</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="1.47E-11" score="47.14" start="6" end="27">
+            <location-fragments>
+              <fingerprints-location-fragment start="6" end="27" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="2.88E-5" score="28.5" start="29" end="45">
+            <location-fragments>
+              <fingerprints-location-fragment start="29" end="45" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="6.53E-12" score="49.72" start="46" end="68">
+            <location-fragments>
+              <fingerprints-location-fragment start="46" end="68" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="4" pvalue="9.39E-9" score="59.9" start="108" end="121">
+            <location-fragments>
+              <fingerprints-location-fragment start="108" end="121" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="5" pvalue="1.14E-8" score="36.6" start="156" end="178">
+            <location-fragments>
+              <fingerprints-location-fragment start="156" end="178" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <hmmer2-match evalue="3.8E-26" score="102.9">
+        <signature ac="SM00175" name="rab_sub_5">
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00175</model-ac>
+        <locations>
+          <hmmer2-location score="102.9" evalue="3.8E-26" hmm-start="1" hmm-end="172" hmm-length="172" hmm-bounds="COMPLETE" start="7" end="181">
+            <location-fragments>
+              <hmmer2-location-fragment start="7" end="181" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="3.8E-21" score="86.3">
+        <signature ac="SM00173" name="ras_sub_4">
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00173</model-ac>
+        <locations>
+          <hmmer2-location score="86.3" evalue="3.8E-21" hmm-start="1" hmm-end="167" hmm-length="167" hmm-bounds="COMPLETE" start="7" end="181">
+            <location-fragments>
+              <hmmer2-location-fragment start="7" end="181" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="0.0" score="463.0">
+        <signature ac="SM00174" name="rho_sub_3">
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00174</model-ac>
+        <locations>
+          <hmmer2-location score="463.0" evalue="0.0" hmm-start="1" hmm-end="180" hmm-length="180" hmm-bounds="COMPLETE" start="8" end="181">
+            <location-fragments>
+              <hmmer2-location-fragment start="8" end="181" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="1.1E-58" score="197.3">
+        <signature ac="PF00071" desc="Ras family" name="Ras">
+          <entry ac="IPR001806" desc="Small GTPase" name="Small_GTPase" type="FAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005525" name="GTP binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003924" name="GTPase activity"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00071</model-ac>
+        <locations>
+          <hmmer3-location env-end="180" env-start="7" post-processed="true" score="197.1" evalue="1.3E-58" hmm-start="1" hmm-end="161" hmm-length="162" hmm-bounds="N_TERMINAL_COMPLETE" start="7" end="179">
+            <location-fragments>
+              <hmmer3-location-fragment start="7" end="179" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.4E-49" score="164.7">
+        <signature ac="TIGR00231" desc="small_GTP: small GTP-binding protein domain" name="TIGR00231">
+          <entry ac="IPR005225" desc="Small GTP-binding protein domain" name="Small_GTP-bd_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005525" name="GTP binding"/>
+          </entry>
+          <signature-library-release library="TIGRFAM" version="15.0"/>
+        </signature>
+        <model-ac>TIGR00231</model-ac>
+        <locations>
+          <hmmer3-location env-end="159" env-start="3" post-processed="false" score="164.4" evalue="4.3E-49" hmm-start="3" hmm-end="164" hmm-length="164" hmm-bounds="C_TERMINAL_COMPLETE" start="5" end="159">
+            <location-fragments>
+              <hmmer3-location-fragment start="5" end="159" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="4.9E-73" score="246.5">
+        <signature ac="G3DSA:3.40.50.300">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>5c4mA00</model-ac>
+        <locations>
+          <hmmer3-location env-end="193" env-start="1" post-processed="true" score="246.4" evalue="5.3E-73" hmm-start="4" hmm-end="192" hmm-length="193" hmm-bounds="COMPLETE" start="1" end="193">
+            <location-fragments>
+              <hmmer3-location-fragment start="1" end="193" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <panther-match evalue="2.8E-130" familyName="Not available" score="434.5">
+        <signature ac="PTHR24072" name="RHO FAMILY GTPASE">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR24072</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="193" hmm-start="1" hmm-end="193" hmm-length="193" hmm-bounds="COMPLETE" start="1" end="193">
+            <location-fragments>
+              <panther-location-fragment start="1" end="193" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="2.8E-130" familyName="Not available" score="434.5">
+        <signature ac="PTHR24072:SF153" name="TRANSFORMING PROTEIN RHOA">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR24072:SF153</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="193" hmm-start="1" hmm-end="193" hmm-length="193" hmm-bounds="COMPLETE" start="1" end="193">
+            <location-fragments>
+              <panther-location-fragment start="1" end="193" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <profilescan-match>
+        <signature ac="PS51420" desc="small GTPase Rho family profile." name="RHO">
+          <entry ac="IPR003578" desc="Small GTPase Rho" name="Small_GTPase_Rho" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0007264" name="small GTPase mediated signal transduction"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005525" name="GTP binding"/>
+            <pathway-xref db="Reactome" id="R-HSA-194840" name="Rho GTPase cycle"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51420</model-ac>
+        <locations>
+          <profilescan-location score="28.038" start="1" end="178">
+            <location-fragments>
+              <profilescan-location-fragment start="1" end="178" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>--MAAIRKKLVIVGDGACGKTCLLIVFSKDQFPEVYVPTVFENYVADIEVDGKQVELALWDTAGQEDYDRLRPLSYPDTDVILMCFSIDSPDSLENIPEKWTPEVKHFCPNVPIILVGNKKDLRNDEHTRRELAKMKQEPVKPEEGRDMANRIGAFGYMECSAKTKDGVREVFEMATRAA</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <rpsblast-match>
+        <signature ac="cd01870" desc="RhoA_like" name="RhoA_like">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd01870</model-ac>
+        <locations>
+          <rpsblast-location evalue="0.0" score="388.71" start="5" end="179">
+            <location-fragments>
+              <rpsblast-location-fragment start="5" end="179" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="G3 box" numLocations="4">
+                <site-locations>
+                  <site-location residue="D" start="59" end="59"/>
+                  <site-location residue="T" start="60" end="60"/>
+                  <site-location residue="A" start="61" end="61"/>
+                  <site-location residue="G" start="62" end="62"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="GEF (guanine nucleotide exchange factor) interaction site" numLocations="16">
+                <site-locations>
+                  <site-location residue="V" start="38" end="38"/>
+                  <site-location residue="E" start="54" end="54"/>
+                  <site-location residue="W" start="58" end="58"/>
+                  <site-location residue="N" start="41" end="41"/>
+                  <site-location residue="R" start="68" end="68"/>
+                  <site-location residue="T" start="37" end="37"/>
+                  <site-location residue="D" start="45" end="45"/>
+                  <site-location residue="V" start="43" end="43"/>
+                  <site-location residue="R" start="5" end="5"/>
+                  <site-location residue="D" start="59" end="59"/>
+                  <site-location residue="L" start="72" end="72"/>
+                  <site-location residue="Y" start="66" end="66"/>
+                  <site-location residue="Y" start="34" end="34"/>
+                  <site-location residue="Q" start="63" end="63"/>
+                  <site-location residue="G" start="62" end="62"/>
+                  <site-location residue="A" start="61" end="61"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="GTP/Mg2+ binding site" numLocations="15">
+                <site-locations>
+                  <site-location residue="K" start="162" end="162"/>
+                  <site-location residue="K" start="18" end="18"/>
+                  <site-location residue="G" start="17" end="17"/>
+                  <site-location residue="A" start="161" end="161"/>
+                  <site-location residue="T" start="60" end="60"/>
+                  <site-location residue="A" start="15" end="15"/>
+                  <site-location residue="K" start="118" end="118"/>
+                  <site-location residue="D" start="120" end="120"/>
+                  <site-location residue="C" start="16" end="16"/>
+                  <site-location residue="T" start="37" end="37"/>
+                  <site-location residue="T" start="19" end="19"/>
+                  <site-location residue="D" start="59" end="59"/>
+                  <site-location residue="Y" start="34" end="34"/>
+                  <site-location residue="C" start="20" end="20"/>
+                  <site-location residue="V" start="35" end="35"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="GAP (GTPase-activating protein) interaction site" numLocations="11">
+                <site-locations>
+                  <site-location residue="V" start="38" end="38"/>
+                  <site-location residue="F" start="39" end="39"/>
+                  <site-location residue="Y" start="66" end="66"/>
+                  <site-location residue="Y" start="34" end="34"/>
+                  <site-location residue="L" start="72" end="72"/>
+                  <site-location residue="L" start="69" end="69"/>
+                  <site-location residue="D" start="65" end="65"/>
+                  <site-location residue="P" start="36" end="36"/>
+                  <site-location residue="N" start="94" end="94"/>
+                  <site-location residue="Q" start="63" end="63"/>
+                  <site-location residue="E" start="64" end="64"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="G5 box" numLocations="3">
+                <site-locations>
+                  <site-location residue="K" start="162" end="162"/>
+                  <site-location residue="A" start="161" end="161"/>
+                  <site-location residue="S" start="160" end="160"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="Switch I region" numLocations="9">
+                <site-locations>
+                  <site-location residue="V" start="38" end="38"/>
+                  <site-location residue="Y" start="42" end="42"/>
+                  <site-location residue="F" start="39" end="39"/>
+                  <site-location residue="Y" start="34" end="34"/>
+                  <site-location residue="P" start="36" end="36"/>
+                  <site-location residue="N" start="41" end="41"/>
+                  <site-location residue="T" start="37" end="37"/>
+                  <site-location residue="V" start="35" end="35"/>
+                  <site-location residue="E" start="40" end="40"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="PKN/PRK1 effector interaction site" numLocations="19">
+                <site-locations>
+                  <site-location residue="F" start="25" end="25"/>
+                  <site-location residue="I" start="23" end="23"/>
+                  <site-location residue="E" start="54" end="54"/>
+                  <site-location residue="Y" start="42" end="42"/>
+                  <site-location residue="E" start="172" end="172"/>
+                  <site-location residue="V" start="53" end="53"/>
+                  <site-location residue="K" start="27" end="27"/>
+                  <site-location residue="Q" start="29" end="29"/>
+                  <site-location residue="D" start="45" end="45"/>
+                  <site-location residue="V" start="43" end="43"/>
+                  <site-location residue="T" start="163" end="163"/>
+                  <site-location residue="E" start="169" end="169"/>
+                  <site-location residue="R" start="168" end="168"/>
+                  <site-location residue="D" start="28" end="28"/>
+                  <site-location residue="E" start="47" end="47"/>
+                  <site-location residue="Q" start="52" end="52"/>
+                  <site-location residue="S" start="26" end="26"/>
+                  <site-location residue="K" start="164" end="164"/>
+                  <site-location residue="I" start="46" end="46"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="Switch II region" numLocations="18">
+                <site-locations>
+                  <site-location residue="D" start="78" end="78"/>
+                  <site-location residue="D" start="67" end="67"/>
+                  <site-location residue="Y" start="74" end="74"/>
+                  <site-location residue="S" start="73" end="73"/>
+                  <site-location residue="R" start="70" end="70"/>
+                  <site-location residue="L" start="69" end="69"/>
+                  <site-location residue="P" start="75" end="75"/>
+                  <site-location residue="R" start="68" end="68"/>
+                  <site-location residue="E" start="64" end="64"/>
+                  <site-location residue="D" start="76" end="76"/>
+                  <site-location residue="Y" start="66" end="66"/>
+                  <site-location residue="L" start="72" end="72"/>
+                  <site-location residue="D" start="65" end="65"/>
+                  <site-location residue="V" start="79" end="79"/>
+                  <site-location residue="Q" start="63" end="63"/>
+                  <site-location residue="T" start="77" end="77"/>
+                  <site-location residue="G" start="62" end="62"/>
+                  <site-location residue="P" start="71" end="71"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="GDI (guanine nucleotide dissociation inhibitor) interaction site" numLocations="12">
+                <site-locations>
+                  <site-location residue="V" start="38" end="38"/>
+                  <site-location residue="H" start="105" end="105"/>
+                  <site-location residue="Y" start="66" end="66"/>
+                  <site-location residue="L" start="72" end="72"/>
+                  <site-location residue="P" start="75" end="75"/>
+                  <site-location residue="L" start="69" end="69"/>
+                  <site-location residue="R" start="68" end="68"/>
+                  <site-location residue="F" start="106" end="106"/>
+                  <site-location residue="P" start="108" end="108"/>
+                  <site-location residue="A" start="61" end="61"/>
+                  <site-location residue="T" start="37" end="37"/>
+                  <site-location residue="P" start="71" end="71"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="Mdia effector interaction site" numLocations="10">
+                <site-locations>
+                  <site-location residue="E" start="97" end="97"/>
+                  <site-location residue="P" start="101" end="101"/>
+                  <site-location residue="D" start="67" end="67"/>
+                  <site-location residue="H" start="105" end="105"/>
+                  <site-location residue="F" start="39" end="39"/>
+                  <site-location residue="Y" start="66" end="66"/>
+                  <site-location residue="L" start="72" end="72"/>
+                  <site-location residue="L" start="69" end="69"/>
+                  <site-location residue="D" start="65" end="65"/>
+                  <site-location residue="R" start="68" end="68"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="G2 box" numLocations="1">
+                <site-locations>
+                  <site-location residue="T" start="37" end="37"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="G4 box" numLocations="4">
+                <site-locations>
+                  <site-location residue="N" start="117" end="117"/>
+                  <site-location residue="K" start="119" end="119"/>
+                  <site-location residue="K" start="118" end="118"/>
+                  <site-location residue="D" start="120" end="120"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="Rho kinase (ROCK) effector interaction site" numLocations="7">
+                <site-locations>
+                  <site-location residue="Y" start="66" end="66"/>
+                  <site-location residue="F" start="39" end="39"/>
+                  <site-location residue="L" start="72" end="72"/>
+                  <site-location residue="D" start="65" end="65"/>
+                  <site-location residue="L" start="69" end="69"/>
+                  <site-location residue="R" start="68" end="68"/>
+                  <site-location residue="E" start="40" end="40"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="G1 box" numLocations="8">
+                <site-locations>
+                  <site-location residue="G" start="12" end="12"/>
+                  <site-location residue="T" start="19" end="19"/>
+                  <site-location residue="K" start="18" end="18"/>
+                  <site-location residue="G" start="17" end="17"/>
+                  <site-location residue="A" start="15" end="15"/>
+                  <site-location residue="G" start="14" end="14"/>
+                  <site-location residue="C" start="16" end="16"/>
+                  <site-location residue="D" start="13" end="13"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="5.44E-60">
+        <signature ac="SSF52540" name="P-loop containing nucleoside triphosphate hydrolases">
+          <entry ac="IPR027417" desc="P-loop containing nucleoside triphosphate hydrolase" name="P-loop_NTPase" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0053591</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="177" start="6" end="179">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="6" end="179" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

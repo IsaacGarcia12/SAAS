@@ -1,0 +1,1056 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MAAIRKKLVIVGDGACGKTCLLIVFSKDQFPEVYVPTVFENYVADIEVDGKQVELALWDTAGQEDYDRLRPLSYPDTDVILMCFSIDSPDSLENIPEKWTPEVKHFCPNVPIILVGNKKDLRNDEHTRRELAKMKQEPVKPEEGRDMANRIGAFGYMECSAKTKDGVREVFEMATRAALQARRGKKKSGCLVL",
+  "md5" : "ead54aa8a62a9e8baf5f8192ea0b03fb",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "SSF52540",
+      "name" : "P-loop containing nucleoside triphosphate hydrolases",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR027417",
+        "name" : "P-loop_NTPase",
+        "description" : "P-loop containing nucleoside triphosphate hydrolase",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 6,
+      "end" : 179,
+      "hmmLength" : 177,
+      "location-fragments" : [ {
+        "start" : 6,
+        "end" : 179,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.44E-60,
+    "model-ac" : "0053591"
+  }, {
+    "signature" : {
+      "accession" : "PF00071",
+      "name" : "Ras",
+      "description" : "Ras family",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR001806",
+        "name" : "Small_GTPase",
+        "description" : "Small GTPase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "GTP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005525"
+        }, {
+          "name" : "GTPase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003924"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 179,
+      "hmmStart" : 1,
+      "hmmEnd" : 161,
+      "hmmLength" : 162,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 1.3E-58,
+      "score" : 197.1,
+      "envelopeStart" : 7,
+      "envelopeEnd" : 180,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 179,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.1E-58,
+    "score" : 197.3,
+    "model-ac" : "PF00071"
+  }, {
+    "signature" : {
+      "accession" : "SM00175",
+      "name" : "rab_sub_5",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 181,
+      "hmmStart" : 1,
+      "hmmEnd" : 172,
+      "hmmLength" : 172,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.8E-26,
+      "score" : 102.9,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 181,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.8E-26,
+    "score" : 102.9,
+    "model-ac" : "SM00175"
+  }, {
+    "signature" : {
+      "accession" : "PTHR24072",
+      "name" : "RHO FAMILY GTPASE",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 193,
+      "hmmStart" : 1,
+      "hmmEnd" : 193,
+      "hmmLength" : 193,
+      "hmmBounds" : "COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 193,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 193,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.8E-130,
+    "familyName" : "Not available",
+    "score" : 434.5,
+    "model-ac" : "PTHR24072"
+  }, {
+    "signature" : {
+      "accession" : "cd01870",
+      "name" : "RhoA_like",
+      "description" : "RhoA_like",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 5,
+      "end" : 179,
+      "sites" : [ {
+        "description" : "G3 box",
+        "numLocations" : 4,
+        "siteLocations" : [ {
+          "start" : 59,
+          "end" : 59,
+          "residue" : "D"
+        }, {
+          "start" : 60,
+          "end" : 60,
+          "residue" : "T"
+        }, {
+          "start" : 61,
+          "end" : 61,
+          "residue" : "A"
+        }, {
+          "start" : 62,
+          "end" : 62,
+          "residue" : "G"
+        } ]
+      }, {
+        "description" : "GEF (guanine nucleotide exchange factor) interaction site",
+        "numLocations" : 16,
+        "siteLocations" : [ {
+          "start" : 38,
+          "end" : 38,
+          "residue" : "V"
+        }, {
+          "start" : 54,
+          "end" : 54,
+          "residue" : "E"
+        }, {
+          "start" : 58,
+          "end" : 58,
+          "residue" : "W"
+        }, {
+          "start" : 41,
+          "end" : 41,
+          "residue" : "N"
+        }, {
+          "start" : 68,
+          "end" : 68,
+          "residue" : "R"
+        }, {
+          "start" : 37,
+          "end" : 37,
+          "residue" : "T"
+        }, {
+          "start" : 45,
+          "end" : 45,
+          "residue" : "D"
+        }, {
+          "start" : 43,
+          "end" : 43,
+          "residue" : "V"
+        }, {
+          "start" : 5,
+          "end" : 5,
+          "residue" : "R"
+        }, {
+          "start" : 59,
+          "end" : 59,
+          "residue" : "D"
+        }, {
+          "start" : 72,
+          "end" : 72,
+          "residue" : "L"
+        }, {
+          "start" : 66,
+          "end" : 66,
+          "residue" : "Y"
+        }, {
+          "start" : 34,
+          "end" : 34,
+          "residue" : "Y"
+        }, {
+          "start" : 63,
+          "end" : 63,
+          "residue" : "Q"
+        }, {
+          "start" : 62,
+          "end" : 62,
+          "residue" : "G"
+        }, {
+          "start" : 61,
+          "end" : 61,
+          "residue" : "A"
+        } ]
+      }, {
+        "description" : "GTP/Mg2+ binding site",
+        "numLocations" : 15,
+        "siteLocations" : [ {
+          "start" : 162,
+          "end" : 162,
+          "residue" : "K"
+        }, {
+          "start" : 18,
+          "end" : 18,
+          "residue" : "K"
+        }, {
+          "start" : 17,
+          "end" : 17,
+          "residue" : "G"
+        }, {
+          "start" : 161,
+          "end" : 161,
+          "residue" : "A"
+        }, {
+          "start" : 60,
+          "end" : 60,
+          "residue" : "T"
+        }, {
+          "start" : 15,
+          "end" : 15,
+          "residue" : "A"
+        }, {
+          "start" : 118,
+          "end" : 118,
+          "residue" : "K"
+        }, {
+          "start" : 120,
+          "end" : 120,
+          "residue" : "D"
+        }, {
+          "start" : 16,
+          "end" : 16,
+          "residue" : "C"
+        }, {
+          "start" : 37,
+          "end" : 37,
+          "residue" : "T"
+        }, {
+          "start" : 19,
+          "end" : 19,
+          "residue" : "T"
+        }, {
+          "start" : 59,
+          "end" : 59,
+          "residue" : "D"
+        }, {
+          "start" : 34,
+          "end" : 34,
+          "residue" : "Y"
+        }, {
+          "start" : 20,
+          "end" : 20,
+          "residue" : "C"
+        }, {
+          "start" : 35,
+          "end" : 35,
+          "residue" : "V"
+        } ]
+      }, {
+        "description" : "GAP (GTPase-activating protein) interaction site",
+        "numLocations" : 11,
+        "siteLocations" : [ {
+          "start" : 38,
+          "end" : 38,
+          "residue" : "V"
+        }, {
+          "start" : 39,
+          "end" : 39,
+          "residue" : "F"
+        }, {
+          "start" : 66,
+          "end" : 66,
+          "residue" : "Y"
+        }, {
+          "start" : 34,
+          "end" : 34,
+          "residue" : "Y"
+        }, {
+          "start" : 72,
+          "end" : 72,
+          "residue" : "L"
+        }, {
+          "start" : 69,
+          "end" : 69,
+          "residue" : "L"
+        }, {
+          "start" : 65,
+          "end" : 65,
+          "residue" : "D"
+        }, {
+          "start" : 36,
+          "end" : 36,
+          "residue" : "P"
+        }, {
+          "start" : 94,
+          "end" : 94,
+          "residue" : "N"
+        }, {
+          "start" : 63,
+          "end" : 63,
+          "residue" : "Q"
+        }, {
+          "start" : 64,
+          "end" : 64,
+          "residue" : "E"
+        } ]
+      }, {
+        "description" : "G5 box",
+        "numLocations" : 3,
+        "siteLocations" : [ {
+          "start" : 162,
+          "end" : 162,
+          "residue" : "K"
+        }, {
+          "start" : 161,
+          "end" : 161,
+          "residue" : "A"
+        }, {
+          "start" : 160,
+          "end" : 160,
+          "residue" : "S"
+        } ]
+      }, {
+        "description" : "Switch I region",
+        "numLocations" : 9,
+        "siteLocations" : [ {
+          "start" : 38,
+          "end" : 38,
+          "residue" : "V"
+        }, {
+          "start" : 42,
+          "end" : 42,
+          "residue" : "Y"
+        }, {
+          "start" : 39,
+          "end" : 39,
+          "residue" : "F"
+        }, {
+          "start" : 34,
+          "end" : 34,
+          "residue" : "Y"
+        }, {
+          "start" : 36,
+          "end" : 36,
+          "residue" : "P"
+        }, {
+          "start" : 41,
+          "end" : 41,
+          "residue" : "N"
+        }, {
+          "start" : 37,
+          "end" : 37,
+          "residue" : "T"
+        }, {
+          "start" : 35,
+          "end" : 35,
+          "residue" : "V"
+        }, {
+          "start" : 40,
+          "end" : 40,
+          "residue" : "E"
+        } ]
+      }, {
+        "description" : "PKN/PRK1 effector interaction site",
+        "numLocations" : 19,
+        "siteLocations" : [ {
+          "start" : 25,
+          "end" : 25,
+          "residue" : "F"
+        }, {
+          "start" : 23,
+          "end" : 23,
+          "residue" : "I"
+        }, {
+          "start" : 54,
+          "end" : 54,
+          "residue" : "E"
+        }, {
+          "start" : 42,
+          "end" : 42,
+          "residue" : "Y"
+        }, {
+          "start" : 172,
+          "end" : 172,
+          "residue" : "E"
+        }, {
+          "start" : 53,
+          "end" : 53,
+          "residue" : "V"
+        }, {
+          "start" : 27,
+          "end" : 27,
+          "residue" : "K"
+        }, {
+          "start" : 29,
+          "end" : 29,
+          "residue" : "Q"
+        }, {
+          "start" : 45,
+          "end" : 45,
+          "residue" : "D"
+        }, {
+          "start" : 43,
+          "end" : 43,
+          "residue" : "V"
+        }, {
+          "start" : 163,
+          "end" : 163,
+          "residue" : "T"
+        }, {
+          "start" : 169,
+          "end" : 169,
+          "residue" : "E"
+        }, {
+          "start" : 168,
+          "end" : 168,
+          "residue" : "R"
+        }, {
+          "start" : 28,
+          "end" : 28,
+          "residue" : "D"
+        }, {
+          "start" : 47,
+          "end" : 47,
+          "residue" : "E"
+        }, {
+          "start" : 52,
+          "end" : 52,
+          "residue" : "Q"
+        }, {
+          "start" : 26,
+          "end" : 26,
+          "residue" : "S"
+        }, {
+          "start" : 164,
+          "end" : 164,
+          "residue" : "K"
+        }, {
+          "start" : 46,
+          "end" : 46,
+          "residue" : "I"
+        } ]
+      }, {
+        "description" : "Switch II region",
+        "numLocations" : 18,
+        "siteLocations" : [ {
+          "start" : 78,
+          "end" : 78,
+          "residue" : "D"
+        }, {
+          "start" : 67,
+          "end" : 67,
+          "residue" : "D"
+        }, {
+          "start" : 74,
+          "end" : 74,
+          "residue" : "Y"
+        }, {
+          "start" : 73,
+          "end" : 73,
+          "residue" : "S"
+        }, {
+          "start" : 70,
+          "end" : 70,
+          "residue" : "R"
+        }, {
+          "start" : 69,
+          "end" : 69,
+          "residue" : "L"
+        }, {
+          "start" : 75,
+          "end" : 75,
+          "residue" : "P"
+        }, {
+          "start" : 68,
+          "end" : 68,
+          "residue" : "R"
+        }, {
+          "start" : 64,
+          "end" : 64,
+          "residue" : "E"
+        }, {
+          "start" : 76,
+          "end" : 76,
+          "residue" : "D"
+        }, {
+          "start" : 66,
+          "end" : 66,
+          "residue" : "Y"
+        }, {
+          "start" : 72,
+          "end" : 72,
+          "residue" : "L"
+        }, {
+          "start" : 65,
+          "end" : 65,
+          "residue" : "D"
+        }, {
+          "start" : 79,
+          "end" : 79,
+          "residue" : "V"
+        }, {
+          "start" : 63,
+          "end" : 63,
+          "residue" : "Q"
+        }, {
+          "start" : 77,
+          "end" : 77,
+          "residue" : "T"
+        }, {
+          "start" : 62,
+          "end" : 62,
+          "residue" : "G"
+        }, {
+          "start" : 71,
+          "end" : 71,
+          "residue" : "P"
+        } ]
+      }, {
+        "description" : "GDI (guanine nucleotide dissociation inhibitor) interaction site",
+        "numLocations" : 12,
+        "siteLocations" : [ {
+          "start" : 38,
+          "end" : 38,
+          "residue" : "V"
+        }, {
+          "start" : 105,
+          "end" : 105,
+          "residue" : "H"
+        }, {
+          "start" : 66,
+          "end" : 66,
+          "residue" : "Y"
+        }, {
+          "start" : 72,
+          "end" : 72,
+          "residue" : "L"
+        }, {
+          "start" : 75,
+          "end" : 75,
+          "residue" : "P"
+        }, {
+          "start" : 69,
+          "end" : 69,
+          "residue" : "L"
+        }, {
+          "start" : 68,
+          "end" : 68,
+          "residue" : "R"
+        }, {
+          "start" : 106,
+          "end" : 106,
+          "residue" : "F"
+        }, {
+          "start" : 108,
+          "end" : 108,
+          "residue" : "P"
+        }, {
+          "start" : 61,
+          "end" : 61,
+          "residue" : "A"
+        }, {
+          "start" : 37,
+          "end" : 37,
+          "residue" : "T"
+        }, {
+          "start" : 71,
+          "end" : 71,
+          "residue" : "P"
+        } ]
+      }, {
+        "description" : "Mdia effector interaction site",
+        "numLocations" : 10,
+        "siteLocations" : [ {
+          "start" : 97,
+          "end" : 97,
+          "residue" : "E"
+        }, {
+          "start" : 101,
+          "end" : 101,
+          "residue" : "P"
+        }, {
+          "start" : 67,
+          "end" : 67,
+          "residue" : "D"
+        }, {
+          "start" : 105,
+          "end" : 105,
+          "residue" : "H"
+        }, {
+          "start" : 39,
+          "end" : 39,
+          "residue" : "F"
+        }, {
+          "start" : 66,
+          "end" : 66,
+          "residue" : "Y"
+        }, {
+          "start" : 72,
+          "end" : 72,
+          "residue" : "L"
+        }, {
+          "start" : 69,
+          "end" : 69,
+          "residue" : "L"
+        }, {
+          "start" : 65,
+          "end" : 65,
+          "residue" : "D"
+        }, {
+          "start" : 68,
+          "end" : 68,
+          "residue" : "R"
+        } ]
+      }, {
+        "description" : "G2 box",
+        "numLocations" : 1,
+        "siteLocations" : [ {
+          "start" : 37,
+          "end" : 37,
+          "residue" : "T"
+        } ]
+      }, {
+        "description" : "G4 box",
+        "numLocations" : 4,
+        "siteLocations" : [ {
+          "start" : 117,
+          "end" : 117,
+          "residue" : "N"
+        }, {
+          "start" : 119,
+          "end" : 119,
+          "residue" : "K"
+        }, {
+          "start" : 118,
+          "end" : 118,
+          "residue" : "K"
+        }, {
+          "start" : 120,
+          "end" : 120,
+          "residue" : "D"
+        } ]
+      }, {
+        "description" : "Rho kinase (ROCK) effector interaction site",
+        "numLocations" : 7,
+        "siteLocations" : [ {
+          "start" : 66,
+          "end" : 66,
+          "residue" : "Y"
+        }, {
+          "start" : 39,
+          "end" : 39,
+          "residue" : "F"
+        }, {
+          "start" : 72,
+          "end" : 72,
+          "residue" : "L"
+        }, {
+          "start" : 65,
+          "end" : 65,
+          "residue" : "D"
+        }, {
+          "start" : 69,
+          "end" : 69,
+          "residue" : "L"
+        }, {
+          "start" : 68,
+          "end" : 68,
+          "residue" : "R"
+        }, {
+          "start" : 40,
+          "end" : 40,
+          "residue" : "E"
+        } ]
+      }, {
+        "description" : "G1 box",
+        "numLocations" : 8,
+        "siteLocations" : [ {
+          "start" : 12,
+          "end" : 12,
+          "residue" : "G"
+        }, {
+          "start" : 19,
+          "end" : 19,
+          "residue" : "T"
+        }, {
+          "start" : 18,
+          "end" : 18,
+          "residue" : "K"
+        }, {
+          "start" : 17,
+          "end" : 17,
+          "residue" : "G"
+        }, {
+          "start" : 15,
+          "end" : 15,
+          "residue" : "A"
+        }, {
+          "start" : 14,
+          "end" : 14,
+          "residue" : "G"
+        }, {
+          "start" : 16,
+          "end" : 16,
+          "residue" : "C"
+        }, {
+          "start" : 13,
+          "end" : 13,
+          "residue" : "D"
+        } ]
+      } ],
+      "evalue" : 0.0,
+      "score" : 388.71,
+      "location-fragments" : [ {
+        "start" : 5,
+        "end" : 179,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd01870"
+  }, {
+    "signature" : {
+      "accession" : "PR00449",
+      "name" : "RASTRNSFRMNG",
+      "description" : "Transforming protein P21 ras signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 6,
+      "end" : 27,
+      "pvalue" : 1.47E-11,
+      "score" : 47.14,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 6,
+        "end" : 27,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 29,
+      "end" : 45,
+      "pvalue" : 2.88E-5,
+      "score" : 28.5,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 29,
+        "end" : 45,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 46,
+      "end" : 68,
+      "pvalue" : 6.53E-12,
+      "score" : 49.72,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 46,
+        "end" : 68,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 108,
+      "end" : 121,
+      "pvalue" : 9.39E-9,
+      "score" : 59.9,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 108,
+        "end" : 121,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 156,
+      "end" : 178,
+      "pvalue" : 1.14E-8,
+      "score" : 36.6,
+      "motifNumber" : 5,
+      "location-fragments" : [ {
+        "start" : 156,
+        "end" : 178,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.5E-37,
+    "graphscan" : "IiIII",
+    "model-ac" : "PR00449"
+  }, {
+    "signature" : {
+      "accession" : "PTHR24072:SF153",
+      "name" : "TRANSFORMING PROTEIN RHOA",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 193,
+      "hmmStart" : 1,
+      "hmmEnd" : 193,
+      "hmmLength" : 193,
+      "hmmBounds" : "COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 193,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 193,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.8E-130,
+    "familyName" : "Not available",
+    "score" : 434.5,
+    "model-ac" : "PTHR24072:SF153"
+  }, {
+    "signature" : {
+      "accession" : "SM00173",
+      "name" : "ras_sub_4",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 181,
+      "hmmStart" : 1,
+      "hmmEnd" : 167,
+      "hmmLength" : 167,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.8E-21,
+      "score" : 86.3,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 181,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.8E-21,
+    "score" : 86.3,
+    "model-ac" : "SM00173"
+  }, {
+    "signature" : {
+      "accession" : "SM00174",
+      "name" : "rho_sub_3",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 8,
+      "end" : 181,
+      "hmmStart" : 1,
+      "hmmEnd" : 180,
+      "hmmLength" : 180,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.0,
+      "score" : 463.0,
+      "location-fragments" : [ {
+        "start" : 8,
+        "end" : 181,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 463.0,
+    "model-ac" : "SM00174"
+  }, {
+    "signature" : {
+      "accession" : "PS51420",
+      "name" : "RHO",
+      "description" : "small GTPase Rho family profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR003578",
+        "name" : "Small_GTPase_Rho",
+        "description" : "Small GTPase Rho",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "GTP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005525"
+        }, {
+          "name" : "small GTPase mediated signal transduction",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0007264"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Rho GTPase cycle",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-194840"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 178,
+      "score" : 28.038,
+      "alignment" : "--MAAIRKKLVIVGDGACGKTCLLIVFSKDQFPEVYVPTVFENYVADIEVDGKQVELALWDTAGQEDYDRLRPLSYPDTDVILMCFSIDSPDSLENIPEKWTPEVKHFCPNVPIILVGNKKDLRNDEHTRRELAKMKQEPVKPEEGRDMANRIGAFGYMECSAKTKDGVREVFEMATRAA",
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 178,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51420"
+  }, {
+    "signature" : {
+      "accession" : "TIGR00231",
+      "name" : "TIGR00231",
+      "description" : "small_GTP: small GTP-binding protein domain",
+      "signatureLibraryRelease" : {
+        "library" : "TIGRFAM",
+        "version" : "15.0"
+      },
+      "entry" : {
+        "accession" : "IPR005225",
+        "name" : "Small_GTP-bd_dom",
+        "description" : "Small GTP-binding protein domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "GTP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005525"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 5,
+      "end" : 159,
+      "hmmStart" : 3,
+      "hmmEnd" : 164,
+      "hmmLength" : 164,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 4.3E-49,
+      "score" : 164.4,
+      "envelopeStart" : 3,
+      "envelopeEnd" : 159,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 5,
+        "end" : 159,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.4E-49,
+    "score" : 164.7,
+    "model-ac" : "TIGR00231"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.40.50.300",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 193,
+      "hmmStart" : 4,
+      "hmmEnd" : 192,
+      "hmmLength" : 193,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 5.3E-73,
+      "score" : 246.4,
+      "envelopeStart" : 1,
+      "envelopeEnd" : 193,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 193,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.9E-73,
+    "score" : 246.5,
+    "model-ac" : "5c4mA00"
+  } ],
+  "xref" : [ {
+    "name" : "tr|H0VQ69|H0VQ69_CAVPO Ras homolog family member A OS=Cavia porcellus OX=10141 GN=RHOA PE=4 SV=1",
+    "id" : "tr|H0VQ69|H0VQ69_CAVPO"
+  } ]
+} ]
+}

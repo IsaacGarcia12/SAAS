@@ -1,0 +1,614 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MGCDRNCGLITGAVIGAVLAVFGGILMPVGDMLIEKTIKKEVVLEEGTTAYQNWVKTGTEVYRQFWIFDVQNPQEVAVNSSNIKVKQRGPYTYRVRFLAKENITHDYEDNTVSFVQPNAAIFEPSLSVGTENDTFTVLNLAVAAAPHIYQNAFVQVVLNSLIKKSKSSMFQTRTLRELLWGYKDPFLSLVPYPISTTVGVFFPYNDTADGVYKVFSGRDNINNVAIIDTYKGKRNLSYWPSYCDMINGTDAASFPPFVEKTRLLRFFSSDICRSIYAVFGSEVDLKGIPVYRFVLPAKAFASPVDNPDNHCFCTEKIISKNCTSYGVLDIGKCKEGKPVYISLPHFLHASHDVSEPIEGLNPNEEEHSTFLDVEPITGFTLQFAKRLQVNILVKPAKKIEALKNLKKNYIVPILWLNETGTIGDEKAEMFKSKVTGKIKLLGLVENILLGVGVVMFVAFMISYCACRSKRSGK",
+  "md5" : "58c23722286ccc26942b866392625d45",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 30,
+      "end" : 446,
+      "location-fragments" : [ {
+        "start" : 30,
+        "end" : 446,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 441,
+      "end" : 463,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 441,
+        "end" : 463,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 29,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 29,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "PF01130",
+      "name" : "CD36",
+      "description" : "CD36 family",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR002159",
+        "name" : "CD36_fam",
+        "description" : "CD36 family",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "membrane",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0016020"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 14,
+      "end" : 462,
+      "hmmStart" : 1,
+      "hmmEnd" : 466,
+      "hmmLength" : 467,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 0.0,
+      "score" : 489.0,
+      "envelopeStart" : 14,
+      "envelopeEnd" : 463,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 14,
+        "end" : 462,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 489.1,
+    "model-ac" : "PF01130"
+  }, {
+    "signature" : {
+      "accession" : "PTHR11923:SF12",
+      "name" : "PLATELET GLYCOPROTEIN 4",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : {
+        "accession" : "IPR033076",
+        "name" : "CD36_chordates",
+        "description" : "CD36",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "cell surface receptor signaling pathway",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0007166"
+        }, {
+          "name" : "immune response",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006955"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Regulation of TLR by endogenous ligand",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5686938"
+        }, {
+          "name" : "Cross-presentation of particulate exogenous antigens (phagosomes)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1236973"
+        }, {
+          "name" : "Interleukin-4 and Interleukin-13 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6785807"
+        }, {
+          "name" : "MyD88 deficiency (TLR2/4)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5602498"
+        }, {
+          "name" : "IRAK4 deficiency (TLR2/4)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5603041"
+        }, {
+          "name" : "Transcriptional regulation of white adipocyte differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381340"
+        }, {
+          "name" : "MyD88:MAL(TIRAP) cascade initiated on plasma membrane",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-166058"
+        }, {
+          "name" : "Toll Like Receptor TLR6:TLR2 Cascade",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-168188"
+        }, {
+          "name" : "Neutrophil degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6798695"
+        }, {
+          "name" : "Intracellular metabolism of fatty acids regulates insulin secretion",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-434313"
+        }, {
+          "name" : "Platelet degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-114608"
+        }, {
+          "name" : "PPARA activates gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1989781"
+        }, {
+          "name" : "Scavenging by Class B Receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3000471"
+        }, {
+          "name" : "ER-Phagosome pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1236974"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 470,
+      "hmmStart" : 1,
+      "hmmEnd" : 469,
+      "hmmLength" : 471,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 472,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 470,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 919.9,
+    "model-ac" : "PTHR11923:SF12"
+  }, {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 6,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 6,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "PTHR11923",
+      "name" : "SCAVENGER RECEPTOR CLASS B TYPE-1  SR-B1",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : {
+        "accession" : "IPR002159",
+        "name" : "CD36_fam",
+        "description" : "CD36 family",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "membrane",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0016020"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 470,
+      "hmmStart" : 1,
+      "hmmEnd" : 469,
+      "hmmLength" : 471,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 472,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 470,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 919.9,
+    "model-ac" : "PTHR11923"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 447,
+      "end" : 466,
+      "location-fragments" : [ {
+        "start" : 447,
+        "end" : 466,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "PR01610",
+      "name" : "CD36ANTIGEN",
+      "description" : "Adhesion molecule CD36 signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR005428",
+        "name" : "CD36/SCARB1/SNMP1",
+        "description" : "CD36/scavenger receptor class B member 1",
+        "type" : "FAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Scavenging by Class B Receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3000471"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 3,
+      "end" : 24,
+      "pvalue" : 1.0E-16,
+      "score" : 96.21,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 3,
+        "end" : 24,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 25,
+      "end" : 47,
+      "pvalue" : 1.11E-16,
+      "score" : 93.48,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 25,
+        "end" : 47,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 66,
+      "end" : 88,
+      "pvalue" : 2.6E-13,
+      "score" : 85.51,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 66,
+        "end" : 88,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 95,
+      "end" : 114,
+      "pvalue" : 2.9E-11,
+      "score" : 77.5,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 95,
+        "end" : 114,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 129,
+      "end" : 149,
+      "pvalue" : 6.22E-15,
+      "score" : 88.89,
+      "motifNumber" : 5,
+      "location-fragments" : [ {
+        "start" : 129,
+        "end" : 149,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 149,
+      "end" : 170,
+      "pvalue" : 3.56E-14,
+      "score" : 81.82,
+      "motifNumber" : 6,
+      "location-fragments" : [ {
+        "start" : 149,
+        "end" : 170,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 191,
+      "end" : 207,
+      "pvalue" : 6.3E-12,
+      "score" : 84.31,
+      "motifNumber" : 7,
+      "location-fragments" : [ {
+        "start" : 191,
+        "end" : 207,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 233,
+      "end" : 247,
+      "pvalue" : 6.94E-9,
+      "score" : 90.0,
+      "motifNumber" : 8,
+      "location-fragments" : [ {
+        "start" : 233,
+        "end" : 247,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 300,
+      "end" : 322,
+      "pvalue" : 3.77E-15,
+      "score" : 86.23,
+      "motifNumber" : 9,
+      "location-fragments" : [ {
+        "start" : 300,
+        "end" : 322,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 346,
+      "end" : 364,
+      "pvalue" : 3.18E-12,
+      "score" : 85.96,
+      "motifNumber" : 10,
+      "location-fragments" : [ {
+        "start" : 346,
+        "end" : 364,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 398,
+      "end" : 412,
+      "pvalue" : 6.18E-10,
+      "score" : 86.67,
+      "motifNumber" : 11,
+      "location-fragments" : [ {
+        "start" : 398,
+        "end" : 412,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 419,
+      "end" : 437,
+      "pvalue" : 1.11E-12,
+      "score" : 85.09,
+      "motifNumber" : 12,
+      "location-fragments" : [ {
+        "start" : 419,
+        "end" : 437,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 437,
+      "end" : 459,
+      "pvalue" : 1.11E-16,
+      "score" : 84.78,
+      "motifNumber" : 13,
+      "location-fragments" : [ {
+        "start" : 437,
+        "end" : 459,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "graphscan" : "IIIIIIIIIIIII",
+    "model-ac" : "PR01610"
+  }, {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 467,
+      "end" : 473,
+      "location-fragments" : [ {
+        "start" : 467,
+        "end" : 473,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 29,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 29,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "PR01609",
+      "name" : "CD36FAMILY",
+      "description" : "Adhesion molecule CD36 family signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR002159",
+        "name" : "CD36_fam",
+        "description" : "CD36 family",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "membrane",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0016020"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 56,
+      "end" : 77,
+      "pvalue" : 2.34E-9,
+      "score" : 40.28,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 56,
+        "end" : 77,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 82,
+      "end" : 94,
+      "pvalue" : 8.11E-6,
+      "score" : 51.46,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 82,
+        "end" : 94,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 111,
+      "end" : 130,
+      "pvalue" : 2.73E-10,
+      "score" : 47.59,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 111,
+        "end" : 130,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 243,
+      "end" : 267,
+      "pvalue" : 2.38E-12,
+      "score" : 49.52,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 243,
+        "end" : 267,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 322,
+      "end" : 346,
+      "pvalue" : 2.82E-13,
+      "score" : 48.55,
+      "motifNumber" : 5,
+      "location-fragments" : [ {
+        "start" : 322,
+        "end" : 346,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 369,
+      "end" : 390,
+      "pvalue" : 4.43E-13,
+      "score" : 51.25,
+      "motifNumber" : 6,
+      "location-fragments" : [ {
+        "start" : 369,
+        "end" : 390,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.0E-54,
+    "graphscan" : "IIIIII",
+    "model-ac" : "PR01609"
+  } ],
+  "xref" : [ {
+    "name" : "tr|I3MBR1|I3MBR1_ICTTR CD36 molecule OS=Ictidomys tridecemlineatus OX=43179 GN=CD36 PE=3 SV=2",
+    "id" : "tr|I3MBR1|I3MBR1_ICTTR"
+  } ]
+} ]
+}

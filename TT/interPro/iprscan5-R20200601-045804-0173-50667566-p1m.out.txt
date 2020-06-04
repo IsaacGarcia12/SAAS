@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="156ca33e756036dc93e9b54e7b4a8a8f">MGSQALPHGHMQTLIFLDLEATGLPYSQPKITELCLLAVHRHALENSSMSEGQPPPVPKPPRVVDKLSLCIAPGKPCSSGASEITGLTTAGLEAHGRQRFNDNLATLLQVFLQRQPQPCCLVAHNGDRYDFPLLQAELASLSVISPLDGTFCVDSIAALKTLEQASSPSEHGPRKSYSLGSIYTRLYGQAPTDSHTAEGDVLALLSICQWKPQALLQWVDKHARPFSTIKPMYGMAATTGTASPRLCAATTSSPLATANLSPSNGRSRGKRPTSPPPENVPEAPSREGLLAPLGLLTFLTLAIAVLYGIFLASPGQ</sequence>
+    <xref id="tr|Q5BK16|Q5BK16_RAT" name="tr|Q5BK16|Q5BK16_RAT RCG26064 OS=Rattus norvegicus OX=10116 GN=Trex1 PE=1 SV=1"/>
+    <matches>
+      <hmmer2-match evalue="1.7E-14" score="64.2">
+        <signature ac="SM00479" name="exoiiiendus">
+          <entry ac="IPR013520" desc="Exonuclease, RNase T/DNA polymerase III" name="Exonuclease_RNaseT/DNA_pol3" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00479</model-ac>
+        <locations>
+          <hmmer2-location score="64.2" evalue="1.7E-14" hmm-start="1" hmm-end="196" hmm-length="196" hmm-bounds="COMPLETE" start="13" end="217">
+            <location-fragments>
+              <hmmer2-location-fragment start="13" end="217" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="3.0E-67" score="228.4">
+        <signature ac="G3DSA:3.30.420.10">
+          <entry ac="IPR036397" desc="Ribonuclease H superfamily" name="RNaseH_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003676" name="nucleic acid binding"/>
+          </entry>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3mxjA01</model-ac>
+        <locations>
+          <hmmer3-location env-end="229" env-start="10" post-processed="true" score="228.2" evalue="3.5E-67" hmm-start="2" hmm-end="220" hmm-length="220" hmm-bounds="COMPLETE" start="10" end="229">
+            <location-fragments>
+              <hmmer3-location-fragment start="10" end="229" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="254" end="285">
+            <location-fragments>
+              <mobidblite-location-fragment start="254" end="285" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="254" end="270">
+            <location-fragments>
+              <mobidblite-location-fragment start="254" end="270" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="1.6E-126" familyName="Not available" score="423.7">
+        <signature ac="PTHR13058:SF25" name="THREE-PRIME REPAIR EXONUCLEASE 1">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR13058:SF25</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="267" hmm-start="6" hmm-end="267" hmm-length="268" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="266">
+            <location-fragments>
+              <panther-location-fragment start="1" end="266" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="1.6E-126" familyName="Not available" score="423.7">
+        <signature ac="PTHR13058" name="THREE PRIME REPAIR EXONUCLEASE 1, 2">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR13058</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="267" hmm-start="6" hmm-end="267" hmm-length="268" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="266">
+            <location-fragments>
+              <panther-location-fragment start="1" end="266" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <phobius-match>
+        <signature ac="TRANSMEMBRANE" desc="Region of a membrane-bound protein predicted to be embedded in the membrane." name="Transmembrane region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>TRANSMEMBRANE</model-ac>
+        <locations>
+          <phobius-location start="289" end="312">
+            <location-fragments>
+              <phobius-location-fragment start="289" end="312" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="1" end="288">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="288" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm." name="Cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="313" end="316">
+            <location-fragments>
+              <phobius-location-fragment start="313" end="316" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <rpsblast-match>
+        <signature ac="cd06136" desc="TREX1_2" name="TREX1_2">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd06136</model-ac>
+        <locations>
+          <rpsblast-location evalue="6.69329E-77" score="231.068" start="14" end="211">
+            <location-fragments>
+              <rpsblast-location-fragment start="14" end="211" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="active site" numLocations="15">
+                <site-locations>
+                  <site-location residue="R" start="128" end="128"/>
+                  <site-location residue="A" start="81" end="81"/>
+                  <site-location residue="D" start="130" end="130"/>
+                  <site-location residue="D" start="18" end="18"/>
+                  <site-location residue="L" start="19" end="19"/>
+                  <site-location residue="L" start="179" end="179"/>
+                  <site-location residue="D" start="200" end="200"/>
+                  <site-location residue="A" start="21" end="21"/>
+                  <site-location residue="T" start="85" end="85"/>
+                  <site-location residue="H" start="195" end="195"/>
+                  <site-location residue="H" start="124" end="124"/>
+                  <site-location residue="N" start="125" end="125"/>
+                  <site-location residue="L" start="24" end="24"/>
+                  <site-location residue="E" start="20" end="20"/>
+                  <site-location residue="Y" start="129" end="129"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="substrate binding site" numLocations="14">
+                <site-locations>
+                  <site-location residue="R" start="128" end="128"/>
+                  <site-location residue="A" start="81" end="81"/>
+                  <site-location residue="D" start="18" end="18"/>
+                  <site-location residue="L" start="179" end="179"/>
+                  <site-location residue="L" start="19" end="19"/>
+                  <site-location residue="D" start="200" end="200"/>
+                  <site-location residue="T" start="85" end="85"/>
+                  <site-location residue="A" start="21" end="21"/>
+                  <site-location residue="H" start="195" end="195"/>
+                  <site-location residue="H" start="124" end="124"/>
+                  <site-location residue="N" start="125" end="125"/>
+                  <site-location residue="L" start="24" end="24"/>
+                  <site-location residue="E" start="20" end="20"/>
+                  <site-location residue="Y" start="129" end="129"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="nucleotide product binding site" numLocations="4">
+                <site-locations>
+                  <site-location residue="E" start="20" end="20"/>
+                  <site-location residue="T" start="85" end="85"/>
+                  <site-location residue="A" start="21" end="21"/>
+                  <site-location residue="H" start="195" end="195"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="dimer interface" numLocations="22">
+                <site-locations>
+                  <site-location residue="N" start="101" end="101"/>
+                  <site-location residue="K" start="66" end="66"/>
+                  <site-location residue="C" start="70" end="70"/>
+                  <site-location residue="E" start="33" end="33"/>
+                  <site-location residue="Q" start="115" end="115"/>
+                  <site-location residue="E" start="198" end="198"/>
+                  <site-location residue="F" start="111" end="111"/>
+                  <site-location residue="S" start="68" end="68"/>
+                  <site-location residue="L" start="69" end="69"/>
+                  <site-location residue="H" start="40" end="40"/>
+                  <site-location residue="L" start="67" end="67"/>
+                  <site-location residue="P" start="116" end="116"/>
+                  <site-location residue="Q" start="98" end="98"/>
+                  <site-location residue="T" start="85" end="85"/>
+                  <site-location residue="V" start="110" end="110"/>
+                  <site-location residue="R" start="99" end="99"/>
+                  <site-location residue="R" start="62" end="62"/>
+                  <site-location residue="Q" start="113" end="113"/>
+                  <site-location residue="D" start="65" end="65"/>
+                  <site-location residue="L" start="107" end="107"/>
+                  <site-location residue="N" start="103" end="103"/>
+                  <site-location residue="R" start="114" end="114"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="catalytic site" numLocations="5">
+                <site-locations>
+                  <site-location residue="E" start="20" end="20"/>
+                  <site-location residue="D" start="18" end="18"/>
+                  <site-location residue="D" start="130" end="130"/>
+                  <site-location residue="D" start="200" end="200"/>
+                  <site-location residue="H" start="195" end="195"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="9.99E-53">
+        <signature ac="SSF53098" name="Ribonuclease H-like">
+          <entry ac="IPR012337" desc="Ribonuclease H-like superfamily" name="RNaseH-like_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0054813</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="226" start="10" end="233">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="10" end="233" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="289" end="311">
+            <location-fragments>
+              <tmhmm-location-fragment start="289" end="311" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+    </matches>
+  </protein>
+</protein-matches>

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="6ce339ae84ceb6fd318b3f97569bacf3">MSILSLLLCHSYVFFLAYLVQCLFEIIIFQIWGCDKRINLDKEIRVVFGGKDYTDIESKFARRTPENTVEDTCHLIPGVTESVANCHFNHSSKTFMVIHGWTVTGMYESWVPKLVAALYKREPDSNVIVVDWLRRAQHHYPESADYTKLVGEDVARFINWMEDEFKYSVDNVHLLGYSLGAHAAGVAGSRTNTKVSRITGLDPAGPNFEYAEATSRLSPDDAQFVDVLHTFTRGSPGRSIGIQKPVGHVDIYPNGGSFQPGCNIQDALRVISQKGFGDMDQLVKCSHERSIHLFIDSLLNEENPSKAYRCNSKEAFEKGLCLSCRKNRCNNVGYEINKVRAKRSSKMYLKTRSQMPYKVFHYQVKIYFSGTETTTYTNQAFEISLYGTVAESENIPFTLPEVSANNTYSFLIYTEVDIGELLMLKLKWITESYFSWSSWWGRPTFTIEKIRVKAGETQKKIVFCSREKVSKLQKGKEAPVFVKCHDKSLNKKSGW</sequence>
+    <xref id="tr|H0V2A3|H0V2A3_CAVPO" name="tr|H0V2A3|H0V2A3_CAVPO Lipoprotein lipase OS=Cavia porcellus OX=10141 GN=Lpl PE=3 SV=2"/>
+    <matches>
+      <fingerprints-match evalue="9.7E-73" graphscan="IIIIIIIII">
+        <signature ac="PR00821" desc="Triacylglycerol lipase family signature" name="TAGLIPASE">
+          <entry ac="IPR000734" desc="Triacylglycerol lipase family" name="TAG_lipase" type="FAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004806" name="triglyceride lipase activity"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR00821</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="2.15E-11" score="53.83" start="82" end="101">
+            <location-fragments>
+              <fingerprints-location-fragment start="82" end="101" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="3.98E-5" score="50.0" start="104" end="118">
+            <location-fragments>
+              <fingerprints-location-fragment start="104" end="118" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="4.97E-6" score="51.46" start="128" end="143">
+            <location-fragments>
+              <fingerprints-location-fragment start="128" end="143" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="4" pvalue="2.26E-11" score="46.83" start="148" end="167">
+            <location-fragments>
+              <fingerprints-location-fragment start="148" end="167" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="5" pvalue="3.44E-13" score="78.6" start="171" end="189">
+            <location-fragments>
+              <fingerprints-location-fragment start="171" end="189" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="6" pvalue="8.14E-9" score="68.54" start="285" end="300">
+            <location-fragments>
+              <fingerprints-location-fragment start="285" end="300" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="7" pvalue="2.85E-9" score="57.04" start="316" end="333">
+            <location-fragments>
+              <fingerprints-location-fragment start="316" end="333" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="8" pvalue="1.41E-8" score="53.54" start="356" end="371">
+            <location-fragments>
+              <fingerprints-location-fragment start="356" end="371" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="9" pvalue="1.74E-10" score="58.48" start="407" end="428">
+            <location-fragments>
+              <fingerprints-location-fragment start="407" end="428" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <fingerprints-match evalue="3.4E-80" graphscan="IIIIIIII">
+        <signature ac="PR00822" desc="Lipoprotein lipase signature" name="LIPOLIPASE">
+          <entry ac="IPR002330" desc="Lipoprotein lipase" name="Lipo_Lipase" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006629" name="lipid metabolic process"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004465" name="lipoprotein lipase activity"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR00822</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="2.01E-11" score="81.67" start="61" end="78">
+            <location-fragments>
+              <fingerprints-location-fragment start="61" end="78" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="1.0E-16" score="99.2" start="102" end="126">
+            <location-fragments>
+              <fingerprints-location-fragment start="102" end="126" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="2.29E-9" score="78.82" start="133" end="149">
+            <location-fragments>
+              <fingerprints-location-fragment start="133" end="149" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="4" pvalue="2.91E-7" score="72.31" start="185" end="197">
+            <location-fragments>
+              <fingerprints-location-fragment start="185" end="197" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="5" pvalue="1.89E-13" score="98.82" start="233" end="249">
+            <location-fragments>
+              <fingerprints-location-fragment start="233" end="249" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="6" pvalue="5.11E-9" score="70.62" start="366" end="381">
+            <location-fragments>
+              <fingerprints-location-fragment start="366" end="381" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="7" pvalue="7.24E-9" score="70.0" start="432" end="449">
+            <location-fragments>
+              <fingerprints-location-fragment start="432" end="449" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="8" pvalue="6.33E-15" score="80.42" start="466" end="489">
+            <location-fragments>
+              <fingerprints-location-fragment start="466" end="489" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <hmmer2-match evalue="1.5E-26" score="104.2">
+        <signature ac="SM00308" name="LH2_4">
+          <entry ac="IPR001024" desc="PLAT/LH2 domain" name="PLAT/LH2_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00308</model-ac>
+        <locations>
+          <hmmer2-location score="104.2" evalue="1.5E-26" hmm-start="1" hmm-end="157" hmm-length="157" hmm-bounds="COMPLETE" start="360" end="484">
+            <location-fragments>
+              <hmmer2-location-fragment start="360" end="484" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="5.1E-25" score="88.2">
+        <signature ac="PF01477" desc="PLAT/LH2 domain" name="PLAT">
+          <entry ac="IPR001024" desc="PLAT/LH2 domain" name="PLAT/LH2_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF01477</model-ac>
+        <locations>
+          <hmmer3-location env-end="482" env-start="362" post-processed="true" score="87.4" evalue="9.4E-25" hmm-start="1" hmm-end="117" hmm-length="117" hmm-bounds="COMPLETE" start="362" end="482">
+            <location-fragments>
+              <hmmer3-location-fragment start="362" end="482" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="867.8">
+        <signature ac="TIGR03230" desc="lipo_lipase: lipoprotein lipase" name="TIGR03230">
+          <entry ac="IPR002330" desc="Lipoprotein lipase" name="Lipo_Lipase" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006629" name="lipid metabolic process"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004465" name="lipoprotein lipase activity"/>
+          </entry>
+          <signature-library-release library="TIGRFAM" version="15.0"/>
+        </signature>
+        <model-ac>TIGR03230</model-ac>
+        <locations>
+          <hmmer3-location env-end="492" env-start="52" post-processed="false" score="867.6" evalue="0.0" hmm-start="1" hmm-end="442" hmm-length="442" hmm-bounds="COMPLETE" start="52" end="492">
+            <location-fragments>
+              <hmmer3-location-fragment start="52" end="492" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.0E-99" score="335.0">
+        <signature ac="G3DSA:3.40.50.1820">
+          <entry ac="IPR029058" desc="Alpha/Beta hydrolase fold" name="AB_hydrolase" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1lpbB01</model-ac>
+        <locations>
+          <hmmer3-location env-end="358" env-start="36" post-processed="true" score="334.6" evalue="2.8E-99" hmm-start="31" hmm-end="336" hmm-length="338" hmm-bounds="COMPLETE" start="36" end="358">
+            <location-fragments>
+              <hmmer3-location-fragment start="36" end="358" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="566.6">
+        <signature ac="PIRSF000865" name="LPL_LIPH">
+          <entry ac="IPR016272" desc="Lipase, LIPH-type" name="Lipase_LIPH" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006629" name="lipid metabolic process"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0052689" name="carboxylic ester hydrolase activity"/>
+          </entry>
+          <signature-library-release library="PIRSF" version="3.10"/>
+        </signature>
+        <model-ac>PIRSF000865</model-ac>
+        <locations>
+          <hmmer3-location env-end="486" env-start="8" post-processed="false" score="566.4" evalue="0.0" hmm-start="50" hmm-end="486" hmm-length="485" hmm-bounds="COMPLETE" start="8" end="486">
+            <location-fragments>
+              <hmmer3-location-fragment start="8" end="486" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.8E-127" score="424.1">
+        <signature ac="PF00151" desc="Lipase" name="Lipase">
+          <entry ac="IPR013818" desc="Lipase/vitellogenin" name="Lipase/vitellogenin" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004806" name="triglyceride lipase activity"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00151</model-ac>
+        <locations>
+          <hmmer3-location env-end="357" env-start="27" post-processed="true" score="423.7" evalue="5.1E-127" hmm-start="25" hmm-end="336" hmm-length="336" hmm-bounds="C_TERMINAL_COMPLETE" start="45" end="357">
+            <location-fragments>
+              <hmmer3-location-fragment start="45" end="357" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.4E-30" score="107.4">
+        <signature ac="G3DSA:2.60.60.20">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2pplA02</model-ac>
+        <locations>
+          <hmmer3-location env-end="475" env-start="360" post-processed="true" score="106.5" evalue="2.8E-30" hmm-start="1" hmm-end="103" hmm-length="110" hmm-bounds="COMPLETE" start="360" end="475">
+            <location-fragments>
+              <hmmer3-location-fragment start="360" end="475" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <panther-match evalue="0.0" familyName="Not available" score="863.2">
+        <signature ac="PTHR11610" name="LIPASE">
+          <entry ac="IPR000734" desc="Triacylglycerol lipase family" name="TAG_lipase" type="FAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004806" name="triglyceride lipase activity"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR11610</model-ac>
+        <locations>
+          <panther-location env-start="19" env-end="491" hmm-start="31" hmm-end="456" hmm-length="478" hmm-bounds="INCOMPLETE" start="47" end="472">
+            <location-fragments>
+              <panther-location-fragment start="47" end="472" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="863.2">
+        <signature ac="PTHR11610:SF3" name="LIPOPROTEIN LIPASE">
+          <entry ac="IPR002330" desc="Lipoprotein lipase" name="Lipo_Lipase" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006629" name="lipid metabolic process"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004465" name="lipoprotein lipase activity"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR11610:SF3</model-ac>
+        <locations>
+          <panther-location env-start="19" env-end="491" hmm-start="31" hmm-end="456" hmm-length="478" hmm-bounds="INCOMPLETE" start="47" end="472">
+            <location-fragments>
+              <panther-location-fragment start="47" end="472" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <phobius-match>
+        <signature ac="TRANSMEMBRANE" desc="Region of a membrane-bound protein predicted to be embedded in the membrane." name="Transmembrane region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>TRANSMEMBRANE</model-ac>
+        <locations>
+          <phobius-location start="12" end="32">
+            <location-fragments>
+              <phobius-location-fragment start="12" end="32" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="33" end="495">
+            <location-fragments>
+              <phobius-location-fragment start="33" end="495" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm." name="Cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="1" end="11">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="11" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <profilescan-match>
+        <signature ac="PS50095" desc="PLAT domain profile." name="PLAT">
+          <entry ac="IPR001024" desc="PLAT/LH2 domain" name="PLAT/LH2_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50095</model-ac>
+        <locations>
+          <profilescan-location score="22.625" start="360" end="483">
+            <location-fragments>
+              <profilescan-location-fragment start="360" end="483" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>FHYQVKIYFSGtETTTYTNQAFEISLYGTVAESENIPF---TLPEVSANNTYSFLIYTEVDIGELLMLKLKWITESyfswsswwGRPTFTIEKIRVKAGETQKKIVFCSREKVSKLQKGKEAPVFVK</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <rpsblast-match>
+        <signature ac="cd00707" desc="Pancreat_lipase_like" name="Pancreat_lipase_like">
+          <entry ac="IPR033906" desc="Lipase, N-terminal" name="Lipase_N" type="DOMAIN">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006629" name="lipid metabolic process"/>
+          </entry>
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00707</model-ac>
+        <locations>
+          <rpsblast-location evalue="2.95082E-124" score="361.946" start="56" end="353">
+            <location-fragments>
+              <rpsblast-location-fragment start="56" end="353" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="catalytic triad" numLocations="3">
+                <site-locations>
+                  <site-location residue="H" start="287" end="287"/>
+                  <site-location residue="D" start="202" end="202"/>
+                  <site-location residue="S" start="178" end="178"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="active site flap/lid" numLocations="4">
+                <site-locations>
+                  <site-location residue="C" start="262" end="262"/>
+                  <site-location residue="K" start="284" end="284"/>
+                  <site-location residue="N" start="263" end="263"/>
+                  <site-location residue="C" start="285" end="285"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="nucleophilic elbow" numLocations="5">
+                <site-locations>
+                  <site-location residue="G" start="180" end="180"/>
+                  <site-location residue="G" start="176" end="176"/>
+                  <site-location residue="S" start="178" end="178"/>
+                  <site-location residue="L" start="179" end="179"/>
+                  <site-location residue="Y" start="177" end="177"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd01758" desc="PLAT_LPL" name="PLAT_LPL">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd01758</model-ac>
+        <locations>
+          <rpsblast-location evalue="6.92394E-59" score="188.754" start="360" end="484">
+            <location-fragments>
+              <rpsblast-location-fragment start="360" end="484" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites/>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="1.8E-27">
+        <signature ac="SSF49723" name="Lipase/lipooxygenase domain (PLAT/LH2 domain)">
+          <entry ac="IPR036392" desc="PLAT/LH2 domain superfamily" name="PLAT/LH2_dom_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0038208</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="112" start="359" end="482">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="359" end="482" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="6.97E-76">
+        <signature ac="SSF53474" name="alpha/beta-Hydrolases">
+          <entry ac="IPR029058" desc="Alpha/Beta hydrolase fold" name="AB_hydrolase" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0043326</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="330" start="55" end="357">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="55" end="357" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="7" end="29">
+            <location-fragments>
+              <tmhmm-location-fragment start="7" end="29" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+    </matches>
+  </protein>
+</protein-matches>

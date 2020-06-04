@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="9efe165dfe12463e2cbe59a3bc1e1e17">ASTDAGTAGALTPQHVRAHSSPASLQLGAVSPGTLTPTGVVSGPAATPTAQHLRQSSFEIPDDVPLPAGWEMAKTSSGQRYFLNHIDQTTTWQDPRKAMLSQMNVTAPTSPPVQQNLMNSASGPLPDGWEQAMTQDGEIYYINHKNKTTSWLDPRLDPRFAMNQRISQSAPVKQPPPLAPQSPQGGVMGSSNSNQQQQMRLQQLQMEKERLRLKQQELLRQAMRNINPSTANSPKCQELALRSQLPTLEQDSGTQNPVSSPGMSQELRTMTTNSSDPFLNSGTYHSRDESTDSGLSMSSYSVPRTPDDFLNSVDEMDTGDTINQSTLPSQQNRFPDYLEAIPGTNVDLGTLEGDGMNIEGEELMPSLQEALSSDILNDMESVLAATKLDKESFLTWL</sequence>
+    <xref id="tr|A0A286Y1R6|A0A286Y1R6_CAVPO" name="tr|A0A286Y1R6|A0A286Y1R6_CAVPO Yes associated protein 1 OS=Cavia porcellus OX=10141 GN=YAP1 PE=4 SV=1"/>
+    <matches>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="194" end="221">
+            <location-fragments>
+              <coils-location-fragment start="194" end="221" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <hmmer2-match evalue="1.2E-28" score="111.2">
+        <signature ac="SM00456" name="ww_5">
+          <entry ac="IPR001202" desc="WW domain" name="WW_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00456</model-ac>
+        <locations>
+          <hmmer2-location score="57.2" evalue="2.1E-12" hmm-start="1" hmm-end="34" hmm-length="34" hmm-bounds="COMPLETE" start="124" end="156">
+            <location-fragments>
+              <hmmer2-location-fragment start="124" end="156" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="53.9" evalue="2.1E-11" hmm-start="1" hmm-end="34" hmm-length="34" hmm-bounds="COMPLETE" start="65" end="97">
+            <location-fragments>
+              <hmmer2-location-fragment start="65" end="97" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="2.0E-21" score="75.6">
+        <signature ac="PF00397" desc="WW domain" name="WW">
+          <entry ac="IPR001202" desc="WW domain" name="WW_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00397</model-ac>
+        <locations>
+          <hmmer3-location env-end="95" env-start="66" post-processed="true" score="34.0" evalue="2.0E-8" hmm-start="1" hmm-end="31" hmm-length="31" hmm-bounds="COMPLETE" start="66" end="95">
+            <location-fragments>
+              <hmmer3-location-fragment start="66" end="95" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="154" env-start="125" post-processed="true" score="40.0" evalue="2.8E-10" hmm-start="1" hmm-end="31" hmm-length="31" hmm-bounds="COMPLETE" start="125" end="154">
+            <location-fragments>
+              <hmmer3-location-fragment start="125" end="154" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.3E-44" score="151.5">
+        <signature ac="G3DSA:2.20.70.10">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4rexA00</model-ac>
+        <locations>
+          <hmmer3-location env-end="102" env-start="54" post-processed="true" score="84.3" evalue="1.4E-23" hmm-start="3" hmm-end="49" hmm-length="49" hmm-bounds="COMPLETE" start="54" end="102">
+            <location-fragments>
+              <hmmer3-location-fragment start="54" end="102" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.5E-38" score="131.0">
+        <signature ac="G3DSA:2.20.70.10">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2l4jA00</model-ac>
+        <locations>
+          <hmmer3-location env-end="157" env-start="118" post-processed="true" score="67.7" evalue="2.1E-18" hmm-start="8" hmm-end="43" hmm-length="46" hmm-bounds="COMPLETE" start="118" end="157">
+            <location-fragments>
+              <hmmer3-location-fragment start="118" end="157" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="247" end="300">
+            <location-fragments>
+              <mobidblite-location-fragment start="247" end="300" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="184" end="202">
+            <location-fragments>
+              <mobidblite-location-fragment start="184" end="202" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1" end="20">
+            <location-fragments>
+              <mobidblite-location-fragment start="1" end="20" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="168" end="202">
+            <location-fragments>
+              <mobidblite-location-fragment start="168" end="202" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="784.3">
+        <signature ac="PTHR17616:SF9" name="TRANSCRIPTIONAL COACTIVATOR YAP1">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR17616:SF9</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="397" hmm-start="59" hmm-end="441" hmm-length="441" hmm-bounds="COMPLETE" start="1" end="397">
+            <location-fragments>
+              <panther-location-fragment start="1" end="397" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="784.3">
+        <signature ac="PTHR17616" name="YES-ASSOCIATED PROTEIN">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR17616</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="397" hmm-start="59" hmm-end="441" hmm-length="441" hmm-bounds="COMPLETE" start="1" end="397">
+            <location-fragments>
+              <panther-location-fragment start="1" end="397" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <patternscan-match>
+        <signature ac="PS01159" desc="WW/rsp5/WWP domain signature." name="WW_DOMAIN_1">
+          <entry ac="IPR001202" desc="WW domain" name="WW_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS01159</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="70" end="95">
+            <location-fragments>
+              <patternscan-location-fragment start="70" end="95" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>WemaktssgqrYFlnhidqtTTWQDP</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <patternscan-match>
+        <signature ac="PS01159" desc="WW/rsp5/WWP domain signature." name="WW_DOMAIN_1">
+          <entry ac="IPR001202" desc="WW domain" name="WW_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS01159</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="129" end="154">
+            <location-fragments>
+              <patternscan-location-fragment start="129" end="154" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>WeqamtqdgeiYYinhknktTSWLDP</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <profilescan-match>
+        <signature ac="PS50020" desc="WW/rsp5/WWP domain profile." name="WW_DOMAIN_2">
+          <entry ac="IPR001202" desc="WW domain" name="WW_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50020</model-ac>
+        <locations>
+          <profilescan-location score="16.727" start="64" end="97">
+            <location-fragments>
+              <profilescan-location-fragment start="64" end="97" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>VPLPAGWEMAKTSSGQRYFLNHIDQTTTWQDPRK</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50020" desc="WW/rsp5/WWP domain profile." name="WW_DOMAIN_2">
+          <entry ac="IPR001202" desc="WW domain" name="WW_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50020</model-ac>
+        <locations>
+          <profilescan-location score="17.791" start="123" end="156">
+            <location-fragments>
+              <profilescan-location-fragment start="123" end="156" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>GPLPDGWEQAMTQDGEIYYINHKNKTTSWLDPRL</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <rpsblast-match>
+        <signature ac="cd00201" desc="WW" name="WW">
+          <entry ac="IPR001202" desc="WW domain" name="WW_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00201</model-ac>
+        <locations>
+          <rpsblast-location evalue="5.29528E-11" score="54.8414" start="126" end="156">
+            <location-fragments>
+              <rpsblast-location-fragment start="126" end="156" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="binding pocket" numLocations="2">
+                <site-locations>
+                  <site-location residue="Y" start="140" end="140"/>
+                  <site-location residue="W" start="151" end="151"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd00201" desc="WW" name="WW">
+          <entry ac="IPR001202" desc="WW domain" name="WW_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00201</model-ac>
+        <locations>
+          <rpsblast-location evalue="7.24176E-11" score="54.4562" start="67" end="96">
+            <location-fragments>
+              <rpsblast-location-fragment start="67" end="96" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="binding pocket" numLocations="2">
+                <site-locations>
+                  <site-location residue="W" start="92" end="92"/>
+                  <site-location residue="Y" start="81" end="81"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="3.86E-13">
+        <signature ac="SSF51045" name="WW domain">
+          <entry ac="IPR036020" desc="WW domain superfamily" name="WW_dom_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0038884</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="50" start="60" end="100">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="60" end="100" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="9.2E-14">
+        <signature ac="SSF51045" name="WW domain">
+          <entry ac="IPR036020" desc="WW domain superfamily" name="WW_dom_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0038884</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="50" start="117" end="156">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="117" end="156" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

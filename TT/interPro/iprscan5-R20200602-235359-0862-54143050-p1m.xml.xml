@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="028d4a892eb27f6ecec83d34d4004dcc">MASRVTPLLAFSLLVLWTFSAPALGGANDAEDCCLSVTQRPIPGNIVKAFRYLLIQDGCRVPAVVFTTLRGYQLCAPLDQPWVERIIRRLKKSSSKSKGGSTKRGPVS</sequence>
+    <xref id="tr|D3ZI84|D3ZI84_RAT" name="tr|D3ZI84|D3ZI84_RAT C-C motif chemokine OS=Rattus norvegicus OX=10116 GN=Ccl19 PE=3 SV=1"/>
+    <matches>
+      <hmmer2-match evalue="4.9E-16" score="69.3">
+        <signature ac="SM00199" name="SCY_2">
+          <entry ac="IPR001811" desc="Chemokine interleukin-8-like domain" name="Chemokine_IL8-like_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008009" name="chemokine activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006955" name="immune response"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00199</model-ac>
+        <locations>
+          <hmmer2-location score="69.3" evalue="4.9E-16" hmm-start="1" hmm-end="65" hmm-length="65" hmm-bounds="COMPLETE" start="30" end="90">
+            <location-fragments>
+              <hmmer2-location-fragment start="30" end="90" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="1.4E-18" score="66.6">
+        <signature ac="PF00048" desc="Small cytokines (intecrine/chemokine), interleukin-8 like" name="IL8">
+          <entry ac="IPR001811" desc="Chemokine interleukin-8-like domain" name="Chemokine_IL8-like_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008009" name="chemokine activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006955" name="immune response"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00048</model-ac>
+        <locations>
+          <hmmer3-location env-end="90" env-start="31" post-processed="true" score="66.4" evalue="1.8E-18" hmm-start="1" hmm-end="60" hmm-length="60" hmm-bounds="COMPLETE" start="31" end="90">
+            <location-fragments>
+              <hmmer3-location-fragment start="31" end="90" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="5.9E-23" score="82.5">
+        <signature ac="G3DSA:2.40.50.40">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2mp1A00</model-ac>
+        <locations>
+          <hmmer3-location env-end="101" env-start="26" post-processed="true" score="82.2" evalue="7.1E-23" hmm-start="2" hmm-end="72" hmm-length="77" hmm-bounds="COMPLETE" start="26" end="101">
+            <location-fragments>
+              <hmmer3-location-fragment start="26" end="101" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <panther-match evalue="1.2E-39" familyName="Not available" score="137.3">
+        <signature ac="PTHR12015" name="SMALL INDUCIBLE CYTOKINE A">
+          <entry ac="IPR039809" desc="Chemokine beta/gamma/delta" name="Chemokine_b/g/d" type="FAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008009" name="chemokine activity"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR12015</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="107" hmm-start="2" hmm-end="101" hmm-length="124" hmm-bounds="INCOMPLETE" start="2" end="100">
+            <location-fragments>
+              <panther-location-fragment start="2" end="100" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="1.2E-39" familyName="Not available" score="137.3">
+        <signature ac="PTHR12015:SF80" name="C-C MOTIF CHEMOKINE 19">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR12015:SF80</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="107" hmm-start="2" hmm-end="101" hmm-length="124" hmm-bounds="INCOMPLETE" start="2" end="100">
+            <location-fragments>
+              <panther-location-fragment start="2" end="100" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <patternscan-match>
+        <signature ac="PS00472" desc="Small cytokines (intercrine/chemokine) C-C subfamily signature." name="SMALL_CYTOKINES_CC">
+          <entry ac="IPR000827" desc="CC chemokine, conserved site" name="Chemokine_CC_CS" type="CONSERVED_SITE">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008009" name="chemokine activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006955" name="immune response"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+          </entry>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS00472</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="33" end="76">
+            <location-fragments>
+              <patternscan-location-fragment start="33" end="76" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>CCLsvtqrpIpgniVkaFrylliqdgCrvpAVVFttlrgyqlCA</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="8" end="19">
+            <location-fragments>
+              <phobius-location-fragment start="8" end="19" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="20" end="27">
+            <location-fragments>
+              <phobius-location-fragment start="20" end="27" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="7">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="7" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="27">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="27" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="28" end="108">
+            <location-fragments>
+              <phobius-location-fragment start="28" end="108" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <rpsblast-match>
+        <signature ac="cd01119" desc="Chemokine_CC_DCCL" name="Chemokine_CC_DCCL">
+          <entry ac="IPR034133" desc="Chemokine CC, DCCL motif-cointaining domain" name="Chemokine_CC_DCCL" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-380108" name="Chemokine receptors bind chemokines"/>
+            <pathway-xref db="Reactome" id="R-HSA-418594" name="G alpha (i) signalling events"/>
+          </entry>
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd01119</model-ac>
+        <locations>
+          <rpsblast-location evalue="1.37082E-26" score="91.312" start="31" end="90">
+            <location-fragments>
+              <rpsblast-location-fragment start="31" end="90" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="DCCL motif" numLocations="4">
+                <site-locations>
+                  <site-location residue="C" start="33" end="33"/>
+                  <site-location residue="C" start="34" end="34"/>
+                  <site-location residue="L" start="35" end="35"/>
+                  <site-location residue="D" start="32" end="32"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="dimer interface (I form)" numLocations="12">
+                <site-locations>
+                  <site-location residue="Y" start="52" end="52"/>
+                  <site-location residue="L" start="74" end="74"/>
+                  <site-location residue="L" start="90" end="90"/>
+                  <site-location residue="I" start="87" end="87"/>
+                  <site-location residue="W" start="82" end="82"/>
+                  <site-location residue="F" start="50" end="50"/>
+                  <site-location residue="F" start="66" end="66"/>
+                  <site-location residue="A" start="76" end="76"/>
+                  <site-location residue="V" start="37" end="37"/>
+                  <site-location residue="V" start="64" end="64"/>
+                  <site-location residue="I" start="86" end="86"/>
+                  <site-location residue="V" start="83" end="83"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="putative receptor binding site" numLocations="25">
+                <site-locations>
+                  <site-location residue="L" start="90" end="90"/>
+                  <site-location residue="I" start="87" end="87"/>
+                  <site-location residue="C" start="59" end="59"/>
+                  <site-location residue="L" start="35" end="35"/>
+                  <site-location residue="R" start="85" end="85"/>
+                  <site-location residue="I" start="86" end="86"/>
+                  <site-location residue="N" start="45" end="45"/>
+                  <site-location residue="R" start="88" end="88"/>
+                  <site-location residue="R" start="89" end="89"/>
+                  <site-location residue="P" start="81" end="81"/>
+                  <site-location residue="I" start="46" end="46"/>
+                  <site-location residue="G" start="44" end="44"/>
+                  <site-location residue="P" start="43" end="43"/>
+                  <site-location residue="S" start="36" end="36"/>
+                  <site-location residue="C" start="33" end="33"/>
+                  <site-location residue="Q" start="39" end="39"/>
+                  <site-location residue="P" start="41" end="41"/>
+                  <site-location residue="V" start="37" end="37"/>
+                  <site-location residue="R" start="40" end="40"/>
+                  <site-location residue="G" start="58" end="58"/>
+                  <site-location residue="W" start="82" end="82"/>
+                  <site-location residue="E" start="84" end="84"/>
+                  <site-location residue="I" start="42" end="42"/>
+                  <site-location residue="C" start="34" end="34"/>
+                  <site-location residue="V" start="83" end="83"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="30s-loop" numLocations="2">
+                <site-locations>
+                  <site-location residue="C" start="59" end="59"/>
+                  <site-location residue="G" start="58" end="58"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="putative glycosaminoglycan (GAG) binding site" numLocations="15">
+                <site-locations>
+                  <site-location residue="Y" start="52" end="52"/>
+                  <site-location residue="G" start="44" end="44"/>
+                  <site-location residue="R" start="70" end="70"/>
+                  <site-location residue="Y" start="72" end="72"/>
+                  <site-location residue="Q" start="39" end="39"/>
+                  <site-location residue="P" start="41" end="41"/>
+                  <site-location residue="R" start="85" end="85"/>
+                  <site-location residue="N" start="45" end="45"/>
+                  <site-location residue="R" start="88" end="88"/>
+                  <site-location residue="R" start="40" end="40"/>
+                  <site-location residue="E" start="84" end="84"/>
+                  <site-location residue="D" start="79" end="79"/>
+                  <site-location residue="P" start="81" end="81"/>
+                  <site-location residue="V" start="61" end="61"/>
+                  <site-location residue="I" start="46" end="46"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="tetramer interface" numLocations="16">
+                <site-locations>
+                  <site-location residue="L" start="74" end="74"/>
+                  <site-location residue="Y" start="52" end="52"/>
+                  <site-location residue="L" start="90" end="90"/>
+                  <site-location residue="I" start="87" end="87"/>
+                  <site-location residue="C" start="59" end="59"/>
+                  <site-location residue="C" start="75" end="75"/>
+                  <site-location residue="V" start="65" end="65"/>
+                  <site-location residue="L" start="35" end="35"/>
+                  <site-location residue="F" start="50" end="50"/>
+                  <site-location residue="F" start="66" end="66"/>
+                  <site-location residue="V" start="37" end="37"/>
+                  <site-location residue="V" start="64" end="64"/>
+                  <site-location residue="I" start="86" end="86"/>
+                  <site-location residue="W" start="82" end="82"/>
+                  <site-location residue="A" start="76" end="76"/>
+                  <site-location residue="V" start="83" end="83"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="N-loop" numLocations="11">
+                <site-locations>
+                  <site-location residue="N" start="45" end="45"/>
+                  <site-location residue="G" start="44" end="44"/>
+                  <site-location residue="R" start="40" end="40"/>
+                  <site-location residue="P" start="43" end="43"/>
+                  <site-location residue="S" start="36" end="36"/>
+                  <site-location residue="I" start="42" end="42"/>
+                  <site-location residue="Q" start="39" end="39"/>
+                  <site-location residue="L" start="35" end="35"/>
+                  <site-location residue="P" start="41" end="41"/>
+                  <site-location residue="V" start="37" end="37"/>
+                  <site-location residue="I" start="46" end="46"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="putative receptor binding cleft" numLocations="3">
+                <site-locations>
+                  <site-location residue="L" start="74" end="74"/>
+                  <site-location residue="V" start="65" end="65"/>
+                  <site-location residue="L" start="35" end="35"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="40s-loop" numLocations="2">
+                <site-locations>
+                  <site-location residue="R" start="70" end="70"/>
+                  <site-location residue="T" start="68" end="68"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="dimer interface (P form)" numLocations="8">
+                <site-locations>
+                  <site-location residue="C" start="59" end="59"/>
+                  <site-location residue="C" start="75" end="75"/>
+                  <site-location residue="V" start="65" end="65"/>
+                  <site-location residue="G" start="58" end="58"/>
+                  <site-location residue="Q" start="73" end="73"/>
+                  <site-location residue="L" start="54" end="54"/>
+                  <site-location residue="L" start="35" end="35"/>
+                  <site-location residue="V" start="37" end="37"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_GRAM_NEGATIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.836" start="1" end="25">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="25" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-TM" name="SignalP-TM">
+          <signature-library-release library="SIGNALP_GRAM_POSITIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-TM</model-ac>
+        <locations>
+          <signalp-location score="0.537" start="1" end="23">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="23" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_GRAM_NEGATIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.839" start="1" end="23">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="23" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <superfamilyhmmer3-match evalue="1.27E-20">
+        <signature ac="SSF54117" name="Interleukin 8-like chemokines">
+          <entry ac="IPR036048" desc="Chemokine interleukin-8-like superfamily" name="Interleukin_8-like_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008009" name="chemokine activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006955" name="immune response"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0039434</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="93" start="26" end="99">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="26" end="99" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

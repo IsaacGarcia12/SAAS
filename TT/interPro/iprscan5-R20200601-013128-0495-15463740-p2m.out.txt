@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="7d3bd2f60fd7a99117264729183bbb6e">MEPTLDNEKFYRPSYIASIEPSPGGPVSFEDIKTDLSSEFSLVSSSSDTSQRSSLESKGHIQVCLRIRPFTSLERENGSQDCVSLEDSTNIVLKPPQHFLNRLSEKTSGPMLQRFTFSQVFGPETTQEEFFEGTMKQPVQDFLDGYNRLVFTYGVTNAGKTYTFQGTEDNVGILPRTLDMLFKSIQGKLYTAMDLKPYRCRDYIKLTENQVREETAIKNSLLRLIKEVDHQINTSNKAPIDSQDLEDISKDSEQSITTATNYIKFSVWISFFEIYNECFYDLLIPISNEKKRKTLRLAQDIKGCPFVKDLQWVQISDSKEAFRLLKLGLKHQSIASTKLNNCSSRSHSIFTVKVLKIEDSGTPRVTRVNELSLCDLAGSERYTKTRNEGDRLKESGNINTSLLTLGKCLNALKNCQQSKLQQHIPFRESKLTHFLQGFFSGKGKVYMIVNISKCASAYEETLNVLKFSAIAQKVLVMDTSILPQDLSFGQKSAGDSSLLNVSRMPIPRKRATILWDRTLEDVFEDDDEMEEQPSMSREEAVQEDAENEVVMTKEKYMMLVNLVEELRNKLVTEKKNKLLLEIKIRDEVIQEFTHYFAQREVDFKECLSQERAHLEENSEKRLEIFKELVNSYTKNADERSNSQDWPCNDQAGSLKEENGTDTGAYVDFGGVIDSLQSDITDIKNQAEAAHQYIVSLEDPQETIDCLEKQLAKITAELDETKEELEKKTKGFETQRIKLDESAEQLKEATEKMNMQNERIQELIDIMKQKDEIIMTLQGQITRSEETIKDYENTLTAIKKKLAEKNSKKVIECSQLKDCEETVLEVGRKRCLENKPTAEEEPPTKKGDKRENWENCCLDLKRTDNFETYMEILALKERTETLEGQIAALEEQCQREKNEKEDLNQQITNLRLKLSASEEKASVLSGELQQCQAKYQETVSELDKQNTINKEQEEKIIQLNNEVTSAKQNIIDKVSQIKTMQSQVDELYKCHSESYAADIDLVDVKDSLEPQKDEPETAQMGPLSMQFQTASAADLRQESSFHRSIESIWEECKLIIKASSQKSHRIQQLLQQVEDLEKRLHDSENCNNQLKIKLNEITNQNQQSEKEKDLMNQLQEQIQKKTQDFEKQAAENQRIIAQFQEKVTSYEGEIRDLECLLEGFRTKDDRMKELEEKLKEKESIILNLESNTVALQEKCTSVDKKLKELSDREANLKDEVVQLMNSLETMKCALQEKEKNEYEQIQSIELLRKDLSESSALAQSLKKDLQRKEEEYTDLKEKFSDAKKQIQQVQKEVCTMQTQEKSLRKQVDELEKVKKQCSEELELKQRTILQLKKEQLNKEKLEEISKQYEKTQKDLCAKEKIIEDMRMTLEEQEQTQTEQDQVLEAKLEETNRLVLELEAWKQKYRELNNQCNSDSKNEEKTRDENEKLIKLQEELKENEAKYQSDRKKWLEEKMGLINQVKEAENHRNREMRKFVEDREHHVKQQAEIERLAAQLVEKDSNLQKWREERDELVEALEVQLKTLASSTIQKDKEIERLKQAALTASEKDKETDIEDLKKQPAEKDDFINEMKQQINHENPQSLAEVPLPEEGQDKIDQSVNKDDHSEIVLDSTEVSTEDGKTSRFPKPEMEIQFTPLQPHRMEVKHQGSTSPVTVKMLKLRRKRKSVEMTEDFVKSENKKNAKPAMADSPSTSNKKMMATSQSLRKEYPLRRQDSTLNKKSAKKKDGTLQKIGDFFQSSPTIIHSKAKKLIETISSPKSAEPENVKENELRPKRAKRRLYSTDISCPLDIPGSSILVEQKEKESDHLIIKRRLRSRIAK</sequence>
+    <xref id="tr|U3JZ31|U3JZ31_FICAL" name="tr|U3JZ31|U3JZ31_FICAL Kinesin family member 20B OS=Ficedula albicollis OX=59894 GN=KIF20B PE=3 SV=1"/>
+    <matches>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="773" end="807">
+            <location-fragments>
+              <coils-location-fragment start="773" end="807" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="1135" end="1155">
+            <location-fragments>
+              <coils-location-fragment start="1135" end="1155" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="563" end="583">
+            <location-fragments>
+              <coils-location-fragment start="563" end="583" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="1058" end="1130">
+            <location-fragments>
+              <coils-location-fragment start="1058" end="1130" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="1487" end="1521">
+            <location-fragments>
+              <coils-location-fragment start="1487" end="1521" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="703" end="765">
+            <location-fragments>
+              <coils-location-fragment start="703" end="765" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="871" end="919">
+            <location-fragments>
+              <coils-location-fragment start="871" end="919" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="941" end="968">
+            <location-fragments>
+              <coils-location-fragment start="941" end="968" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="1159" end="1235">
+            <location-fragments>
+              <coils-location-fragment start="1159" end="1235" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="1243" end="1291">
+            <location-fragments>
+              <coils-location-fragment start="1243" end="1291" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="1295" end="1357">
+            <location-fragments>
+              <coils-location-fragment start="1295" end="1357" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="1382" end="1465">
+            <location-fragments>
+              <coils-location-fragment start="1382" end="1465" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <fingerprints-match evalue="1.6E-27" graphscan="IIII">
+        <signature ac="PR00380" desc="Kinesin heavy chain signature" name="KINESINHEAVY">
+          <entry ac="IPR001752" desc="Kinesin motor domain" name="Kinesin_motor_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0007018" name="microtubule-based movement"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008017" name="microtubule binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003777" name="microtubule motor activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-6811434" name="COPI-dependent Golgi-to-ER retrograde traffic"/>
+            <pathway-xref db="Reactome" id="R-HSA-983189" name="Kinesins"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR00380</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="2.56E-11" score="54.66" start="145" end="166">
+            <location-fragments>
+              <fingerprints-location-fragment start="145" end="166" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="6.3E-8" score="52.92" start="337" end="354">
+            <location-fragments>
+              <fingerprints-location-fragment start="337" end="354" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="5.38E-8" score="52.32" start="370" end="388">
+            <location-fragments>
+              <fingerprints-location-fragment start="370" end="388" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="4" pvalue="1.72E-8" score="44.02" start="424" end="445">
+            <location-fragments>
+              <fingerprints-location-fragment start="424" end="445" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <hmmer2-match evalue="3.6E-112" score="388.6">
+        <signature ac="SM00129" name="kinesin_4">
+          <entry ac="IPR001752" desc="Kinesin motor domain" name="Kinesin_motor_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0007018" name="microtubule-based movement"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008017" name="microtubule binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003777" name="microtubule motor activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-6811434" name="COPI-dependent Golgi-to-ER retrograde traffic"/>
+            <pathway-xref db="Reactome" id="R-HSA-983189" name="Kinesins"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00129</model-ac>
+        <locations>
+          <hmmer2-location score="388.6" evalue="3.6E-112" hmm-start="1" hmm-end="404" hmm-length="404" hmm-bounds="COMPLETE" start="58" end="480">
+            <location-fragments>
+              <hmmer2-location-fragment start="58" end="480" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="1.0E-95" score="320.4">
+        <signature ac="PF00225" desc="Kinesin motor domain" name="Kinesin">
+          <entry ac="IPR001752" desc="Kinesin motor domain" name="Kinesin_motor_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0007018" name="microtubule-based movement"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008017" name="microtubule binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003777" name="microtubule motor activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-6811434" name="COPI-dependent Golgi-to-ER retrograde traffic"/>
+            <pathway-xref db="Reactome" id="R-HSA-983189" name="Kinesins"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00225</model-ac>
+        <locations>
+          <hmmer3-location env-end="474" env-start="66" post-processed="true" score="320.4" evalue="1.0E-95" hmm-start="1" hmm-end="333" hmm-length="333" hmm-bounds="COMPLETE" start="66" end="474">
+            <location-fragments>
+              <hmmer3-location-fragment start="66" end="474" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.6E-98" score="331.9">
+        <signature ac="G3DSA:3.40.850.10">
+          <entry ac="IPR036961" desc="Kinesin motor domain superfamily" name="Kinesin_motor_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3u06B00</model-ac>
+        <locations>
+          <hmmer3-location env-end="212" env-start="28" post-processed="true" score="117.3" evalue="2.5E-33" hmm-start="46" hmm-end="180" hmm-length="385" hmm-bounds="COMPLETE" start="28" end="212">
+            <location-fragments>
+              <hmmer3-location-fragment start="28" end="212" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.2E-100" score="338.8">
+        <signature ac="G3DSA:3.40.850.10">
+          <entry ac="IPR036961" desc="Kinesin motor domain superfamily" name="Kinesin_motor_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4bn2C00</model-ac>
+        <locations>
+          <hmmer3-location env-end="479" env-start="229" post-processed="true" score="237.9" evalue="5.8E-70" hmm-start="126" hmm-end="349" hmm-length="361" hmm-bounds="COMPLETE" start="229" end="479">
+            <location-fragments>
+              <hmmer3-location-fragment start="229" end="479" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="1683" end="1699">
+            <location-fragments>
+              <mobidblite-location-fragment start="1683" end="1699" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="526" end="546">
+            <location-fragments>
+              <mobidblite-location-fragment start="526" end="546" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="637" end="657">
+            <location-fragments>
+              <mobidblite-location-fragment start="637" end="657" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1753" end="1774">
+            <location-fragments>
+              <mobidblite-location-fragment start="1753" end="1774" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1542" end="1626">
+            <location-fragments>
+              <mobidblite-location-fragment start="1542" end="1626" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="1542" end="1570">
+            <location-fragments>
+              <mobidblite-location-fragment start="1542" end="1570" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="1760" end="1774">
+            <location-fragments>
+              <mobidblite-location-fragment start="1760" end="1774" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1659" end="1723">
+            <location-fragments>
+              <mobidblite-location-fragment start="1659" end="1723" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="637" end="659">
+            <location-fragments>
+              <mobidblite-location-fragment start="637" end="659" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="1705" end="1723">
+            <location-fragments>
+              <mobidblite-location-fragment start="1705" end="1723" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="1588" end="1624">
+            <location-fragments>
+              <mobidblite-location-fragment start="1588" end="1624" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="1662" end="1680">
+            <location-fragments>
+              <mobidblite-location-fragment start="1662" end="1680" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1303.0">
+        <signature ac="PTHR24115:SF534" name="KINESIN-LIKE PROTEIN KIF20B">
+          <entry ac="IPR028828" desc="Kinesin-like protein KIF20B" name="KIF20B" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0007088" name="regulation of mitotic nuclear division"/>
+            <pathway-xref db="Reactome" id="R-HSA-983189" name="Kinesins"/>
+            <pathway-xref db="Reactome" id="R-HSA-6811434" name="COPI-dependent Golgi-to-ER retrograde traffic"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR24115:SF534</model-ac>
+        <locations>
+          <panther-location env-start="8" env-end="1776" hmm-start="45" hmm-end="1312" hmm-length="1531" hmm-bounds="INCOMPLETE" start="47" end="1582">
+            <location-fragments>
+              <panther-location-fragment start="47" end="1582" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1303.0">
+        <signature ac="PTHR24115" name="FAMILY NOT NAMED">
+          <entry ac="IPR027640" desc="Kinesin-like protein" name="Kinesin-like_fam" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0007018" name="microtubule-based movement"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003777" name="microtubule motor activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-6811434" name="COPI-dependent Golgi-to-ER retrograde traffic"/>
+            <pathway-xref db="Reactome" id="R-HSA-983189" name="Kinesins"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR24115</model-ac>
+        <locations>
+          <panther-location env-start="8" env-end="1776" hmm-start="45" hmm-end="1312" hmm-length="1531" hmm-bounds="INCOMPLETE" start="47" end="1582">
+            <location-fragments>
+              <panther-location-fragment start="47" end="1582" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <profilescan-match>
+        <signature ac="PS50067" desc="Kinesin motor domain profile." name="KINESIN_MOTOR_2">
+          <entry ac="IPR001752" desc="Kinesin motor domain" name="Kinesin_motor_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0007018" name="microtubule-based movement"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008017" name="microtubule binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003777" name="microtubule motor activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-6811434" name="COPI-dependent Golgi-to-ER retrograde traffic"/>
+            <pathway-xref db="Reactome" id="R-HSA-983189" name="Kinesins"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50067</model-ac>
+        <locations>
+          <profilescan-location score="109.222" start="60" end="474">
+            <location-fragments>
+              <profilescan-location-fragment start="60" end="474" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>HIQVCLRIRPFTSLERENGSQDCVSLEDSTNIVLKPPQhflnrLSEKTSGPMLQRFTFSQVFGPETTQEEFFEGTMKQPVQDFLDGYNRLVFTYGVTNAGKTYTFQG----TEDNVGILPRTLDMLFKSIQGKlytamdlkpyrcrdyikltenqvreetaiknsllrlikevdhqintsnkapidsqdlediskdseqsittATNYIKFSVWISFFEIYNECFYDLLIPISNEkkRKTLRLAQDIKGCPFVKDLQWVQISDSKEAFRLLKLGLKHQSIASTKLNNCSSRSHSIFTVKVLKIEDSGTpRVTRVNELSLCDLAGSERYTKTRNEGDRLKESGNINTSLLTLGKCLNALKNCQQsklqQHIPFRESKLTHFLQGFFSGKGKVYMIVNISKCASAYEETLNVLKFSAIAQKV</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <superfamilyhmmer3-match evalue="3.88E-100">
+        <signature ac="SSF52540" name="P-loop containing nucleoside triphosphate hydrolases">
+          <entry ac="IPR027417" desc="P-loop containing nucleoside triphosphate hydrolase" name="P-loop_NTPase" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0049369</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="364" start="60" end="478">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="60" end="188" dc-status="C_TERMINAL_DISC"/>
+              <superfamilyhmmer3-location-fragment start="260" end="478" dc-status="N_TERMINAL_DISC"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

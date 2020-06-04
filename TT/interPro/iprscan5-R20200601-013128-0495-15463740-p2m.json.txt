@@ -1,0 +1,1028 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MEPTLDNEKFYRPSYIASIEPSPGGPVSFEDIKTDLSSEFSLVSSSSDTSQRSSLESKGHIQVCLRIRPFTSLERENGSQDCVSLEDSTNIVLKPPQHFLNRLSEKTSGPMLQRFTFSQVFGPETTQEEFFEGTMKQPVQDFLDGYNRLVFTYGVTNAGKTYTFQGTEDNVGILPRTLDMLFKSIQGKLYTAMDLKPYRCRDYIKLTENQVREETAIKNSLLRLIKEVDHQINTSNKAPIDSQDLEDISKDSEQSITTATNYIKFSVWISFFEIYNECFYDLLIPISNEKKRKTLRLAQDIKGCPFVKDLQWVQISDSKEAFRLLKLGLKHQSIASTKLNNCSSRSHSIFTVKVLKIEDSGTPRVTRVNELSLCDLAGSERYTKTRNEGDRLKESGNINTSLLTLGKCLNALKNCQQSKLQQHIPFRESKLTHFLQGFFSGKGKVYMIVNISKCASAYEETLNVLKFSAIAQKVLVMDTSILPQDLSFGQKSAGDSSLLNVSRMPIPRKRATILWDRTLEDVFEDDDEMEEQPSMSREEAVQEDAENEVVMTKEKYMMLVNLVEELRNKLVTEKKNKLLLEIKIRDEVIQEFTHYFAQREVDFKECLSQERAHLEENSEKRLEIFKELVNSYTKNADERSNSQDWPCNDQAGSLKEENGTDTGAYVDFGGVIDSLQSDITDIKNQAEAAHQYIVSLEDPQETIDCLEKQLAKITAELDETKEELEKKTKGFETQRIKLDESAEQLKEATEKMNMQNERIQELIDIMKQKDEIIMTLQGQITRSEETIKDYENTLTAIKKKLAEKNSKKVIECSQLKDCEETVLEVGRKRCLENKPTAEEEPPTKKGDKRENWENCCLDLKRTDNFETYMEILALKERTETLEGQIAALEEQCQREKNEKEDLNQQITNLRLKLSASEEKASVLSGELQQCQAKYQETVSELDKQNTINKEQEEKIIQLNNEVTSAKQNIIDKVSQIKTMQSQVDELYKCHSESYAADIDLVDVKDSLEPQKDEPETAQMGPLSMQFQTASAADLRQESSFHRSIESIWEECKLIIKASSQKSHRIQQLLQQVEDLEKRLHDSENCNNQLKIKLNEITNQNQQSEKEKDLMNQLQEQIQKKTQDFEKQAAENQRIIAQFQEKVTSYEGEIRDLECLLEGFRTKDDRMKELEEKLKEKESIILNLESNTVALQEKCTSVDKKLKELSDREANLKDEVVQLMNSLETMKCALQEKEKNEYEQIQSIELLRKDLSESSALAQSLKKDLQRKEEEYTDLKEKFSDAKKQIQQVQKEVCTMQTQEKSLRKQVDELEKVKKQCSEELELKQRTILQLKKEQLNKEKLEEISKQYEKTQKDLCAKEKIIEDMRMTLEEQEQTQTEQDQVLEAKLEETNRLVLELEAWKQKYRELNNQCNSDSKNEEKTRDENEKLIKLQEELKENEAKYQSDRKKWLEEKMGLINQVKEAENHRNREMRKFVEDREHHVKQQAEIERLAAQLVEKDSNLQKWREERDELVEALEVQLKTLASSTIQKDKEIERLKQAALTASEKDKETDIEDLKKQPAEKDDFINEMKQQINHENPQSLAEVPLPEEGQDKIDQSVNKDDHSEIVLDSTEVSTEDGKTSRFPKPEMEIQFTPLQPHRMEVKHQGSTSPVTVKMLKLRRKRKSVEMTEDFVKSENKKNAKPAMADSPSTSNKKMMATSQSLRKEYPLRRQDSTLNKKSAKKKDGTLQKIGDFFQSSPTIIHSKAKKLIETISSPKSAEPENVKENELRPKRAKRRLYSTDISCPLDIPGSSILVEQKEKESDHLIIKRRLRSRIAK",
+  "md5" : "7d3bd2f60fd7a99117264729183bbb6e",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1683,
+      "end" : 1699,
+      "location-fragments" : [ {
+        "start" : 1683,
+        "end" : 1699,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 773,
+      "end" : 807,
+      "location-fragments" : [ {
+        "start" : 773,
+        "end" : 807,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "SSF52540",
+      "name" : "P-loop containing nucleoside triphosphate hydrolases",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR027417",
+        "name" : "P-loop_NTPase",
+        "description" : "P-loop containing nucleoside triphosphate hydrolase",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 60,
+      "end" : 478,
+      "hmmLength" : 364,
+      "location-fragments" : [ {
+        "start" : 60,
+        "end" : 188,
+        "dc-status" : "C_TERMINAL_DISC"
+      }, {
+        "start" : 260,
+        "end" : 478,
+        "dc-status" : "N_TERMINAL_DISC"
+      } ]
+    } ],
+    "evalue" : 3.88E-100,
+    "model-ac" : "0049369"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1135,
+      "end" : 1155,
+      "location-fragments" : [ {
+        "start" : 1135,
+        "end" : 1155,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 526,
+      "end" : 546,
+      "location-fragments" : [ {
+        "start" : 526,
+        "end" : 546,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 637,
+      "end" : 657,
+      "location-fragments" : [ {
+        "start" : 637,
+        "end" : 657,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PF00225",
+      "name" : "Kinesin",
+      "description" : "Kinesin motor domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR001752",
+        "name" : "Kinesin_motor_dom",
+        "description" : "Kinesin motor domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        }, {
+          "name" : "microtubule-based movement",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0007018"
+        }, {
+          "name" : "microtubule binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008017"
+        }, {
+          "name" : "microtubule motor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003777"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "COPI-dependent Golgi-to-ER retrograde traffic",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6811434"
+        }, {
+          "name" : "Kinesins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-983189"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 66,
+      "end" : 474,
+      "hmmStart" : 1,
+      "hmmEnd" : 333,
+      "hmmLength" : 333,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.0E-95,
+      "score" : 320.4,
+      "envelopeStart" : 66,
+      "envelopeEnd" : 474,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 66,
+        "end" : 474,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.0E-95,
+    "score" : 320.4,
+    "model-ac" : "PF00225"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 563,
+      "end" : 583,
+      "location-fragments" : [ {
+        "start" : 563,
+        "end" : 583,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1058,
+      "end" : 1130,
+      "location-fragments" : [ {
+        "start" : 1058,
+        "end" : 1130,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1487,
+      "end" : 1521,
+      "location-fragments" : [ {
+        "start" : 1487,
+        "end" : 1521,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1753,
+      "end" : 1774,
+      "location-fragments" : [ {
+        "start" : 1753,
+        "end" : 1774,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PTHR24115:SF534",
+      "name" : "KINESIN-LIKE PROTEIN KIF20B",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : {
+        "accession" : "IPR028828",
+        "name" : "KIF20B",
+        "description" : "Kinesin-like protein KIF20B",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "regulation of mitotic nuclear division",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0007088"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Kinesins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-983189"
+        }, {
+          "name" : "COPI-dependent Golgi-to-ER retrograde traffic",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6811434"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 47,
+      "end" : 1582,
+      "hmmStart" : 45,
+      "hmmEnd" : 1312,
+      "hmmLength" : 1531,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 8,
+      "envelopeEnd" : 1776,
+      "location-fragments" : [ {
+        "start" : 47,
+        "end" : 1582,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 1303.0,
+    "model-ac" : "PTHR24115:SF534"
+  }, {
+    "signature" : {
+      "accession" : "SM00129",
+      "name" : "kinesin_4",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR001752",
+        "name" : "Kinesin_motor_dom",
+        "description" : "Kinesin motor domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        }, {
+          "name" : "microtubule-based movement",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0007018"
+        }, {
+          "name" : "microtubule binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008017"
+        }, {
+          "name" : "microtubule motor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003777"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "COPI-dependent Golgi-to-ER retrograde traffic",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6811434"
+        }, {
+          "name" : "Kinesins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-983189"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 58,
+      "end" : 480,
+      "hmmStart" : 1,
+      "hmmEnd" : 404,
+      "hmmLength" : 404,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.6E-112,
+      "score" : 388.6,
+      "location-fragments" : [ {
+        "start" : 58,
+        "end" : 480,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.6E-112,
+    "score" : 388.6,
+    "model-ac" : "SM00129"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.40.850.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR036961",
+        "name" : "Kinesin_motor_dom_sf",
+        "description" : "Kinesin motor domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 28,
+      "end" : 212,
+      "hmmStart" : 46,
+      "hmmEnd" : 180,
+      "hmmLength" : 385,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.5E-33,
+      "score" : 117.3,
+      "envelopeStart" : 28,
+      "envelopeEnd" : 212,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 28,
+        "end" : 212,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.6E-98,
+    "score" : 331.9,
+    "model-ac" : "3u06B00"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 703,
+      "end" : 765,
+      "location-fragments" : [ {
+        "start" : 703,
+        "end" : 765,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 871,
+      "end" : 919,
+      "location-fragments" : [ {
+        "start" : 871,
+        "end" : 919,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "PTHR24115",
+      "name" : "FAMILY NOT NAMED",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : {
+        "accession" : "IPR027640",
+        "name" : "Kinesin-like_fam",
+        "description" : "Kinesin-like protein",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "microtubule-based movement",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0007018"
+        }, {
+          "name" : "microtubule motor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003777"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "COPI-dependent Golgi-to-ER retrograde traffic",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6811434"
+        }, {
+          "name" : "Kinesins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-983189"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 47,
+      "end" : 1582,
+      "hmmStart" : 45,
+      "hmmEnd" : 1312,
+      "hmmLength" : 1531,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 8,
+      "envelopeEnd" : 1776,
+      "location-fragments" : [ {
+        "start" : 47,
+        "end" : 1582,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 1303.0,
+    "model-ac" : "PTHR24115"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1542,
+      "end" : 1626,
+      "location-fragments" : [ {
+        "start" : 1542,
+        "end" : 1626,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 941,
+      "end" : 968,
+      "location-fragments" : [ {
+        "start" : 941,
+        "end" : 968,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "PS50067",
+      "name" : "KINESIN_MOTOR_2",
+      "description" : "Kinesin motor domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001752",
+        "name" : "Kinesin_motor_dom",
+        "description" : "Kinesin motor domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        }, {
+          "name" : "microtubule-based movement",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0007018"
+        }, {
+          "name" : "microtubule binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008017"
+        }, {
+          "name" : "microtubule motor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003777"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "COPI-dependent Golgi-to-ER retrograde traffic",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6811434"
+        }, {
+          "name" : "Kinesins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-983189"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 60,
+      "end" : 474,
+      "score" : 109.222,
+      "alignment" : "HIQVCLRIRPFTSLERENGSQDCVSLEDSTNIVLKPPQhflnrLSEKTSGPMLQRFTFSQVFGPETTQEEFFEGTMKQPVQDFLDGYNRLVFTYGVTNAGKTYTFQG----TEDNVGILPRTLDMLFKSIQGKlytamdlkpyrcrdyikltenqvreetaiknsllrlikevdhqintsnkapidsqdlediskdseqsittATNYIKFSVWISFFEIYNECFYDLLIPISNEkkRKTLRLAQDIKGCPFVKDLQWVQISDSKEAFRLLKLGLKHQSIASTKLNNCSSRSHSIFTVKVLKIEDSGTpRVTRVNELSLCDLAGSERYTKTRNEGDRLKESGNINTSLLTLGKCLNALKNCQQsklqQHIPFRESKLTHFLQGFFSGKGKVYMIVNISKCASAYEETLNVLKFSAIAQKV",
+      "location-fragments" : [ {
+        "start" : 60,
+        "end" : 474,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50067"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1159,
+      "end" : 1235,
+      "location-fragments" : [ {
+        "start" : 1159,
+        "end" : 1235,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1542,
+      "end" : 1570,
+      "location-fragments" : [ {
+        "start" : 1542,
+        "end" : 1570,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1760,
+      "end" : 1774,
+      "location-fragments" : [ {
+        "start" : 1760,
+        "end" : 1774,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1243,
+      "end" : 1291,
+      "location-fragments" : [ {
+        "start" : 1243,
+        "end" : 1291,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1659,
+      "end" : 1723,
+      "location-fragments" : [ {
+        "start" : 1659,
+        "end" : 1723,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1295,
+      "end" : 1357,
+      "location-fragments" : [ {
+        "start" : 1295,
+        "end" : 1357,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 637,
+      "end" : 659,
+      "location-fragments" : [ {
+        "start" : 637,
+        "end" : 659,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1705,
+      "end" : 1723,
+      "location-fragments" : [ {
+        "start" : 1705,
+        "end" : 1723,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1588,
+      "end" : 1624,
+      "location-fragments" : [ {
+        "start" : 1588,
+        "end" : 1624,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PR00380",
+      "name" : "KINESINHEAVY",
+      "description" : "Kinesin heavy chain signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR001752",
+        "name" : "Kinesin_motor_dom",
+        "description" : "Kinesin motor domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        }, {
+          "name" : "microtubule-based movement",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0007018"
+        }, {
+          "name" : "microtubule binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008017"
+        }, {
+          "name" : "microtubule motor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003777"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "COPI-dependent Golgi-to-ER retrograde traffic",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6811434"
+        }, {
+          "name" : "Kinesins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-983189"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 145,
+      "end" : 166,
+      "pvalue" : 2.56E-11,
+      "score" : 54.66,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 145,
+        "end" : 166,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 337,
+      "end" : 354,
+      "pvalue" : 6.3E-8,
+      "score" : 52.92,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 337,
+        "end" : 354,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 370,
+      "end" : 388,
+      "pvalue" : 5.38E-8,
+      "score" : 52.32,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 370,
+        "end" : 388,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 424,
+      "end" : 445,
+      "pvalue" : 1.72E-8,
+      "score" : 44.02,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 424,
+        "end" : 445,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.6E-27,
+    "graphscan" : "IIII",
+    "model-ac" : "PR00380"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.40.850.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR036961",
+        "name" : "Kinesin_motor_dom_sf",
+        "description" : "Kinesin motor domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 229,
+      "end" : 479,
+      "hmmStart" : 126,
+      "hmmEnd" : 349,
+      "hmmLength" : 361,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 5.8E-70,
+      "score" : 237.9,
+      "envelopeStart" : 229,
+      "envelopeEnd" : 479,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 229,
+        "end" : 479,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.2E-100,
+    "score" : 338.8,
+    "model-ac" : "4bn2C00"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1382,
+      "end" : 1465,
+      "location-fragments" : [ {
+        "start" : 1382,
+        "end" : 1465,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1662,
+      "end" : 1680,
+      "location-fragments" : [ {
+        "start" : 1662,
+        "end" : 1680,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  } ],
+  "xref" : [ {
+    "name" : "tr|U3JZ31|U3JZ31_FICAL Kinesin family member 20B OS=Ficedula albicollis OX=59894 GN=KIF20B PE=3 SV=1",
+    "id" : "tr|U3JZ31|U3JZ31_FICAL"
+  } ]
+} ]
+}

@@ -1,0 +1,30 @@
+{% extends 'TT/base.html'%}
+{% block content %}
+{% load static %}
+<title>Trabajo Terminal 2</title>
+</head>
+<body>
+    <div class="centro" align="center">
+        <p>Ingrese la secuencia:</p>
+
+        <form action="{%url 'cadena'%}" method="post">
+            {%csrf_token%}
+            <textarea name="cadena" cols=50 rows=10></textarea>     <br>
+            Nombre: <input type="text" name="nombre" align="center">  <br>
+            Correo:  <input type="text" name="mail" align="center"> <br>
+            <button type="submit" value="snd">Enviar</button>
+        </form>
+        
+    </div>
+    <!--
+    <p align="center">O si bien gusta puede subir su archivo FASTA</p><br>
+    <div class="centro" align="center">
+        <form action="{%url 'cadena'%}">
+            {%csrf_token%}
+            <input type="file" name="archivo"/>
+            <br><button type="submit" name="fileUp">Enviar</button>
+        </form>
+    </div>-->
+    {% endblock %}
+</body>
+</html>

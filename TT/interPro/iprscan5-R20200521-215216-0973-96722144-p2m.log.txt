@@ -1,0 +1,12 @@
+21/05/2020 21:52:24:642 Welcome to InterProScan-5.44-79.0
+21/05/2020 21:52:24:645 Running InterProScan v5 in SINGLESEQ mode... on Linux
+21/05/2020 21:53:21:152 Running the following analyses:
+[CDD-3.17,Coils-2.2.1,Gene3D-4.2.0,Hamap-2020_01,MobiDBLite-2.0,PANTHER-14.1,Pfam-32.0,Phobius-1.01,PIRSF-3.10,PRINTS-42.0,ProSitePatterns-2019_11,ProSiteProfiles-2019_11,SFLD-4,SignalP_EUK-4.1,SignalP_GRAM_NEGATIVE-4.1,SignalP_GRAM_POSITIVE-4.1,SMART-7.1,SUPERFAMILY-1.75,TIGRFAM-15.0,TMHMM-2.0c]
+Available matches will be retrieved from the pre-calculated match lookup service.
+
+Matches for any sequences that are not represented in the lookup service will be calculated locally.
+21/05/2020 21:53:41:183 25% completed
+21/05/2020 21:54:06:593 50% completed
+21/05/2020 21:55:07:611 76% completed
+21/05/2020 21:55:30:598 90% completed
+21/05/2020 21:55:46:429 100% done:  InterProScan analyses completed
