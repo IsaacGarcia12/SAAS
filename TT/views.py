@@ -31,7 +31,7 @@ def Funcionamiento(request):
     result_handle.close()
 
     pipe = subprocess.Popen(["perl", "/home/isaac/Escritorio/SAmin/TT/cath.pl", cadena], stdin=subprocess.PIPE)
-    pi = subprocess.Popen(['python', '/home/isaac/Escritorio/SAmin/TT/interpro.py', '--email', mail, cadena])
+    pi   = subprocess.Popen(['python', '/home/isaac/Escritorio/SAmin/TT/interpro.py', '--email', mail, cadena])
                                         
     #mandamos a llamar a clustal: Modificar para que reciba ambas cadenas
     #pi = subprocess.Popen(['python', '/home/isaac/Escritorio/SAmin/TT/interpro.py', '--email', mail, cadena])
@@ -40,7 +40,7 @@ def Funcionamiento(request):
     return render(request, 'TT/cadena.html', {'cadena':cadena})
 
 def crearPDF(request):
-    return render(request, 'TT/creaPDF.html')
+    return render(request, 'TT/generarPDF.html')
 
 def index(request):
     return render(request, 'TT/index.html')

@@ -5,7 +5,7 @@
   <BlastOutput_version>BLASTP 2.10.1+</BlastOutput_version>
   <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
   <BlastOutput_db>nr</BlastOutput_db>
-  <BlastOutput_query-ID>Query_25809</BlastOutput_query-ID>
+  <BlastOutput_query-ID>Query_20403</BlastOutput_query-ID>
   <BlastOutput_query-def>tr|Q499N1|Q499N1_RAT Retinoic acid receptor, alpha OS=Rattus norvegicus OX=10116 GN=Rara PE=2 SV=1</BlastOutput_query-def>
   <BlastOutput_query-len>459</BlastOutput_query-len>
   <BlastOutput_param>
@@ -20,7 +20,7 @@
 <BlastOutput_iterations>
 <Iteration>
   <Iteration_iter-num>1</Iteration_iter-num>
-  <Iteration_query-ID>Query_25809</Iteration_query-ID>
+  <Iteration_query-ID>Query_20403</Iteration_query-ID>
   <Iteration_query-def>tr|Q499N1|Q499N1_RAT Retinoic acid receptor, alpha OS=Rattus norvegicus OX=10116 GN=Rara PE=2 SV=1</Iteration_query-def>
   <Iteration_query-len>459</Iteration_query-len>
 <Iteration_hits>
@@ -670,9 +670,9 @@
 </Hit>
 <Hit>
   <Hit_num>24</Hit_num>
-  <Hit_id>ref|XP_026368683.1|</Hit_id>
-  <Hit_def>retinoic acid receptor alpha isoform X2 [Ursus arctos horribilis]</Hit_def>
-  <Hit_accession>XP_026368683</Hit_accession>
+  <Hit_id>ref|XP_011230274.2|</Hit_id>
+  <Hit_def>retinoic acid receptor alpha isoform X4 [Ailuropoda melanoleuca] &gt;ref|XP_026368683.1| retinoic acid receptor alpha isoform X2 [Ursus arctos horribilis]</Hit_def>
+  <Hit_accession>XP_011230274</Hit_accession>
   <Hit_len>459</Hit_len>
   <Hit_hsps>
     <Hsp>
@@ -1427,8 +1427,8 @@
 </Iteration_hits>
   <Iteration_stat>
     <Statistics>
-      <Statistics_db-num>285904213</Statistics_db-num>
-      <Statistics_db-len>102865278292</Statistics_db-len>
+      <Statistics_db-num>287467303</Statistics_db-num>
+      <Statistics_db-len>387418390</Statistics_db-len>
       <Statistics_hsp-len>0</Statistics_hsp-len>
       <Statistics_eff-space>0</Statistics_eff-space>
       <Statistics_kappa>0.041</Statistics_kappa>
