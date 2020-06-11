@@ -1,0 +1,1838 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MAQRTGLEDPERYLFVDRAVIYNPATQADWTAKKLVWIPSERHGFEAASIKEERGDEVMVELAENGKKAMVNKDDIQKMNPPKFSKVEDMAELTCLNEASVLHNLKDRYYSGLIYTYSGLFCVVINPYKNLPIYSENIIEMYRGKKRHEMPPHIYAISESAYRCMLQDREDQSILCTGESGAGKTENTKKVIQYLAHVASSHKGRKDHNIPGELERQLLQANPILESFGNAKTVKNDNSSRFGKFIRINFDVTGYIVGANIETYLLEKSRAVRQAKDERTFHIFYQLLSGAGEHLKSDLLLEGFNNYRFLSNGYIPIPGQQDKDNFQETMEAMHIMGFSHEEILSMLKVVSSVLQFGNISFKKERNTDQASMPENTVAQKLCHLLGMNVMEFTRAILTPRIKVGRDYVQKAQTKEQADFAVEALAKATYERLFRWLVHRINKALDRTKRQGASFIGILDIAGFEIFELNSFEQLCINYTNEKLQQLFNHTMFILEQEEYQREGIEWNFIDFGLDLQPCIDLIERPANPPGVLALLDEECWFPKATDKTFVEKLVQEQGSHSKFQKPRQLKDKADFCIIHYAGKVDYKADEWLMKNMDPLNDNVATLLHQSSDRFVAELWKDEIQNIQRASFYDSVSGLHEPPVDRIVGLDQVTGMTETAFGSAYKTKKGMFRTVGQLYKESLTKLMATLRNTNPNFVRCIIPNHEKRAGKLDPHLVLDQLRCNGVLEGIRICRQGFPNRIVFQEFRQRYEILTPNAIPKGFMDGKQACERMIRALELDPNLYRIGQSKIFFRAGVLAHLEEERDLKITDIIIFFQAVCRGYLARKAFAKKQQQLSALKVLQRNCAAYLKLRHWQWWRVFTKVKPLLQVTRQEEELQAKDEELLKVKEKQTKVEGELEEMERKHQQLLEEKNILAEQLQAETELFAEAEEMRARLAAKKQELEEILHDLESRVEEEEERNQILQNEKKKMQAHIQDLEEQLDEEEGARQKLQLEKVTAEAKIKKMEEEILLLEDQNSKFIKEKKLMEDRIAECSSQLAEEEEKAKNLAKIRNKQEVMISDLEERLKKEEKTRQELEKAKRKLDGETTDLQDQIAELQAQIDELKIQLAKKEEELQGALARGDDETLHKNNALKVVRELQAQIAELQEDFESEKASRNKAEKQKRDLSEELEALKTELEDTLDTTAAQQELRTKREQEVAELKKALEEETKNHEAQIQDMRQRHATALEELSEQLEQAKRFKANLEKNKQGLETDNKELACEVKVLQQVKAESEHKRKKLDAQVQELHAKVSEGDRLRVELAEKANKLQNELDNVSTLLEEAEKKGIKFAKDAAGLESQLQDTQELLQEETRQKLNLSGRIRQLEEEKNSLQEQQEEEEEARKNLEKQVLALQSQLTDTKKKVDDDLGTIESLEEAKKKLLKDVEALSQRLEEKALAYDKLEKTKNRLQQELDDLMVDLDHQRQIVSNLEKKQKKFDQLLAEEKNISARYAEERDRAEAEAREKETKALSLARALEEALEAKEEFERQNKQLRADMEDLMSSKDDVGKNVHELEKSKRALEQQVEEMRTQLEELEDELQATEDAKLRLEVNMQAMKAQFERDLQTRDEQNEEKKRLLIKQVRELEAELEDERKQRALAVASKKKMEIDLKDLEAQIEAANKARDEVIKQLRKLQAQMKDYQRELEEARASRDEIFAQSKESEKKLKSLEAEILQLQEELASSERARRHAEQERDELADEIANSASGKSALLDEKRRLEARIAQLEEELEEEQSNMELLNDRFRKTTLQVDTLNAELAAERSAAQKSDNARQQLERQNKELKAKLQELEGAVKSKFKATISALEAKIGQLEEQLEQEAKERAAANKLVRRTEKKLKEIFMQVEDERRHADQYKEQMEKANARMKQLKRQLEEAEEEATRANASRRKLQRELDDATEANEGLSREVSTLKNRLRRGGPISFSSSRSGRRQLHIEGASLELSDDDTESKTSDVNETQPPQSE",
+  "md5" : "ef5188a746358a0ed78964e8c0467bcc",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1296,
+      "end" : 1323,
+      "location-fragments" : [ {
+        "start" : 1296,
+        "end" : 1323,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1971,
+      "end" : 1986,
+      "location-fragments" : [ {
+        "start" : 1971,
+        "end" : 1986,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "cd14920",
+      "name" : "MYSc_Myh10",
+      "description" : "MYSc_Myh10",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 99,
+      "end" : 792,
+      "sites" : [ {
+        "description" : "purine-binding loop",
+        "numLocations" : 9,
+        "siteLocations" : [ {
+          "start" : 130,
+          "end" : 130,
+          "residue" : "N"
+        }, {
+          "start" : 133,
+          "end" : 133,
+          "residue" : "I"
+        }, {
+          "start" : 128,
+          "end" : 128,
+          "residue" : "Y"
+        }, {
+          "start" : 131,
+          "end" : 131,
+          "residue" : "L"
+        }, {
+          "start" : 126,
+          "end" : 126,
+          "residue" : "N"
+        }, {
+          "start" : 132,
+          "end" : 132,
+          "residue" : "P"
+        }, {
+          "start" : 134,
+          "end" : 134,
+          "residue" : "Y"
+        }, {
+          "start" : 127,
+          "end" : 127,
+          "residue" : "P"
+        }, {
+          "start" : 129,
+          "end" : 129,
+          "residue" : "K"
+        } ]
+      }, {
+        "description" : "P-loop",
+        "numLocations" : 8,
+        "siteLocations" : [ {
+          "start" : 185,
+          "end" : 185,
+          "residue" : "T"
+        }, {
+          "start" : 184,
+          "end" : 184,
+          "residue" : "K"
+        }, {
+          "start" : 178,
+          "end" : 178,
+          "residue" : "G"
+        }, {
+          "start" : 180,
+          "end" : 180,
+          "residue" : "S"
+        }, {
+          "start" : 182,
+          "end" : 182,
+          "residue" : "A"
+        }, {
+          "start" : 183,
+          "end" : 183,
+          "residue" : "G"
+        }, {
+          "start" : 181,
+          "end" : 181,
+          "residue" : "G"
+        }, {
+          "start" : 179,
+          "end" : 179,
+          "residue" : "E"
+        } ]
+      }, {
+        "description" : "switch I region",
+        "numLocations" : 11,
+        "siteLocations" : [ {
+          "start" : 232,
+          "end" : 232,
+          "residue" : "K"
+        }, {
+          "start" : 233,
+          "end" : 233,
+          "residue" : "T"
+        }, {
+          "start" : 241,
+          "end" : 241,
+          "residue" : "R"
+        }, {
+          "start" : 239,
+          "end" : 239,
+          "residue" : "S"
+        }, {
+          "start" : 234,
+          "end" : 234,
+          "residue" : "V"
+        }, {
+          "start" : 231,
+          "end" : 231,
+          "residue" : "A"
+        }, {
+          "start" : 238,
+          "end" : 238,
+          "residue" : "N"
+        }, {
+          "start" : 235,
+          "end" : 235,
+          "residue" : "K"
+        }, {
+          "start" : 236,
+          "end" : 236,
+          "residue" : "N"
+        }, {
+          "start" : 240,
+          "end" : 240,
+          "residue" : "S"
+        }, {
+          "start" : 237,
+          "end" : 237,
+          "residue" : "D"
+        } ]
+      }, {
+        "description" : "switch II region",
+        "numLocations" : 6,
+        "siteLocations" : [ {
+          "start" : 459,
+          "end" : 459,
+          "residue" : "D"
+        }, {
+          "start" : 460,
+          "end" : 460,
+          "residue" : "I"
+        }, {
+          "start" : 463,
+          "end" : 463,
+          "residue" : "F"
+        }, {
+          "start" : 462,
+          "end" : 462,
+          "residue" : "G"
+        }, {
+          "start" : 461,
+          "end" : 461,
+          "residue" : "A"
+        }, {
+          "start" : 464,
+          "end" : 464,
+          "residue" : "E"
+        } ]
+      }, {
+        "description" : "converter subdomain",
+        "numLocations" : 57,
+        "siteLocations" : [ {
+          "start" : 785,
+          "end" : 785,
+          "residue" : "G"
+        }, {
+          "start" : 769,
+          "end" : 769,
+          "residue" : "E"
+        }, {
+          "start" : 771,
+          "end" : 771,
+          "residue" : "M"
+        }, {
+          "start" : 752,
+          "end" : 752,
+          "residue" : "L"
+        }, {
+          "start" : 762,
+          "end" : 762,
+          "residue" : "M"
+        }, {
+          "start" : 772,
+          "end" : 772,
+          "residue" : "I"
+        }, {
+          "start" : 790,
+          "end" : 790,
+          "residue" : "F"
+        }, {
+          "start" : 763,
+          "end" : 763,
+          "residue" : "D"
+        }, {
+          "start" : 788,
+          "end" : 788,
+          "residue" : "K"
+        }, {
+          "start" : 766,
+          "end" : 766,
+          "residue" : "Q"
+        }, {
+          "start" : 758,
+          "end" : 758,
+          "residue" : "P"
+        }, {
+          "start" : 784,
+          "end" : 784,
+          "residue" : "I"
+        }, {
+          "start" : 783,
+          "end" : 783,
+          "residue" : "R"
+        }, {
+          "start" : 786,
+          "end" : 786,
+          "residue" : "Q"
+        }, {
+          "start" : 777,
+          "end" : 777,
+          "residue" : "L"
+        }, {
+          "start" : 742,
+          "end" : 742,
+          "residue" : "F"
+        }, {
+          "start" : 781,
+          "end" : 781,
+          "residue" : "L"
+        }, {
+          "start" : 757,
+          "end" : 757,
+          "residue" : "I"
+        }, {
+          "start" : 755,
+          "end" : 755,
+          "residue" : "N"
+        }, {
+          "start" : 776,
+          "end" : 776,
+          "residue" : "E"
+        }, {
+          "start" : 787,
+          "end" : 787,
+          "residue" : "S"
+        }, {
+          "start" : 764,
+          "end" : 764,
+          "residue" : "G"
+        }, {
+          "start" : 745,
+          "end" : 745,
+          "residue" : "F"
+        }, {
+          "start" : 765,
+          "end" : 765,
+          "residue" : "K"
+        }, {
+          "start" : 753,
+          "end" : 753,
+          "residue" : "T"
+        }, {
+          "start" : 767,
+          "end" : 767,
+          "residue" : "A"
+        }, {
+          "start" : 756,
+          "end" : 756,
+          "residue" : "A"
+        }, {
+          "start" : 746,
+          "end" : 746,
+          "residue" : "R"
+        }, {
+          "start" : 782,
+          "end" : 782,
+          "residue" : "Y"
+        }, {
+          "start" : 750,
+          "end" : 750,
+          "residue" : "E"
+        }, {
+          "start" : 740,
+          "end" : 740,
+          "residue" : "I"
+        }, {
+          "start" : 738,
+          "end" : 738,
+          "residue" : "N"
+        }, {
+          "start" : 792,
+          "end" : 792,
+          "residue" : "R"
+        }, {
+          "start" : 775,
+          "end" : 775,
+          "residue" : "L"
+        }, {
+          "start" : 751,
+          "end" : 751,
+          "residue" : "I"
+        }, {
+          "start" : 739,
+          "end" : 739,
+          "residue" : "R"
+        }, {
+          "start" : 791,
+          "end" : 791,
+          "residue" : "F"
+        }, {
+          "start" : 748,
+          "end" : 748,
+          "residue" : "R"
+        }, {
+          "start" : 770,
+          "end" : 770,
+          "residue" : "R"
+        }, {
+          "start" : 780,
+          "end" : 780,
+          "residue" : "N"
+        }, {
+          "start" : 736,
+          "end" : 736,
+          "residue" : "F"
+        }, {
+          "start" : 754,
+          "end" : 754,
+          "residue" : "P"
+        }, {
+          "start" : 759,
+          "end" : 759,
+          "residue" : "K"
+        }, {
+          "start" : 761,
+          "end" : 761,
+          "residue" : "F"
+        }, {
+          "start" : 779,
+          "end" : 779,
+          "residue" : "P"
+        }, {
+          "start" : 774,
+          "end" : 774,
+          "residue" : "A"
+        }, {
+          "start" : 743,
+          "end" : 743,
+          "residue" : "Q"
+        }, {
+          "start" : 741,
+          "end" : 741,
+          "residue" : "V"
+        }, {
+          "start" : 768,
+          "end" : 768,
+          "residue" : "C"
+        }, {
+          "start" : 773,
+          "end" : 773,
+          "residue" : "R"
+        }, {
+          "start" : 747,
+          "end" : 747,
+          "residue" : "Q"
+        }, {
+          "start" : 789,
+          "end" : 789,
+          "residue" : "I"
+        }, {
+          "start" : 749,
+          "end" : 749,
+          "residue" : "Y"
+        }, {
+          "start" : 737,
+          "end" : 737,
+          "residue" : "P"
+        }, {
+          "start" : 760,
+          "end" : 760,
+          "residue" : "G"
+        }, {
+          "start" : 778,
+          "end" : 778,
+          "residue" : "D"
+        }, {
+          "start" : 744,
+          "end" : 744,
+          "residue" : "E"
+        } ]
+      }, {
+        "description" : "SH1 helix",
+        "numLocations" : 10,
+        "siteLocations" : [ {
+          "start" : 724,
+          "end" : 724,
+          "residue" : "G"
+        }, {
+          "start" : 732,
+          "end" : 732,
+          "residue" : "C"
+        }, {
+          "start" : 727,
+          "end" : 727,
+          "residue" : "E"
+        }, {
+          "start" : 731,
+          "end" : 731,
+          "residue" : "I"
+        }, {
+          "start" : 728,
+          "end" : 728,
+          "residue" : "G"
+        }, {
+          "start" : 725,
+          "end" : 725,
+          "residue" : "V"
+        }, {
+          "start" : 726,
+          "end" : 726,
+          "residue" : "L"
+        }, {
+          "start" : 730,
+          "end" : 730,
+          "residue" : "R"
+        }, {
+          "start" : 729,
+          "end" : 729,
+          "residue" : "I"
+        }, {
+          "start" : 733,
+          "end" : 733,
+          "residue" : "R"
+        } ]
+      }, {
+        "description" : "relay loop",
+        "numLocations" : 22,
+        "siteLocations" : [ {
+          "start" : 510,
+          "end" : 510,
+          "residue" : "D"
+        }, {
+          "start" : 497,
+          "end" : 497,
+          "residue" : "E"
+        }, {
+          "start" : 489,
+          "end" : 489,
+          "residue" : "H"
+        }, {
+          "start" : 502,
+          "end" : 502,
+          "residue" : "E"
+        }, {
+          "start" : 511,
+          "end" : 511,
+          "residue" : "F"
+        }, {
+          "start" : 509,
+          "end" : 509,
+          "residue" : "I"
+        }, {
+          "start" : 493,
+          "end" : 493,
+          "residue" : "I"
+        }, {
+          "start" : 506,
+          "end" : 506,
+          "residue" : "W"
+        }, {
+          "start" : 507,
+          "end" : 507,
+          "residue" : "N"
+        }, {
+          "start" : 503,
+          "end" : 503,
+          "residue" : "G"
+        }, {
+          "start" : 499,
+          "end" : 499,
+          "residue" : "Y"
+        }, {
+          "start" : 490,
+          "end" : 490,
+          "residue" : "T"
+        }, {
+          "start" : 494,
+          "end" : 494,
+          "residue" : "L"
+        }, {
+          "start" : 496,
+          "end" : 496,
+          "residue" : "Q"
+        }, {
+          "start" : 505,
+          "end" : 505,
+          "residue" : "E"
+        }, {
+          "start" : 495,
+          "end" : 495,
+          "residue" : "E"
+        }, {
+          "start" : 488,
+          "end" : 488,
+          "residue" : "N"
+        }, {
+          "start" : 491,
+          "end" : 491,
+          "residue" : "M"
+        }, {
+          "start" : 508,
+          "end" : 508,
+          "residue" : "F"
+        }, {
+          "start" : 492,
+          "end" : 492,
+          "residue" : "F"
+        }, {
+          "start" : 504,
+          "end" : 504,
+          "residue" : "I"
+        }, {
+          "start" : 498,
+          "end" : 498,
+          "residue" : "E"
+        } ]
+      }, {
+        "description" : "ATP binding site",
+        "numLocations" : 34,
+        "siteLocations" : [ {
+          "start" : 460,
+          "end" : 460,
+          "residue" : "I"
+        }, {
+          "start" : 232,
+          "end" : 232,
+          "residue" : "K"
+        }, {
+          "start" : 178,
+          "end" : 178,
+          "residue" : "G"
+        }, {
+          "start" : 180,
+          "end" : 180,
+          "residue" : "S"
+        }, {
+          "start" : 182,
+          "end" : 182,
+          "residue" : "A"
+        }, {
+          "start" : 234,
+          "end" : 234,
+          "residue" : "V"
+        }, {
+          "start" : 131,
+          "end" : 131,
+          "residue" : "L"
+        }, {
+          "start" : 126,
+          "end" : 126,
+          "residue" : "N"
+        }, {
+          "start" : 132,
+          "end" : 132,
+          "residue" : "P"
+        }, {
+          "start" : 237,
+          "end" : 237,
+          "residue" : "D"
+        }, {
+          "start" : 130,
+          "end" : 130,
+          "residue" : "N"
+        }, {
+          "start" : 133,
+          "end" : 133,
+          "residue" : "I"
+        }, {
+          "start" : 233,
+          "end" : 233,
+          "residue" : "T"
+        }, {
+          "start" : 134,
+          "end" : 134,
+          "residue" : "Y"
+        }, {
+          "start" : 236,
+          "end" : 236,
+          "residue" : "N"
+        }, {
+          "start" : 461,
+          "end" : 461,
+          "residue" : "A"
+        }, {
+          "start" : 463,
+          "end" : 463,
+          "residue" : "F"
+        }, {
+          "start" : 184,
+          "end" : 184,
+          "residue" : "K"
+        }, {
+          "start" : 183,
+          "end" : 183,
+          "residue" : "G"
+        }, {
+          "start" : 241,
+          "end" : 241,
+          "residue" : "R"
+        }, {
+          "start" : 238,
+          "end" : 238,
+          "residue" : "N"
+        }, {
+          "start" : 235,
+          "end" : 235,
+          "residue" : "K"
+        }, {
+          "start" : 181,
+          "end" : 181,
+          "residue" : "G"
+        }, {
+          "start" : 127,
+          "end" : 127,
+          "residue" : "P"
+        }, {
+          "start" : 129,
+          "end" : 129,
+          "residue" : "K"
+        }, {
+          "start" : 464,
+          "end" : 464,
+          "residue" : "E"
+        }, {
+          "start" : 459,
+          "end" : 459,
+          "residue" : "D"
+        }, {
+          "start" : 185,
+          "end" : 185,
+          "residue" : "T"
+        }, {
+          "start" : 128,
+          "end" : 128,
+          "residue" : "Y"
+        }, {
+          "start" : 239,
+          "end" : 239,
+          "residue" : "S"
+        }, {
+          "start" : 231,
+          "end" : 231,
+          "residue" : "A"
+        }, {
+          "start" : 179,
+          "end" : 179,
+          "residue" : "E"
+        }, {
+          "start" : 462,
+          "end" : 462,
+          "residue" : "G"
+        }, {
+          "start" : 240,
+          "end" : 240,
+          "residue" : "S"
+        } ]
+      } ],
+      "evalue" : 0.0,
+      "score" : 1440.19,
+      "location-fragments" : [ {
+        "start" : 99,
+        "end" : 792,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd14920"
+  }, {
+    "signature" : {
+      "accession" : "PF01576",
+      "name" : "Myosin_tail_1",
+      "description" : "Myosin tail",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR002928",
+        "name" : "Myosin_tail",
+        "description" : "Myosin tail",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "myosin complex",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0016459"
+        }, {
+          "name" : "motor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003774"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 869,
+      "end" : 1949,
+      "hmmStart" : 1,
+      "hmmEnd" : 1081,
+      "hmmLength" : 1081,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.0,
+      "score" : 1707.6,
+      "envelopeStart" : 869,
+      "envelopeEnd" : 1949,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 869,
+        "end" : 1949,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 1707.9,
+    "model-ac" : "PF01576"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1718,
+      "end" : 1738,
+      "location-fragments" : [ {
+        "start" : 1718,
+        "end" : 1738,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PF00612",
+      "name" : "IQ",
+      "description" : "IQ calmodulin-binding motif",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR000048",
+        "name" : "IQ_motif_EF-hand-BS",
+        "description" : "IQ motif, EF-hand binding site",
+        "type" : "BINDING_SITE",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 809,
+      "end" : 827,
+      "hmmStart" : 2,
+      "hmmEnd" : 20,
+      "hmmLength" : 21,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 2.6E-4,
+      "score" : 20.4,
+      "envelopeStart" : 808,
+      "envelopeEnd" : 828,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 809,
+        "end" : 827,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 7.6E-5,
+    "score" : 22.1,
+    "model-ac" : "PF00612"
+  }, {
+    "signature" : {
+      "accession" : "PS51844",
+      "name" : "SH3_LIKE",
+      "description" : "Myosin N-terminal SH3-like domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR004009",
+        "name" : "Myosin_N",
+        "description" : "Myosin, N-terminal, SH3-like",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        }, {
+          "name" : "myosin complex",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0016459"
+        }, {
+          "name" : "motor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003774"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 31,
+      "end" : 81,
+      "score" : 20.272,
+      "alignment" : "TAKKLVWIPSERHGFEAASIKEERGDEVMVELAeNGKKAMVNKDDIQKMNP",
+      "location-fragments" : [ {
+        "start" : 31,
+        "end" : 81,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51844"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1895,
+      "end" : 1997,
+      "location-fragments" : [ {
+        "start" : 1895,
+        "end" : 1997,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PS50096",
+      "name" : "IQ",
+      "description" : "IQ motif profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR000048",
+        "name" : "IQ_motif_EF-hand-BS",
+        "description" : "IQ motif, EF-hand binding site",
+        "type" : "BINDING_SITE",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 807,
+      "end" : 836,
+      "score" : 8.828,
+      "alignment" : "ITDIIIFFQAVCRGYLARKAFAKKQQQLSA",
+      "location-fragments" : [ {
+        "start" : 807,
+        "end" : 836,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50096"
+  }, {
+    "signature" : {
+      "accession" : "SSF90257",
+      "name" : "Myosin rod fragments",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1376,
+      "end" : 1478,
+      "hmmLength" : 126,
+      "location-fragments" : [ {
+        "start" : 1376,
+        "end" : 1478,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.52E-8,
+    "model-ac" : "0053562"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 868,
+      "end" : 1119,
+      "location-fragments" : [ {
+        "start" : 868,
+        "end" : 1119,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "PR00193",
+      "name" : "MYOSINHEAVY",
+      "description" : "Myosin heavy chain signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR001609",
+        "name" : "Myosin_head_motor_dom",
+        "description" : "Myosin head, motor domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        }, {
+          "name" : "motor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003774"
+        }, {
+          "name" : "myosin complex",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0016459"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 115,
+      "end" : 134,
+      "pvalue" : 5.56E-13,
+      "score" : 65.9,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 115,
+        "end" : 134,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 171,
+      "end" : 196,
+      "pvalue" : 1.0E-16,
+      "score" : 72.15,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 171,
+        "end" : 196,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 223,
+      "end" : 250,
+      "pvalue" : 1.0E-16,
+      "score" : 77.87,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 223,
+        "end" : 250,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 454,
+      "end" : 482,
+      "pvalue" : 1.0E-16,
+      "score" : 79.78,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 454,
+        "end" : 482,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 508,
+      "end" : 536,
+      "pvalue" : 6.18E-11,
+      "score" : 40.94,
+      "motifNumber" : 5,
+      "location-fragments" : [ {
+        "start" : 508,
+        "end" : 536,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.2E-65,
+    "graphscan" : "IIIII",
+    "model-ac" : "PR00193"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.70.3240",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 735,
+      "end" : 806,
+      "hmmStart" : 1,
+      "hmmEnd" : 69,
+      "hmmLength" : 72,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 3.1E-27,
+      "score" : 96.5,
+      "envelopeStart" : 735,
+      "envelopeEnd" : 807,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 735,
+        "end" : 806,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.1E-28,
+    "score" : 99.3,
+    "model-ac" : "1vomA05"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.20.5.1050",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 864,
+      "end" : 985,
+      "hmmStart" : 3,
+      "hmmEnd" : 124,
+      "hmmLength" : 129,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 3.8E-21,
+      "score" : 77.5,
+      "envelopeStart" : 861,
+      "envelopeEnd" : 989,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 864,
+        "end" : 985,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 986,
+      "end" : 1101,
+      "hmmStart" : 16,
+      "hmmEnd" : 127,
+      "hmmLength" : 129,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 1.9E-5,
+      "score" : 26.7,
+      "envelopeStart" : 982,
+      "envelopeEnd" : 1101,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 986,
+        "end" : 1101,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.7E-41,
+    "score" : 143.2,
+    "model-ac" : "2fxoB00"
+  }, {
+    "signature" : {
+      "accession" : "SSF90257",
+      "name" : "Myosin rod fragments",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1264,
+      "end" : 1378,
+      "hmmLength" : 126,
+      "location-fragments" : [ {
+        "start" : 1264,
+        "end" : 1378,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.49E-18,
+    "model-ac" : "0053562"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1148,
+      "end" : 1170,
+      "location-fragments" : [ {
+        "start" : 1148,
+        "end" : 1170,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PTHR45615",
+      "name" : "FAMILY NOT NAMED",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 1973,
+      "hmmStart" : 1,
+      "hmmEnd" : 1962,
+      "hmmLength" : 1986,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 1993,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 1973,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 4325.2,
+    "model-ac" : "PTHR45615"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1127,
+      "end" : 1288,
+      "location-fragments" : [ {
+        "start" : 1127,
+        "end" : 1288,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1718,
+      "end" : 1739,
+      "location-fragments" : [ {
+        "start" : 1718,
+        "end" : 1739,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SM00242",
+      "name" : "MYSc_2a",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR001609",
+        "name" : "Myosin_head_motor_dom",
+        "description" : "Myosin head, motor domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        }, {
+          "name" : "motor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003774"
+        }, {
+          "name" : "myosin complex",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0016459"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 79,
+      "end" : 805,
+      "hmmStart" : 1,
+      "hmmEnd" : 771,
+      "hmmLength" : 771,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.0,
+      "score" : 1341.2,
+      "location-fragments" : [ {
+        "start" : 79,
+        "end" : 805,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 1341.2,
+    "model-ac" : "SM00242"
+  }, {
+    "signature" : {
+      "accession" : "PF00063",
+      "name" : "Myosin_head",
+      "description" : "Myosin head (motor domain)",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR001609",
+        "name" : "Myosin_head_motor_dom",
+        "description" : "Myosin head, motor domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        }, {
+          "name" : "motor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003774"
+        }, {
+          "name" : "myosin complex",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0016459"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 87,
+      "end" : 792,
+      "hmmStart" : 1,
+      "hmmEnd" : 677,
+      "hmmLength" : 677,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.0,
+      "score" : 1016.3,
+      "envelopeStart" : 87,
+      "envelopeEnd" : 792,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 87,
+        "end" : 792,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 1016.3,
+    "model-ac" : "PF00063"
+  }, {
+    "signature" : {
+      "accession" : "SSF90257",
+      "name" : "Myosin rod fragments",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1090,
+      "end" : 1178,
+      "hmmLength" : 126,
+      "location-fragments" : [ {
+        "start" : 1090,
+        "end" : 1178,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.19E-7,
+    "model-ac" : "0053562"
+  }, {
+    "signature" : {
+      "accession" : "PF02736",
+      "name" : "Myosin_N",
+      "description" : "Myosin N-terminal SH3-like domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR004009",
+        "name" : "Myosin_N",
+        "description" : "Myosin, N-terminal, SH3-like",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        }, {
+          "name" : "myosin complex",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0016459"
+        }, {
+          "name" : "motor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003774"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 33,
+      "end" : 73,
+      "hmmStart" : 1,
+      "hmmEnd" : 40,
+      "hmmLength" : 40,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.4E-12,
+      "score" : 46.4,
+      "envelopeStart" : 33,
+      "envelopeEnd" : 73,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 33,
+        "end" : 73,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 8.7E-13,
+    "score" : 47.8,
+    "model-ac" : "PF02736"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:4.10.270.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR027401",
+        "name" : "Myosin_IQ_contain_sf",
+        "description" : "Myosin IQ motif-containing domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 807,
+      "end" : 863,
+      "hmmStart" : 2,
+      "hmmEnd" : 62,
+      "hmmLength" : 63,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 7.9E-26,
+      "score" : 91.7,
+      "envelopeStart" : 805,
+      "envelopeEnd" : 866,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 807,
+        "end" : 863,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.6E-26,
+    "score" : 93.9,
+    "model-ac" : "2bl0A00"
+  }, {
+    "signature" : {
+      "accession" : "PTHR45615:SF24",
+      "name" : "MYOSIN-10",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 1973,
+      "hmmStart" : 1,
+      "hmmEnd" : 1962,
+      "hmmLength" : 1986,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 1993,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 1973,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 4325.2,
+    "model-ac" : "PTHR45615:SF24"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1605,
+      "end" : 1737,
+      "location-fragments" : [ {
+        "start" : 1605,
+        "end" : 1737,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "SSF52540",
+      "name" : "P-loop containing nucleoside triphosphate hydrolases",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR027417",
+        "name" : "P-loop_NTPase",
+        "description" : "P-loop containing nucleoside triphosphate hydrolase",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 36,
+      "end" : 866,
+      "hmmLength" : 795,
+      "location-fragments" : [ {
+        "start" : 661,
+        "end" : 866,
+        "dc-status" : "N_TERMINAL_DISC"
+      }, {
+        "start" : 36,
+        "end" : 631,
+        "dc-status" : "C_TERMINAL_DISC"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "model-ac" : "0045376"
+  }, {
+    "signature" : {
+      "accession" : "PS51456",
+      "name" : "MYOSIN_MOTOR",
+      "description" : "Myosin motor domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001609",
+        "name" : "Myosin_head_motor_dom",
+        "description" : "Myosin head, motor domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        }, {
+          "name" : "motor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003774"
+        }, {
+          "name" : "myosin complex",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0016459"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 85,
+      "end" : 804,
+      "score" : 285.907,
+      "alignment" : "SKVEDMAELTCLNEASVLHNLKDRYYSGLIYTYSGLFCVVINPYKNLPIYSENIIEMYRGKKRHEMPPHIYAISESAYRCMLQDREDQSILCTGESGAGKTENTKKVIQYLAHVASSHKGrkdhniPGELERQLLQANPILESFGNAKTVKNDNSSRFGKFIRINFDVTGYIVGANIETYLLEKSRAVRQAKDERTFHIFYQLLSGAGEHLKSDLLLEGFNNYRFLS-NGYIPIPGQQDKDNFQETMEAMHIMGFSHEEILSMLKVVSSVLQFGNISFKKERNTDQASMPENTVAQKLCHLLGMNVMEFTRAILTPRIKVGRDYVQKAQTKEQADFAVEALAKATYERLFRWLVHRINKALDRTKRQgASFIGILDIAGFEIFELNSFEQLCINYTNEKLQQLFNHTMFILEQEEYQREGIEWNFIDFgLDLQPCIDLIERpaNPPGVLALLDEECWFPKATDKTFVEKLVQEQGSHSKFQKPRQLKdKADFCIIHYAGKVDYKADEWLMKNMDPLNDNVATLLHQSSDRFVAELWKDEIQNIQRAsfydsvsglheppvdrivgldqvtgmtetaFGSAYKTKKGMfrTVGQLYKESLTKLMATLRNTNPNFVRCIIPNHEKRAGKLDPHLVLDQLRCNGVLEGIRICRQGFPNRIVFQEFRQRYEILTPNAI-PKGFMDGKQACERMIRALELDPNLYRIGQSKIFFRAGVLAHLEEERD",
+      "location-fragments" : [ {
+        "start" : 85,
+        "end" : 804,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51456"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1745,
+      "end" : 1948,
+      "location-fragments" : [ {
+        "start" : 1745,
+        "end" : 1948,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "SM00015",
+      "name" : "iq_5",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR000048",
+        "name" : "IQ_motif_EF-hand-BS",
+        "description" : "IQ motif, EF-hand binding site",
+        "type" : "BINDING_SITE",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 806,
+      "end" : 828,
+      "hmmStart" : 1,
+      "hmmEnd" : 23,
+      "hmmLength" : 23,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 6.4E-4,
+      "score" : 29.0,
+      "location-fragments" : [ {
+        "start" : 806,
+        "end" : 828,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 6.4E-4,
+    "score" : 29.0,
+    "model-ac" : "SM00015"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1331,
+      "end" : 1400,
+      "location-fragments" : [ {
+        "start" : 1331,
+        "end" : 1400,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1895,
+      "end" : 1936,
+      "location-fragments" : [ {
+        "start" : 1895,
+        "end" : 1936,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SSF90257",
+      "name" : "Myosin rod fragments",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 984,
+      "end" : 1099,
+      "hmmLength" : 126,
+      "location-fragments" : [ {
+        "start" : 984,
+        "end" : 1099,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.49E-21,
+    "model-ac" : "0053562"
+  }, {
+    "signature" : {
+      "accession" : "SSF90257",
+      "name" : "Myosin rod fragments",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 864,
+      "end" : 989,
+      "hmmLength" : 126,
+      "location-fragments" : [ {
+        "start" : 864,
+        "end" : 989,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.84E-24,
+    "model-ac" : "0053562"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1408,
+      "end" : 1596,
+      "location-fragments" : [ {
+        "start" : 1408,
+        "end" : 1596,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "cd06503",
+      "name" : "ATP-synt_Fo_b",
+      "description" : "ATP-synt_Fo_b",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1651,
+      "end" : 1752,
+      "sites" : [ ],
+      "evalue" : 0.0030758,
+      "score" : 37.8023,
+      "location-fragments" : [ {
+        "start" : 1651,
+        "end" : 1752,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd06503"
+  } ],
+  "xref" : [ {
+    "name" : "tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE Myosin heavy chain 10 OS=Equus caballus OX=9796 GN=MYH10 PE=3 SV=2",
+    "id" : "tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE"
+  } ]
+} ]
+}

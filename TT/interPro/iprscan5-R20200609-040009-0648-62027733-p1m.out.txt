@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="9edd2388d4e48d203e38273712ec2139">MADSAELKQMVMSLRVSELQVLLGYAGRNKHGRKHELLTKALHLLKAGCSPAVQMKIKELYRRRFPQKIMTPADLSIPNVHSSPMPATLSPSTIPQLTYDGHPASSPLLPVSLLGPKHELELPHLTSALHPVHPDIKLQKLPFYDLLDELIKPTSLASDNSQRFRETCFAFALTPQQVQQISSSMDISGTKCDFTVQVQLRFCLSETSCPQEDHFPPNLCVKVNTKPCSLPGYLPPTKNGVEPKRPSRPINITSLVRLSTTVPNTIVVSWTAEIGRTYSMAVYLVKQLSSTVLLQRLRAKGIRNPDHSRALIKEKLTADPDSEIATTSLRVSLLCPLGKMRLTIPCRALTCSHLQCFDATLYIQMNEKKPTWVCPVCDKKAPYEHLIIDGLFMEILKYCTDCDEIQFKEDGSWAPMRSKKEVQEVTASYNGVDGCLSSTLEHQVASHNQSSNKNKKVEVIDLTIDSSSDEEEEEPPAKRTCPSLSPTSPLSNKGILSLPHQASPVSRTPSLPAVDTSYINTSLIQDYRHPFHMTPMPYDLQGLDFFPFLSGDNQHYNTSLLAAAAAAVSDDQDLLHSSRFFPYTSSQMFLDQLSAGGSTSLPATNGSSSGSNSSLVSSNSLRESHGHGVASRSSADTASIFGIIPDIISLD</sequence>
+    <xref id="tr|G3V9T0|G3V9T0_RAT" name="tr|G3V9T0|G3V9T0_RAT Protein inhibitor of activated STAT 1 (Predicted) OS=Rattus norvegicus OX=10116 GN=Pias1 PE=1 SV=1"/>
+    <matches>
+      <hmmer2-match evalue="7.2E-5" score="32.2">
+        <signature ac="SM00513" name="sap_9">
+          <entry ac="IPR003034" desc="SAP domain" name="SAP_dom" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00513</model-ac>
+        <locations>
+          <hmmer2-location score="32.2" evalue="7.2E-5" hmm-start="1" hmm-end="35" hmm-length="35" hmm-bounds="COMPLETE" start="11" end="45">
+            <location-fragments>
+              <hmmer2-location-fragment start="11" end="45" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="8.8E-21" score="73.3">
+        <signature ac="PF02891" desc="MIZ/SP-RING zinc finger" name="zf-MIZ">
+          <entry ac="IPR004181" desc="Zinc finger, MIZ-type" name="Znf_MIZ" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF02891</model-ac>
+        <locations>
+          <hmmer3-location env-end="380" env-start="331" post-processed="true" score="72.4" evalue="1.7E-20" hmm-start="1" hmm-end="49" hmm-length="50" hmm-bounds="N_TERMINAL_COMPLETE" start="331" end="379">
+            <location-fragments>
+              <hmmer3-location-fragment start="331" end="379" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.0E-30" score="105.5">
+        <signature ac="G3DSA:1.10.720.30">
+          <entry ac="IPR036361" desc="SAP domain superfamily" name="SAP_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1v66A00</model-ac>
+        <locations>
+          <hmmer3-location env-end="65" env-start="1" post-processed="true" score="104.5" evalue="6.0E-30" hmm-start="1" hmm-end="65" hmm-length="65" hmm-bounds="COMPLETE" start="1" end="65">
+            <location-fragments>
+              <hmmer3-location-fragment start="1" end="65" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.1E-42" score="145.9">
+        <signature ac="G3DSA:3.30.40.10">
+          <entry ac="IPR013083" desc="Zinc finger, RING/FYVE/PHD-type" name="Znf_RING/FYVE/PHD" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4mvtB02</model-ac>
+        <locations>
+          <hmmer3-location env-end="416" env-start="289" post-processed="true" score="145.9" evalue="2.1E-42" hmm-start="6" hmm-end="128" hmm-length="129" hmm-bounds="COMPLETE" start="289" end="416">
+            <location-fragments>
+              <hmmer3-location-fragment start="289" end="416" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.2E-38" score="131.8">
+        <signature ac="PF14324" desc="PINIT domain" name="PINIT">
+          <entry ac="IPR023321" desc="PINIT domain" name="PINIT" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-3232118" name="SUMOylation of transcription factors"/>
+            <pathway-xref db="Reactome" id="R-HSA-3899300" name="SUMOylation of transcription cofactors"/>
+            <pathway-xref db="Reactome" id="R-HSA-4090294" name="SUMOylation of intracellular receptors"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF14324</model-ac>
+        <locations>
+          <hmmer3-location env-end="286" env-start="135" post-processed="true" score="130.6" evalue="5.0E-38" hmm-start="2" hmm-end="146" hmm-length="146" hmm-bounds="C_TERMINAL_COMPLETE" start="136" end="286">
+            <location-fragments>
+              <hmmer3-location-fragment start="136" end="286" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.4E-64" score="218.6">
+        <signature ac="G3DSA:2.60.120.780">
+          <entry ac="IPR038654" desc="PINIT domain superfamily" name="PINIT_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <pathway-xref db="Reactome" id="R-HSA-3232118" name="SUMOylation of transcription factors"/>
+            <pathway-xref db="Reactome" id="R-HSA-4090294" name="SUMOylation of intracellular receptors"/>
+            <pathway-xref db="Reactome" id="R-HSA-3899300" name="SUMOylation of transcription cofactors"/>
+          </entry>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4fo9A01</model-ac>
+        <locations>
+          <hmmer3-location env-end="287" env-start="135" post-processed="true" score="217.7" evalue="2.7E-64" hmm-start="3" hmm-end="154" hmm-length="154" hmm-bounds="COMPLETE" start="135" end="287">
+            <location-fragments>
+              <hmmer3-location-fragment start="135" end="287" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="600" end="630">
+            <location-fragments>
+              <mobidblite-location-fragment start="600" end="630" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="465" end="511">
+            <location-fragments>
+              <mobidblite-location-fragment start="465" end="511" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="481" end="511">
+            <location-fragments>
+              <mobidblite-location-fragment start="481" end="511" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1432.9">
+        <signature ac="PTHR10782:SF11" name="E3 SUMO-PROTEIN LIGASE PIAS1">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR10782:SF11</model-ac>
+        <locations>
+          <panther-location env-start="2" env-end="651" hmm-start="7" hmm-end="651" hmm-length="654" hmm-bounds="INCOMPLETE" start="6" end="648">
+            <location-fragments>
+              <panther-location-fragment start="6" end="648" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1432.9">
+        <signature ac="PTHR10782" name="ZINC FINGER MIZ DOMAIN-CONTAINING PROTEIN">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR10782</model-ac>
+        <locations>
+          <panther-location env-start="2" env-end="651" hmm-start="7" hmm-end="651" hmm-length="654" hmm-bounds="INCOMPLETE" start="6" end="648">
+            <location-fragments>
+              <panther-location-fragment start="6" end="648" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <profilescan-match>
+        <signature ac="PS51044" desc="Zinc finger SP-RING-type profile." name="ZF_SP_RING">
+          <entry ac="IPR004181" desc="Zinc finger, MIZ-type" name="Znf_MIZ" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51044</model-ac>
+        <locations>
+          <profilescan-location score="41.113" start="320" end="397">
+            <location-fragments>
+              <profilescan-location-fragment start="320" end="397" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>PDSEIATTSLRVSLLCPLGKMRLTIPCRALTCSHLQCFDATLYIQMNEKKPTWVCPVCDKKAPYEHLIIDGLFMEILK</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51466" desc="PINIT domain profile." name="PINIT">
+          <entry ac="IPR023321" desc="PINIT domain" name="PINIT" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-3232118" name="SUMOylation of transcription factors"/>
+            <pathway-xref db="Reactome" id="R-HSA-3899300" name="SUMOylation of transcription cofactors"/>
+            <pathway-xref db="Reactome" id="R-HSA-4090294" name="SUMOylation of intracellular receptors"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51466</model-ac>
+        <locations>
+          <profilescan-location score="51.552" start="124" end="288">
+            <location-fragments>
+              <profilescan-location-fragment start="124" end="288" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>HLTSALHPVHPDIKLQKLPFYDLLDELIKPTSLASDNSQRFRETCFAFALTPQQVQQISSSmdISGTKCDFTVQVQLRFCLSETSCPQEDHFPPNLCVKVNTKPCSLPGYLPPTKNGVepkrpSRPINITSLVRLSTTVPNTIVVSWTAEIGRTYSMAVYLVKQL</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50800" desc="SAP motif profile." name="SAP">
+          <entry ac="IPR003034" desc="SAP domain" name="SAP_dom" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50800</model-ac>
+        <locations>
+          <profilescan-location score="10.685" start="11" end="45">
+            <location-fragments>
+              <profilescan-location-fragment start="11" end="45" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>VMSLRVSELQVLLGYAGRNKHGRKHELLTKALHLL</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <rpsblast-match>
+        <signature ac="cd16790" desc="SP-RING_PIAS" name="SP-RING_PIAS">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd16790</model-ac>
+        <locations>
+          <rpsblast-location evalue="1.17397E-30" score="111.741" start="332" end="379">
+            <location-fragments>
+              <rpsblast-location-fragment start="332" end="379" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="Zn binding site" numLocations="4">
+                <site-locations>
+                  <site-location residue="C" start="374" end="374"/>
+                  <site-location residue="H" start="353" end="353"/>
+                  <site-location residue="C" start="377" end="377"/>
+                  <site-location residue="C" start="351" end="351"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="8.51E-20">
+        <signature ac="SSF68906" name="SAP domain">
+          <entry ac="IPR036361" desc="SAP domain superfamily" name="SAP_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0050065</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="65" start="1" end="65">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="1" end="65" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

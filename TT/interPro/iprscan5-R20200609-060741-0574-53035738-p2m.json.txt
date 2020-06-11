@@ -1,0 +1,1987 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MTMTLHTKASGMALLHQIQASELEPLSRPQLKMPLEEPQGEVFLDGGKPAVFNYPEGAAYEFNAAAAASAPVYGQPGLAYGPGSEAAAAFGPSSLGGFPQLSSVSPSPLMLLHPPPQLSPFLHPHGQQVPFYLENEPSGYAVREAGAPAFYRPNSGNRRQSGRERLASTSDKGSITLESAKETRYCAVCNDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATNQCTIDKNRRKSCQACRLRKCYDVGMIKGGIRKDRRGGRMLKYKRQRDDEERRHEMGPSGDMRGSNLWPSPLVIKHTKKNSPALSLTADQMVSALMDAEPPLLYSEYDAVKPFSEASMMGLLTNLADRELVHMINWAKRVPGFGDLTLHDQVHLLECAWLEILMIGLIWRSMEHPGKLLFAPNLILDRNQGKCVEGMVEIFDMLLATSTRFRMMNLQGEEFVCLKSIILLNSGMYTFLSSTLKSLEEKDHIHRVLDKIIDTLIHLMAKAGLTLQQQHRRLAQLLLILSHIRHMSNKGVEHLYNMKCKNVVPLYNLLLEMLEAHRLNTSSNPMGGSPEEPSQSQLATIGSSSAHSLQTYYVSQEAESFPNTI",
+  "md5" : "e499d7fd73e34577d48ea095b3d7edbf",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_N_REGION",
+      "name" : "Signal peptide N-region",
+      "description" : "N-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 3,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 3,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_N_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE",
+      "name" : "Signal Peptide",
+      "description" : "Signal peptide region",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 20,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 20,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE"
+  }, {
+    "signature" : {
+      "accession" : "PS51030",
+      "name" : "NUCLEAR_REC_DBD_2",
+      "description" : "Nuclear hormone receptors DNA-binding domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001628",
+        "name" : "Znf_hrmn_rcpt",
+        "description" : "Zinc finger, nuclear hormone receptor-type",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "sequence-specific DNA binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0043565"
+        }, {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        }, {
+          "name" : "zinc ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008270"
+        }, {
+          "name" : "host cell nucleus",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0042025"
+        }, {
+          "name" : "regulation of transcription, DNA-templated",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 183,
+      "end" : 258,
+      "score" : 18.974,
+      "alignment" : "TRYCAVCNDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATNQCTIDKNRRKSCQACRLRKCYDVGMIKGGIRK",
+      "location-fragments" : [ {
+        "start" : 183,
+        "end" : 258,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51030"
+  }, {
+    "signature" : {
+      "accession" : "SM00399",
+      "name" : "c4gold",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR001628",
+        "name" : "Znf_hrmn_rcpt",
+        "description" : "Zinc finger, nuclear hormone receptor-type",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "sequence-specific DNA binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0043565"
+        }, {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        }, {
+          "name" : "zinc ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008270"
+        }, {
+          "name" : "host cell nucleus",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0042025"
+        }, {
+          "name" : "regulation of transcription, DNA-templated",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 183,
+      "end" : 254,
+      "hmmStart" : 1,
+      "hmmEnd" : 72,
+      "hmmLength" : 72,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.3E-36,
+      "score" : 137.6,
+      "location-fragments" : [ {
+        "start" : 183,
+        "end" : 254,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.3E-36,
+    "score" : 137.6,
+    "model-ac" : "SM00399"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_C_REGION",
+      "name" : "Signal peptide C-region",
+      "description" : "C-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 16,
+      "end" : 20,
+      "location-fragments" : [ {
+        "start" : 16,
+        "end" : 20,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_C_REGION"
+  }, {
+    "signature" : {
+      "accession" : "PTHR24084",
+      "name" : "FAMILY NOT NAMED",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 146,
+      "hmmStart" : 1,
+      "hmmEnd" : 152,
+      "hmmLength" : 632,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 151,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 146,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 154,
+      "end" : 572,
+      "hmmStart" : 210,
+      "hmmEnd" : 617,
+      "hmmLength" : 632,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 148,
+      "envelopeEnd" : 587,
+      "location-fragments" : [ {
+        "start" : 154,
+        "end" : 572,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 971.9,
+    "model-ac" : "PTHR24084"
+  }, {
+    "signature" : {
+      "accession" : "PF00105",
+      "name" : "zf-C4",
+      "description" : "Zinc finger, C4 type (two domains)",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR001628",
+        "name" : "Znf_hrmn_rcpt",
+        "description" : "Zinc finger, nuclear hormone receptor-type",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "sequence-specific DNA binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0043565"
+        }, {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        }, {
+          "name" : "zinc ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008270"
+        }, {
+          "name" : "host cell nucleus",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0042025"
+        }, {
+          "name" : "regulation of transcription, DNA-templated",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 185,
+      "end" : 253,
+      "hmmStart" : 2,
+      "hmmEnd" : 70,
+      "hmmLength" : 70,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 5.9E-31,
+      "score" : 106.6,
+      "envelopeStart" : 184,
+      "envelopeEnd" : 253,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 185,
+        "end" : 253,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.7E-31,
+    "score" : 107.3,
+    "model-ac" : "PF00105"
+  }, {
+    "signature" : {
+      "accession" : "PTHR24084:SF3",
+      "name" : "ESTROGEN RECEPTOR",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 154,
+      "end" : 572,
+      "hmmStart" : 210,
+      "hmmEnd" : 617,
+      "hmmLength" : 632,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 148,
+      "envelopeEnd" : 587,
+      "location-fragments" : [ {
+        "start" : 154,
+        "end" : 572,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1,
+      "end" : 146,
+      "hmmStart" : 1,
+      "hmmEnd" : 152,
+      "hmmLength" : 632,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 151,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 146,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 971.9,
+    "model-ac" : "PTHR24084:SF3"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 154,
+      "end" : 173,
+      "location-fragments" : [ {
+        "start" : 154,
+        "end" : 173,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PR00398",
+      "name" : "STRDHORMONER",
+      "description" : "Steroid hormone receptor signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR001723",
+        "name" : "Nuclear_hrmn_rcpt",
+        "description" : "Nuclear hormone receptor",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "steroid hormone receptor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003707"
+        }, {
+          "name" : "DNA binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003677"
+        }, {
+          "name" : "regulation of transcription, DNA-templated",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        }, {
+          "name" : "host cell nucleus",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0042025"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 247,
+      "end" : 257,
+      "pvalue" : 0.00263,
+      "score" : 36.73,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 247,
+        "end" : 257,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 350,
+      "end" : 371,
+      "pvalue" : 3.32E-10,
+      "score" : 38.14,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 350,
+        "end" : 371,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 371,
+      "end" : 387,
+      "pvalue" : 6.68E-8,
+      "score" : 47.97,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 371,
+        "end" : 387,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 439,
+      "end" : 454,
+      "pvalue" : 7.72E-7,
+      "score" : 35.0,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 439,
+        "end" : 454,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 507,
+      "end" : 524,
+      "pvalue" : 7.53E-7,
+      "score" : 35.09,
+      "motifNumber" : 5,
+      "location-fragments" : [ {
+        "start" : 507,
+        "end" : 524,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.4E-26,
+    "graphscan" : "IIIII",
+    "model-ac" : "PR00398"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 267,
+      "end" : 292,
+      "location-fragments" : [ {
+        "start" : 267,
+        "end" : 292,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PS51843",
+      "name" : "NR_LBD",
+      "description" : "Nuclear receptor (NR) ligand-binding (LBD) domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR000536",
+        "name" : "Nucl_hrmn_rcpt_lig-bd",
+        "description" : "Nuclear hormone receptor, ligand-binding domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 312,
+      "end" : 548,
+      "score" : 65.851,
+      "alignment" : "TADQMVSALMDAEPPLLYSEYDAVKPF-------SEASMMGLLTNLADRELVHMINWAKRVPGFGDLTLHDQVHLLECAWLEILMIGLIWRSMEHP--GKLLFAPNLILDRNQGKCVEGMVEIFDMLLATSTRFRMMNLQGEEFVCLKSIILLNSgmytflsSTLKSLEEKDHIHRVLDKIIDTLIHLMAKAGltLQQQHRRLAQLLLILSHIRHMSNKGVEHLYNMKCKNVVPLYNLLLEMLEAH",
+      "location-fragments" : [ {
+        "start" : 312,
+        "end" : 548,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51843"
+  }, {
+    "signature" : {
+      "accession" : "PF02159",
+      "name" : "Oest_recep",
+      "description" : "Oestrogen receptor",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR001292",
+        "name" : "Oestr_rcpt",
+        "description" : "Oestrogen receptor",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "steroid binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005496"
+        }, {
+          "name" : "nucleus",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005634"
+        }, {
+          "name" : "steroid hormone mediated signaling pathway",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0043401"
+        }, {
+          "name" : "DNA binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003677"
+        }, {
+          "name" : "estrogen receptor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0030284"
+        }, {
+          "name" : "regulation of transcription, DNA-templated",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Regulation of RUNX2 expression and activity",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8939902"
+        }, {
+          "name" : "Extra-nuclear estrogen signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9009391"
+        }, {
+          "name" : "RUNX1 regulates estrogen receptor mediated transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8931987"
+        }, {
+          "name" : "PIP3 activates AKT signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1257604"
+        }, {
+          "name" : "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8866910"
+        }, {
+          "name" : "Ovarian tumor domain proteases",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5689896"
+        }, {
+          "name" : "SUMOylation of intracellular receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-4090294"
+        }, {
+          "name" : "RUNX1 regulates transcription of genes involved in WNT signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8939256"
+        }, {
+          "name" : "Nuclear signaling by ERBB4",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1251985"
+        }, {
+          "name" : "Constitutive Signaling by Aberrant PI3K in Cancer",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2219530"
+        }, {
+          "name" : "ESR-mediated signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8939211"
+        }, {
+          "name" : "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6811558"
+        }, {
+          "name" : "Estrogen-dependent gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9018519"
+        }, {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 43,
+      "end" : 182,
+      "hmmStart" : 2,
+      "hmmEnd" : 138,
+      "hmmLength" : 138,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 5.2E-61,
+      "score" : 205.1,
+      "envelopeStart" : 42,
+      "envelopeEnd" : 182,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 43,
+        "end" : 182,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.2E-61,
+    "score" : 205.1,
+    "model-ac" : "PF02159"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 21,
+      "end" : 596,
+      "location-fragments" : [ {
+        "start" : 21,
+        "end" : 596,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "PS00031",
+      "name" : "NUCLEAR_REC_DBD_1",
+      "description" : "Nuclear hormones receptors DNA-binding region signature.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PATTERNS",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001628",
+        "name" : "Znf_hrmn_rcpt",
+        "description" : "Zinc finger, nuclear hormone receptor-type",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "sequence-specific DNA binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0043565"
+        }, {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        }, {
+          "name" : "zinc ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008270"
+        }, {
+          "name" : "host cell nucleus",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0042025"
+        }, {
+          "name" : "regulation of transcription, DNA-templated",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 186,
+      "end" : 212,
+      "level" : "STRONG",
+      "cigarAlignment" : "1M2I1M1I1M5I2M4I1M2I1M2I2M1I1M",
+      "alignment" : "CavCnDyasgyHYgvwsCegCkaFFkR",
+      "location-fragments" : [ {
+        "start" : 186,
+        "end" : 212,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS00031"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 267,
+      "end" : 284,
+      "location-fragments" : [ {
+        "start" : 267,
+        "end" : 284,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PF12743",
+      "name" : "ESR1_C",
+      "description" : "Oestrogen-type nuclear receptor final C-terminal",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR024736",
+        "name" : "Oestrogen-typ_rcpt_final_C_dom",
+        "description" : "Oestrogen-type nuclear receptor final C-terminal domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "ESR-mediated signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8939211"
+        }, {
+          "name" : "PIP3 activates AKT signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1257604"
+        }, {
+          "name" : "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6811558"
+        }, {
+          "name" : "Nuclear signaling by ERBB4",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1251985"
+        }, {
+          "name" : "Ovarian tumor domain proteases",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5689896"
+        }, {
+          "name" : "RUNX1 regulates estrogen receptor mediated transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8931987"
+        }, {
+          "name" : "Estrogen-dependent gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9018519"
+        }, {
+          "name" : "SUMOylation of intracellular receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-4090294"
+        }, {
+          "name" : "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8866910"
+        }, {
+          "name" : "RUNX1 regulates transcription of genes involved in WNT signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8939256"
+        }, {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        }, {
+          "name" : "Regulation of RUNX2 expression and activity",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8939902"
+        }, {
+          "name" : "Constitutive Signaling by Aberrant PI3K in Cancer",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2219530"
+        }, {
+          "name" : "Extra-nuclear estrogen signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9009391"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 558,
+      "end" : 596,
+      "hmmStart" : 6,
+      "hmmEnd" : 44,
+      "hmmLength" : 44,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 5.1E-18,
+      "score" : 64.5,
+      "envelopeStart" : 554,
+      "envelopeEnd" : 596,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 558,
+        "end" : 596,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.7E-18,
+    "score" : 65.4,
+    "model-ac" : "PF12743"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.10.565.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR035500",
+        "name" : "NHR-like_dom_sf",
+        "description" : "Nuclear hormone receptor-like domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 303,
+      "end" : 553,
+      "hmmStart" : 2,
+      "hmmEnd" : 249,
+      "hmmLength" : 251,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 7.6E-78,
+      "score" : 263.2,
+      "envelopeStart" : 303,
+      "envelopeEnd" : 553,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 303,
+        "end" : 553,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.5E-78,
+    "score" : 263.7,
+    "model-ac" : "3uudA00"
+  }, {
+    "signature" : {
+      "accession" : "PF00104",
+      "name" : "Hormone_recep",
+      "description" : "Ligand-binding domain of nuclear hormone receptor",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR000536",
+        "name" : "Nucl_hrmn_rcpt_lig-bd",
+        "description" : "Nuclear hormone receptor, ligand-binding domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 338,
+      "end" : 530,
+      "hmmStart" : 7,
+      "hmmEnd" : 205,
+      "hmmLength" : 207,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 1.5E-32,
+      "score" : 112.8,
+      "envelopeStart" : 335,
+      "envelopeEnd" : 532,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 338,
+        "end" : 530,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 8.9E-33,
+    "score" : 113.5,
+    "model-ac" : "PF00104"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_H_REGION",
+      "name" : "Signal peptide H-region",
+      "description" : "Hydrophobic region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 4,
+      "end" : 15,
+      "location-fragments" : [ {
+        "start" : 4,
+        "end" : 15,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_H_REGION"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 151,
+      "end" : 173,
+      "location-fragments" : [ {
+        "start" : 151,
+        "end" : 173,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SSF48508",
+      "name" : "Nuclear receptor ligand-binding domain",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR035500",
+        "name" : "NHR-like_dom_sf",
+        "description" : "Nuclear hormone receptor-like domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 236,
+      "end" : 548,
+      "hmmLength" : 267,
+      "location-fragments" : [ {
+        "start" : 303,
+        "end" : 548,
+        "dc-status" : "N_TERMINAL_DISC"
+      }, {
+        "start" : 236,
+        "end" : 262,
+        "dc-status" : "C_TERMINAL_DISC"
+      } ]
+    } ],
+    "evalue" : 2.1E-71,
+    "model-ac" : "0039946"
+  }, {
+    "signature" : {
+      "accession" : "PR00543",
+      "name" : "OESTROGENR",
+      "description" : "Oestrogen receptor signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR001292",
+        "name" : "Oestr_rcpt",
+        "description" : "Oestrogen receptor",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "steroid binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005496"
+        }, {
+          "name" : "nucleus",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005634"
+        }, {
+          "name" : "steroid hormone mediated signaling pathway",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0043401"
+        }, {
+          "name" : "DNA binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003677"
+        }, {
+          "name" : "estrogen receptor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0030284"
+        }, {
+          "name" : "regulation of transcription, DNA-templated",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Regulation of RUNX2 expression and activity",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8939902"
+        }, {
+          "name" : "Extra-nuclear estrogen signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9009391"
+        }, {
+          "name" : "RUNX1 regulates estrogen receptor mediated transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8931987"
+        }, {
+          "name" : "PIP3 activates AKT signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1257604"
+        }, {
+          "name" : "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8866910"
+        }, {
+          "name" : "Ovarian tumor domain proteases",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5689896"
+        }, {
+          "name" : "SUMOylation of intracellular receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-4090294"
+        }, {
+          "name" : "RUNX1 regulates transcription of genes involved in WNT signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8939256"
+        }, {
+          "name" : "Nuclear signaling by ERBB4",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1251985"
+        }, {
+          "name" : "Constitutive Signaling by Aberrant PI3K in Cancer",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2219530"
+        }, {
+          "name" : "ESR-mediated signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8939211"
+        }, {
+          "name" : "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6811558"
+        }, {
+          "name" : "Estrogen-dependent gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9018519"
+        }, {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 6,
+      "end" : 24,
+      "pvalue" : 1.78E-11,
+      "score" : 83.07,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 6,
+        "end" : 24,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 26,
+      "end" : 43,
+      "pvalue" : 7.06E-10,
+      "score" : 64.98,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 26,
+        "end" : 43,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 45,
+      "end" : 62,
+      "pvalue" : 1.15E-10,
+      "score" : 70.17,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 45,
+        "end" : 62,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 70,
+      "end" : 85,
+      "pvalue" : 3.4E-10,
+      "score" : 71.88,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 70,
+        "end" : 85,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 98,
+      "end" : 112,
+      "pvalue" : 5.7E-9,
+      "score" : 70.29,
+      "motifNumber" : 5,
+      "location-fragments" : [ {
+        "start" : 98,
+        "end" : 112,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 116,
+      "end" : 132,
+      "pvalue" : 1.11E-11,
+      "score" : 84.78,
+      "motifNumber" : 6,
+      "location-fragments" : [ {
+        "start" : 116,
+        "end" : 132,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 133,
+      "end" : 152,
+      "pvalue" : 6.94E-13,
+      "score" : 75.54,
+      "motifNumber" : 7,
+      "location-fragments" : [ {
+        "start" : 133,
+        "end" : 152,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 154,
+      "end" : 173,
+      "pvalue" : 6.65E-12,
+      "score" : 74.78,
+      "motifNumber" : 8,
+      "location-fragments" : [ {
+        "start" : 154,
+        "end" : 173,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 8.5E-77,
+    "graphscan" : "IIIIIIII",
+    "model-ac" : "PR00543"
+  }, {
+    "signature" : {
+      "accession" : "PIRSF002527",
+      "name" : "ER-like_NR",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PIRSF",
+        "version" : "3.10"
+      },
+      "entry" : {
+        "accession" : "IPR024178",
+        "name" : "Oest_rcpt/oest-rel_rcp",
+        "description" : "Oestrogen receptor/oestrogen-related receptor",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "steroid binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005496"
+        }, {
+          "name" : "nucleus",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005634"
+        }, {
+          "name" : "steroid hormone receptor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003707"
+        }, {
+          "name" : "zinc ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008270"
+        }, {
+          "name" : "DNA binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003677"
+        }, {
+          "name" : "regulation of transcription, DNA-templated",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 39,
+      "end" : 589,
+      "hmmStart" : 89,
+      "hmmEnd" : 573,
+      "hmmLength" : 523,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.0,
+      "score" : 641.3,
+      "envelopeStart" : 39,
+      "envelopeEnd" : 589,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 39,
+        "end" : 589,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 641.7,
+    "model-ac" : "PIRSF002527"
+  }, {
+    "signature" : {
+      "accession" : "PIRSF500101",
+      "name" : "ER-a",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PIRSF",
+        "version" : "3.10"
+      },
+      "entry" : {
+        "accession" : "IPR001292",
+        "name" : "Oestr_rcpt",
+        "description" : "Oestrogen receptor",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "steroid binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005496"
+        }, {
+          "name" : "nucleus",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005634"
+        }, {
+          "name" : "steroid hormone mediated signaling pathway",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0043401"
+        }, {
+          "name" : "DNA binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003677"
+        }, {
+          "name" : "estrogen receptor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0030284"
+        }, {
+          "name" : "regulation of transcription, DNA-templated",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Regulation of RUNX2 expression and activity",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8939902"
+        }, {
+          "name" : "Extra-nuclear estrogen signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9009391"
+        }, {
+          "name" : "RUNX1 regulates estrogen receptor mediated transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8931987"
+        }, {
+          "name" : "PIP3 activates AKT signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1257604"
+        }, {
+          "name" : "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8866910"
+        }, {
+          "name" : "Ovarian tumor domain proteases",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5689896"
+        }, {
+          "name" : "SUMOylation of intracellular receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-4090294"
+        }, {
+          "name" : "RUNX1 regulates transcription of genes involved in WNT signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8939256"
+        }, {
+          "name" : "Nuclear signaling by ERBB4",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1251985"
+        }, {
+          "name" : "Constitutive Signaling by Aberrant PI3K in Cancer",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2219530"
+        }, {
+          "name" : "ESR-mediated signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8939211"
+        }, {
+          "name" : "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6811558"
+        }, {
+          "name" : "Estrogen-dependent gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9018519"
+        }, {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 596,
+      "hmmStart" : 1,
+      "hmmEnd" : 595,
+      "hmmLength" : 618,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.0,
+      "score" : 999.2,
+      "envelopeStart" : 1,
+      "envelopeEnd" : 596,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 596,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 999.3,
+    "model-ac" : "PIRSF500101"
+  }, {
+    "signature" : {
+      "accession" : "cd06949",
+      "name" : "NR_LBD_ER",
+      "description" : "NR_LBD_ER",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 311,
+      "end" : 548,
+      "sites" : [ {
+        "description" : "coactivator recognition site",
+        "numLocations" : 8,
+        "siteLocations" : [ {
+          "start" : 376,
+          "end" : 376,
+          "residue" : "Q"
+        }, {
+          "start" : 359,
+          "end" : 359,
+          "residue" : "I"
+        }, {
+          "start" : 377,
+          "end" : 377,
+          "residue" : "V"
+        }, {
+          "start" : 544,
+          "end" : 544,
+          "residue" : "M"
+        }, {
+          "start" : 543,
+          "end" : 543,
+          "residue" : "E"
+        }, {
+          "start" : 539,
+          "end" : 539,
+          "residue" : "N"
+        }, {
+          "start" : 381,
+          "end" : 381,
+          "residue" : "E"
+        }, {
+          "start" : 363,
+          "end" : 363,
+          "residue" : "K"
+        } ]
+      }, {
+        "description" : "dimer interface",
+        "numLocations" : 20,
+        "siteLocations" : [ {
+          "start" : 480,
+          "end" : 480,
+          "residue" : "L"
+        }, {
+          "start" : 516,
+          "end" : 516,
+          "residue" : "R"
+        }, {
+          "start" : 510,
+          "end" : 510,
+          "residue" : "L"
+        }, {
+          "start" : 505,
+          "end" : 505,
+          "residue" : "L"
+        }, {
+          "start" : 506,
+          "end" : 506,
+          "residue" : "A"
+        }, {
+          "start" : 507,
+          "end" : 507,
+          "residue" : "Q"
+        }, {
+          "start" : 452,
+          "end" : 452,
+          "residue" : "I"
+        }, {
+          "start" : 484,
+          "end" : 484,
+          "residue" : "I"
+        }, {
+          "start" : 514,
+          "end" : 514,
+          "residue" : "H"
+        }, {
+          "start" : 513,
+          "end" : 513,
+          "residue" : "S"
+        }, {
+          "start" : 520,
+          "end" : 520,
+          "residue" : "N"
+        }, {
+          "start" : 458,
+          "end" : 458,
+          "residue" : "G"
+        }, {
+          "start" : 456,
+          "end" : 456,
+          "residue" : "N"
+        }, {
+          "start" : 509,
+          "end" : 509,
+          "residue" : "L"
+        }, {
+          "start" : 459,
+          "end" : 459,
+          "residue" : "M"
+        }, {
+          "start" : 517,
+          "end" : 517,
+          "residue" : "H"
+        }, {
+          "start" : 503,
+          "end" : 503,
+          "residue" : "R"
+        }, {
+          "start" : 488,
+          "end" : 488,
+          "residue" : "I"
+        }, {
+          "start" : 502,
+          "end" : 502,
+          "residue" : "H"
+        }, {
+          "start" : 485,
+          "end" : 485,
+          "residue" : "D"
+        } ]
+      }, {
+        "description" : "ligand binding site",
+        "numLocations" : 7,
+        "siteLocations" : [ {
+          "start" : 395,
+          "end" : 395,
+          "residue" : "R"
+        }, {
+          "start" : 522,
+          "end" : 522,
+          "residue" : "G"
+        }, {
+          "start" : 347,
+          "end" : 347,
+          "residue" : "L"
+        }, {
+          "start" : 525,
+          "end" : 525,
+          "residue" : "H"
+        }, {
+          "start" : 354,
+          "end" : 354,
+          "residue" : "E"
+        }, {
+          "start" : 352,
+          "end" : 352,
+          "residue" : "D"
+        }, {
+          "start" : 388,
+          "end" : 388,
+          "residue" : "L"
+        } ]
+      } ],
+      "evalue" : 0.0,
+      "score" : 412.205,
+      "location-fragments" : [ {
+        "start" : 311,
+        "end" : 548,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd06949"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.50.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR013088",
+        "name" : "Znf_NHR/GATA",
+        "description" : "Zinc finger, NHR/GATA-type",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "zinc ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008270"
+        }, {
+          "name" : "regulation of transcription, DNA-templated",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 176,
+      "end" : 282,
+      "hmmStart" : 7,
+      "hmmEnd" : 97,
+      "hmmLength" : 113,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.1E-31,
+      "score" : 111.0,
+      "envelopeStart" : 176,
+      "envelopeEnd" : 282,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 176,
+        "end" : 282,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 6.4E-32,
+    "score" : 111.7,
+    "model-ac" : "2a66A00"
+  }, {
+    "signature" : {
+      "accession" : "SSF57716",
+      "name" : "Glucocorticoid receptor-like (DNA-binding domain)",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 184,
+      "end" : 265,
+      "hmmLength" : 96,
+      "location-fragments" : [ {
+        "start" : 184,
+        "end" : 265,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.53E-28,
+    "model-ac" : "0053658"
+  }, {
+    "signature" : {
+      "accession" : "cd07171",
+      "name" : "NR_DBD_ER",
+      "description" : "NR_DBD_ER",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 181,
+      "end" : 262,
+      "sites" : [ {
+        "description" : "dimer interface",
+        "numLocations" : 8,
+        "siteLocations" : [ {
+          "start" : 222,
+          "end" : 222,
+          "residue" : "C"
+        }, {
+          "start" : 224,
+          "end" : 224,
+          "residue" : "A"
+        }, {
+          "start" : 221,
+          "end" : 221,
+          "residue" : "I"
+        }, {
+          "start" : 228,
+          "end" : 228,
+          "residue" : "C"
+        }, {
+          "start" : 237,
+          "end" : 237,
+          "residue" : "S"
+        }, {
+          "start" : 229,
+          "end" : 229,
+          "residue" : "T"
+        }, {
+          "start" : 234,
+          "end" : 234,
+          "residue" : "R"
+        }, {
+          "start" : 223,
+          "end" : 223,
+          "residue" : "P"
+        } ]
+      }, {
+        "description" : "zinc binding site",
+        "numLocations" : 8,
+        "siteLocations" : [ {
+          "start" : 238,
+          "end" : 238,
+          "residue" : "C"
+        }, {
+          "start" : 206,
+          "end" : 206,
+          "residue" : "C"
+        }, {
+          "start" : 222,
+          "end" : 222,
+          "residue" : "C"
+        }, {
+          "start" : 203,
+          "end" : 203,
+          "residue" : "C"
+        }, {
+          "start" : 228,
+          "end" : 228,
+          "residue" : "C"
+        }, {
+          "start" : 241,
+          "end" : 241,
+          "residue" : "C"
+        }, {
+          "start" : 186,
+          "end" : 186,
+          "residue" : "C"
+        }, {
+          "start" : 189,
+          "end" : 189,
+          "residue" : "C"
+        } ]
+      }, {
+        "description" : "DNA binding site",
+        "numLocations" : 15,
+        "siteLocations" : [ {
+          "start" : 196,
+          "end" : 196,
+          "residue" : "Y"
+        }, {
+          "start" : 235,
+          "end" : 235,
+          "residue" : "R"
+        }, {
+          "start" : 208,
+          "end" : 208,
+          "residue" : "A"
+        }, {
+          "start" : 204,
+          "end" : 204,
+          "residue" : "E"
+        }, {
+          "start" : 212,
+          "end" : 212,
+          "residue" : "R"
+        }, {
+          "start" : 236,
+          "end" : 236,
+          "residue" : "K"
+        }, {
+          "start" : 209,
+          "end" : 209,
+          "residue" : "F"
+        }, {
+          "start" : 207,
+          "end" : 207,
+          "residue" : "K"
+        }, {
+          "start" : 197,
+          "end" : 197,
+          "residue" : "H"
+        }, {
+          "start" : 239,
+          "end" : 239,
+          "residue" : "Q"
+        }, {
+          "start" : 211,
+          "end" : 211,
+          "residue" : "K"
+        }, {
+          "start" : 205,
+          "end" : 205,
+          "residue" : "G"
+        }, {
+          "start" : 198,
+          "end" : 198,
+          "residue" : "Y"
+        }, {
+          "start" : 242,
+          "end" : 242,
+          "residue" : "R"
+        }, {
+          "start" : 195,
+          "end" : 195,
+          "residue" : "G"
+        } ]
+      } ],
+      "evalue" : 4.93396E-62,
+      "score" : 197.412,
+      "location-fragments" : [ {
+        "start" : 181,
+        "end" : 262,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd07171"
+  }, {
+    "signature" : {
+      "accession" : "PR00047",
+      "name" : "STROIDFINGER",
+      "description" : "C4-type steroid receptor zinc finger signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR001628",
+        "name" : "Znf_hrmn_rcpt",
+        "description" : "Zinc finger, nuclear hormone receptor-type",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "sequence-specific DNA binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0043565"
+        }, {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        }, {
+          "name" : "zinc ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008270"
+        }, {
+          "name" : "host cell nucleus",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0042025"
+        }, {
+          "name" : "regulation of transcription, DNA-templated",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 186,
+      "end" : 202,
+      "pvalue" : 1.08E-8,
+      "score" : 57.2,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 186,
+        "end" : 202,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 202,
+      "end" : 217,
+      "pvalue" : 2.34E-8,
+      "score" : 58.58,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 202,
+        "end" : 217,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 235,
+      "end" : 243,
+      "pvalue" : 6.89E-4,
+      "score" : 60.54,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 235,
+        "end" : 243,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 243,
+      "end" : 251,
+      "pvalue" : 4.59E-4,
+      "score" : 59.11,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 243,
+        "end" : 251,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.3E-16,
+    "graphscan" : "IIII",
+    "model-ac" : "PR00047"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 552,
+      "end" : 572,
+      "location-fragments" : [ {
+        "start" : 552,
+        "end" : 572,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SM00430",
+      "name" : "holi",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR000536",
+        "name" : "Nucl_hrmn_rcpt_lig-bd",
+        "description" : "Nuclear hormone receptor, ligand-binding domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Nuclear Receptor transcription pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-383280"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 349,
+      "end" : 519,
+      "hmmStart" : 1,
+      "hmmEnd" : 158,
+      "hmmLength" : 158,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.6E-35,
+      "score" : 132.5,
+      "location-fragments" : [ {
+        "start" : 349,
+        "end" : 519,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.6E-35,
+    "score" : 132.5,
+    "model-ac" : "SM00430"
+  } ],
+  "xref" : [ {
+    "name" : "tr|H0VC28|H0VC28_CAVPO Estrogen receptor OS=Cavia porcellus OX=10141 GN=ESR1 PE=3 SV=1",
+    "id" : "tr|H0VC28|H0VC28_CAVPO"
+  } ]
+} ]
+}

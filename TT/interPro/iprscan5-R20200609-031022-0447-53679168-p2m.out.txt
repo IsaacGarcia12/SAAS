@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="cc0795195b0b74301b53c533949c4665">MSSARFDSADRSAWYMGPVSRQEAQTRLQGQRHGMFLVRDSSTCPGDYVLSVSENSRVSHYIINSLPNRRFKIGDQEFDHLPALLEFYKIHYLDTTTLIEPAPRYPSPPMGSVSAPNLSAAEENVEYVRTLYDFPGNDAEDLPFKKGEILVIIEKPEEQWWSARNKDGRVGMIPVPYVEKLVRSSPHGKHGNRNSNSYGIPEPAHAYAQPQTTTPLPTVASTPGASINPLPSTQNGPVFAKAIQKRVPCAYDKTALALEVGDIVKVTRMNINGQWEGEVNGRKGLFPFTHVKIFDPQNPDDNE</sequence>
+    <xref id="tr|G3HFZ9|G3HFZ9_CRIGR" name="tr|G3HFZ9|G3HFZ9_CRIGR CRKL OS=Cricetulus griseus OX=10029 GN=CgPICR_002289 PE=4 SV=1"/>
+    <matches>
+      <fingerprints-match evalue="1.9E-14" graphscan="IIIII">
+        <signature ac="PR00401" desc="SH2 domain signature" name="SH2DOMAIN">
+          <entry ac="IPR000980" desc="SH2 domain" name="SH2" type="DOMAIN"/>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR00401</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="2.1E-5" score="40.37" start="14" end="28">
+            <location-fragments>
+              <fingerprints-location-fragment start="14" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="1.4E-5" score="57.24" start="33" end="43">
+            <location-fragments>
+              <fingerprints-location-fragment start="33" end="43" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="2.26E-5" score="44.34" start="45" end="56">
+            <location-fragments>
+              <fingerprints-location-fragment start="45" end="56" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="4" pvalue="0.00291" score="41.58" start="57" end="67">
+            <location-fragments>
+              <fingerprints-location-fragment start="57" end="67" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="5" pvalue="7.58E-4" score="32.35" start="77" end="91">
+            <location-fragments>
+              <fingerprints-location-fragment start="77" end="91" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <fingerprints-match evalue="3.0E-9" graphscan="IIII">
+        <signature ac="PR00452" desc="SH3 domain signature" name="SH3DOMAIN">
+          <entry ac="IPR001452" desc="SH3 domain" name="SH3_domain" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR00452</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="0.0052" score="33.0" start="126" end="136">
+            <location-fragments>
+              <fingerprints-location-fragment start="126" end="136" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="6.8E-8" score="37.96" start="140" end="155">
+            <location-fragments>
+              <fingerprints-location-fragment start="140" end="155" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="0.0177" score="30.19" start="157" end="166">
+            <location-fragments>
+              <fingerprints-location-fragment start="157" end="166" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="4" pvalue="2.84E-4" score="38.19" start="169" end="181">
+            <location-fragments>
+              <fingerprints-location-fragment start="169" end="181" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <hmmer2-match evalue="1.3E-31" score="121.0">
+        <signature ac="SM00326" name="SH3_2">
+          <entry ac="IPR001452" desc="SH3 domain" name="SH3_domain" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00326</model-ac>
+        <locations>
+          <hmmer2-location score="39.4" evalue="4.8E-7" hmm-start="1" hmm-end="58" hmm-length="58" hmm-bounds="COMPLETE" start="238" end="295">
+            <location-fragments>
+              <hmmer2-location-fragment start="238" end="295" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="81.6" evalue="9.8E-20" hmm-start="1" hmm-end="58" hmm-length="58" hmm-bounds="COMPLETE" start="126" end="182">
+            <location-fragments>
+              <hmmer2-location-fragment start="126" end="182" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="2.1E-26" score="103.7">
+        <signature ac="SM00252" name="SH2_5">
+          <entry ac="IPR000980" desc="SH2 domain" name="SH2" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00252</model-ac>
+        <locations>
+          <hmmer2-location score="103.7" evalue="2.1E-26" hmm-start="1" hmm-end="87" hmm-length="87" hmm-bounds="COMPLETE" start="12" end="94">
+            <location-fragments>
+              <hmmer2-location-fragment start="12" end="94" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="2.0E-83" score="281.0">
+        <signature ac="G3DSA:3.30.505.10">
+          <entry ac="IPR036860" desc="SH2 domain superfamily" name="SH2_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2dvjA01</model-ac>
+        <locations>
+          <hmmer3-location env-end="202" env-start="2" post-processed="true" score="267.8" evalue="2.3E-79" hmm-start="3" hmm-end="196" hmm-length="146" hmm-bounds="INCOMPLETE" start="4" end="105">
+            <location-fragments>
+              <hmmer3-location-fragment start="4" end="105" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="8.0E-22" score="76.5">
+        <signature ac="PF00018" desc="SH3 domain" name="SH3_1">
+          <entry ac="IPR001452" desc="SH3 domain" name="SH3_domain" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00018</model-ac>
+        <locations>
+          <hmmer3-location env-end="175" env-start="129" post-processed="true" score="59.8" evalue="1.3E-16" hmm-start="2" hmm-end="48" hmm-length="48" hmm-bounds="C_TERMINAL_COMPLETE" start="130" end="175">
+            <location-fragments>
+              <hmmer3-location-fragment start="130" end="175" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="4.6E-40" score="137.3">
+        <signature ac="G3DSA:2.30.30.40">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2l3sA02</model-ac>
+        <locations>
+          <hmmer3-location env-end="295" env-start="221" post-processed="true" score="105.4" evalue="4.1E-30" hmm-start="8" hmm-end="74" hmm-length="76" hmm-bounds="COMPLETE" start="221" end="295">
+            <location-fragments>
+              <hmmer3-location-fragment start="221" end="295" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.0E-83" score="281.0">
+        <signature ac="G3DSA:2.30.30.40">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2dvjA02</model-ac>
+        <locations>
+          <hmmer3-location env-end="202" env-start="2" post-processed="true" score="267.8" evalue="2.3E-79" hmm-start="3" hmm-end="196" hmm-length="215" hmm-bounds="INCOMPLETE" start="106" end="187">
+            <location-fragments>
+              <hmmer3-location-fragment start="106" end="187" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="5.4E-22" score="77.6">
+        <signature ac="PF00017" desc="SH2 domain" name="SH2">
+          <entry ac="IPR000980" desc="SH2 domain" name="SH2" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00017</model-ac>
+        <locations>
+          <hmmer3-location env-end="88" env-start="14" post-processed="true" score="76.8" evalue="9.6E-22" hmm-start="1" hmm-end="77" hmm-length="77" hmm-bounds="COMPLETE" start="14" end="88">
+            <location-fragments>
+              <hmmer3-location-fragment start="14" end="88" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="5.9E-25" score="86.6">
+        <signature ac="PF07653" desc="Variant SH3 domain" name="SH3_2">
+          <entry ac="IPR001452" desc="SH3 domain" name="SH3_domain" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF07653</model-ac>
+        <locations>
+          <hmmer3-location env-end="294" env-start="239" post-processed="true" score="46.6" evalue="1.8E-12" hmm-start="1" hmm-end="56" hmm-length="57" hmm-bounds="N_TERMINAL_COMPLETE" start="239" end="293">
+            <location-fragments>
+              <hmmer3-location-fragment start="239" end="293" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="184" end="203">
+            <location-fragments>
+              <mobidblite-location-fragment start="184" end="203" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="667.0">
+        <signature ac="PTHR19969:SF20" name="CRK-LIKE PROTEIN">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR19969:SF20</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="303" hmm-start="1" hmm-end="302" hmm-length="302" hmm-bounds="COMPLETE" start="1" end="303">
+            <location-fragments>
+              <panther-location-fragment start="1" end="303" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="667.0">
+        <signature ac="PTHR19969" name="SH2-SH3 ADAPTOR PROTEIN-RELATED">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR19969</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="303" hmm-start="1" hmm-end="302" hmm-length="302" hmm-bounds="COMPLETE" start="1" end="303">
+            <location-fragments>
+              <panther-location-fragment start="1" end="303" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <profilescan-match>
+        <signature ac="PS50002" desc="Src homology 3 (SH3) domain profile." name="SH3">
+          <entry ac="IPR001452" desc="SH3 domain" name="SH3_domain" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50002</model-ac>
+        <locations>
+          <profilescan-location score="26.213" start="123" end="183">
+            <location-fragments>
+              <profilescan-location-fragment start="123" end="183" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>ENVEYVRTLYDFPGNDAEDLPFKKGEILVIIEKPEEQWWSARNKDGRVGMIPVPYVEKLVR</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50001" desc="Src homology 2 (SH2) domain profile." name="SH2">
+          <entry ac="IPR000980" desc="SH2 domain" name="SH2" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50001</model-ac>
+        <locations>
+          <profilescan-location score="18.902" start="14" end="102">
+            <location-fragments>
+              <profilescan-location-fragment start="14" end="102" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>WYMGPVSRQEAQTRLQGQ-RHGMFLVRDSSTCPGDYVLSVSENSRVSHYIINSLPNRRFKIGD-QEFDHLPALLEFYKIHYLDTT-TLIEPA</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50002" desc="Src homology 3 (SH3) domain profile." name="SH3">
+          <entry ac="IPR001452" desc="SH3 domain" name="SH3_domain" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50002</model-ac>
+        <locations>
+          <profilescan-location score="17.339" start="235" end="296">
+            <location-fragments>
+              <profilescan-location-fragment start="235" end="296" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>NGPVFAKAIQKRVpcAYDKTALALEVGDIVKVTRMNINGQWEGEVN-GRKGLFPFTHVKIFDP</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <rpsblast-match>
+        <signature ac="cd11758" desc="SH3_CRK_N" name="SH3_CRK_N">
+          <entry ac="IPR035457" desc="CRK, N-terminal SH3 domain" name="CRK_SH3_N" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-186763" name="Downstream signal transduction"/>
+            <pathway-xref db="Reactome" id="R-HSA-8875555" name="MET activates RAP1 and RAC1"/>
+            <pathway-xref db="Reactome" id="R-HSA-8875656" name="MET receptor recycling"/>
+            <pathway-xref db="Reactome" id="R-HSA-912631" name="Regulation of signaling by CBL"/>
+          </entry>
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd11758</model-ac>
+        <locations>
+          <rpsblast-location evalue="1.77547E-37" score="125.553" start="126" end="180">
+            <location-fragments>
+              <rpsblast-location-fragment start="126" end="180" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="C-terminal SH3 interface" numLocations="10">
+                <site-locations>
+                  <site-location residue="Y" start="132" end="132"/>
+                  <site-location residue="F" start="134" end="134"/>
+                  <site-location residue="P" start="176" end="176"/>
+                  <site-location residue="P" start="174" end="174"/>
+                  <site-location residue="N" start="137" end="137"/>
+                  <site-location residue="E" start="157" end="157"/>
+                  <site-location residue="W" start="160" end="160"/>
+                  <site-location residue="Q" start="159" end="159"/>
+                  <site-location residue="D" start="133" end="133"/>
+                  <site-location residue="Y" start="177" end="177"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="peptide ligand binding site" numLocations="9">
+                <site-locations>
+                  <site-location residue="Y" start="132" end="132"/>
+                  <site-location residue="F" start="134" end="134"/>
+                  <site-location residue="P" start="176" end="176"/>
+                  <site-location residue="P" start="174" end="174"/>
+                  <site-location residue="E" start="157" end="157"/>
+                  <site-location residue="Q" start="159" end="159"/>
+                  <site-location residue="W" start="160" end="160"/>
+                  <site-location residue="Y" start="177" end="177"/>
+                  <site-location residue="D" start="141" end="141"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd11759" desc="SH3_CRK_C" name="SH3_CRK_C">
+          <entry ac="IPR035458" desc="CRK, C-terminal SH3 domain" name="CRK_SH3_C" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-912631" name="Regulation of signaling by CBL"/>
+            <pathway-xref db="Reactome" id="R-HSA-8875656" name="MET receptor recycling"/>
+            <pathway-xref db="Reactome" id="R-HSA-186763" name="Downstream signal transduction"/>
+            <pathway-xref db="Reactome" id="R-HSA-8875555" name="MET activates RAP1 and RAC1"/>
+          </entry>
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd11759</model-ac>
+        <locations>
+          <rpsblast-location evalue="8.37163E-31" score="108.343" start="237" end="293">
+            <location-fragments>
+              <rpsblast-location-fragment start="237" end="293" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="SH2 interface" numLocations="10">
+                <site-locations>
+                  <site-location residue="I" start="271" end="271"/>
+                  <site-location residue="G" start="273" end="273"/>
+                  <site-location residue="I" start="293" end="293"/>
+                  <site-location residue="T" start="289" end="289"/>
+                  <site-location residue="N" start="272" end="272"/>
+                  <site-location residue="Q" start="274" end="274"/>
+                  <site-location residue="W" start="275" end="275"/>
+                  <site-location residue="P" start="287" end="287"/>
+                  <site-location residue="K" start="292" end="292"/>
+                  <site-location residue="F" start="288" end="288"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="peptide ligand binding site" numLocations="9">
+                <site-locations>
+                  <site-location residue="G" start="273" end="273"/>
+                  <site-location residue="H" start="290" end="290"/>
+                  <site-location residue="T" start="289" end="289"/>
+                  <site-location residue="R" start="246" end="246"/>
+                  <site-location residue="C" start="249" end="249"/>
+                  <site-location residue="Q" start="244" end="244"/>
+                  <site-location residue="A" start="255" end="255"/>
+                  <site-location residue="Q" start="274" end="274"/>
+                  <site-location residue="P" start="287" end="287"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="N-terminal SH3 interface" numLocations="8">
+                <site-locations>
+                  <site-location residue="V" start="238" end="238"/>
+                  <site-location residue="P" start="237" end="237"/>
+                  <site-location residue="T" start="267" end="267"/>
+                  <site-location residue="M" start="269" end="269"/>
+                  <site-location residue="F" start="239" end="239"/>
+                  <site-location residue="R" start="268" end="268"/>
+                  <site-location residue="K" start="283" end="283"/>
+                  <site-location residue="K" start="265" end="265"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd09926" desc="SH2_CRK_like" name="SH2_CRK_like">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd09926</model-ac>
+        <locations>
+          <rpsblast-location evalue="2.54057E-71" score="213.875" start="6" end="106">
+            <location-fragments>
+              <rpsblast-location-fragment start="6" end="106" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="hydrophobic binding pocket" numLocations="2">
+                <site-locations>
+                  <site-location residue="Y" start="61" end="61"/>
+                  <site-location residue="Y" start="88" end="88"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="phosphotyrosine binding pocket" numLocations="4">
+                <site-locations>
+                  <site-location residue="H" start="60" end="60"/>
+                  <site-location residue="R" start="39" end="39"/>
+                  <site-location residue="I" start="62" end="62"/>
+                  <site-location residue="R" start="21" end="21"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="8.93E-13">
+        <signature ac="SSF50044" name="SH3-domain">
+          <entry ac="IPR036028" desc="SH3-like domain superfamily" name="SH3-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0043854</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="107" start="223" end="300">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="223" end="300" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="5.88E-21">
+        <signature ac="SSF50044" name="SH3-domain">
+          <entry ac="IPR036028" desc="SH3-like domain superfamily" name="SH3-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0041374</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="118" start="123" end="208">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="123" end="208" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="2.11E-28">
+        <signature ac="SSF55550" name="SH2 domain">
+          <entry ac="IPR036860" desc="SH2 domain superfamily" name="SH2_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0034940</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="129" start="12" end="178">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="12" end="104" dc-status="C_TERMINAL_DISC"/>
+              <superfamilyhmmer3-location-fragment start="152" end="178" dc-status="N_TERMINAL_DISC"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

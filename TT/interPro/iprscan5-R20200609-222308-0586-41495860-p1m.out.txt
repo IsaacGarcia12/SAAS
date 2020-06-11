@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="23f86438c469f253aa6c43e64243668c">MASGADSKGDDLSTAILKQKNRPNRLIVDEAINEDNSVVSLSQPKMDELQLFRGDTVLLKGKKRREAVCIVLSDDTCSDEKIRMNRVVRNNLRVRLGDVISIQPCPDVKYGKRIHVLPIDDTVEGITGNLFEVYLKPYFLEAYRPIRKGDIFLVRGGMRAVEFKVVETDPSPYCIVAPDTVIHCEGEPIKREDEEESLNEVGYDDIGGCRKQLAQIKEMVELPLRHPALFKAIGVKPPRGILLYGPPGTGKTLIARAVANETGAFFFLINGPEIMSKLAGESESNLRKAFEEAEKNAPAIIFIDELDAIAPKREKTHGEVERRIVSQLLTLMDGLKQRAHVIVMAATNRPNSIDPALRRFGRFDREVDIGIPDATGRLEILQIHTKNMKLADDVDLEQVANETHGHVGADLAALCSEAALQAIRKKMDLIDLEDETIDAEVMNSLAVTMDDFRWALSQSNPSALRETVVEVPQVTWEDIGGLEDVKRELQELVQYPVEHPDKFLKFGMTPSKGVLFYGPPGCGKTLLAKAIANECQANFISIKGPELLTMWFGESEANVREIFDKARQAAPCVLFFDELDSIAKARGGNIGDGGGAADRVINQILTEMDGMSTKKNVFIIGATNRPDIIDPAILRPGRLDQLIYIPLPDEKSRVAILKANLRKSPVAKDVDLEFLAKMTNGFSGADLTEICQRACKLAIRESIESEIRRERERQTNPSAMEVEEDDPVPEIRRDHFEEAMRFARRSVSDNDIRKYEMFAQTLQQSRGFGSFRFPSGNQGGAGPSQGSGGGTGGSVYTEDNDDDLYG</sequence>
+    <xref id="tr|A0A286Y676|A0A286Y676_CAVPO" name="tr|A0A286Y676|A0A286Y676_CAVPO Valosin containing protein OS=Cavia porcellus OX=10141 GN=VCP PE=3 SV=1"/>
+    <matches>
+      <hmmer2-match evalue="1.4E-28" score="110.9">
+        <signature ac="SM01073" name="CDC48_N_2">
+          <entry ac="IPR003338" desc="CDC48, N-terminal subdomain" name="CDC4_N-term_subdom" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM01073</model-ac>
+        <locations>
+          <hmmer2-location score="110.9" evalue="1.4E-28" hmm-start="1" hmm-end="98" hmm-length="98" hmm-bounds="COMPLETE" start="25" end="108">
+            <location-fragments>
+              <hmmer2-location-fragment start="25" end="108" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="9.1E-53" score="191.3">
+        <signature ac="SM00382" name="AAA_5">
+          <entry ac="IPR003593" desc="AAA+ ATPase domain" name="AAA+_ATPase" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00382</model-ac>
+        <locations>
+          <hmmer2-location score="93.0" evalue="3.6E-23" hmm-start="1" hmm-end="92" hmm-length="92" hmm-bounds="COMPLETE" start="237" end="373">
+            <location-fragments>
+              <hmmer2-location-fragment start="237" end="373" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="98.3" evalue="8.8E-25" hmm-start="1" hmm-end="92" hmm-length="92" hmm-bounds="COMPLETE" start="510" end="649">
+            <location-fragments>
+              <hmmer2-location-fragment start="510" end="649" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="8.0E-17" score="71.9">
+        <signature ac="SM01072" name="CDC48_2_2">
+          <entry ac="IPR004201" desc="CDC48, domain 2" name="Cdc48_dom2" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM01072</model-ac>
+        <locations>
+          <hmmer2-location score="71.9" evalue="8.0E-17" hmm-start="1" hmm-end="71" hmm-length="71" hmm-bounds="COMPLETE" start="125" end="191">
+            <location-fragments>
+              <hmmer2-location-fragment start="125" end="191" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="1.6E-21" score="76.1">
+        <signature ac="PF02359" desc="Cell division protein 48 (CDC48), N-terminal domain" name="CDC48_N">
+          <entry ac="IPR003338" desc="CDC48, N-terminal subdomain" name="CDC4_N-term_subdom" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF02359</model-ac>
+        <locations>
+          <hmmer3-location env-end="108" env-start="25" post-processed="true" score="74.7" evalue="4.6E-21" hmm-start="1" hmm-end="84" hmm-length="85" hmm-bounds="N_TERMINAL_COMPLETE" start="25" end="106">
+            <location-fragments>
+              <hmmer3-location-fragment start="25" end="106" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="442.3">
+        <signature ac="G3DSA:3.40.50.300">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4ko8A03</model-ac>
+        <locations>
+          <hmmer3-location env-end="370" env-start="201" post-processed="true" score="220.9" evalue="4.0E-65" hmm-start="3" hmm-end="170" hmm-length="170" hmm-bounds="C_TERMINAL_COMPLETE" start="205" end="370">
+            <location-fragments>
+              <hmmer3-location-fragment start="205" end="370" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.3E-51" score="174.0">
+        <signature ac="G3DSA:3.10.330.10">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3qwzA02</model-ac>
+        <locations>
+          <hmmer3-location env-end="208" env-start="108" post-processed="true" score="172.4" evalue="7.0E-51" hmm-start="1" hmm-end="101" hmm-length="101" hmm-bounds="N_TERMINAL_COMPLETE" start="108" end="204">
+            <location-fragments>
+              <hmmer3-location-fragment start="108" end="204" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.2E-96" score="320.1">
+        <signature ac="PF00004" desc="ATPase family associated with various cellular activities (AAA)" name="AAA">
+          <entry ac="IPR003959" desc="ATPase, AAA-type, core" name="ATPase_AAA_core" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00004</model-ac>
+        <locations>
+          <hmmer3-location env-end="647" env-start="514" post-processed="true" score="157.8" evalue="1.7E-46" hmm-start="1" hmm-end="132" hmm-length="132" hmm-bounds="COMPLETE" start="514" end="647">
+            <location-fragments>
+              <hmmer3-location-fragment start="514" end="647" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="371" env-start="241" post-processed="true" score="159.7" evalue="4.5E-47" hmm-start="1" hmm-end="131" hmm-length="132" hmm-bounds="N_TERMINAL_COMPLETE" start="241" end="370">
+            <location-fragments>
+              <hmmer3-location-fragment start="241" end="370" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.2E-12" score="47.3">
+        <signature ac="PF02933" desc="Cell division protein 48 (CDC48), domain 2" name="CDC48_2">
+          <entry ac="IPR004201" desc="CDC48, domain 2" name="Cdc48_dom2" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF02933</model-ac>
+        <locations>
+          <hmmer3-location env-end="191" env-start="125" post-processed="true" score="46.3" evalue="2.6E-12" hmm-start="2" hmm-end="63" hmm-length="64" hmm-bounds="INCOMPLETE" start="126" end="190">
+            <location-fragments>
+              <hmmer3-location-fragment start="126" end="190" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="7.2E-9" score="35.4">
+        <signature ac="PF09336" desc="Vps4 C terminal oligomerisation domain" name="Vps4_C">
+          <entry ac="IPR015415" desc="Vps4 oligomerisation, C-terminal" name="Vps4_C" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF09336</model-ac>
+        <locations>
+          <hmmer3-location env-end="762" env-start="711" post-processed="true" score="23.9" evalue="2.9E-5" hmm-start="17" hmm-end="58" hmm-length="61" hmm-bounds="INCOMPLETE" start="720" end="760">
+            <location-fragments>
+              <hmmer3-location-fragment start="720" end="760" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.7E-49" score="167.0">
+        <signature ac="G3DSA:2.40.40.20">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3qq8A01</model-ac>
+        <locations>
+          <hmmer3-location env-end="107" env-start="2" post-processed="true" score="165.0" evalue="1.2E-48" hmm-start="2" hmm-end="106" hmm-length="106" hmm-bounds="COMPLETE" start="2" end="107">
+            <location-fragments>
+              <hmmer3-location-fragment start="2" end="107" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.1E-58" score="197.2">
+        <signature ac="G3DSA:1.10.8.60">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>5dygA04</model-ac>
+        <locations>
+          <hmmer3-location env-end="467" env-start="372" post-processed="true" score="129.0" evalue="2.0E-37" hmm-start="1" hmm-end="91" hmm-length="97" hmm-bounds="COMPLETE" start="372" end="467">
+            <location-fragments>
+              <hmmer3-location-fragment start="372" end="467" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.3E-27" score="95.2">
+        <signature ac="PF17862" desc="AAA+ lid domain" name="AAA_lid_3">
+          <entry ac="IPR041569" desc="AAA ATPase, AAA+ lid domain" name="AAA_lid_3" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF17862</model-ac>
+        <locations>
+          <hmmer3-location env-end="714" env-start="669" post-processed="true" score="48.6" evalue="4.9E-13" hmm-start="1" hmm-end="41" hmm-length="45" hmm-bounds="N_TERMINAL_COMPLETE" start="669" end="710">
+            <location-fragments>
+              <hmmer3-location-fragment start="669" end="710" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="438" env-start="393" post-processed="true" score="48.2" evalue="6.4E-13" hmm-start="1" hmm-end="42" hmm-length="45" hmm-bounds="N_TERMINAL_COMPLETE" start="393" end="434">
+            <location-fragments>
+              <hmmer3-location-fragment start="393" end="434" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="871.5">
+        <signature ac="TIGR01243" desc="CDC48: AAA family ATPase, CDC48 subfamily" name="TIGR01243">
+          <entry ac="IPR005938" desc="AAA ATPase, CDC48 family" name="AAA_ATPase_CDC48" type="FAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016787" name="hydrolase activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-5358346" name="Hedgehog ligand biogenesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-3371511" name="HSF1 activation"/>
+            <pathway-xref db="Reactome" id="R-HSA-5689877" name="Josephin domain DUBs"/>
+            <pathway-xref db="Reactome" id="R-HSA-6798695" name="Neutrophil degranulation"/>
+            <pathway-xref db="Reactome" id="R-HSA-8866654" name="E3 ubiquitin ligases ubiquitinate target proteins"/>
+            <pathway-xref db="Reactome" id="R-HSA-9646399" name="Aggrephagy"/>
+            <pathway-xref db="Reactome" id="R-HSA-5689896" name="Ovarian tumor domain proteases"/>
+            <pathway-xref db="Reactome" id="R-HSA-532668" name="N-glycan trimming in the ER and Calnexin/Calreticulin cycle"/>
+            <pathway-xref db="Reactome" id="R-HSA-8876725" name="Protein methylation"/>
+            <pathway-xref db="Reactome" id="R-HSA-5678895" name="Defective CFTR causes cystic fibrosis"/>
+            <pathway-xref db="Reactome" id="R-HSA-110320" name="Translesion Synthesis by POLH"/>
+            <pathway-xref db="Reactome" id="R-HSA-5362768" name="Hh mutants that don't undergo autocatalytic processing are degraded by ERAD"/>
+            <pathway-xref db="Reactome" id="R-HSA-382556" name="ABC-family proteins mediated transport"/>
+          </entry>
+          <signature-library-release library="TIGRFAM" version="15.0"/>
+        </signature>
+        <model-ac>TIGR01243</model-ac>
+        <locations>
+          <hmmer3-location env-end="766" env-start="24" post-processed="false" score="871.1" evalue="0.0" hmm-start="4" hmm-end="730" hmm-length="733" hmm-bounds="INCOMPLETE" start="26" end="763">
+            <location-fragments>
+              <hmmer3-location-fragment start="26" end="763" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="8.2E-77" score="257.0">
+        <signature ac="G3DSA:1.10.8.60">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3cf0A02</model-ac>
+        <locations>
+          <hmmer3-location env-end="763" env-start="648" post-processed="true" score="178.1" evalue="2.5E-52" hmm-start="1" hmm-end="116" hmm-length="116" hmm-bounds="C_TERMINAL_COMPLETE" start="649" end="763">
+            <location-fragments>
+              <hmmer3-location-fragment start="649" end="763" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="475.3">
+        <signature ac="G3DSA:3.40.50.300">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>5ftjA05</model-ac>
+        <locations>
+          <hmmer3-location env-end="648" env-start="467" post-processed="true" score="249.5" evalue="7.1E-74" hmm-start="3" hmm-end="182" hmm-length="182" hmm-bounds="C_TERMINAL_COMPLETE" start="468" end="648">
+            <location-fragments>
+              <hmmer3-location-fragment start="468" end="648" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="768" end="806">
+            <location-fragments>
+              <mobidblite-location-fragment start="768" end="806" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="708" end="727">
+            <location-fragments>
+              <mobidblite-location-fragment start="708" end="727" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="768" end="794">
+            <location-fragments>
+              <mobidblite-location-fragment start="768" end="794" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1860.4">
+        <signature ac="PTHR23077:SF69" name="TRANSITIONAL ENDOPLASMIC RETICULUM ATPASE">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR23077:SF69</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="805" hmm-start="3" hmm-end="799" hmm-length="806" hmm-bounds="INCOMPLETE" start="3" end="799">
+            <location-fragments>
+              <panther-location-fragment start="3" end="799" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1860.4">
+        <signature ac="PTHR23077" name="AAA-FAMILY ATPASE">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR23077</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="805" hmm-start="3" hmm-end="799" hmm-length="806" hmm-bounds="INCOMPLETE" start="3" end="799">
+            <location-fragments>
+              <panther-location-fragment start="3" end="799" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <patternscan-match>
+        <signature ac="PS00674" desc="AAA-protein family signature." name="AAA">
+          <entry ac="IPR003960" desc="ATPase, AAA-type, conserved site" name="ATPase_AAA_CS" type="CONSERVED_SITE">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS00674</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="617" end="635">
+            <location-fragments>
+              <patternscan-location-fragment start="617" end="635" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>VfIIgATNrpdiIDpAIlR</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <patternscan-match>
+        <signature ac="PS00674" desc="AAA-protein family signature." name="AAA">
+          <entry ac="IPR003960" desc="ATPase, AAA-type, conserved site" name="ATPase_AAA_CS" type="CONSERVED_SITE">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS00674</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="341" end="359">
+            <location-fragments>
+              <patternscan-location-fragment start="341" end="359" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>ViVMaATNrpnsIDpALrR</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <rpsblast-match>
+        <signature ac="cd00009" desc="AAA" name="AAA">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00009</model-ac>
+        <locations>
+          <rpsblast-location evalue="1.30825E-30" score="115.706" start="228" end="370">
+            <location-fragments>
+              <rpsblast-location-fragment start="228" end="370" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="Walker B motif" numLocations="6">
+                <site-locations>
+                  <site-location residue="I" start="303" end="303"/>
+                  <site-location residue="E" start="305" end="305"/>
+                  <site-location residue="F" start="302" end="302"/>
+                  <site-location residue="I" start="300" end="300"/>
+                  <site-location residue="I" start="301" end="301"/>
+                  <site-location residue="D" start="304" end="304"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="ATP binding site" numLocations="10">
+                <site-locations>
+                  <site-location residue="G" start="250" end="250"/>
+                  <site-location residue="T" start="249" end="249"/>
+                  <site-location residue="L" start="253" end="253"/>
+                  <site-location residue="T" start="252" end="252"/>
+                  <site-location residue="P" start="246" end="246"/>
+                  <site-location residue="G" start="248" end="248"/>
+                  <site-location residue="K" start="251" end="251"/>
+                  <site-location residue="D" start="304" end="304"/>
+                  <site-location residue="P" start="247" end="247"/>
+                  <site-location residue="N" start="348" end="348"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="Walker A motif" numLocations="8">
+                <site-locations>
+                  <site-location residue="G" start="250" end="250"/>
+                  <site-location residue="T" start="249" end="249"/>
+                  <site-location residue="T" start="252" end="252"/>
+                  <site-location residue="P" start="246" end="246"/>
+                  <site-location residue="G" start="248" end="248"/>
+                  <site-location residue="K" start="251" end="251"/>
+                  <site-location residue="G" start="245" end="245"/>
+                  <site-location residue="P" start="247" end="247"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="arginine finger" numLocations="1">
+                <site-locations>
+                  <site-location residue="R" start="362" end="362"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd00009" desc="AAA" name="AAA">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00009</model-ac>
+        <locations>
+          <rpsblast-location evalue="1.05715E-30" score="116.091" start="480" end="647">
+            <location-fragments>
+              <rpsblast-location-fragment start="480" end="647" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="ATP binding site" numLocations="10">
+                <site-locations>
+                  <site-location residue="G" start="521" end="521"/>
+                  <site-location residue="P" start="520" end="520"/>
+                  <site-location residue="N" start="624" end="624"/>
+                  <site-location residue="D" start="577" end="577"/>
+                  <site-location residue="C" start="522" end="522"/>
+                  <site-location residue="L" start="526" end="526"/>
+                  <site-location residue="P" start="519" end="519"/>
+                  <site-location residue="T" start="525" end="525"/>
+                  <site-location residue="K" start="524" end="524"/>
+                  <site-location residue="G" start="523" end="523"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="Walker A motif" numLocations="8">
+                <site-locations>
+                  <site-location residue="P" start="520" end="520"/>
+                  <site-location residue="G" start="521" end="521"/>
+                  <site-location residue="C" start="522" end="522"/>
+                  <site-location residue="G" start="518" end="518"/>
+                  <site-location residue="T" start="525" end="525"/>
+                  <site-location residue="P" start="519" end="519"/>
+                  <site-location residue="K" start="524" end="524"/>
+                  <site-location residue="G" start="523" end="523"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="arginine finger" numLocations="1">
+                <site-locations>
+                  <site-location residue="R" start="638" end="638"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="Walker B motif" numLocations="6">
+                <site-locations>
+                  <site-location residue="F" start="575" end="575"/>
+                  <site-location residue="D" start="577" end="577"/>
+                  <site-location residue="E" start="578" end="578"/>
+                  <site-location residue="L" start="574" end="574"/>
+                  <site-location residue="V" start="573" end="573"/>
+                  <site-location residue="F" start="576" end="576"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="1.36E-66">
+        <signature ac="SSF52540" name="P-loop containing nucleoside triphosphate hydrolases">
+          <entry ac="IPR027417" desc="P-loop containing nucleoside triphosphate hydrolase" name="P-loop_NTPase" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0042094</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="293" start="200" end="462">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="200" end="462" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="1.74E-28">
+        <signature ac="SSF50692" name="ADC-like">
+          <entry ac="IPR009010" desc="Aspartate decarboxylase-like domain superfamily" name="Asp_de-COase-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0036728</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="86" start="22" end="105">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="22" end="105" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="1.9E-35">
+        <signature ac="SSF54585" name="Cdc48 domain 2-like">
+          <entry ac="IPR029067" desc="CDC48 domain 2-like superfamily" name="CDC48_domain_2-like_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0036730</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="94" start="107" end="198">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="107" end="198" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="1.69E-78">
+        <signature ac="SSF52540" name="P-loop containing nucleoside triphosphate hydrolases">
+          <entry ac="IPR027417" desc="P-loop containing nucleoside triphosphate hydrolase" name="P-loop_NTPase" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0042094</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="293" start="472" end="761">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="472" end="761" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

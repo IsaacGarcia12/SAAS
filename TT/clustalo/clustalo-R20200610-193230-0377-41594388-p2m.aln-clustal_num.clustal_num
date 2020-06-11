@@ -1,0 +1,138 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+HSGLTH1                             CCACTGCA---------------------CTCACCGC-ACCCGGCCAATTTTTGTGTTTT	38
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      MAQRTGLEDPERYLFVDRAVIYNPATQADWTAKKLVWIPSERHGFEAASIKEERGDEVMV	60
+                                        **                        *            *  **            
+
+HSGLTH1                             TAGTAGAGACTAA-ATAC---CA-----TATAGTGAACACCTAAGACGGGGGGCCTTGGA	89
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      ELAENGKKAMVNKDDIQKMNPPKFSKVEDMAELTCLNEASVLHNLKDRYYSGLIYTYSGL	120
+                                         *  *                        *    *            *   *  * 
+
+HSGLTH1                             TCCAGGGCGATTCAGAGGGC------------------------CCCGGTCGGAGCTGTC	125
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      FCVVINPYKNLPIYSENIIEMYRGKKRHEMPPHIYAISESAYRCMLQDREDQSILCTGES	180
+                                     *                                                     ***  
+
+HSGLTH1                             GGAGATTGAGCGCGCGCGGTCCCGGG--------ATCTC---CGACGAGGCCCTGGACCC	174
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      -GAGKTENTKKVIQYLAHVASSHKGRKDHNIPGELERQLLQANPILESFGNAKTVKNDNS	239
+                                     *** *                  *                        *   *      
+
+HSGLTH1                             C---------CGGGCGGCGAAGCTGCGGCGCGGCGCCCCCTGGAGGCCGCGGGACCCCTG	225
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      SRFGKFIRINFDVTGYIVGANIETYLLEKSRAVRQAKDERTFHIFYQLLSGAGEHLKSDL	299
+                                                      **   *                *         * *       
+
+HSGLTH1                             GCCGGTCCGCGCAGGCGCAG---CGGGGTCGCAGGGCGCGGCGGGTTCCAGCGCGGGGAT	282
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      LLEGFNNYRFLSNGYIPIPGQQDKDNFQETMEAMHIMGFSHEEILSMLKVVSSVLQFGNI	359
+                                       *         *     *            *    *                   *  
+
+HSGLTH1                             G--GCGCTGTC--CGCGGAGGACCGGGCGCTGGTGCGCGCCC-TGTGGAAGAAGCTGGGC	337
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      SFKKERNTDQASMPENTVAQKLCHLLGMNVMEFTRAILTPRIKVGRDYVQKAQTKEQADF	419
+                                           *          *   *   *      *          *      *        
+
+HSGLTH1                             AGCAACGTCGGCGTCTACACGACAGAGGCCCTGGAAAGGTGCGGCAGGCTGGGCGCCCCC	397
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      AVEALAKATYERLF----RWLVHRINKALDRTKRQGASFIGILDIAGFEIFELNSFEQLC	475
+                                    *  *                           *    *   *    **            *
+
+HSGLTH1                             GCCCCCAGGGGCCCTCCCTCCCCAAGCCCCC---CGGACGC---------------GCCT	439
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      INYTNEKLQQLFNHTMFILEQEEYQREGIEWNFIDFGLDLQPCIDLIERPANPPGVLALL	535
+                                                  *                     *                       
+
+HSGLTH1                             CACCCACGTTCCTCTCGCAGGACCTTCCTGGCTTTCCCCGCCACGAAGACCTACTTCTCC	499
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      DEECWFPKATDKTFVEKLVQEQGSHSKFQKPRQLKDKADFCIIHYAGKVDYKADEWLMKN	595
+                                       *     *  *                           *    *      *       
+
+HSGLTH1                             C-----ACCTGGACCTGAGCCCCGGCTCCTCACAAGTCAGAGCCCACGGCCAGAAGGTGG	554
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      MDPLNDNVATLLHQSSDRFVAELWKDEIQNIQRASFYDSVSGLHEPPVDRIVGLDQVTGM	655
+                                             *                       *       *          *    ** 
+
+HSGLTH1                             CGGACGCGCTGAGCCTCGCCGTGGAG-CGCCTGGACGACCTACCCCACGCGCTGTC----	609
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      TETAFGSA----YKTKKGMFRTVGQLYKESLTKLMATLRNTNPNFVRCIIPNHEKRAGKL	711
+                                       * *           *   * *       *        *      *            
+
+HSGLTH1                             ------------------------------------------------------------	609
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      DPHLVLDQLRCNGVLEGIRICRQGFPNRIVFQEFRQRYEILTPNAIPKGFMDGKQACERM	771
+                                                                                                
+
+HSGLTH1                             --------------CGCGCTGAGCCACCTGCACGC----GTGCCAGCTGCGAGTGGACCC	651
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      IRALELDPNLYRIGQSKIFFRAGVLAHLEEERDLKITDIIIFFQAVCRGYLARKAFAKKQ	831
+                                                         **  *                  * * *  *    *   
+
+HSGLTH1                             GGCCAGCTTCCAGGTGAGCGGCTGCCGTGCTGGGCCCCTGTCCCCGGGAGGGCCCCGGCG	711
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      QQLSALKVLQRNC--AAYLKLRHWQWWRVFTKV-KPLLQVTRQEEELQAKDEELLKVKEK	888
+                                        *           *             *         *       *           
+
+HSGLTH1                             GGGTGGGTGCGG------GGGGCGTGCGGGGCGGGTGCAGGCGAGTGAGCCTTGAGCGCT	765
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      QTKVEGELEEMERKHQQLLEEKNILAEQLQAETELFAEAEEMRARLAAKKQELEEILHDL	948
+                                         *                                *    *   *            
+
+HSGLTH1                             CGCCGCAGCT----CCTGGGCCACT-------GCC------TGCTGGTAACCCTCGCCCG	808
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      ESRVEEEEERNQILQNEKKKMQAHIQDLEEQLDEEEGARQKLQLEKVTAEAKIKKMEEEI	1008
+                                                          *                        **           
+
+HSGLTH1                             --GCACTACCCCGGAGACTTCAGCCCCGCGCTGCAGGCGTCGCTGGACAAGTTCCTGAGC	866
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      LLLEDQNSKFIKEKKLMEDRIAECSSQLAEEEEKAKNLAKIRNKQE----VMISDLEERL	1064
+                                                         * *          *                         
+
+HSGLTH1                             CACGTTATCTCGGCGCTGGTTTCCGAGTACCGCTGAACTGTGGGTGGGTGGCCGCGGGAT	926
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      KKEEKTRQELEKAKRKLDGETTDLQDQIAELQAQIDELKIQLAKKEEELQGALARGDDET	1124
+                                         *            * **      *                     *    *   *
+
+HSGLTH1                             CCCCAGGCGACCTTCCCC---GTGTTTGAGTAAAGCCTCTC-CCAGGAGCAGCCTTCTTG	982
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      LHKNNALKVVRELQAQIAELQEDFESEKASRNKAEKQKRDLSEELEALKTELEDTLDTTA	1184
+                                                                *    *                    *  ** 
+
+HSGLTH1                             CCGTGCTCTCTCGAGGTCAGGACGCGAGAGG-----------------------------	1013
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      AQQELRTKREQEVAELKKALEEETKNHEAQIQDMRQRHATALEELSEQLEQAKRFKANLE	1244
+                                          *      *    *         *                               
+
+HSGLTH1                             ------------------------------------------------------------	1013
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      KNKQGLETDNKELACEVKVLQQVKAESEHKRKKLDAQVQELHAKVSEGDRLRVELAEKAN	1304
+                                                                                                
+
+HSGLTH1                             --------------------------AAGGCGC---------------------------	1020
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      KLQNELDNVSTLLEEAEKKGIKFAKDAAGLESQLQDTQELLQEETRQKLNLSGRIRQLEE	1364
+                                                              ***                               
+
+HSGLTH1                             ------------------------------------------------------------	1020
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      EKNSLQEQQEEEEEARKNLEKQVLALQSQLTDTKKKVDDDLGTIESLEEAKKKLLKDVEA	1424
+                                                                                                
+
+HSGLTH1                             ------------------------------------------------------------	1020
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      LSQRLEEKALAYDKLEKTKNRLQQELDDLMVDLDHQRQIVSNLEKKQKKFDQLLAEEKNI	1484
+                                                                                                
+
+HSGLTH1                             ------------------------------------------------------------	1020
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      SARYAEERDRAEAEAREKETKALSLARALEEALEAKEEFERQNKQLRADMEDLMSSKDDV	1544
+                                                                                                
+
+HSGLTH1                             ------------------------------------------------------------	1020
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      GKNVHELEKSKRALEQQVEEMRTQLEELEDELQATEDAKLRLEVNMQAMKAQFERDLQTR	1604
+                                                                                                
+
+HSGLTH1                             ------------------------------------------------------------	1020
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      DEQNEEKKRLLIKQVRELEAELEDERKQRALAVASKKKMEIDLKDLEAQIEAANKARDEV	1664
+                                                                                                
+
+HSGLTH1                             ------------------------------------------------------------	1020
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      IKQLRKLQAQMKDYQRELEEARASRDEIFAQSKESEKKLKSLEAEILQLQEELASSERAR	1724
+                                                                                                
+
+HSGLTH1                             ------------------------------------------------------------	1020
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      RHAEQERDELADEIANSASGKSALLDEKRRLEARIAQLEEELEEEQSNMELLNDRFRKTT	1784
+                                                                                                
+
+HSGLTH1                             ------------------------------------------------------------	1020
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      LQVDTLNAELAAERSAAQKSDNARQQLERQNKELKAKLQELEGAVKSKFKATISALEAKI	1844
+                                                                                                
+
+HSGLTH1                             ------------------------------------------------------------	1020
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      GQLEEQLEQEAKERAAANKLVRRTEKKLKEIFMQVEDERRHADQYKEQMEKANARMKQLK	1904
+                                                                                                
+
+HSGLTH1                             ------------------------------------------------------------	1020
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      RQLEEAEEEATRANASRRKLQRELDDATEANEGLSREVSTLKNRLRRGGPISFSSSRSGR	1964
+                                                                                                
+
+HSGLTH1                             ---------------------------------	1020
+tr|A0A3Q2I8P4|A0A3Q2I8P4_HORSE      RQLHIEGASLELSDDDTESKTSDVNETQPPQSE	1997
+                                                                     

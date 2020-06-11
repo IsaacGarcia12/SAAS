@@ -1,0 +1,90 @@
+##gff-version 3
+##feature-ontology http://song.cvs.sourceforge.net/viewvc/song/ontology/sofa.obo?revision=1.269
+##interproscan-version 5.44-79.0
+##sequence-region tr|F8WFZ5|F8WFZ5_RAT 1 159
+tr|F8WFZ5|F8WFZ5_RAT	.	polypeptide	1	159	.	+	.	ID=tr|F8WFZ5|F8WFZ5_RAT;md5=b41fe213adcb092ea6188200f98be998
+tr|F8WFZ5|F8WFZ5_RAT	SMART	protein_match	51	109	1.2E-23	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 51 109;Ontology_term="GO:0005179","GO:0005576";ID=match$1_51_109;Name=SM00078;status=T;Dbxref="InterPro:IPR016179"
+tr|F8WFZ5|F8WFZ5_RAT	Phobius	protein_match	1	48	.	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 1 48;ID=match$2_1_48;signature_desc=Signal peptide region;Name=SIGNAL_PEPTIDE;status=T
+tr|F8WFZ5|F8WFZ5_RAT	Pfam	protein_match	81	109	2.5E-7	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 81 109;Ontology_term="GO:0005179","GO:0005576";ID=match$3_81_109;signature_desc=Insulin/IGF/Relaxin family;Name=PF00049;status=T;Dbxref="InterPro:IPR016179"
+tr|F8WFZ5|F8WFZ5_RAT	Pfam	protein_match	52	77	1.8E-5	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 52 77;Ontology_term="GO:0005179","GO:0005576";ID=match$3_52_77;signature_desc=Insulin/IGF/Relaxin family;Name=PF00049;status=T;Dbxref="InterPro:IPR016179"
+tr|F8WFZ5|F8WFZ5_RAT	PRINTS	protein_match	52	68	1.4E-13	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 52 68;Ontology_term="GO:0005179";ID=match$4_52_68;signature_desc=Insulin family signature;Name=PR00276;status=T;Dbxref="InterPro:IPR022352"
+tr|F8WFZ5|F8WFZ5_RAT	PRINTS	protein_match	90	109	1.4E-13	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 90 109;Ontology_term="GO:0005179";ID=match$4_90_109;signature_desc=Insulin family signature;Name=PR00276;status=T;Dbxref="InterPro:IPR022352"
+tr|F8WFZ5|F8WFZ5_RAT	PANTHER	protein_match	1	138	1.2E-87	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 1 138;ID=match$5_1_138;Name=PTHR46845;status=T
+tr|F8WFZ5|F8WFZ5_RAT	MobiDBLite	protein_match	119	159	.	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 119 159;ID=match$6_119_159;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+tr|F8WFZ5|F8WFZ5_RAT	Phobius	protein_match	44	48	.	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 44 48;ID=match$7_44_48;signature_desc=C-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_C_REGION;status=T
+tr|F8WFZ5|F8WFZ5_RAT	Phobius	protein_match	49	159	.	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 49 159;ID=match$8_49_159;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+tr|F8WFZ5|F8WFZ5_RAT	PRINTS	protein_match	55	65	2.6E-12	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 55 65;Ontology_term="GO:0005179","GO:0005615","GO:0008083";ID=match$9_55_65;signature_desc=Insulin-like growth factor signature;Name=PR02002;status=T;Dbxref="InterPro:IPR022350","Reactome:R-HSA-114608","Reactome:R-HSA-2404192","Reactome:R-HSA-2428928","Reactome:R-HSA-2428933","Reactome:R-HSA-381426"
+tr|F8WFZ5|F8WFZ5_RAT	PRINTS	protein_match	97	106	2.6E-12	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 97 106;Ontology_term="GO:0005179","GO:0005615","GO:0008083";ID=match$9_97_106;signature_desc=Insulin-like growth factor signature;Name=PR02002;status=T;Dbxref="InterPro:IPR022350","Reactome:R-HSA-114608","Reactome:R-HSA-2404192","Reactome:R-HSA-2428928","Reactome:R-HSA-2428933","Reactome:R-HSA-381426"
+tr|F8WFZ5|F8WFZ5_RAT	PRINTS	protein_match	112	122	2.6E-12	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 112 122;Ontology_term="GO:0005179","GO:0005615","GO:0008083";ID=match$9_112_122;signature_desc=Insulin-like growth factor signature;Name=PR02002;status=T;Dbxref="InterPro:IPR022350","Reactome:R-HSA-114608","Reactome:R-HSA-2404192","Reactome:R-HSA-2428928","Reactome:R-HSA-2428933","Reactome:R-HSA-381426"
+tr|F8WFZ5|F8WFZ5_RAT	PANTHER	protein_match	1	138	1.2E-87	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 1 138;ID=match$10_1_138;Name=PTHR46845:SF4;status=T
+tr|F8WFZ5|F8WFZ5_RAT	PRINTS	protein_match	31	47	4.8E-36	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 31 47;Ontology_term="GO:0005615","GO:0008083";ID=match$11_31_47;signature_desc=Insulin-like growth factor I signature;Name=PR02005;status=T;Dbxref="InterPro:IPR022341","Reactome:R-HSA-114608","Reactome:R-HSA-2404192","Reactome:R-HSA-2428928","Reactome:R-HSA-2428933","Reactome:R-HSA-381426","Reactome:R-HSA-422085"
+tr|F8WFZ5|F8WFZ5_RAT	PRINTS	protein_match	74	91	4.8E-36	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 74 91;Ontology_term="GO:0005615","GO:0008083";ID=match$11_74_91;signature_desc=Insulin-like growth factor I signature;Name=PR02005;status=T;Dbxref="InterPro:IPR022341","Reactome:R-HSA-114608","Reactome:R-HSA-2404192","Reactome:R-HSA-2428928","Reactome:R-HSA-2428933","Reactome:R-HSA-381426","Reactome:R-HSA-422085"
+tr|F8WFZ5|F8WFZ5_RAT	PRINTS	protein_match	101	119	4.8E-36	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 101 119;Ontology_term="GO:0005615","GO:0008083";ID=match$11_101_119;signature_desc=Insulin-like growth factor I signature;Name=PR02005;status=T;Dbxref="InterPro:IPR022341","Reactome:R-HSA-114608","Reactome:R-HSA-2404192","Reactome:R-HSA-2428928","Reactome:R-HSA-2428933","Reactome:R-HSA-381426","Reactome:R-HSA-422085"
+tr|F8WFZ5|F8WFZ5_RAT	PRINTS	protein_match	120	134	4.8E-36	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 120 134;Ontology_term="GO:0005615","GO:0008083";ID=match$11_120_134;signature_desc=Insulin-like growth factor I signature;Name=PR02005;status=T;Dbxref="InterPro:IPR022341","Reactome:R-HSA-114608","Reactome:R-HSA-2404192","Reactome:R-HSA-2428928","Reactome:R-HSA-2428933","Reactome:R-HSA-381426","Reactome:R-HSA-422085"
+tr|F8WFZ5|F8WFZ5_RAT	CDD	protein_match	49	116	4.07118E-42	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 49 116;ID=match$12_49_116;signature_desc=IlGF;Name=cd04368;status=T
+tr|F8WFZ5|F8WFZ5_RAT	Phobius	protein_match	1	31	.	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 1 31;ID=match$13_1_31;signature_desc=N-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_N_REGION;status=T
+tr|F8WFZ5|F8WFZ5_RAT	ProSitePatterns	protein_match	95	109	.	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 95 109;ID=match$14_95_109;signature_desc=Insulin family signature.;Name=PS00262;status=T;Dbxref="InterPro:IPR022353"
+tr|F8WFZ5|F8WFZ5_RAT	Gene3D	protein_match	37	118	3.2E-31	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 37 118;ID=match$15_37_118;Name=G3DSA:1.10.100.10;status=T
+tr|F8WFZ5|F8WFZ5_RAT	SUPERFAMILY	protein_match	37	115	2.09E-22	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 37 115;ID=match$16_37_115;Name=SSF56994;status=T;Dbxref="InterPro:IPR036438"
+tr|F8WFZ5|F8WFZ5_RAT	Phobius	protein_match	32	43	.	+	.	date=10-06-2020;Target=tr|F8WFZ5|F8WFZ5_RAT 32 43;ID=match$17_32_43;signature_desc=Hydrophobic region of a signal peptide.;Name=SIGNAL_PEPTIDE_H_REGION;status=T
+##FASTA
+>tr|F8WFZ5|F8WFZ5_RAT
+MGKISSLPTQLFKICLCDFLKIKIHIMSSSHLFYLALCLLTFTSSATAGPETLCGAELVD
+ALQFVCGPRGFYFNKPTGYGSSIRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPTKSARS
+IRAQRHTDMPKTQKSQPLSTHKKRKLQRRRKGSTLEEHK
+>match$1_51_109
+ETLCGAELVDALQFVCGPRGFYFNKPTGYGSSIRRAPQTGIVDECCFRSCDLRRLEMYC
+>match$2_1_48
+MGKISSLPTQLFKICLCDFLKIKIHIMSSSHLFYLALCLLTFTSSATA
+>match$3_52_77
+TLCGAELVDALQFVCGPRGFYFNKPT
+>match$3_81_109
+SSIRRAPQTGIVDECCFRSCDLRRLEMYC
+>match$4_52_68
+TLCGAELVDALQFVCGP
+>match$4_90_109
+GIVDECCFRSCDLRRLEMYC
+>match$5_1_138
+MGKISSLPTQLFKICLCDFLKIKIHIMSSSHLFYLALCLLTFTSSATAGPETLCGAELVD
+ALQFVCGPRGFYFNKPTGYGSSIRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPTKSARS
+IRAQRHTDMPKTQKSQPL
+>match$6_119_159
+RSIRAQRHTDMPKTQKSQPLSTHKKRKLQRRRKGSTLEEHK
+>match$7_44_48
+SSATA
+>match$8_49_159
+GPETLCGAELVDALQFVCGPRGFYFNKPTGYGSSIRRAPQTGIVDECCFRSCDLRRLEMY
+CAPLKPTKSARSIRAQRHTDMPKTQKSQPLSTHKKRKLQRRRKGSTLEEHK
+>match$9_55_65
+GAELVDALQFV
+>match$9_97_106
+FRSCDLRRLE
+>match$9_112_122
+LKPTKSARSIR
+>match$10_1_138
+MGKISSLPTQLFKICLCDFLKIKIHIMSSSHLFYLALCLLTFTSSATAGPETLCGAELVD
+ALQFVCGPRGFYFNKPTGYGSSIRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPTKSARS
+IRAQRHTDMPKTQKSQPL
+>match$11_31_47
+HLFYLALCLLTFTSSAT
+>match$11_74_91
+NKPTGYGSSIRRAPQTGI
+>match$11_101_119
+DLRRLEMYCAPLKPTKSAR
+>match$11_120_134
+SIRAQRHTDMPKTQK
+>match$12_49_116
+GPETLCGAELVDALQFVCGPRGFYFNKPTGYGSSIRRAPQTGIVDECCFRSCDLRRLEMY
+CAPLKPTK
+>match$13_1_31
+MGKISSLPTQLFKICLCDFLKIKIHIMSSSH
+>match$14_95_109
+CCFRSCDLRRLEMYC
+>match$15_37_118
+LCLLTFTSSATAGPETLCGAELVDALQFVCGPRGFYFNKPTGYGSSIRRAPQTGIVDECC
+FRSCDLRRLEMYCAPLKPTKSA
+>match$16_37_115
+LCLLTFTSSATAGPETLCGAELVDALQFVCGPRGFYFNKPTGYGSSIRRAPQTGIVDECC
+FRSCDLRRLEMYCAPLKPT
+>match$17_32_43
+LFYLALCLLTFT

@@ -1,0 +1,452 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MIFSSRMDYFPVIFPLLLVTLHGAAETVVSGAELSLTANSGGEKTPPHAPGLLRRSKRCSCSSLMDKECVYFCHLDIIWVNTPGHIAPYGLGGPFRSKRSLKELFPTKATEHRNRCQCANQKDKKCWNFCQTGKELSSQDTMQKGWDNHKKGKDCSKLGKKCISQQLGNGKKIRRVEAISNRIKPSSPFAKLKAMLCKDRKVTHNRTH",
+  "md5" : "8b07feb87d67139b926334f0decf57bc",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 32,
+      "end" : 208,
+      "location-fragments" : [ {
+        "start" : 32,
+        "end" : 208,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_H_REGION",
+      "name" : "Signal peptide H-region",
+      "description" : "Hydrophobic region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 10,
+      "end" : 21,
+      "location-fragments" : [ {
+        "start" : 10,
+        "end" : 21,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_H_REGION"
+  }, {
+    "signature" : {
+      "accession" : "PTHR13874:SF10",
+      "name" : "ENDOTHELIN-1",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 208,
+      "hmmStart" : 1,
+      "hmmEnd" : 202,
+      "hmmLength" : 213,
+      "hmmBounds" : "COMPLETE",
+      "envelopeStart" : 7,
+      "envelopeEnd" : 208,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 208,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.0E-94,
+    "familyName" : "Not available",
+    "score" : 317.2,
+    "model-ac" : "PTHR13874:SF10"
+  }, {
+    "signature" : {
+      "accession" : "PS00270",
+      "name" : "ENDOTHELIN",
+      "description" : "Endothelin family signature.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PATTERNS",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR019764",
+        "name" : "Endothelin_toxin_CS",
+        "description" : "Endothelin-like toxin, conserved site",
+        "type" : "CONSERVED_SITE",
+        "goXRefs" : [ {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "regulation of vasoconstriction",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0019229"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Peptide ligand-binding receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-375276"
+        }, {
+          "name" : "G alpha (q) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-416476"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 116,
+      "end" : 130,
+      "level" : "STRONG",
+      "cigarAlignment" : "1M1I1M4I1M2I1M2I2M",
+      "alignment" : "CqCanqkDkkCwnFC",
+      "location-fragments" : [ {
+        "start" : 116,
+        "end" : 130,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS00270"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE",
+      "name" : "Signal Peptide",
+      "description" : "Signal peptide region",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 31,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE"
+  }, {
+    "signature" : {
+      "accession" : "PR00365",
+      "name" : "ENDOTHELIN",
+      "description" : "Endothelin signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR020475",
+        "name" : "Endothelin",
+        "description" : "Endothelin",
+        "type" : "FAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "G alpha (q) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-416476"
+        }, {
+          "name" : "Peptide ligand-binding receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-375276"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 57,
+      "end" : 69,
+      "pvalue" : 9.85E-8,
+      "score" : 77.62,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 57,
+        "end" : 69,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 69,
+      "end" : 79,
+      "pvalue" : 1.02E-7,
+      "score" : 97.52,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 69,
+        "end" : 79,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 80,
+      "end" : 92,
+      "pvalue" : 2.02E-8,
+      "score" : 69.58,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 80,
+        "end" : 92,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.6E-16,
+    "graphscan" : "III",
+    "model-ac" : "PR00365"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_N_REGION",
+      "name" : "Signal peptide N-region",
+      "description" : "N-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 9,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 9,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_N_REGION"
+  }, {
+    "signature" : {
+      "accession" : "PF00322",
+      "name" : "Endothelin",
+      "description" : "Endothelin family",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR001928",
+        "name" : "Endothln-like_toxin",
+        "description" : "Endothelin-like toxin",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "regulation of vasoconstriction",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0019229"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Peptide ligand-binding receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-375276"
+        }, {
+          "name" : "G alpha (q) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-416476"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 55,
+      "end" : 83,
+      "hmmStart" : 1,
+      "hmmEnd" : 29,
+      "hmmLength" : 29,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.7E-21,
+      "score" : 75.3,
+      "envelopeStart" : 55,
+      "envelopeEnd" : 83,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 55,
+        "end" : 83,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.2E-24,
+    "score" : 84.6,
+    "model-ac" : "PF00322"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_EUK",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 31,
+      "score" : 0.52,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "EUK",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "SM00272",
+      "name" : "END_2",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR001928",
+        "name" : "Endothln-like_toxin",
+        "description" : "Endothelin-like toxin",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "regulation of vasoconstriction",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0019229"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Peptide ligand-binding receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-375276"
+        }, {
+          "name" : "G alpha (q) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-416476"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 115,
+      "end" : 136,
+      "hmmStart" : 1,
+      "hmmEnd" : 22,
+      "hmmLength" : 22,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.5E-7,
+      "score" : 40.3,
+      "location-fragments" : [ {
+        "start" : 115,
+        "end" : 136,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 58,
+      "end" : 79,
+      "hmmStart" : 1,
+      "hmmEnd" : 22,
+      "hmmLength" : 22,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 7.7E-11,
+      "score" : 52.0,
+      "location-fragments" : [ {
+        "start" : 58,
+        "end" : 79,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.6E-23,
+    "score" : 92.3,
+    "model-ac" : "SM00272"
+  }, {
+    "signature" : {
+      "accession" : "PTHR13874",
+      "name" : "ENDOTHELIN",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : {
+        "accession" : "IPR020475",
+        "name" : "Endothelin",
+        "description" : "Endothelin",
+        "type" : "FAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "G alpha (q) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-416476"
+        }, {
+          "name" : "Peptide ligand-binding receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-375276"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 208,
+      "hmmStart" : 1,
+      "hmmEnd" : 202,
+      "hmmLength" : 213,
+      "hmmBounds" : "COMPLETE",
+      "envelopeStart" : 7,
+      "envelopeEnd" : 208,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 208,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.0E-94,
+    "familyName" : "Not available",
+    "score" : 317.2,
+    "model-ac" : "PTHR13874"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_C_REGION",
+      "name" : "Signal peptide C-region",
+      "description" : "C-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 22,
+      "end" : 31,
+      "location-fragments" : [ {
+        "start" : 22,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_C_REGION"
+  } ],
+  "xref" : [ {
+    "name" : "tr|A0A286XTW8|A0A286XTW8_CAVPO Endothelin-1 OS=Cavia porcellus OX=10141 GN=EDN1 PE=4 SV=1",
+    "id" : "tr|A0A286XTW8|A0A286XTW8_CAVPO"
+  } ]
+} ]
+}

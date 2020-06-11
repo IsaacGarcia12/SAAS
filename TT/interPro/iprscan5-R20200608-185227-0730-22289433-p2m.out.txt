@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="58c23722286ccc26942b866392625d45">MGCDRNCGLITGAVIGAVLAVFGGILMPVGDMLIEKTIKKEVVLEEGTTAYQNWVKTGTEVYRQFWIFDVQNPQEVAVNSSNIKVKQRGPYTYRVRFLAKENITHDYEDNTVSFVQPNAAIFEPSLSVGTENDTFTVLNLAVAAAPHIYQNAFVQVVLNSLIKKSKSSMFQTRTLRELLWGYKDPFLSLVPYPISTTVGVFFPYNDTADGVYKVFSGRDNINNVAIIDTYKGKRNLSYWPSYCDMINGTDAASFPPFVEKTRLLRFFSSDICRSIYAVFGSEVDLKGIPVYRFVLPAKAFASPVDNPDNHCFCTEKIISKNCTSYGVLDIGKCKEGKPVYISLPHFLHASHDVSEPIEGLNPNEEEHSTFLDVEPITGFTLQFAKRLQVNILVKPAKKIEALKNLKKNYIVPILWLNETGTIGDEKAEMFKSKVTGKIKLLGLVENILLGVGVVMFVAFMISYCACRSKRSGK</sequence>
+    <xref id="tr|I3MBR1|I3MBR1_ICTTR" name="tr|I3MBR1|I3MBR1_ICTTR CD36 molecule OS=Ictidomys tridecemlineatus OX=43179 GN=CD36 PE=3 SV=2"/>
+    <matches>
+      <fingerprints-match evalue="0.0" graphscan="IIIIIIIIIIIII">
+        <signature ac="PR01610" desc="Adhesion molecule CD36 signature" name="CD36ANTIGEN">
+          <entry ac="IPR005428" desc="CD36/scavenger receptor class B member 1" name="CD36/SCARB1/SNMP1" type="FAMILY">
+            <pathway-xref db="Reactome" id="R-HSA-3000471" name="Scavenging by Class B Receptors"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR01610</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="1.0E-16" score="96.21" start="3" end="24">
+            <location-fragments>
+              <fingerprints-location-fragment start="3" end="24" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="1.11E-16" score="93.48" start="25" end="47">
+            <location-fragments>
+              <fingerprints-location-fragment start="25" end="47" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="2.6E-13" score="85.51" start="66" end="88">
+            <location-fragments>
+              <fingerprints-location-fragment start="66" end="88" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="4" pvalue="2.9E-11" score="77.5" start="95" end="114">
+            <location-fragments>
+              <fingerprints-location-fragment start="95" end="114" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="5" pvalue="6.22E-15" score="88.89" start="129" end="149">
+            <location-fragments>
+              <fingerprints-location-fragment start="129" end="149" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="6" pvalue="3.56E-14" score="81.82" start="149" end="170">
+            <location-fragments>
+              <fingerprints-location-fragment start="149" end="170" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="7" pvalue="6.3E-12" score="84.31" start="191" end="207">
+            <location-fragments>
+              <fingerprints-location-fragment start="191" end="207" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="8" pvalue="6.94E-9" score="90.0" start="233" end="247">
+            <location-fragments>
+              <fingerprints-location-fragment start="233" end="247" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="9" pvalue="3.77E-15" score="86.23" start="300" end="322">
+            <location-fragments>
+              <fingerprints-location-fragment start="300" end="322" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="10" pvalue="3.18E-12" score="85.96" start="346" end="364">
+            <location-fragments>
+              <fingerprints-location-fragment start="346" end="364" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="11" pvalue="6.18E-10" score="86.67" start="398" end="412">
+            <location-fragments>
+              <fingerprints-location-fragment start="398" end="412" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="12" pvalue="1.11E-12" score="85.09" start="419" end="437">
+            <location-fragments>
+              <fingerprints-location-fragment start="419" end="437" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="13" pvalue="1.11E-16" score="84.78" start="437" end="459">
+            <location-fragments>
+              <fingerprints-location-fragment start="437" end="459" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <fingerprints-match evalue="1.0E-54" graphscan="IIIIII">
+        <signature ac="PR01609" desc="Adhesion molecule CD36 family signature" name="CD36FAMILY">
+          <entry ac="IPR002159" desc="CD36 family" name="CD36_fam" type="FAMILY">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0016020" name="membrane"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR01609</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="2.34E-9" score="40.28" start="56" end="77">
+            <location-fragments>
+              <fingerprints-location-fragment start="56" end="77" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="8.11E-6" score="51.46" start="82" end="94">
+            <location-fragments>
+              <fingerprints-location-fragment start="82" end="94" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="2.73E-10" score="47.59" start="111" end="130">
+            <location-fragments>
+              <fingerprints-location-fragment start="111" end="130" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="4" pvalue="2.38E-12" score="49.52" start="243" end="267">
+            <location-fragments>
+              <fingerprints-location-fragment start="243" end="267" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="5" pvalue="2.82E-13" score="48.55" start="322" end="346">
+            <location-fragments>
+              <fingerprints-location-fragment start="322" end="346" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="6" pvalue="4.43E-13" score="51.25" start="369" end="390">
+            <location-fragments>
+              <fingerprints-location-fragment start="369" end="390" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <hmmer3-match evalue="0.0" score="489.1">
+        <signature ac="PF01130" desc="CD36 family" name="CD36">
+          <entry ac="IPR002159" desc="CD36 family" name="CD36_fam" type="FAMILY">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0016020" name="membrane"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF01130</model-ac>
+        <locations>
+          <hmmer3-location env-end="463" env-start="14" post-processed="true" score="489.0" evalue="0.0" hmm-start="1" hmm-end="466" hmm-length="467" hmm-bounds="N_TERMINAL_COMPLETE" start="14" end="462">
+            <location-fragments>
+              <hmmer3-location-fragment start="14" end="462" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <panther-match evalue="0.0" familyName="Not available" score="919.9">
+        <signature ac="PTHR11923:SF12" name="PLATELET GLYCOPROTEIN 4">
+          <entry ac="IPR033076" desc="CD36" name="CD36_chordates" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0007166" name="cell surface receptor signaling pathway"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006955" name="immune response"/>
+            <pathway-xref db="Reactome" id="R-HSA-5686938" name="Regulation of TLR by endogenous ligand"/>
+            <pathway-xref db="Reactome" id="R-HSA-1236973" name="Cross-presentation of particulate exogenous antigens (phagosomes)"/>
+            <pathway-xref db="Reactome" id="R-HSA-5602498" name="MyD88 deficiency (TLR2/4)"/>
+            <pathway-xref db="Reactome" id="R-HSA-6785807" name="Interleukin-4 and Interleukin-13 signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-5603041" name="IRAK4 deficiency (TLR2/4)"/>
+            <pathway-xref db="Reactome" id="R-HSA-381340" name="Transcriptional regulation of white adipocyte differentiation"/>
+            <pathway-xref db="Reactome" id="R-HSA-168188" name="Toll Like Receptor TLR6:TLR2 Cascade"/>
+            <pathway-xref db="Reactome" id="R-HSA-166058" name="MyD88:MAL(TIRAP) cascade initiated on plasma membrane"/>
+            <pathway-xref db="Reactome" id="R-HSA-6798695" name="Neutrophil degranulation"/>
+            <pathway-xref db="Reactome" id="R-HSA-434313" name="Intracellular metabolism of fatty acids regulates insulin secretion"/>
+            <pathway-xref db="Reactome" id="R-HSA-114608" name="Platelet degranulation"/>
+            <pathway-xref db="Reactome" id="R-HSA-1989781" name="PPARA activates gene expression"/>
+            <pathway-xref db="Reactome" id="R-HSA-1236974" name="ER-Phagosome pathway"/>
+            <pathway-xref db="Reactome" id="R-HSA-3000471" name="Scavenging by Class B Receptors"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR11923:SF12</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="472" hmm-start="1" hmm-end="469" hmm-length="471" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="470">
+            <location-fragments>
+              <panther-location-fragment start="1" end="470" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="919.9">
+        <signature ac="PTHR11923" name="SCAVENGER RECEPTOR CLASS B TYPE-1  SR-B1">
+          <entry ac="IPR002159" desc="CD36 family" name="CD36_fam" type="FAMILY">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0016020" name="membrane"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR11923</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="472" hmm-start="1" hmm-end="469" hmm-length="471" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="470">
+            <location-fragments>
+              <panther-location-fragment start="1" end="470" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="30" end="446">
+            <location-fragments>
+              <phobius-location-fragment start="30" end="446" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="TRANSMEMBRANE" desc="Region of a membrane-bound protein predicted to be embedded in the membrane." name="Transmembrane region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>TRANSMEMBRANE</model-ac>
+        <locations>
+          <phobius-location start="7" end="29">
+            <location-fragments>
+              <phobius-location-fragment start="7" end="29" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm." name="Cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="1" end="6">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="6" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="TRANSMEMBRANE" desc="Region of a membrane-bound protein predicted to be embedded in the membrane." name="Transmembrane region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>TRANSMEMBRANE</model-ac>
+        <locations>
+          <phobius-location start="447" end="466">
+            <location-fragments>
+              <phobius-location-fragment start="447" end="466" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm." name="Cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="467" end="473">
+            <location-fragments>
+              <phobius-location-fragment start="467" end="473" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="441" end="463">
+            <location-fragments>
+              <tmhmm-location-fragment start="441" end="463" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="7" end="29">
+            <location-fragments>
+              <tmhmm-location-fragment start="7" end="29" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+    </matches>
+  </protein>
+</protein-matches>

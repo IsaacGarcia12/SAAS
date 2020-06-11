@@ -1,0 +1,63 @@
+##gff-version 3
+##feature-ontology http://song.cvs.sourceforge.net/viewvc/song/ontology/sofa.obo?revision=1.269
+##interproscan-version 5.44-79.0
+##sequence-region tr|D3ZI84|D3ZI84_RAT 1 108
+tr|D3ZI84|D3ZI84_RAT	.	polypeptide	1	108	.	+	.	ID=tr|D3ZI84|D3ZI84_RAT;md5=028d4a892eb27f6ecec83d34d4004dcc
+tr|D3ZI84|D3ZI84_RAT	Phobius	protein_match	20	27	.	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 20 27;ID=match$1_20_27;signature_desc=C-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_C_REGION;status=T
+tr|D3ZI84|D3ZI84_RAT	Phobius	protein_match	8	19	.	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 8 19;ID=match$2_8_19;signature_desc=Hydrophobic region of a signal peptide.;Name=SIGNAL_PEPTIDE_H_REGION;status=T
+tr|D3ZI84|D3ZI84_RAT	SignalP_GRAM_NEGATIVE	protein_match	1	25	.	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 1 25;ID=match$3_1_25;Name=SignalP-noTM;status=T
+tr|D3ZI84|D3ZI84_RAT	PANTHER	protein_match	2	100	1.2E-39	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 2 100;ID=match$4_2_100;Name=PTHR12015:SF80;status=T
+tr|D3ZI84|D3ZI84_RAT	Phobius	protein_match	1	27	.	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 1 27;ID=match$5_1_27;signature_desc=Signal peptide region;Name=SIGNAL_PEPTIDE;status=T
+tr|D3ZI84|D3ZI84_RAT	SMART	protein_match	30	90	4.9E-16	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 30 90;Ontology_term="GO:0005576","GO:0006955","GO:0008009";ID=match$6_30_90;Name=SM00199;status=T;Dbxref="InterPro:IPR001811"
+tr|D3ZI84|D3ZI84_RAT	SUPERFAMILY	protein_match	26	99	1.27E-20	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 26 99;Ontology_term="GO:0005576","GO:0006955","GO:0008009";ID=match$7_26_99;Name=SSF54117;status=T;Dbxref="InterPro:IPR036048"
+tr|D3ZI84|D3ZI84_RAT	Pfam	protein_match	31	90	1.8E-18	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 31 90;Ontology_term="GO:0005576","GO:0006955","GO:0008009";ID=match$8_31_90;signature_desc=Small cytokines (intecrine/chemokine), interleukin-8 like;Name=PF00048;status=T;Dbxref="InterPro:IPR001811"
+tr|D3ZI84|D3ZI84_RAT	Phobius	protein_match	28	108	.	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 28 108;ID=match$9_28_108;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+tr|D3ZI84|D3ZI84_RAT	CDD	protein_match	31	90	1.37082E-26	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 31 90;ID=match$10_31_90;signature_desc=Chemokine_CC_DCCL;Name=cd01119;status=T;Dbxref="InterPro:IPR034133","Reactome:R-HSA-380108","Reactome:R-HSA-418594"
+tr|D3ZI84|D3ZI84_RAT	PANTHER	protein_match	2	100	1.2E-39	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 2 100;Ontology_term="GO:0008009";ID=match$11_2_100;Name=PTHR12015;status=T;Dbxref="InterPro:IPR039809"
+tr|D3ZI84|D3ZI84_RAT	SignalP_GRAM_POSITIVE	protein_match	1	23	.	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 1 23;ID=match$12_1_23;Name=SignalP-TM;status=T
+tr|D3ZI84|D3ZI84_RAT	ProSitePatterns	protein_match	33	76	.	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 33 76;Ontology_term="GO:0005576","GO:0006955","GO:0008009";ID=match$13_33_76;signature_desc=Small cytokines (intercrine/chemokine) C-C subfamily signature.;Name=PS00472;status=T;Dbxref="InterPro:IPR000827"
+tr|D3ZI84|D3ZI84_RAT	Gene3D	protein_match	26	101	7.1E-23	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 26 101;ID=match$14_26_101;Name=G3DSA:2.40.50.40;status=T
+tr|D3ZI84|D3ZI84_RAT	Phobius	protein_match	1	7	.	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 1 7;ID=match$15_1_7;signature_desc=N-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_N_REGION;status=T
+tr|D3ZI84|D3ZI84_RAT	SignalP_GRAM_NEGATIVE	protein_match	1	23	.	+	.	date=10-06-2020;Target=tr|D3ZI84|D3ZI84_RAT 1 23;ID=match$16_1_23;Name=SignalP-noTM;status=T
+##FASTA
+>tr|D3ZI84|D3ZI84_RAT
+MASRVTPLLAFSLLVLWTFSAPALGGANDAEDCCLSVTQRPIPGNIVKAFRYLLIQDGCR
+VPAVVFTTLRGYQLCAPLDQPWVERIIRRLKKSSSKSKGGSTKRGPVS
+>match$1_20_27
+SAPALGGA
+>match$2_8_19
+LLAFSLLVLWTF
+>match$3_1_25
+MASRVTPLLAFSLLVLWTFSAPALG
+>match$4_2_100
+ASRVTPLLAFSLLVLWTFSAPALGGANDAEDCCLSVTQRPIPGNIVKAFRYLLIQDGCRV
+PAVVFTTLRGYQLCAPLDQPWVERIIRRLKKSSSKSKGG
+>match$5_1_27
+MASRVTPLLAFSLLVLWTFSAPALGGA
+>match$6_30_90
+AEDCCLSVTQRPIPGNIVKAFRYLLIQDGCRVPAVVFTTLRGYQLCAPLDQPWVERIIRR
+L
+>match$7_26_99
+GANDAEDCCLSVTQRPIPGNIVKAFRYLLIQDGCRVPAVVFTTLRGYQLCAPLDQPWVER
+IIRRLKKSSSKSKG
+>match$8_31_90
+EDCCLSVTQRPIPGNIVKAFRYLLIQDGCRVPAVVFTTLRGYQLCAPLDQPWVERIIRRL
+>match$9_28_108
+NDAEDCCLSVTQRPIPGNIVKAFRYLLIQDGCRVPAVVFTTLRGYQLCAPLDQPWVERII
+RRLKKSSSKSKGGSTKRGPVS
+>match$10_31_90
+EDCCLSVTQRPIPGNIVKAFRYLLIQDGCRVPAVVFTTLRGYQLCAPLDQPWVERIIRRL
+>match$11_2_100
+ASRVTPLLAFSLLVLWTFSAPALGGANDAEDCCLSVTQRPIPGNIVKAFRYLLIQDGCRV
+PAVVFTTLRGYQLCAPLDQPWVERIIRRLKKSSSKSKGG
+>match$12_1_23
+MASRVTPLLAFSLLVLWTFSAPA
+>match$13_33_76
+CCLSVTQRPIPGNIVKAFRYLLIQDGCRVPAVVFTTLRGYQLCA
+>match$14_26_101
+GANDAEDCCLSVTQRPIPGNIVKAFRYLLIQDGCRVPAVVFTTLRGYQLCAPLDQPWVER
+IIRRLKKSSSKSKGGS
+>match$15_1_7
+MASRVTP
+>match$16_1_23
+MASRVTPLLAFSLLVLWTFSAPA

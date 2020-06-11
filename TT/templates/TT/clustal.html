@@ -1,0 +1,17 @@
+{% extends 'TT/base.html'%}
+{% block content %}
+{% load static %}
+
+<h2>Para clustal necesitara de al menos 2 secuencias, ingreselas en las siguientes cajas:</h2>
+
+<div>
+    <form align=center action="{% url 'impresionPDF'%}">
+        {%csrf_token%}
+        <textarea name="cadena1" cols=50 rows=10></textarea>    
+        <textarea name="cadena2" cols=50 rows=10></textarea>     <br>
+        <button type="submit" value="snd">Enviar</button>        <br>
+    </form>
+</div>
+
+<a href="{%url 'index'%}">Regresar a pantalla inicial</a> <br>
+{% endblock %}

@@ -1,0 +1,669 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "ASTDAGTAGALTPQHVRAHSSPASLQLGAVSPGTLTPTGVVSGPAATPTAQHLRQSSFEIPDDVPLPAGWEMAKTSSGQRYFLNHIDQTTTWQDPRKAMLSQMNVTAPTSPPVQQNLMNSASGPLPDGWEQAMTQDGEIYYINHKNKTTSWLDPRLDPRFAMNQRISQSAPVKQPPPLAPQSPQGGVMGSSNSNQQQQMRLQQLQMEKERLRLKQQELLRQAMRNINPSTANSPKCQELALRSQLPTLEQDSGTQNPVSSPGMSQELRTMTTNSSDPFLNSGTYHSRDESTDSGLSMSSYSVPRTPDDFLNSVDEMDTGDTINQSTLPSQQNRFPDYLEAIPGTNVDLGTLEGDGMNIEGEELMPSLQEALSSDILNDMESVLAATKLDKESFLTWL",
+  "md5" : "9efe165dfe12463e2cbe59a3bc1e1e17",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "cd00201",
+      "name" : "WW",
+      "description" : "WW",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : {
+        "accession" : "IPR001202",
+        "name" : "WW_dom",
+        "description" : "WW domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 67,
+      "end" : 96,
+      "sites" : [ {
+        "description" : "binding pocket",
+        "numLocations" : 2,
+        "siteLocations" : [ {
+          "start" : 92,
+          "end" : 92,
+          "residue" : "W"
+        }, {
+          "start" : 81,
+          "end" : 81,
+          "residue" : "Y"
+        } ]
+      } ],
+      "evalue" : 7.24176E-11,
+      "score" : 54.4562,
+      "location-fragments" : [ {
+        "start" : 67,
+        "end" : 96,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00201"
+  }, {
+    "signature" : {
+      "accession" : "PS50020",
+      "name" : "WW_DOMAIN_2",
+      "description" : "WW/rsp5/WWP domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001202",
+        "name" : "WW_dom",
+        "description" : "WW domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 123,
+      "end" : 156,
+      "score" : 17.791,
+      "alignment" : "GPLPDGWEQAMTQDGEIYYINHKNKTTSWLDPRL",
+      "location-fragments" : [ {
+        "start" : 123,
+        "end" : 156,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50020"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 247,
+      "end" : 300,
+      "location-fragments" : [ {
+        "start" : 247,
+        "end" : 300,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PTHR17616:SF9",
+      "name" : "TRANSCRIPTIONAL COACTIVATOR YAP1",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 397,
+      "hmmStart" : 59,
+      "hmmEnd" : 441,
+      "hmmLength" : 441,
+      "hmmBounds" : "COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 397,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 397,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 784.3,
+    "model-ac" : "PTHR17616:SF9"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 194,
+      "end" : 221,
+      "location-fragments" : [ {
+        "start" : 194,
+        "end" : 221,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 168,
+      "end" : 202,
+      "location-fragments" : [ {
+        "start" : 168,
+        "end" : 202,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 20,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 20,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SSF51045",
+      "name" : "WW domain",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036020",
+        "name" : "WW_dom_sf",
+        "description" : "WW domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 117,
+      "end" : 156,
+      "hmmLength" : 50,
+      "location-fragments" : [ {
+        "start" : 117,
+        "end" : 156,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 9.2E-14,
+    "model-ac" : "0038884"
+  }, {
+    "signature" : {
+      "accession" : "PF00397",
+      "name" : "WW",
+      "description" : "WW domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR001202",
+        "name" : "WW_dom",
+        "description" : "WW domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 66,
+      "end" : 95,
+      "hmmStart" : 1,
+      "hmmEnd" : 31,
+      "hmmLength" : 31,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.0E-8,
+      "score" : 34.0,
+      "envelopeStart" : 66,
+      "envelopeEnd" : 95,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 66,
+        "end" : 95,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 125,
+      "end" : 154,
+      "hmmStart" : 1,
+      "hmmEnd" : 31,
+      "hmmLength" : 31,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.8E-10,
+      "score" : 40.0,
+      "envelopeStart" : 125,
+      "envelopeEnd" : 154,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 125,
+        "end" : 154,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.0E-21,
+    "score" : 75.6,
+    "model-ac" : "PF00397"
+  }, {
+    "signature" : {
+      "accession" : "PS01159",
+      "name" : "WW_DOMAIN_1",
+      "description" : "WW/rsp5/WWP domain signature.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PATTERNS",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001202",
+        "name" : "WW_dom",
+        "description" : "WW domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 70,
+      "end" : 95,
+      "level" : "STRONG",
+      "cigarAlignment" : "1M10I2M7I6M",
+      "alignment" : "WemaktssgqrYFlnhidqtTTWQDP",
+      "location-fragments" : [ {
+        "start" : 70,
+        "end" : 95,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS01159"
+  }, {
+    "signature" : {
+      "accession" : "PS50020",
+      "name" : "WW_DOMAIN_2",
+      "description" : "WW/rsp5/WWP domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001202",
+        "name" : "WW_dom",
+        "description" : "WW domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 64,
+      "end" : 97,
+      "score" : 16.727,
+      "alignment" : "VPLPAGWEMAKTSSGQRYFLNHIDQTTTWQDPRK",
+      "location-fragments" : [ {
+        "start" : 64,
+        "end" : 97,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50020"
+  }, {
+    "signature" : {
+      "accession" : "PTHR17616",
+      "name" : "YES-ASSOCIATED PROTEIN",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 397,
+      "hmmStart" : 59,
+      "hmmEnd" : 441,
+      "hmmLength" : 441,
+      "hmmBounds" : "COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 397,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 397,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 784.3,
+    "model-ac" : "PTHR17616"
+  }, {
+    "signature" : {
+      "accession" : "SM00456",
+      "name" : "ww_5",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR001202",
+        "name" : "WW_dom",
+        "description" : "WW domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 124,
+      "end" : 156,
+      "hmmStart" : 1,
+      "hmmEnd" : 34,
+      "hmmLength" : 34,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.1E-12,
+      "score" : 57.2,
+      "location-fragments" : [ {
+        "start" : 124,
+        "end" : 156,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 65,
+      "end" : 97,
+      "hmmStart" : 1,
+      "hmmEnd" : 34,
+      "hmmLength" : 34,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.1E-11,
+      "score" : 53.9,
+      "location-fragments" : [ {
+        "start" : 65,
+        "end" : 97,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.2E-28,
+    "score" : 111.2,
+    "model-ac" : "SM00456"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.20.70.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 54,
+      "end" : 102,
+      "hmmStart" : 3,
+      "hmmEnd" : 49,
+      "hmmLength" : 49,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.4E-23,
+      "score" : 84.3,
+      "envelopeStart" : 54,
+      "envelopeEnd" : 102,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 54,
+        "end" : 102,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.3E-44,
+    "score" : 151.5,
+    "model-ac" : "4rexA00"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 184,
+      "end" : 202,
+      "location-fragments" : [ {
+        "start" : 184,
+        "end" : 202,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.20.70.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 118,
+      "end" : 157,
+      "hmmStart" : 8,
+      "hmmEnd" : 43,
+      "hmmLength" : 46,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.1E-18,
+      "score" : 67.7,
+      "envelopeStart" : 118,
+      "envelopeEnd" : 157,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 118,
+        "end" : 157,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.5E-38,
+    "score" : 131.0,
+    "model-ac" : "2l4jA00"
+  }, {
+    "signature" : {
+      "accession" : "PS01159",
+      "name" : "WW_DOMAIN_1",
+      "description" : "WW/rsp5/WWP domain signature.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PATTERNS",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001202",
+        "name" : "WW_dom",
+        "description" : "WW domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 129,
+      "end" : 154,
+      "level" : "STRONG",
+      "cigarAlignment" : "1M10I2M7I6M",
+      "alignment" : "WeqamtqdgeiYYinhknktTSWLDP",
+      "location-fragments" : [ {
+        "start" : 129,
+        "end" : 154,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS01159"
+  }, {
+    "signature" : {
+      "accession" : "SSF51045",
+      "name" : "WW domain",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036020",
+        "name" : "WW_dom_sf",
+        "description" : "WW domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 60,
+      "end" : 100,
+      "hmmLength" : 50,
+      "location-fragments" : [ {
+        "start" : 60,
+        "end" : 100,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.86E-13,
+    "model-ac" : "0038884"
+  }, {
+    "signature" : {
+      "accession" : "cd00201",
+      "name" : "WW",
+      "description" : "WW",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : {
+        "accession" : "IPR001202",
+        "name" : "WW_dom",
+        "description" : "WW domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 126,
+      "end" : 156,
+      "sites" : [ {
+        "description" : "binding pocket",
+        "numLocations" : 2,
+        "siteLocations" : [ {
+          "start" : 140,
+          "end" : 140,
+          "residue" : "Y"
+        }, {
+          "start" : 151,
+          "end" : 151,
+          "residue" : "W"
+        } ]
+      } ],
+      "evalue" : 5.29528E-11,
+      "score" : 54.8414,
+      "location-fragments" : [ {
+        "start" : 126,
+        "end" : 156,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00201"
+  } ],
+  "xref" : [ {
+    "name" : "tr|A0A286Y1R6|A0A286Y1R6_CAVPO Yes associated protein 1 OS=Cavia porcellus OX=10141 GN=YAP1 PE=4 SV=1",
+    "id" : "tr|A0A286Y1R6|A0A286Y1R6_CAVPO"
+  } ]
+} ]
+}

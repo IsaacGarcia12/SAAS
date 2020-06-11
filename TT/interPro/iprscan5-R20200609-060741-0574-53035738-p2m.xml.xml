@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="e499d7fd73e34577d48ea095b3d7edbf">MTMTLHTKASGMALLHQIQASELEPLSRPQLKMPLEEPQGEVFLDGGKPAVFNYPEGAAYEFNAAAAASAPVYGQPGLAYGPGSEAAAAFGPSSLGGFPQLSSVSPSPLMLLHPPPQLSPFLHPHGQQVPFYLENEPSGYAVREAGAPAFYRPNSGNRRQSGRERLASTSDKGSITLESAKETRYCAVCNDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATNQCTIDKNRRKSCQACRLRKCYDVGMIKGGIRKDRRGGRMLKYKRQRDDEERRHEMGPSGDMRGSNLWPSPLVIKHTKKNSPALSLTADQMVSALMDAEPPLLYSEYDAVKPFSEASMMGLLTNLADRELVHMINWAKRVPGFGDLTLHDQVHLLECAWLEILMIGLIWRSMEHPGKLLFAPNLILDRNQGKCVEGMVEIFDMLLATSTRFRMMNLQGEEFVCLKSIILLNSGMYTFLSSTLKSLEEKDHIHRVLDKIIDTLIHLMAKAGLTLQQQHRRLAQLLLILSHIRHMSNKGVEHLYNMKCKNVVPLYNLLLEMLEAHRLNTSSNPMGGSPEEPSQSQLATIGSSSAHSLQTYYVSQEAESFPNTI</sequence>
+    <xref id="tr|H0VC28|H0VC28_CAVPO" name="tr|H0VC28|H0VC28_CAVPO Estrogen receptor OS=Cavia porcellus OX=10141 GN=ESR1 PE=3 SV=1"/>
+    <matches>
+      <fingerprints-match evalue="3.4E-26" graphscan="IIIII">
+        <signature ac="PR00398" desc="Steroid hormone receptor signature" name="STRDHORMONER">
+          <entry ac="IPR001723" desc="Nuclear hormone receptor" name="Nuclear_hrmn_rcpt" type="FAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003707" name="steroid hormone receptor activity"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003677" name="DNA binding"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0042025" name="host cell nucleus"/>
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR00398</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="0.00263" score="36.73" start="247" end="257">
+            <location-fragments>
+              <fingerprints-location-fragment start="247" end="257" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="3.32E-10" score="38.14" start="350" end="371">
+            <location-fragments>
+              <fingerprints-location-fragment start="350" end="371" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="6.68E-8" score="47.97" start="371" end="387">
+            <location-fragments>
+              <fingerprints-location-fragment start="371" end="387" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="4" pvalue="7.72E-7" score="35.0" start="439" end="454">
+            <location-fragments>
+              <fingerprints-location-fragment start="439" end="454" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="5" pvalue="7.53E-7" score="35.09" start="507" end="524">
+            <location-fragments>
+              <fingerprints-location-fragment start="507" end="524" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <fingerprints-match evalue="8.5E-77" graphscan="IIIIIIII">
+        <signature ac="PR00543" desc="Oestrogen receptor signature" name="OESTROGENR">
+          <entry ac="IPR001292" desc="Oestrogen receptor" name="Oestr_rcpt" type="FAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005496" name="steroid binding"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005634" name="nucleus"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0043401" name="steroid hormone mediated signaling pathway"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003677" name="DNA binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0030284" name="estrogen receptor activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+            <pathway-xref db="Reactome" id="R-HSA-8939902" name="Regulation of RUNX2 expression and activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-9009391" name="Extra-nuclear estrogen signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-8931987" name="RUNX1 regulates estrogen receptor mediated transcription"/>
+            <pathway-xref db="Reactome" id="R-HSA-1257604" name="PIP3 activates AKT signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-8866910" name="TFAP2 (AP-2) family regulates transcription of growth factors and their receptors"/>
+            <pathway-xref db="Reactome" id="R-HSA-5689896" name="Ovarian tumor domain proteases"/>
+            <pathway-xref db="Reactome" id="R-HSA-4090294" name="SUMOylation of intracellular receptors"/>
+            <pathway-xref db="Reactome" id="R-HSA-8939256" name="RUNX1 regulates transcription of genes involved in WNT signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-1251985" name="Nuclear signaling by ERBB4"/>
+            <pathway-xref db="Reactome" id="R-HSA-2219530" name="Constitutive Signaling by Aberrant PI3K in Cancer"/>
+            <pathway-xref db="Reactome" id="R-HSA-8939211" name="ESR-mediated signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-6811558" name="PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-9018519" name="Estrogen-dependent gene expression"/>
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR00543</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="1.78E-11" score="83.07" start="6" end="24">
+            <location-fragments>
+              <fingerprints-location-fragment start="6" end="24" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="7.06E-10" score="64.98" start="26" end="43">
+            <location-fragments>
+              <fingerprints-location-fragment start="26" end="43" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="1.15E-10" score="70.17" start="45" end="62">
+            <location-fragments>
+              <fingerprints-location-fragment start="45" end="62" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="4" pvalue="3.4E-10" score="71.88" start="70" end="85">
+            <location-fragments>
+              <fingerprints-location-fragment start="70" end="85" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="5" pvalue="5.7E-9" score="70.29" start="98" end="112">
+            <location-fragments>
+              <fingerprints-location-fragment start="98" end="112" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="6" pvalue="1.11E-11" score="84.78" start="116" end="132">
+            <location-fragments>
+              <fingerprints-location-fragment start="116" end="132" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="7" pvalue="6.94E-13" score="75.54" start="133" end="152">
+            <location-fragments>
+              <fingerprints-location-fragment start="133" end="152" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="8" pvalue="6.65E-12" score="74.78" start="154" end="173">
+            <location-fragments>
+              <fingerprints-location-fragment start="154" end="173" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <fingerprints-match evalue="1.3E-16" graphscan="IIII">
+        <signature ac="PR00047" desc="C4-type steroid receptor zinc finger signature" name="STROIDFINGER">
+          <entry ac="IPR001628" desc="Zinc finger, nuclear hormone receptor-type" name="Znf_hrmn_rcpt" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0043565" name="sequence-specific DNA binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003700" name="DNA-binding transcription factor activity"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0042025" name="host cell nucleus"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR00047</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="1.08E-8" score="57.2" start="186" end="202">
+            <location-fragments>
+              <fingerprints-location-fragment start="186" end="202" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="2.34E-8" score="58.58" start="202" end="217">
+            <location-fragments>
+              <fingerprints-location-fragment start="202" end="217" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="6.89E-4" score="60.54" start="235" end="243">
+            <location-fragments>
+              <fingerprints-location-fragment start="235" end="243" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="4" pvalue="4.59E-4" score="59.11" start="243" end="251">
+            <location-fragments>
+              <fingerprints-location-fragment start="243" end="251" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <hmmer2-match evalue="1.3E-36" score="137.6">
+        <signature ac="SM00399" name="c4gold">
+          <entry ac="IPR001628" desc="Zinc finger, nuclear hormone receptor-type" name="Znf_hrmn_rcpt" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0043565" name="sequence-specific DNA binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003700" name="DNA-binding transcription factor activity"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0042025" name="host cell nucleus"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00399</model-ac>
+        <locations>
+          <hmmer2-location score="137.6" evalue="1.3E-36" hmm-start="1" hmm-end="72" hmm-length="72" hmm-bounds="COMPLETE" start="183" end="254">
+            <location-fragments>
+              <hmmer2-location-fragment start="183" end="254" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="4.6E-35" score="132.5">
+        <signature ac="SM00430" name="holi">
+          <entry ac="IPR000536" desc="Nuclear hormone receptor, ligand-binding domain" name="Nucl_hrmn_rcpt_lig-bd" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00430</model-ac>
+        <locations>
+          <hmmer2-location score="132.5" evalue="4.6E-35" hmm-start="1" hmm-end="158" hmm-length="158" hmm-bounds="COMPLETE" start="349" end="519">
+            <location-fragments>
+              <hmmer2-location-fragment start="349" end="519" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="3.7E-31" score="107.3">
+        <signature ac="PF00105" desc="Zinc finger, C4 type (two domains)" name="zf-C4">
+          <entry ac="IPR001628" desc="Zinc finger, nuclear hormone receptor-type" name="Znf_hrmn_rcpt" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0043565" name="sequence-specific DNA binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003700" name="DNA-binding transcription factor activity"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0042025" name="host cell nucleus"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00105</model-ac>
+        <locations>
+          <hmmer3-location env-end="253" env-start="184" post-processed="true" score="106.6" evalue="5.9E-31" hmm-start="2" hmm-end="70" hmm-length="70" hmm-bounds="C_TERMINAL_COMPLETE" start="185" end="253">
+            <location-fragments>
+              <hmmer3-location-fragment start="185" end="253" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="5.2E-61" score="205.1">
+        <signature ac="PF02159" desc="Oestrogen receptor" name="Oest_recep">
+          <entry ac="IPR001292" desc="Oestrogen receptor" name="Oestr_rcpt" type="FAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005496" name="steroid binding"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005634" name="nucleus"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0043401" name="steroid hormone mediated signaling pathway"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003677" name="DNA binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0030284" name="estrogen receptor activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+            <pathway-xref db="Reactome" id="R-HSA-8939902" name="Regulation of RUNX2 expression and activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-9009391" name="Extra-nuclear estrogen signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-8931987" name="RUNX1 regulates estrogen receptor mediated transcription"/>
+            <pathway-xref db="Reactome" id="R-HSA-1257604" name="PIP3 activates AKT signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-8866910" name="TFAP2 (AP-2) family regulates transcription of growth factors and their receptors"/>
+            <pathway-xref db="Reactome" id="R-HSA-5689896" name="Ovarian tumor domain proteases"/>
+            <pathway-xref db="Reactome" id="R-HSA-4090294" name="SUMOylation of intracellular receptors"/>
+            <pathway-xref db="Reactome" id="R-HSA-8939256" name="RUNX1 regulates transcription of genes involved in WNT signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-1251985" name="Nuclear signaling by ERBB4"/>
+            <pathway-xref db="Reactome" id="R-HSA-2219530" name="Constitutive Signaling by Aberrant PI3K in Cancer"/>
+            <pathway-xref db="Reactome" id="R-HSA-8939211" name="ESR-mediated signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-6811558" name="PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-9018519" name="Estrogen-dependent gene expression"/>
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF02159</model-ac>
+        <locations>
+          <hmmer3-location env-end="182" env-start="42" post-processed="true" score="205.1" evalue="5.2E-61" hmm-start="2" hmm-end="138" hmm-length="138" hmm-bounds="C_TERMINAL_COMPLETE" start="43" end="182">
+            <location-fragments>
+              <hmmer3-location-fragment start="43" end="182" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.7E-18" score="65.4">
+        <signature ac="PF12743" desc="Oestrogen-type nuclear receptor final C-terminal" name="ESR1_C">
+          <entry ac="IPR024736" desc="Oestrogen-type nuclear receptor final C-terminal domain" name="Oestrogen-typ_rcpt_final_C_dom" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-8939211" name="ESR-mediated signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-1257604" name="PIP3 activates AKT signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-6811558" name="PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-1251985" name="Nuclear signaling by ERBB4"/>
+            <pathway-xref db="Reactome" id="R-HSA-5689896" name="Ovarian tumor domain proteases"/>
+            <pathway-xref db="Reactome" id="R-HSA-8931987" name="RUNX1 regulates estrogen receptor mediated transcription"/>
+            <pathway-xref db="Reactome" id="R-HSA-9018519" name="Estrogen-dependent gene expression"/>
+            <pathway-xref db="Reactome" id="R-HSA-4090294" name="SUMOylation of intracellular receptors"/>
+            <pathway-xref db="Reactome" id="R-HSA-8866910" name="TFAP2 (AP-2) family regulates transcription of growth factors and their receptors"/>
+            <pathway-xref db="Reactome" id="R-HSA-8939256" name="RUNX1 regulates transcription of genes involved in WNT signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+            <pathway-xref db="Reactome" id="R-HSA-8939902" name="Regulation of RUNX2 expression and activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-2219530" name="Constitutive Signaling by Aberrant PI3K in Cancer"/>
+            <pathway-xref db="Reactome" id="R-HSA-9009391" name="Extra-nuclear estrogen signaling"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF12743</model-ac>
+        <locations>
+          <hmmer3-location env-end="596" env-start="554" post-processed="true" score="64.5" evalue="5.1E-18" hmm-start="6" hmm-end="44" hmm-length="44" hmm-bounds="C_TERMINAL_COMPLETE" start="558" end="596">
+            <location-fragments>
+              <hmmer3-location-fragment start="558" end="596" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="5.5E-78" score="263.7">
+        <signature ac="G3DSA:1.10.565.10">
+          <entry ac="IPR035500" desc="Nuclear hormone receptor-like domain superfamily" name="NHR-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3uudA00</model-ac>
+        <locations>
+          <hmmer3-location env-end="553" env-start="303" post-processed="true" score="263.2" evalue="7.6E-78" hmm-start="2" hmm-end="249" hmm-length="251" hmm-bounds="COMPLETE" start="303" end="553">
+            <location-fragments>
+              <hmmer3-location-fragment start="303" end="553" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="8.9E-33" score="113.5">
+        <signature ac="PF00104" desc="Ligand-binding domain of nuclear hormone receptor" name="Hormone_recep">
+          <entry ac="IPR000536" desc="Nuclear hormone receptor, ligand-binding domain" name="Nucl_hrmn_rcpt_lig-bd" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00104</model-ac>
+        <locations>
+          <hmmer3-location env-end="532" env-start="335" post-processed="true" score="112.8" evalue="1.5E-32" hmm-start="7" hmm-end="205" hmm-length="207" hmm-bounds="INCOMPLETE" start="338" end="530">
+            <location-fragments>
+              <hmmer3-location-fragment start="338" end="530" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="641.7">
+        <signature ac="PIRSF002527" name="ER-like_NR">
+          <entry ac="IPR024178" desc="Oestrogen receptor/oestrogen-related receptor" name="Oest_rcpt/oest-rel_rcp" type="FAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005496" name="steroid binding"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005634" name="nucleus"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003707" name="steroid hormone receptor activity"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003677" name="DNA binding"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="PIRSF" version="3.10"/>
+        </signature>
+        <model-ac>PIRSF002527</model-ac>
+        <locations>
+          <hmmer3-location env-end="589" env-start="39" post-processed="false" score="641.3" evalue="0.0" hmm-start="89" hmm-end="573" hmm-length="523" hmm-bounds="COMPLETE" start="39" end="589">
+            <location-fragments>
+              <hmmer3-location-fragment start="39" end="589" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="999.3">
+        <signature ac="PIRSF500101" name="ER-a">
+          <entry ac="IPR001292" desc="Oestrogen receptor" name="Oestr_rcpt" type="FAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005496" name="steroid binding"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005634" name="nucleus"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0043401" name="steroid hormone mediated signaling pathway"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003677" name="DNA binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0030284" name="estrogen receptor activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+            <pathway-xref db="Reactome" id="R-HSA-8939902" name="Regulation of RUNX2 expression and activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-9009391" name="Extra-nuclear estrogen signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-8931987" name="RUNX1 regulates estrogen receptor mediated transcription"/>
+            <pathway-xref db="Reactome" id="R-HSA-1257604" name="PIP3 activates AKT signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-8866910" name="TFAP2 (AP-2) family regulates transcription of growth factors and their receptors"/>
+            <pathway-xref db="Reactome" id="R-HSA-5689896" name="Ovarian tumor domain proteases"/>
+            <pathway-xref db="Reactome" id="R-HSA-4090294" name="SUMOylation of intracellular receptors"/>
+            <pathway-xref db="Reactome" id="R-HSA-8939256" name="RUNX1 regulates transcription of genes involved in WNT signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-1251985" name="Nuclear signaling by ERBB4"/>
+            <pathway-xref db="Reactome" id="R-HSA-2219530" name="Constitutive Signaling by Aberrant PI3K in Cancer"/>
+            <pathway-xref db="Reactome" id="R-HSA-8939211" name="ESR-mediated signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-6811558" name="PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-9018519" name="Estrogen-dependent gene expression"/>
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="PIRSF" version="3.10"/>
+        </signature>
+        <model-ac>PIRSF500101</model-ac>
+        <locations>
+          <hmmer3-location env-end="596" env-start="1" post-processed="false" score="999.2" evalue="0.0" hmm-start="1" hmm-end="595" hmm-length="618" hmm-bounds="COMPLETE" start="1" end="596">
+            <location-fragments>
+              <hmmer3-location-fragment start="1" end="596" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="6.4E-32" score="111.7">
+        <signature ac="G3DSA:3.30.50.10">
+          <entry ac="IPR013088" desc="Zinc finger, NHR/GATA-type" name="Znf_NHR/GATA" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2a66A00</model-ac>
+        <locations>
+          <hmmer3-location env-end="282" env-start="176" post-processed="true" score="111.0" evalue="1.1E-31" hmm-start="7" hmm-end="97" hmm-length="113" hmm-bounds="COMPLETE" start="176" end="282">
+            <location-fragments>
+              <hmmer3-location-fragment start="176" end="282" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="154" end="173">
+            <location-fragments>
+              <mobidblite-location-fragment start="154" end="173" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="267" end="292">
+            <location-fragments>
+              <mobidblite-location-fragment start="267" end="292" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="267" end="284">
+            <location-fragments>
+              <mobidblite-location-fragment start="267" end="284" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="151" end="173">
+            <location-fragments>
+              <mobidblite-location-fragment start="151" end="173" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="552" end="572">
+            <location-fragments>
+              <mobidblite-location-fragment start="552" end="572" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="971.9">
+        <signature ac="PTHR24084" name="FAMILY NOT NAMED">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR24084</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="151" hmm-start="1" hmm-end="152" hmm-length="632" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="146">
+            <location-fragments>
+              <panther-location-fragment start="1" end="146" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="148" env-end="587" hmm-start="210" hmm-end="617" hmm-length="632" hmm-bounds="INCOMPLETE" start="154" end="572">
+            <location-fragments>
+              <panther-location-fragment start="154" end="572" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="971.9">
+        <signature ac="PTHR24084:SF3" name="ESTROGEN RECEPTOR">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR24084:SF3</model-ac>
+        <locations>
+          <panther-location env-start="148" env-end="587" hmm-start="210" hmm-end="617" hmm-length="632" hmm-bounds="INCOMPLETE" start="154" end="572">
+            <location-fragments>
+              <panther-location-fragment start="154" end="572" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="1" env-end="151" hmm-start="1" hmm-end="152" hmm-length="632" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="146">
+            <location-fragments>
+              <panther-location-fragment start="1" end="146" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <patternscan-match>
+        <signature ac="PS00031" desc="Nuclear hormones receptors DNA-binding region signature." name="NUCLEAR_REC_DBD_1">
+          <entry ac="IPR001628" desc="Zinc finger, nuclear hormone receptor-type" name="Znf_hrmn_rcpt" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0043565" name="sequence-specific DNA binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003700" name="DNA-binding transcription factor activity"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0042025" name="host cell nucleus"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS00031</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="186" end="212">
+            <location-fragments>
+              <patternscan-location-fragment start="186" end="212" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>CavCnDyasgyHYgvwsCegCkaFFkR</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="3">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="3" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="20">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="20" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="16" end="20">
+            <location-fragments>
+              <phobius-location-fragment start="16" end="20" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="21" end="596">
+            <location-fragments>
+              <phobius-location-fragment start="21" end="596" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="4" end="15">
+            <location-fragments>
+              <phobius-location-fragment start="4" end="15" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <profilescan-match>
+        <signature ac="PS51030" desc="Nuclear hormone receptors DNA-binding domain profile." name="NUCLEAR_REC_DBD_2">
+          <entry ac="IPR001628" desc="Zinc finger, nuclear hormone receptor-type" name="Znf_hrmn_rcpt" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0043565" name="sequence-specific DNA binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003700" name="DNA-binding transcription factor activity"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0042025" name="host cell nucleus"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51030</model-ac>
+        <locations>
+          <profilescan-location score="18.974" start="183" end="258">
+            <location-fragments>
+              <profilescan-location-fragment start="183" end="258" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>TRYCAVCNDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATNQCTIDKNRRKSCQACRLRKCYDVGMIKGGIRK</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51843" desc="Nuclear receptor (NR) ligand-binding (LBD) domain profile." name="NR_LBD">
+          <entry ac="IPR000536" desc="Nuclear hormone receptor, ligand-binding domain" name="Nucl_hrmn_rcpt_lig-bd" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51843</model-ac>
+        <locations>
+          <profilescan-location score="65.851" start="312" end="548">
+            <location-fragments>
+              <profilescan-location-fragment start="312" end="548" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>TADQMVSALMDAEPPLLYSEYDAVKPF-------SEASMMGLLTNLADRELVHMINWAKRVPGFGDLTLHDQVHLLECAWLEILMIGLIWRSMEHP--GKLLFAPNLILDRNQGKCVEGMVEIFDMLLATSTRFRMMNLQGEEFVCLKSIILLNSgmytflsSTLKSLEEKDHIHRVLDKIIDTLIHLMAKAGltLQQQHRRLAQLLLILSHIRHMSNKGVEHLYNMKCKNVVPLYNLLLEMLEAH</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <rpsblast-match>
+        <signature ac="cd06949" desc="NR_LBD_ER" name="NR_LBD_ER">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd06949</model-ac>
+        <locations>
+          <rpsblast-location evalue="0.0" score="412.205" start="311" end="548">
+            <location-fragments>
+              <rpsblast-location-fragment start="311" end="548" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="coactivator recognition site" numLocations="8">
+                <site-locations>
+                  <site-location residue="Q" start="376" end="376"/>
+                  <site-location residue="I" start="359" end="359"/>
+                  <site-location residue="V" start="377" end="377"/>
+                  <site-location residue="M" start="544" end="544"/>
+                  <site-location residue="E" start="543" end="543"/>
+                  <site-location residue="N" start="539" end="539"/>
+                  <site-location residue="E" start="381" end="381"/>
+                  <site-location residue="K" start="363" end="363"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="dimer interface" numLocations="20">
+                <site-locations>
+                  <site-location residue="L" start="480" end="480"/>
+                  <site-location residue="R" start="516" end="516"/>
+                  <site-location residue="L" start="510" end="510"/>
+                  <site-location residue="L" start="505" end="505"/>
+                  <site-location residue="A" start="506" end="506"/>
+                  <site-location residue="Q" start="507" end="507"/>
+                  <site-location residue="I" start="452" end="452"/>
+                  <site-location residue="I" start="484" end="484"/>
+                  <site-location residue="H" start="514" end="514"/>
+                  <site-location residue="S" start="513" end="513"/>
+                  <site-location residue="N" start="520" end="520"/>
+                  <site-location residue="G" start="458" end="458"/>
+                  <site-location residue="N" start="456" end="456"/>
+                  <site-location residue="L" start="509" end="509"/>
+                  <site-location residue="M" start="459" end="459"/>
+                  <site-location residue="H" start="517" end="517"/>
+                  <site-location residue="R" start="503" end="503"/>
+                  <site-location residue="I" start="488" end="488"/>
+                  <site-location residue="H" start="502" end="502"/>
+                  <site-location residue="D" start="485" end="485"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="ligand binding site" numLocations="7">
+                <site-locations>
+                  <site-location residue="R" start="395" end="395"/>
+                  <site-location residue="G" start="522" end="522"/>
+                  <site-location residue="L" start="347" end="347"/>
+                  <site-location residue="H" start="525" end="525"/>
+                  <site-location residue="E" start="354" end="354"/>
+                  <site-location residue="D" start="352" end="352"/>
+                  <site-location residue="L" start="388" end="388"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd07171" desc="NR_DBD_ER" name="NR_DBD_ER">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd07171</model-ac>
+        <locations>
+          <rpsblast-location evalue="4.93396E-62" score="197.412" start="181" end="262">
+            <location-fragments>
+              <rpsblast-location-fragment start="181" end="262" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="dimer interface" numLocations="8">
+                <site-locations>
+                  <site-location residue="C" start="222" end="222"/>
+                  <site-location residue="A" start="224" end="224"/>
+                  <site-location residue="I" start="221" end="221"/>
+                  <site-location residue="C" start="228" end="228"/>
+                  <site-location residue="S" start="237" end="237"/>
+                  <site-location residue="T" start="229" end="229"/>
+                  <site-location residue="R" start="234" end="234"/>
+                  <site-location residue="P" start="223" end="223"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="zinc binding site" numLocations="8">
+                <site-locations>
+                  <site-location residue="C" start="238" end="238"/>
+                  <site-location residue="C" start="206" end="206"/>
+                  <site-location residue="C" start="222" end="222"/>
+                  <site-location residue="C" start="203" end="203"/>
+                  <site-location residue="C" start="228" end="228"/>
+                  <site-location residue="C" start="241" end="241"/>
+                  <site-location residue="C" start="186" end="186"/>
+                  <site-location residue="C" start="189" end="189"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="DNA binding site" numLocations="15">
+                <site-locations>
+                  <site-location residue="Y" start="196" end="196"/>
+                  <site-location residue="R" start="235" end="235"/>
+                  <site-location residue="A" start="208" end="208"/>
+                  <site-location residue="E" start="204" end="204"/>
+                  <site-location residue="R" start="212" end="212"/>
+                  <site-location residue="K" start="236" end="236"/>
+                  <site-location residue="F" start="209" end="209"/>
+                  <site-location residue="K" start="207" end="207"/>
+                  <site-location residue="H" start="197" end="197"/>
+                  <site-location residue="Q" start="239" end="239"/>
+                  <site-location residue="K" start="211" end="211"/>
+                  <site-location residue="G" start="205" end="205"/>
+                  <site-location residue="Y" start="198" end="198"/>
+                  <site-location residue="R" start="242" end="242"/>
+                  <site-location residue="G" start="195" end="195"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="2.1E-71">
+        <signature ac="SSF48508" name="Nuclear receptor ligand-binding domain">
+          <entry ac="IPR035500" desc="Nuclear hormone receptor-like domain superfamily" name="NHR-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <pathway-xref db="Reactome" id="R-HSA-383280" name="Nuclear Receptor transcription pathway"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0039946</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="267" start="236" end="548">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="303" end="548" dc-status="N_TERMINAL_DISC"/>
+              <superfamilyhmmer3-location-fragment start="236" end="262" dc-status="C_TERMINAL_DISC"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="1.53E-28">
+        <signature ac="SSF57716" name="Glucocorticoid receptor-like (DNA-binding domain)">
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0053658</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="96" start="184" end="265">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="184" end="265" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

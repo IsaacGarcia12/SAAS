@@ -1,0 +1,87 @@
+##gff-version 3
+##feature-ontology http://song.cvs.sourceforge.net/viewvc/song/ontology/sofa.obo?revision=1.269
+##interproscan-version 5.44-79.0
+##sequence-region tr|Q545V4|Q545V4_MOUSE 1 125
+tr|Q545V4|Q545V4_MOUSE	.	polypeptide	1	125	.	+	.	ID=tr|Q545V4|Q545V4_MOUSE;md5=d2a94e423463e1624492c69fc6cd506a
+tr|Q545V4|Q545V4_MOUSE	Phobius	protein_match	15	19	.	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 15 19;ID=match$1_15_19;signature_desc=C-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_C_REGION;status=T
+tr|Q545V4|Q545V4_MOUSE	PIRSF	protein_match	1	125	2.8E-52	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 1 125;Ontology_term="GO:0005185","GO:0005576";ID=match$2_1_125;Name=PIRSF001815;status=T;Dbxref="InterPro:IPR000981","Reactome:R-HSA-388479","Reactome:R-HSA-416476"
+tr|Q545V4|Q545V4_MOUSE	SignalP_GRAM_NEGATIVE	protein_match	1	19	.	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 1 19;ID=match$3_1_19;Name=SignalP-noTM;status=T
+tr|Q545V4|Q545V4_MOUSE	Phobius	protein_match	20	125	.	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 20 125;ID=match$4_20_125;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+tr|Q545V4|Q545V4_MOUSE	SUPERFAMILY	protein_match	33	121	1.02E-36	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 33 121;Ontology_term="GO:0005185","GO:0005576";ID=match$5_33_121;Name=SSF49606;status=T;Dbxref="InterPro:IPR036387","Reactome:R-HSA-388479","Reactome:R-HSA-416476"
+tr|Q545V4|Q545V4_MOUSE	ProSitePatterns	protein_match	20	28	.	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 20 28;Ontology_term="GO:0005185","GO:0005576";ID=match$6_20_28;signature_desc=Neurohypophysial hormones signature.;Name=PS00264;status=T;Dbxref="InterPro:IPR022423","Reactome:R-HSA-388479","Reactome:R-HSA-416476"
+tr|Q545V4|Q545V4_MOUSE	Pfam	protein_match	39	116	1.1E-32	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 39 116;Ontology_term="GO:0005185","GO:0005576";ID=match$7_39_116;signature_desc=Neurohypophysial hormones, C-terminal Domain;Name=PF00184;status=T;Dbxref="InterPro:IPR000981","Reactome:R-HSA-388479","Reactome:R-HSA-416476"
+tr|Q545V4|Q545V4_MOUSE	Phobius	protein_match	1	19	.	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 1 19;ID=match$8_1_19;signature_desc=Signal peptide region;Name=SIGNAL_PEPTIDE;status=T
+tr|Q545V4|Q545V4_MOUSE	SignalP_GRAM_POSITIVE	protein_match	1	21	.	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 1 21;ID=match$9_1_21;Name=SignalP-TM;status=T
+tr|Q545V4|Q545V4_MOUSE	SignalP_GRAM_NEGATIVE	protein_match	1	24	.	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 1 24;ID=match$10_1_24;Name=SignalP-noTM;status=T
+tr|Q545V4|Q545V4_MOUSE	PANTHER	protein_match	1	125	1.5E-72	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 1 125;Ontology_term="GO:0005185","GO:0005576";ID=match$11_1_125;Name=PTHR11681;status=T;Dbxref="InterPro:IPR000981","Reactome:R-HSA-388479","Reactome:R-HSA-416476"
+tr|Q545V4|Q545V4_MOUSE	PANTHER	protein_match	1	125	1.5E-72	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 1 125;ID=match$12_1_125;Name=PTHR11681:SF2;status=T
+tr|Q545V4|Q545V4_MOUSE	Gene3D	protein_match	38	125	9.7E-32	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 38 125;Ontology_term="GO:0005185","GO:0005576";ID=match$13_38_125;Name=G3DSA:2.60.9.10;status=T;Dbxref="InterPro:IPR036387","Reactome:R-HSA-388479","Reactome:R-HSA-416476"
+tr|Q545V4|Q545V4_MOUSE	PRINTS	protein_match	21	35	2.9E-53	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 21 35;Ontology_term="GO:0005185","GO:0005576";ID=match$14_21_35;signature_desc=Neurohypophysial hormone signature;Name=PR00831;status=T;Dbxref="InterPro:IPR000981","Reactome:R-HSA-388479","Reactome:R-HSA-416476"
+tr|Q545V4|Q545V4_MOUSE	PRINTS	protein_match	39	55	2.9E-53	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 39 55;Ontology_term="GO:0005185","GO:0005576";ID=match$14_39_55;signature_desc=Neurohypophysial hormone signature;Name=PR00831;status=T;Dbxref="InterPro:IPR000981","Reactome:R-HSA-388479","Reactome:R-HSA-416476"
+tr|Q545V4|Q545V4_MOUSE	PRINTS	protein_match	55	74	2.9E-53	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 55 74;Ontology_term="GO:0005185","GO:0005576";ID=match$14_55_74;signature_desc=Neurohypophysial hormone signature;Name=PR00831;status=T;Dbxref="InterPro:IPR000981","Reactome:R-HSA-388479","Reactome:R-HSA-416476"
+tr|Q545V4|Q545V4_MOUSE	PRINTS	protein_match	74	93	2.9E-53	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 74 93;Ontology_term="GO:0005185","GO:0005576";ID=match$14_74_93;signature_desc=Neurohypophysial hormone signature;Name=PR00831;status=T;Dbxref="InterPro:IPR000981","Reactome:R-HSA-388479","Reactome:R-HSA-416476"
+tr|Q545V4|Q545V4_MOUSE	PRINTS	protein_match	96	116	2.9E-53	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 96 116;Ontology_term="GO:0005185","GO:0005576";ID=match$14_96_116;signature_desc=Neurohypophysial hormone signature;Name=PR00831;status=T;Dbxref="InterPro:IPR000981","Reactome:R-HSA-388479","Reactome:R-HSA-416476"
+tr|Q545V4|Q545V4_MOUSE	Pfam	protein_match	20	28	7.5E-4	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 20 28;Ontology_term="GO:0005185","GO:0005576";ID=match$15_20_28;signature_desc=Neurohypophysial hormones, N-terminal Domain;Name=PF00220;status=T;Dbxref="InterPro:IPR022423","Reactome:R-HSA-388479","Reactome:R-HSA-416476"
+tr|Q545V4|Q545V4_MOUSE	Phobius	protein_match	3	14	.	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 3 14;ID=match$16_3_14;signature_desc=Hydrophobic region of a signal peptide.;Name=SIGNAL_PEPTIDE_H_REGION;status=T
+tr|Q545V4|Q545V4_MOUSE	Phobius	protein_match	1	2	.	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 1 2;ID=match$17_1_2;signature_desc=N-terminal region of a signal peptide.;Name=SIGNAL_PEPTIDE_N_REGION;status=T
+tr|Q545V4|Q545V4_MOUSE	SMART	protein_match	39	116	2.9E-47	+	.	date=10-06-2020;Target=tr|Q545V4|Q545V4_MOUSE 39 116;Ontology_term="GO:0005185","GO:0005576";ID=match$18_39_116;Name=SM00003;status=T;Dbxref="InterPro:IPR000981","Reactome:R-HSA-388479","Reactome:R-HSA-416476"
+##FASTA
+>tr|Q545V4|Q545V4_MOUSE
+MACPSLACCLLGLLALTSACYIQNCPLGGKRAVLDLDMRKCLPCGPGGKGRCFGPSICCA
+DELGCFVGTAEALRCQEENYLPSPCQSGQKPCGSGGRCAATGICCSPDGCRTDPACDPES
+AFSER
+>match$1_15_19
+ALTSA
+>match$2_1_125
+MACPSLACCLLGLLALTSACYIQNCPLGGKRAVLDLDMRKCLPCGPGGKGRCFGPSICCA
+DELGCFVGTAEALRCQEENYLPSPCQSGQKPCGSGGRCAATGICCSPDGCRTDPACDPES
+AFSER
+>match$3_1_19
+MACPSLACCLLGLLALTSA
+>match$4_20_125
+CYIQNCPLGGKRAVLDLDMRKCLPCGPGGKGRCFGPSICCADELGCFVGTAEALRCQEEN
+YLPSPCQSGQKPCGSGGRCAATGICCSPDGCRTDPACDPESAFSER
+>match$5_33_121
+VLDLDMRKCLPCGPGGKGRCFGPSICCADELGCFVGTAEALRCQEENYLPSPCQSGQKPC
+GSGGRCAATGICCSPDGCRTDPACDPESA
+>match$6_20_28
+CYIQNCPLG
+>match$7_39_116
+RKCLPCGPGGKGRCFGPSICCADELGCFVGTAEALRCQEENYLPSPCQSGQKPCGSGGRC
+AATGICCSPDGCRTDPAC
+>match$8_1_19
+MACPSLACCLLGLLALTSA
+>match$9_1_21
+MACPSLACCLLGLLALTSACY
+>match$10_1_24
+MACPSLACCLLGLLALTSACYIQN
+>match$11_1_125
+MACPSLACCLLGLLALTSACYIQNCPLGGKRAVLDLDMRKCLPCGPGGKGRCFGPSICCA
+DELGCFVGTAEALRCQEENYLPSPCQSGQKPCGSGGRCAATGICCSPDGCRTDPACDPES
+AFSER
+>match$12_1_125
+MACPSLACCLLGLLALTSACYIQNCPLGGKRAVLDLDMRKCLPCGPGGKGRCFGPSICCA
+DELGCFVGTAEALRCQEENYLPSPCQSGQKPCGSGGRCAATGICCSPDGCRTDPACDPES
+AFSER
+>match$13_38_125
+MRKCLPCGPGGKGRCFGPSICCADELGCFVGTAEALRCQEENYLPSPCQSGQKPCGSGGR
+CAATGICCSPDGCRTDPACDPESAFSER
+>match$14_21_35
+YIQNCPLGGKRAVLD
+>match$14_39_55
+RKCLPCGPGGKGRCFGP
+>match$14_55_74
+PSICCADELGCFVGTAEALR
+>match$14_74_93
+RCQEENYLPSPCQSGQKPCG
+>match$14_96_116
+GRCAATGICCSPDGCRTDPAC
+>match$15_20_28
+CYIQNCPLG
+>match$16_3_14
+CPSLACCLLGLL
+>match$17_1_2
+MA
+>match$18_39_116
+RKCLPCGPGGKGRCFGPSICCADELGCFVGTAEALRCQEENYLPSPCQSGQKPCGSGGRC
+AATGICCSPDGCRTDPAC

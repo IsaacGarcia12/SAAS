@@ -5,26 +5,19 @@
 </head>
 <body>
     <div class="centro" align="center">
-        <p>Ingrese la secuencia:</p>
+        <h2>Ingrese la secuencia:</h2>
 
         <form action="{%url 'cadena'%}" method="post">
             {%csrf_token%}
             <textarea name="cadena" cols=50 rows=10></textarea>     <br>
+    <h2>Para clustal necesitara de al menos 2 secuencias, ingrese la segunda cadena en la siguiente caja:</h2>
+            <textarea name="cadena1" cols=50 rows=10></textarea> <br>
             Nombre: <input type="text" name="nombre" align="center">  <br>
             Correo:  <input type="text" name="mail" align="center"> <br>
             <button type="submit" value="snd">Enviar</button>
         </form>
-        <a href="{%  url 'impresionPDF' %}">PDF</a>
     </div>
-    <!--
-    <p align="center">O si bien gusta puede subir su archivo FASTA</p><br>
-    <div class="centro" align="center">
-        <form action="{%url 'cadena'%}">
-            {%csrf_token%}
-            <input type="file" name="archivo"/>
-            <br><button type="submit" name="fileUp">Enviar</button>
-        </form>
-    </div>-->
+    <a href="{% url 'impresionPDF'%}">PDF</a>
     {% endblock %}
 </body>
 </html>

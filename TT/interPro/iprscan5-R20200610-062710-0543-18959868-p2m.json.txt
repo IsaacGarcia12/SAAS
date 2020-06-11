@@ -1,0 +1,743 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MGKISSLPTQLFKICLCDFLKIKIHIMSSSHLFYLALCLLTFTSSATAGPETLCGAELVDALQFVCGPRGFYFNKPTGYGSSIRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPTKSARSIRAQRHTDMPKTQKSQPLSTHKKRKLQRRRKGSTLEEHK",
+  "md5" : "b41fe213adcb092ea6188200f98be998",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "SM00078",
+      "name" : "IlGF_1",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR016179",
+        "name" : "Insulin-like",
+        "description" : "Insulin-like",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "hormone activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005179"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 51,
+      "end" : 109,
+      "hmmStart" : 1,
+      "hmmEnd" : 71,
+      "hmmLength" : 71,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.2E-23,
+      "score" : 94.5,
+      "location-fragments" : [ {
+        "start" : 51,
+        "end" : 109,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.2E-23,
+    "score" : 94.5,
+    "model-ac" : "SM00078"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE",
+      "name" : "Signal Peptide",
+      "description" : "Signal peptide region",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 48,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 48,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE"
+  }, {
+    "signature" : {
+      "accession" : "PF00049",
+      "name" : "Insulin",
+      "description" : "Insulin/IGF/Relaxin family",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR016179",
+        "name" : "Insulin-like",
+        "description" : "Insulin-like",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "hormone activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005179"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 81,
+      "end" : 109,
+      "hmmStart" : 58,
+      "hmmEnd" : 85,
+      "hmmLength" : 85,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 2.5E-7,
+      "score" : 31.5,
+      "envelopeStart" : 77,
+      "envelopeEnd" : 109,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 81,
+        "end" : 109,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 52,
+      "end" : 77,
+      "hmmStart" : 2,
+      "hmmEnd" : 29,
+      "hmmLength" : 85,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 1.8E-5,
+      "score" : 25.6,
+      "envelopeStart" : 51,
+      "envelopeEnd" : 86,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 52,
+        "end" : 77,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.0E-13,
+    "score" : 52.0,
+    "model-ac" : "PF00049"
+  }, {
+    "signature" : {
+      "accession" : "PR00276",
+      "name" : "INSULINFAMLY",
+      "description" : "Insulin family signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR022352",
+        "name" : "Insulin_family",
+        "description" : "Insulin family",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "hormone activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005179"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 52,
+      "end" : 68,
+      "pvalue" : 1.76E-9,
+      "score" : 63.42,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 52,
+        "end" : 68,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 90,
+      "end" : 109,
+      "pvalue" : 3.44E-11,
+      "score" : 61.43,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 90,
+        "end" : 109,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.4E-13,
+    "graphscan" : "II",
+    "model-ac" : "PR00276"
+  }, {
+    "signature" : {
+      "accession" : "PTHR46845",
+      "name" : "FAMILY NOT NAMED",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 138,
+      "hmmStart" : 1,
+      "hmmEnd" : 139,
+      "hmmLength" : 154,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 150,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 138,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.2E-87,
+    "familyName" : "Not available",
+    "score" : 294.3,
+    "model-ac" : "PTHR46845"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 119,
+      "end" : 159,
+      "location-fragments" : [ {
+        "start" : 119,
+        "end" : 159,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_C_REGION",
+      "name" : "Signal peptide C-region",
+      "description" : "C-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 44,
+      "end" : 48,
+      "location-fragments" : [ {
+        "start" : 44,
+        "end" : 48,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_C_REGION"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 49,
+      "end" : 159,
+      "location-fragments" : [ {
+        "start" : 49,
+        "end" : 159,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "PR02002",
+      "name" : "INSLNLIKEGF",
+      "description" : "Insulin-like growth factor signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR022350",
+        "name" : "Insulin-like_growth_factor",
+        "description" : "Insulin-like growth factor",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "extracellular space",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005615"
+        }, {
+          "name" : "growth factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008083"
+        }, {
+          "name" : "hormone activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005179"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by Type 1 Insulin-like Growth Factor 1 Receptor (IGF1R)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2404192"
+        }, {
+          "name" : "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381426"
+        }, {
+          "name" : "Platelet degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-114608"
+        }, {
+          "name" : "IRS-related events triggered by IGF1R",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2428928"
+        }, {
+          "name" : "SHC-related events triggered by IGF1R",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2428933"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 55,
+      "end" : 65,
+      "pvalue" : 1.38E-7,
+      "score" : 91.25,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 55,
+        "end" : 65,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 97,
+      "end" : 106,
+      "pvalue" : 3.54E-6,
+      "score" : 82.7,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 97,
+        "end" : 106,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 112,
+      "end" : 122,
+      "pvalue" : 2.04E-6,
+      "score" : 55.17,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 112,
+        "end" : 122,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.6E-12,
+    "graphscan" : "III",
+    "model-ac" : "PR02002"
+  }, {
+    "signature" : {
+      "accession" : "PTHR46845:SF4",
+      "name" : "",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 138,
+      "hmmStart" : 1,
+      "hmmEnd" : 139,
+      "hmmLength" : 154,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 150,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 138,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.2E-87,
+    "familyName" : "Not available",
+    "score" : 294.3,
+    "model-ac" : "PTHR46845:SF4"
+  }, {
+    "signature" : {
+      "accession" : "PR02005",
+      "name" : "INSLNLIKEGF1",
+      "description" : "Insulin-like growth factor I signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR022341",
+        "name" : "IGF-I",
+        "description" : "Insulin-like growth factor I",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "extracellular space",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005615"
+        }, {
+          "name" : "growth factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008083"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Synthesis, secretion, and deacylation of Ghrelin",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-422085"
+        }, {
+          "name" : "Platelet degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-114608"
+        }, {
+          "name" : "SHC-related events triggered by IGF1R",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2428933"
+        }, {
+          "name" : "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381426"
+        }, {
+          "name" : "Signaling by Type 1 Insulin-like Growth Factor 1 Receptor (IGF1R)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2404192"
+        }, {
+          "name" : "IRS-related events triggered by IGF1R",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2428928"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 31,
+      "end" : 47,
+      "pvalue" : 7.57E-10,
+      "score" : 64.71,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 31,
+        "end" : 47,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 74,
+      "end" : 91,
+      "pvalue" : 1.5E-11,
+      "score" : 66.31,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 74,
+        "end" : 91,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 101,
+      "end" : 119,
+      "pvalue" : 8.21E-13,
+      "score" : 80.7,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 101,
+        "end" : 119,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 120,
+      "end" : 134,
+      "pvalue" : 4.17E-10,
+      "score" : 79.71,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 120,
+        "end" : 134,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.8E-36,
+    "graphscan" : "IIII",
+    "model-ac" : "PR02005"
+  }, {
+    "signature" : {
+      "accession" : "cd04368",
+      "name" : "IlGF",
+      "description" : "IlGF",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 49,
+      "end" : 116,
+      "sites" : [ {
+        "description" : "type 1 IGF- and insulin-receptor binding surface",
+        "numLocations" : 4,
+        "siteLocations" : [ {
+          "start" : 71,
+          "end" : 71,
+          "residue" : "F"
+        }, {
+          "start" : 92,
+          "end" : 92,
+          "residue" : "V"
+        }, {
+          "start" : 72,
+          "end" : 72,
+          "residue" : "Y"
+        }, {
+          "start" : 69,
+          "end" : 69,
+          "residue" : "R"
+        } ]
+      }, {
+        "description" : "IGFBP binding surface",
+        "numLocations" : 7,
+        "siteLocations" : [ {
+          "start" : 60,
+          "end" : 60,
+          "residue" : "D"
+        }, {
+          "start" : 71,
+          "end" : 71,
+          "residue" : "F"
+        }, {
+          "start" : 72,
+          "end" : 72,
+          "residue" : "Y"
+        }, {
+          "start" : 68,
+          "end" : 68,
+          "residue" : "P"
+        }, {
+          "start" : 51,
+          "end" : 51,
+          "residue" : "E"
+        }, {
+          "start" : 70,
+          "end" : 70,
+          "residue" : "G"
+        }, {
+          "start" : 69,
+          "end" : 69,
+          "residue" : "R"
+        } ]
+      }, {
+        "description" : "type 2 IGF-receptor binding surface",
+        "numLocations" : 5,
+        "siteLocations" : [ {
+          "start" : 97,
+          "end" : 97,
+          "residue" : "F"
+        }, {
+          "start" : 99,
+          "end" : 99,
+          "residue" : "S"
+        }, {
+          "start" : 104,
+          "end" : 104,
+          "residue" : "R"
+        }, {
+          "start" : 103,
+          "end" : 103,
+          "residue" : "R"
+        }, {
+          "start" : 98,
+          "end" : 98,
+          "residue" : "R"
+        } ]
+      } ],
+      "evalue" : 4.07118E-42,
+      "score" : 132.888,
+      "location-fragments" : [ {
+        "start" : 49,
+        "end" : 116,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd04368"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_N_REGION",
+      "name" : "Signal peptide N-region",
+      "description" : "N-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 31,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 31,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_N_REGION"
+  }, {
+    "signature" : {
+      "accession" : "PS00262",
+      "name" : "INSULIN",
+      "description" : "Insulin family signature.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PATTERNS",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR022353",
+        "name" : "Insulin_CS",
+        "description" : "Insulin, conserved site",
+        "type" : "CONSERVED_SITE",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 95,
+      "end" : 109,
+      "level" : "STRONG",
+      "cigarAlignment" : "4M1I2M3I1M3I1M",
+      "alignment" : "CCFRsCDlrrLemyC",
+      "location-fragments" : [ {
+        "start" : 95,
+        "end" : 109,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS00262"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.10.100.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 37,
+      "end" : 118,
+      "hmmStart" : 7,
+      "hmmEnd" : 82,
+      "hmmLength" : 83,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.2E-31,
+      "score" : 109.0,
+      "envelopeStart" : 37,
+      "envelopeEnd" : 118,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 37,
+        "end" : 118,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.7E-31,
+    "score" : 109.8,
+    "model-ac" : "3lriA00"
+  }, {
+    "signature" : {
+      "accession" : "SSF56994",
+      "name" : "Insulin-like",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036438",
+        "name" : "Insulin-like_sf",
+        "description" : "Insulin-like superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 37,
+      "end" : 115,
+      "hmmLength" : 83,
+      "location-fragments" : [ {
+        "start" : 37,
+        "end" : 115,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.09E-22,
+    "model-ac" : "0045535"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_H_REGION",
+      "name" : "Signal peptide H-region",
+      "description" : "Hydrophobic region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 32,
+      "end" : 43,
+      "location-fragments" : [ {
+        "start" : 32,
+        "end" : 43,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_H_REGION"
+  } ],
+  "xref" : [ {
+    "name" : "tr|F8WFZ5|F8WFZ5_RAT Insulin-like growth factor 1, isoform CRA_b OS=Rattus norvegicus OX=10116 GN=Igf1 PE=1 SV=2",
+    "id" : "tr|F8WFZ5|F8WFZ5_RAT"
+  } ]
+} ]
+}

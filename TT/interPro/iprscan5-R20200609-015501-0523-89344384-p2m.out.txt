@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="e89090df8420666ac49344aaca3121a1">MEPLHVFVLLLVTELSQALNTTVLQGVAGQSLRVSCTYDALRHWGRRKAWCRQLAEEGPCQRVVSTHGVWLLAFLRKQNGSTVITDDTLAGTVTITLRNLQAGDAGLYQCQSLRGREAEVLQKVVVEVLEDPLDDQDAGDLWVPEESESFEGAQVEHSTSSQVSSCGSPLTYHLPPKEPIRKDLLPTHFHSSPPGLCPPEQASYSQHPLGCGQGQAEAGDTCGQWARL</sequence>
+    <xref id="tr|D3ZZ89|D3ZZ89_RAT" name="tr|D3ZZ89|D3ZZ89_RAT Triggering receptor expressed on myeloid cells 2 (Predicted), isoform CRA_a OS=Rattus norvegicus OX=10116 GN=Trem2 PE=4 SV=1"/>
+    <matches>
+      <hmmer2-match evalue="0.0084" score="25.3">
+        <signature ac="SM00409" name="IG_3c">
+          <entry ac="IPR003599" desc="Immunoglobulin subtype" name="Ig_sub" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00409</model-ac>
+        <locations>
+          <hmmer2-location score="25.3" evalue="0.0084" hmm-start="1" hmm-end="58" hmm-length="58" hmm-bounds="COMPLETE" start="21" end="129">
+            <location-fragments>
+              <hmmer2-location-fragment start="21" end="129" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="1.4E-28" score="101.3">
+        <signature ac="G3DSA:2.60.40.10">
+          <entry ac="IPR013783" desc="Immunoglobulin-like fold" name="Ig-like_fold" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>5eliA00</model-ac>
+        <locations>
+          <hmmer3-location env-end="138" env-start="18" post-processed="true" score="100.7" evalue="2.0E-28" hmm-start="4" hmm-end="116" hmm-length="126" hmm-bounds="COMPLETE" start="18" end="138">
+            <location-fragments>
+              <hmmer3-location-fragment start="18" end="138" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="4.2E-9" score="36.5">
+        <signature ac="PF07686" desc="Immunoglobulin V-set domain" name="V-set">
+          <entry ac="IPR013106" desc="Immunoglobulin V-set domain" name="Ig_V-set" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF07686</model-ac>
+        <locations>
+          <hmmer3-location env-end="128" env-start="20" post-processed="true" score="35.8" evalue="6.7E-9" hmm-start="5" hmm-end="102" hmm-length="109" hmm-bounds="INCOMPLETE" start="23" end="123">
+            <location-fragments>
+              <hmmer3-location-fragment start="23" end="123" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="153" end="169">
+            <location-fragments>
+              <mobidblite-location-fragment start="153" end="169" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="153" end="217">
+            <location-fragments>
+              <mobidblite-location-fragment start="153" end="217" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="1.2E-107" familyName="Not available" score="361.6">
+        <signature ac="PTHR11860:SF54" name="TRIGGERING RECEPTOR EXPRESSED ON MYELOID CELLS 2">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR11860:SF54</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="228" hmm-start="1" hmm-end="228" hmm-length="230" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="226">
+            <location-fragments>
+              <panther-location-fragment start="1" end="226" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="1.2E-107" familyName="Not available" score="361.6">
+        <signature ac="PTHR11860" name="POLYMERIC-IMMUNOGLOBULIN RECEPTOR">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR11860</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="228" hmm-start="1" hmm-end="228" hmm-length="230" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="226">
+            <location-fragments>
+              <panther-location-fragment start="1" end="226" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="3">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="3" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="14" end="18">
+            <location-fragments>
+              <phobius-location-fragment start="14" end="18" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="4" end="13">
+            <location-fragments>
+              <phobius-location-fragment start="4" end="13" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="19" end="228">
+            <location-fragments>
+              <phobius-location-fragment start="19" end="228" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="18">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="18" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.82" start="1" end="18">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="18" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <superfamilyhmmer3-match evalue="3.73E-16">
+        <signature ac="SSF48726" name="Immunoglobulin">
+          <entry ac="IPR036179" desc="Immunoglobulin-like domain superfamily" name="Ig-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0050941</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="116" start="23" end="132">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="23" end="132" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

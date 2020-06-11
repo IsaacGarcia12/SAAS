@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="8b07feb87d67139b926334f0decf57bc">MIFSSRMDYFPVIFPLLLVTLHGAAETVVSGAELSLTANSGGEKTPPHAPGLLRRSKRCSCSSLMDKECVYFCHLDIIWVNTPGHIAPYGLGGPFRSKRSLKELFPTKATEHRNRCQCANQKDKKCWNFCQTGKELSSQDTMQKGWDNHKKGKDCSKLGKKCISQQLGNGKKIRRVEAISNRIKPSSPFAKLKAMLCKDRKVTHNRTH</sequence>
+    <xref id="tr|A0A286XTW8|A0A286XTW8_CAVPO" name="tr|A0A286XTW8|A0A286XTW8_CAVPO Endothelin-1 OS=Cavia porcellus OX=10141 GN=EDN1 PE=4 SV=1"/>
+    <matches>
+      <fingerprints-match evalue="4.6E-16" graphscan="III">
+        <signature ac="PR00365" desc="Endothelin signature" name="ENDOTHELIN">
+          <entry ac="IPR020475" desc="Endothelin" name="Endothelin" type="FAMILY">
+            <pathway-xref db="Reactome" id="R-HSA-416476" name="G alpha (q) signalling events"/>
+            <pathway-xref db="Reactome" id="R-HSA-375276" name="Peptide ligand-binding receptors"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR00365</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="9.85E-8" score="77.62" start="57" end="69">
+            <location-fragments>
+              <fingerprints-location-fragment start="57" end="69" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="1.02E-7" score="97.52" start="69" end="79">
+            <location-fragments>
+              <fingerprints-location-fragment start="69" end="79" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="2.02E-8" score="69.58" start="80" end="92">
+            <location-fragments>
+              <fingerprints-location-fragment start="80" end="92" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <hmmer2-match evalue="5.6E-23" score="92.3">
+        <signature ac="SM00272" name="END_2">
+          <entry ac="IPR001928" desc="Endothelin-like toxin" name="Endothln-like_toxin" type="DOMAIN">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0019229" name="regulation of vasoconstriction"/>
+            <pathway-xref db="Reactome" id="R-HSA-416476" name="G alpha (q) signalling events"/>
+            <pathway-xref db="Reactome" id="R-HSA-375276" name="Peptide ligand-binding receptors"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00272</model-ac>
+        <locations>
+          <hmmer2-location score="40.3" evalue="2.5E-7" hmm-start="1" hmm-end="22" hmm-length="22" hmm-bounds="COMPLETE" start="115" end="136">
+            <location-fragments>
+              <hmmer2-location-fragment start="115" end="136" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="52.0" evalue="7.7E-11" hmm-start="1" hmm-end="22" hmm-length="22" hmm-bounds="COMPLETE" start="58" end="79">
+            <location-fragments>
+              <hmmer2-location-fragment start="58" end="79" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="2.2E-24" score="84.6">
+        <signature ac="PF00322" desc="Endothelin family" name="Endothelin">
+          <entry ac="IPR001928" desc="Endothelin-like toxin" name="Endothln-like_toxin" type="DOMAIN">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0019229" name="regulation of vasoconstriction"/>
+            <pathway-xref db="Reactome" id="R-HSA-416476" name="G alpha (q) signalling events"/>
+            <pathway-xref db="Reactome" id="R-HSA-375276" name="Peptide ligand-binding receptors"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00322</model-ac>
+        <locations>
+          <hmmer3-location env-end="83" env-start="55" post-processed="true" score="75.3" evalue="1.7E-21" hmm-start="1" hmm-end="29" hmm-length="29" hmm-bounds="COMPLETE" start="55" end="83">
+            <location-fragments>
+              <hmmer3-location-fragment start="55" end="83" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <panther-match evalue="3.0E-94" familyName="Not available" score="317.2">
+        <signature ac="PTHR13874:SF10" name="ENDOTHELIN-1">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR13874:SF10</model-ac>
+        <locations>
+          <panther-location env-start="7" env-end="208" hmm-start="1" hmm-end="202" hmm-length="213" hmm-bounds="COMPLETE" start="7" end="208">
+            <location-fragments>
+              <panther-location-fragment start="7" end="208" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="3.0E-94" familyName="Not available" score="317.2">
+        <signature ac="PTHR13874" name="ENDOTHELIN">
+          <entry ac="IPR020475" desc="Endothelin" name="Endothelin" type="FAMILY">
+            <pathway-xref db="Reactome" id="R-HSA-416476" name="G alpha (q) signalling events"/>
+            <pathway-xref db="Reactome" id="R-HSA-375276" name="Peptide ligand-binding receptors"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR13874</model-ac>
+        <locations>
+          <panther-location env-start="7" env-end="208" hmm-start="1" hmm-end="202" hmm-length="213" hmm-bounds="COMPLETE" start="7" end="208">
+            <location-fragments>
+              <panther-location-fragment start="7" end="208" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <patternscan-match>
+        <signature ac="PS00270" desc="Endothelin family signature." name="ENDOTHELIN">
+          <entry ac="IPR019764" desc="Endothelin-like toxin, conserved site" name="Endothelin_toxin_CS" type="CONSERVED_SITE">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0019229" name="regulation of vasoconstriction"/>
+            <pathway-xref db="Reactome" id="R-HSA-416476" name="G alpha (q) signalling events"/>
+            <pathway-xref db="Reactome" id="R-HSA-375276" name="Peptide ligand-binding receptors"/>
+          </entry>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS00270</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="116" end="130">
+            <location-fragments>
+              <patternscan-location-fragment start="116" end="130" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>CqCanqkDkkCwnFC</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="22" end="31">
+            <location-fragments>
+              <phobius-location-fragment start="22" end="31" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="9">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="9" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="10" end="21">
+            <location-fragments>
+              <phobius-location-fragment start="10" end="21" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="31">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="31" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="32" end="208">
+            <location-fragments>
+              <phobius-location-fragment start="32" end="208" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.52" start="1" end="31">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="31" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+    </matches>
+  </protein>
+</protein-matches>

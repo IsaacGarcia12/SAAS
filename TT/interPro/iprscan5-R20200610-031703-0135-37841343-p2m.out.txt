@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="d2a94e423463e1624492c69fc6cd506a">MACPSLACCLLGLLALTSACYIQNCPLGGKRAVLDLDMRKCLPCGPGGKGRCFGPSICCADELGCFVGTAEALRCQEENYLPSPCQSGQKPCGSGGRCAATGICCSPDGCRTDPACDPESAFSER</sequence>
+    <xref id="tr|Q545V4|Q545V4_MOUSE" name="tr|Q545V4|Q545V4_MOUSE Oxytocin OS=Mus musculus OX=10090 GN=Oxt PE=2 SV=1"/>
+    <matches>
+      <fingerprints-match evalue="2.9E-53" graphscan="IIIII">
+        <signature ac="PR00831" desc="Neurohypophysial hormone signature" name="NEUROPHYSIN">
+          <entry ac="IPR000981" desc="Neurohypophysial hormone" name="Neurhyp_horm" type="FAMILY">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005185" name="neurohypophyseal hormone activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-416476" name="G alpha (q) signalling events"/>
+            <pathway-xref db="Reactome" id="R-HSA-388479" name="Vasopressin-like receptors"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR00831</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="4.1E-10" score="76.76" start="21" end="35">
+            <location-fragments>
+              <fingerprints-location-fragment start="21" end="35" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="2.86E-13" score="80.84" start="39" end="55">
+            <location-fragments>
+              <fingerprints-location-fragment start="39" end="55" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="8.43E-13" score="70.29" start="55" end="74">
+            <location-fragments>
+              <fingerprints-location-fragment start="55" end="74" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="4" pvalue="7.49E-14" score="78.86" start="74" end="93">
+            <location-fragments>
+              <fingerprints-location-fragment start="74" end="93" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="5" pvalue="4.35E-12" score="60.54" start="96" end="116">
+            <location-fragments>
+              <fingerprints-location-fragment start="96" end="116" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <hmmer2-match evalue="2.9E-47" score="173.0">
+        <signature ac="SM00003" name="NH_2">
+          <entry ac="IPR000981" desc="Neurohypophysial hormone" name="Neurhyp_horm" type="FAMILY">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005185" name="neurohypophyseal hormone activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-416476" name="G alpha (q) signalling events"/>
+            <pathway-xref db="Reactome" id="R-HSA-388479" name="Vasopressin-like receptors"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00003</model-ac>
+        <locations>
+          <hmmer2-location score="173.0" evalue="2.9E-47" hmm-start="1" hmm-end="79" hmm-length="79" hmm-bounds="COMPLETE" start="39" end="116">
+            <location-fragments>
+              <hmmer2-location-fragment start="39" end="116" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="2.6E-52" score="174.4">
+        <signature ac="PIRSF001815" name="Vasopressin_oxytocin">
+          <entry ac="IPR000981" desc="Neurohypophysial hormone" name="Neurhyp_horm" type="FAMILY">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005185" name="neurohypophyseal hormone activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-416476" name="G alpha (q) signalling events"/>
+            <pathway-xref db="Reactome" id="R-HSA-388479" name="Vasopressin-like receptors"/>
+          </entry>
+          <signature-library-release library="PIRSF" version="3.10"/>
+        </signature>
+        <model-ac>PIRSF001815</model-ac>
+        <locations>
+          <hmmer3-location env-end="125" env-start="1" post-processed="false" score="174.3" evalue="2.8E-52" hmm-start="3" hmm-end="123" hmm-length="156" hmm-bounds="COMPLETE" start="1" end="125">
+            <location-fragments>
+              <hmmer3-location-fragment start="1" end="125" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.1E-32" score="112.6">
+        <signature ac="PF00184" desc="Neurohypophysial hormones, C-terminal Domain" name="Hormone_5">
+          <entry ac="IPR000981" desc="Neurohypophysial hormone" name="Neurhyp_horm" type="FAMILY">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005185" name="neurohypophyseal hormone activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-416476" name="G alpha (q) signalling events"/>
+            <pathway-xref db="Reactome" id="R-HSA-388479" name="Vasopressin-like receptors"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00184</model-ac>
+        <locations>
+          <hmmer3-location env-end="116" env-start="39" post-processed="true" score="112.6" evalue="1.1E-32" hmm-start="1" hmm-end="79" hmm-length="79" hmm-bounds="COMPLETE" start="39" end="116">
+            <location-fragments>
+              <hmmer3-location-fragment start="39" end="116" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="9.7E-32" score="111.4">
+        <signature ac="G3DSA:2.60.9.10">
+          <entry ac="IPR036387" desc="Neurohypophysial hormone domain superfamily" name="Neurhyp_horm_dom_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005185" name="neurohypophyseal hormone activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-388479" name="Vasopressin-like receptors"/>
+            <pathway-xref db="Reactome" id="R-HSA-416476" name="G alpha (q) signalling events"/>
+          </entry>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1jk4A00</model-ac>
+        <locations>
+          <hmmer3-location env-end="125" env-start="38" post-processed="true" score="111.4" evalue="9.7E-32" hmm-start="1" hmm-end="86" hmm-length="89" hmm-bounds="COMPLETE" start="38" end="125">
+            <location-fragments>
+              <hmmer3-location-fragment start="38" end="125" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="7.5E-4" score="19.1">
+        <signature ac="PF00220" desc="Neurohypophysial hormones, N-terminal Domain" name="Hormone_4">
+          <entry ac="IPR022423" desc="Neurohypophysial hormone, conserved site" name="Neurohypophysial_hormone_CS" type="CONSERVED_SITE">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005185" name="neurohypophyseal hormone activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-416476" name="G alpha (q) signalling events"/>
+            <pathway-xref db="Reactome" id="R-HSA-388479" name="Vasopressin-like receptors"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00220</model-ac>
+        <locations>
+          <hmmer3-location env-end="28" env-start="20" post-processed="true" score="19.1" evalue="7.5E-4" hmm-start="1" hmm-end="9" hmm-length="9" hmm-bounds="COMPLETE" start="20" end="28">
+            <location-fragments>
+              <hmmer3-location-fragment start="20" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <panther-match evalue="1.5E-72" familyName="Not available" score="244.3">
+        <signature ac="PTHR11681" name="NEUROPHYSIN">
+          <entry ac="IPR000981" desc="Neurohypophysial hormone" name="Neurhyp_horm" type="FAMILY">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005185" name="neurohypophyseal hormone activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-416476" name="G alpha (q) signalling events"/>
+            <pathway-xref db="Reactome" id="R-HSA-388479" name="Vasopressin-like receptors"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR11681</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="125" hmm-start="1" hmm-end="125" hmm-length="125" hmm-bounds="COMPLETE" start="1" end="125">
+            <location-fragments>
+              <panther-location-fragment start="1" end="125" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="1.5E-72" familyName="Not available" score="244.3">
+        <signature ac="PTHR11681:SF2" name="OXYTOCIN-NEUROPHYSIN 1">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR11681:SF2</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="125" hmm-start="1" hmm-end="125" hmm-length="125" hmm-bounds="COMPLETE" start="1" end="125">
+            <location-fragments>
+              <panther-location-fragment start="1" end="125" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <patternscan-match>
+        <signature ac="PS00264" desc="Neurohypophysial hormones signature." name="NEUROHYPOPHYS_HORM">
+          <entry ac="IPR022423" desc="Neurohypophysial hormone, conserved site" name="Neurohypophysial_hormone_CS" type="CONSERVED_SITE">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005185" name="neurohypophyseal hormone activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-416476" name="G alpha (q) signalling events"/>
+            <pathway-xref db="Reactome" id="R-HSA-388479" name="Vasopressin-like receptors"/>
+          </entry>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS00264</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="20" end="28">
+            <location-fragments>
+              <patternscan-location-fragment start="20" end="28" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>CYIqNCPlG</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="15" end="19">
+            <location-fragments>
+              <phobius-location-fragment start="15" end="19" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="20" end="125">
+            <location-fragments>
+              <phobius-location-fragment start="20" end="125" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="19">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="19" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="3" end="14">
+            <location-fragments>
+              <phobius-location-fragment start="3" end="14" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="2">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="2" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_GRAM_NEGATIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.901" start="1" end="19">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="19" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-TM" name="SignalP-TM">
+          <signature-library-release library="SIGNALP_GRAM_POSITIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-TM</model-ac>
+        <locations>
+          <signalp-location score="0.457" start="1" end="21">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="21" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_GRAM_NEGATIVE" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.597" start="1" end="24">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="24" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <superfamilyhmmer3-match evalue="1.02E-36">
+        <signature ac="SSF49606" name="Neurophysin II">
+          <entry ac="IPR036387" desc="Neurohypophysial hormone domain superfamily" name="Neurhyp_horm_dom_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005185" name="neurohypophyseal hormone activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-388479" name="Vasopressin-like receptors"/>
+            <pathway-xref db="Reactome" id="R-HSA-416476" name="G alpha (q) signalling events"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0040387</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="92" start="33" end="121">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="33" end="121" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

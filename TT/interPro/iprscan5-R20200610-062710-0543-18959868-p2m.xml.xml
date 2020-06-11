@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="b41fe213adcb092ea6188200f98be998">MGKISSLPTQLFKICLCDFLKIKIHIMSSSHLFYLALCLLTFTSSATAGPETLCGAELVDALQFVCGPRGFYFNKPTGYGSSIRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPTKSARSIRAQRHTDMPKTQKSQPLSTHKKRKLQRRRKGSTLEEHK</sequence>
+    <xref id="tr|F8WFZ5|F8WFZ5_RAT" name="tr|F8WFZ5|F8WFZ5_RAT Insulin-like growth factor 1, isoform CRA_b OS=Rattus norvegicus OX=10116 GN=Igf1 PE=1 SV=2"/>
+    <matches>
+      <fingerprints-match evalue="1.4E-13" graphscan="II">
+        <signature ac="PR00276" desc="Insulin family signature" name="INSULINFAMLY">
+          <entry ac="IPR022352" desc="Insulin family" name="Insulin_family" type="FAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005179" name="hormone activity"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR00276</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="1.76E-9" score="63.42" start="52" end="68">
+            <location-fragments>
+              <fingerprints-location-fragment start="52" end="68" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="3.44E-11" score="61.43" start="90" end="109">
+            <location-fragments>
+              <fingerprints-location-fragment start="90" end="109" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <fingerprints-match evalue="2.6E-12" graphscan="III">
+        <signature ac="PR02002" desc="Insulin-like growth factor signature" name="INSLNLIKEGF">
+          <entry ac="IPR022350" desc="Insulin-like growth factor" name="Insulin-like_growth_factor" type="FAMILY">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005615" name="extracellular space"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008083" name="growth factor activity"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005179" name="hormone activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-2404192" name="Signaling by Type 1 Insulin-like Growth Factor 1 Receptor (IGF1R)"/>
+            <pathway-xref db="Reactome" id="R-HSA-381426" name="Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)"/>
+            <pathway-xref db="Reactome" id="R-HSA-114608" name="Platelet degranulation"/>
+            <pathway-xref db="Reactome" id="R-HSA-2428928" name="IRS-related events triggered by IGF1R"/>
+            <pathway-xref db="Reactome" id="R-HSA-2428933" name="SHC-related events triggered by IGF1R"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR02002</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="1.38E-7" score="91.25" start="55" end="65">
+            <location-fragments>
+              <fingerprints-location-fragment start="55" end="65" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="3.54E-6" score="82.7" start="97" end="106">
+            <location-fragments>
+              <fingerprints-location-fragment start="97" end="106" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="2.04E-6" score="55.17" start="112" end="122">
+            <location-fragments>
+              <fingerprints-location-fragment start="112" end="122" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <fingerprints-match evalue="4.8E-36" graphscan="IIII">
+        <signature ac="PR02005" desc="Insulin-like growth factor I signature" name="INSLNLIKEGF1">
+          <entry ac="IPR022341" desc="Insulin-like growth factor I" name="IGF-I" type="FAMILY">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005615" name="extracellular space"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008083" name="growth factor activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-422085" name="Synthesis, secretion, and deacylation of Ghrelin"/>
+            <pathway-xref db="Reactome" id="R-HSA-114608" name="Platelet degranulation"/>
+            <pathway-xref db="Reactome" id="R-HSA-2428933" name="SHC-related events triggered by IGF1R"/>
+            <pathway-xref db="Reactome" id="R-HSA-381426" name="Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)"/>
+            <pathway-xref db="Reactome" id="R-HSA-2404192" name="Signaling by Type 1 Insulin-like Growth Factor 1 Receptor (IGF1R)"/>
+            <pathway-xref db="Reactome" id="R-HSA-2428928" name="IRS-related events triggered by IGF1R"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR02005</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="7.57E-10" score="64.71" start="31" end="47">
+            <location-fragments>
+              <fingerprints-location-fragment start="31" end="47" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="1.5E-11" score="66.31" start="74" end="91">
+            <location-fragments>
+              <fingerprints-location-fragment start="74" end="91" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="8.21E-13" score="80.7" start="101" end="119">
+            <location-fragments>
+              <fingerprints-location-fragment start="101" end="119" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="4" pvalue="4.17E-10" score="79.71" start="120" end="134">
+            <location-fragments>
+              <fingerprints-location-fragment start="120" end="134" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <hmmer2-match evalue="1.2E-23" score="94.5">
+        <signature ac="SM00078" name="IlGF_1">
+          <entry ac="IPR016179" desc="Insulin-like" name="Insulin-like" type="DOMAIN">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005179" name="hormone activity"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00078</model-ac>
+        <locations>
+          <hmmer2-location score="94.5" evalue="1.2E-23" hmm-start="1" hmm-end="71" hmm-length="71" hmm-bounds="COMPLETE" start="51" end="109">
+            <location-fragments>
+              <hmmer2-location-fragment start="51" end="109" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="1.0E-13" score="52.0">
+        <signature ac="PF00049" desc="Insulin/IGF/Relaxin family" name="Insulin">
+          <entry ac="IPR016179" desc="Insulin-like" name="Insulin-like" type="DOMAIN">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005179" name="hormone activity"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00049</model-ac>
+        <locations>
+          <hmmer3-location env-end="109" env-start="77" post-processed="true" score="31.5" evalue="2.5E-7" hmm-start="58" hmm-end="85" hmm-length="85" hmm-bounds="C_TERMINAL_COMPLETE" start="81" end="109">
+            <location-fragments>
+              <hmmer3-location-fragment start="81" end="109" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="86" env-start="51" post-processed="true" score="25.6" evalue="1.8E-5" hmm-start="2" hmm-end="29" hmm-length="85" hmm-bounds="INCOMPLETE" start="52" end="77">
+            <location-fragments>
+              <hmmer3-location-fragment start="52" end="77" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.7E-31" score="109.8">
+        <signature ac="G3DSA:1.10.100.10">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3lriA00</model-ac>
+        <locations>
+          <hmmer3-location env-end="118" env-start="37" post-processed="true" score="109.0" evalue="3.2E-31" hmm-start="7" hmm-end="82" hmm-length="83" hmm-bounds="COMPLETE" start="37" end="118">
+            <location-fragments>
+              <hmmer3-location-fragment start="37" end="118" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="119" end="159">
+            <location-fragments>
+              <mobidblite-location-fragment start="119" end="159" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="1.2E-87" familyName="Not available" score="294.3">
+        <signature ac="PTHR46845" name="FAMILY NOT NAMED">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR46845</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="150" hmm-start="1" hmm-end="139" hmm-length="154" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="138">
+            <location-fragments>
+              <panther-location-fragment start="1" end="138" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="1.2E-87" familyName="Not available" score="294.3">
+        <signature ac="PTHR46845:SF4" name="">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR46845:SF4</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="150" hmm-start="1" hmm-end="139" hmm-length="154" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="138">
+            <location-fragments>
+              <panther-location-fragment start="1" end="138" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <patternscan-match>
+        <signature ac="PS00262" desc="Insulin family signature." name="INSULIN">
+          <entry ac="IPR022353" desc="Insulin, conserved site" name="Insulin_CS" type="CONSERVED_SITE"/>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS00262</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="95" end="109">
+            <location-fragments>
+              <patternscan-location-fragment start="95" end="109" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>CCFRsCDlrrLemyC</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="48">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="48" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="44" end="48">
+            <location-fragments>
+              <phobius-location-fragment start="44" end="48" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="49" end="159">
+            <location-fragments>
+              <phobius-location-fragment start="49" end="159" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="31">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="31" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="32" end="43">
+            <location-fragments>
+              <phobius-location-fragment start="32" end="43" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <rpsblast-match>
+        <signature ac="cd04368" desc="IlGF" name="IlGF">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd04368</model-ac>
+        <locations>
+          <rpsblast-location evalue="4.07118E-42" score="132.888" start="49" end="116">
+            <location-fragments>
+              <rpsblast-location-fragment start="49" end="116" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="type 1 IGF- and insulin-receptor binding surface" numLocations="4">
+                <site-locations>
+                  <site-location residue="F" start="71" end="71"/>
+                  <site-location residue="V" start="92" end="92"/>
+                  <site-location residue="Y" start="72" end="72"/>
+                  <site-location residue="R" start="69" end="69"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="IGFBP binding surface" numLocations="7">
+                <site-locations>
+                  <site-location residue="D" start="60" end="60"/>
+                  <site-location residue="F" start="71" end="71"/>
+                  <site-location residue="Y" start="72" end="72"/>
+                  <site-location residue="P" start="68" end="68"/>
+                  <site-location residue="E" start="51" end="51"/>
+                  <site-location residue="G" start="70" end="70"/>
+                  <site-location residue="R" start="69" end="69"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="type 2 IGF-receptor binding surface" numLocations="5">
+                <site-locations>
+                  <site-location residue="F" start="97" end="97"/>
+                  <site-location residue="S" start="99" end="99"/>
+                  <site-location residue="R" start="104" end="104"/>
+                  <site-location residue="R" start="103" end="103"/>
+                  <site-location residue="R" start="98" end="98"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="2.09E-22">
+        <signature ac="SSF56994" name="Insulin-like">
+          <entry ac="IPR036438" desc="Insulin-like superfamily" name="Insulin-like_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0045535</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="83" start="37" end="115">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="37" end="115" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

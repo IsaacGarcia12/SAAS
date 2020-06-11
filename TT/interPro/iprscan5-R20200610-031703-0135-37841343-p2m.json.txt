@@ -1,0 +1,745 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MACPSLACCLLGLLALTSACYIQNCPLGGKRAVLDLDMRKCLPCGPGGKGRCFGPSICCADELGCFVGTAEALRCQEENYLPSPCQSGQKPCGSGGRCAATGICCSPDGCRTDPACDPESAFSER",
+  "md5" : "d2a94e423463e1624492c69fc6cd506a",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_C_REGION",
+      "name" : "Signal peptide C-region",
+      "description" : "C-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 15,
+      "end" : 19,
+      "location-fragments" : [ {
+        "start" : 15,
+        "end" : 19,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_C_REGION"
+  }, {
+    "signature" : {
+      "accession" : "PIRSF001815",
+      "name" : "Vasopressin_oxytocin",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PIRSF",
+        "version" : "3.10"
+      },
+      "entry" : {
+        "accession" : "IPR000981",
+        "name" : "Neurhyp_horm",
+        "description" : "Neurohypophysial hormone",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "neurohypophyseal hormone activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005185"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "G alpha (q) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-416476"
+        }, {
+          "name" : "Vasopressin-like receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-388479"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 125,
+      "hmmStart" : 3,
+      "hmmEnd" : 123,
+      "hmmLength" : 156,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.8E-52,
+      "score" : 174.3,
+      "envelopeStart" : 1,
+      "envelopeEnd" : 125,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 125,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.6E-52,
+    "score" : 174.4,
+    "model-ac" : "PIRSF001815"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_NEGATIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 19,
+      "score" : 0.901,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 19,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "EUK",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 20,
+      "end" : 125,
+      "location-fragments" : [ {
+        "start" : 20,
+        "end" : 125,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "SSF49606",
+      "name" : "Neurophysin II",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036387",
+        "name" : "Neurhyp_horm_dom_sf",
+        "description" : "Neurohypophysial hormone domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "neurohypophyseal hormone activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005185"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Vasopressin-like receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-388479"
+        }, {
+          "name" : "G alpha (q) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-416476"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 33,
+      "end" : 121,
+      "hmmLength" : 92,
+      "location-fragments" : [ {
+        "start" : 33,
+        "end" : 121,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.02E-36,
+    "model-ac" : "0040387"
+  }, {
+    "signature" : {
+      "accession" : "PS00264",
+      "name" : "NEUROHYPOPHYS_HORM",
+      "description" : "Neurohypophysial hormones signature.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PATTERNS",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR022423",
+        "name" : "Neurohypophysial_hormone_CS",
+        "description" : "Neurohypophysial hormone, conserved site",
+        "type" : "CONSERVED_SITE",
+        "goXRefs" : [ {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "neurohypophyseal hormone activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005185"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "G alpha (q) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-416476"
+        }, {
+          "name" : "Vasopressin-like receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-388479"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 20,
+      "end" : 28,
+      "level" : "STRONG",
+      "cigarAlignment" : "3M1I3M1I1M",
+      "alignment" : "CYIqNCPlG",
+      "location-fragments" : [ {
+        "start" : 20,
+        "end" : 28,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS00264"
+  }, {
+    "signature" : {
+      "accession" : "PF00184",
+      "name" : "Hormone_5",
+      "description" : "Neurohypophysial hormones, C-terminal Domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR000981",
+        "name" : "Neurhyp_horm",
+        "description" : "Neurohypophysial hormone",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "neurohypophyseal hormone activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005185"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "G alpha (q) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-416476"
+        }, {
+          "name" : "Vasopressin-like receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-388479"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 39,
+      "end" : 116,
+      "hmmStart" : 1,
+      "hmmEnd" : 79,
+      "hmmLength" : 79,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.1E-32,
+      "score" : 112.6,
+      "envelopeStart" : 39,
+      "envelopeEnd" : 116,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 39,
+        "end" : 116,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.1E-32,
+    "score" : 112.6,
+    "model-ac" : "PF00184"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE",
+      "name" : "Signal Peptide",
+      "description" : "Signal peptide region",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 19,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 19,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-TM",
+      "name" : "SignalP-TM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_POSITIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 21,
+      "score" : 0.457,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 21,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_POSITIVE",
+    "model-ac" : "SignalP-TM"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_GRAM_NEGATIVE",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 24,
+      "score" : 0.597,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 24,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "GRAM_NEGATIVE",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "PTHR11681",
+      "name" : "NEUROPHYSIN",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : {
+        "accession" : "IPR000981",
+        "name" : "Neurhyp_horm",
+        "description" : "Neurohypophysial hormone",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "neurohypophyseal hormone activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005185"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "G alpha (q) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-416476"
+        }, {
+          "name" : "Vasopressin-like receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-388479"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 125,
+      "hmmStart" : 1,
+      "hmmEnd" : 125,
+      "hmmLength" : 125,
+      "hmmBounds" : "COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 125,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 125,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.5E-72,
+    "familyName" : "Not available",
+    "score" : 244.3,
+    "model-ac" : "PTHR11681"
+  }, {
+    "signature" : {
+      "accession" : "PTHR11681:SF2",
+      "name" : "OXYTOCIN-NEUROPHYSIN 1",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 125,
+      "hmmStart" : 1,
+      "hmmEnd" : 125,
+      "hmmLength" : 125,
+      "hmmBounds" : "COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 125,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 125,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.5E-72,
+    "familyName" : "Not available",
+    "score" : 244.3,
+    "model-ac" : "PTHR11681:SF2"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.60.9.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR036387",
+        "name" : "Neurhyp_horm_dom_sf",
+        "description" : "Neurohypophysial hormone domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "neurohypophyseal hormone activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005185"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Vasopressin-like receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-388479"
+        }, {
+          "name" : "G alpha (q) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-416476"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 38,
+      "end" : 125,
+      "hmmStart" : 1,
+      "hmmEnd" : 86,
+      "hmmLength" : 89,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 9.7E-32,
+      "score" : 111.4,
+      "envelopeStart" : 38,
+      "envelopeEnd" : 125,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 38,
+        "end" : 125,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 9.7E-32,
+    "score" : 111.4,
+    "model-ac" : "1jk4A00"
+  }, {
+    "signature" : {
+      "accession" : "PR00831",
+      "name" : "NEUROPHYSIN",
+      "description" : "Neurohypophysial hormone signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR000981",
+        "name" : "Neurhyp_horm",
+        "description" : "Neurohypophysial hormone",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "neurohypophyseal hormone activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005185"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "G alpha (q) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-416476"
+        }, {
+          "name" : "Vasopressin-like receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-388479"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 21,
+      "end" : 35,
+      "pvalue" : 4.1E-10,
+      "score" : 76.76,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 21,
+        "end" : 35,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 39,
+      "end" : 55,
+      "pvalue" : 2.86E-13,
+      "score" : 80.84,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 39,
+        "end" : 55,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 55,
+      "end" : 74,
+      "pvalue" : 8.43E-13,
+      "score" : 70.29,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 55,
+        "end" : 74,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 74,
+      "end" : 93,
+      "pvalue" : 7.49E-14,
+      "score" : 78.86,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 74,
+        "end" : 93,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 96,
+      "end" : 116,
+      "pvalue" : 4.35E-12,
+      "score" : 60.54,
+      "motifNumber" : 5,
+      "location-fragments" : [ {
+        "start" : 96,
+        "end" : 116,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.9E-53,
+    "graphscan" : "IIIII",
+    "model-ac" : "PR00831"
+  }, {
+    "signature" : {
+      "accession" : "PF00220",
+      "name" : "Hormone_4",
+      "description" : "Neurohypophysial hormones, N-terminal Domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR022423",
+        "name" : "Neurohypophysial_hormone_CS",
+        "description" : "Neurohypophysial hormone, conserved site",
+        "type" : "CONSERVED_SITE",
+        "goXRefs" : [ {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "neurohypophyseal hormone activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005185"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "G alpha (q) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-416476"
+        }, {
+          "name" : "Vasopressin-like receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-388479"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 20,
+      "end" : 28,
+      "hmmStart" : 1,
+      "hmmEnd" : 9,
+      "hmmLength" : 9,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 7.5E-4,
+      "score" : 19.1,
+      "envelopeStart" : 20,
+      "envelopeEnd" : 28,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 20,
+        "end" : 28,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 7.5E-4,
+    "score" : 19.1,
+    "model-ac" : "PF00220"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_H_REGION",
+      "name" : "Signal peptide H-region",
+      "description" : "Hydrophobic region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 3,
+      "end" : 14,
+      "location-fragments" : [ {
+        "start" : 3,
+        "end" : 14,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_H_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_N_REGION",
+      "name" : "Signal peptide N-region",
+      "description" : "N-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 2,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 2,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_N_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SM00003",
+      "name" : "NH_2",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR000981",
+        "name" : "Neurhyp_horm",
+        "description" : "Neurohypophysial hormone",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "neurohypophyseal hormone activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005185"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "G alpha (q) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-416476"
+        }, {
+          "name" : "Vasopressin-like receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-388479"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 39,
+      "end" : 116,
+      "hmmStart" : 1,
+      "hmmEnd" : 79,
+      "hmmLength" : 79,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.9E-47,
+      "score" : 173.0,
+      "location-fragments" : [ {
+        "start" : 39,
+        "end" : 116,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.9E-47,
+    "score" : 173.0,
+    "model-ac" : "SM00003"
+  } ],
+  "xref" : [ {
+    "name" : "tr|Q545V4|Q545V4_MOUSE Oxytocin OS=Mus musculus OX=10090 GN=Oxt PE=2 SV=1",
+    "id" : "tr|Q545V4|Q545V4_MOUSE"
+  } ]
+} ]
+}

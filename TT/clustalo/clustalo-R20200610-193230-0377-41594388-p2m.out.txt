@@ -1,0 +1,5 @@
+Using 8 threads
+Read 2 sequences (type: DNA) from clustalo-R20200610-193230-0377-41594388-p2m.sequence
+not more sequences (2) than cluster-size (100), turn off mBed
+Progressive alignment progress: 100 % (1 out of 1)Progressive alignment progress done. CPU time: 0.36u 0.06s 00:00:00.42 Elapsed: 00:00:01
+Alignment written to clustalo-R20200610-193230-0377-41594388-p2m.clustal_num

@@ -1,0 +1,1121 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MSSARFDSADRSAWYMGPVSRQEAQTRLQGQRHGMFLVRDSSTCPGDYVLSVSENSRVSHYIINSLPNRRFKIGDQEFDHLPALLEFYKIHYLDTTTLIEPAPRYPSPPMGSVSAPNLSAAEENVEYVRTLYDFPGNDAEDLPFKKGEILVIIEKPEEQWWSARNKDGRVGMIPVPYVEKLVRSSPHGKHGNRNSNSYGIPEPAHAYAQPQTTTPLPTVASTPGASINPLPSTQNGPVFAKAIQKRVPCAYDKTALALEVGDIVKVTRMNINGQWEGEVNGRKGLFPFTHVKIFDPQNPDDNE",
+  "md5" : "cc0795195b0b74301b53c533949c4665",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "PR00452",
+      "name" : "SH3DOMAIN",
+      "description" : "SH3 domain signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR001452",
+        "name" : "SH3_domain",
+        "description" : "SH3 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 126,
+      "end" : 136,
+      "pvalue" : 0.0052,
+      "score" : 33.0,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 126,
+        "end" : 136,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 140,
+      "end" : 155,
+      "pvalue" : 6.8E-8,
+      "score" : 37.96,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 140,
+        "end" : 155,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 157,
+      "end" : 166,
+      "pvalue" : 0.0177,
+      "score" : 30.19,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 157,
+        "end" : 166,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 169,
+      "end" : 181,
+      "pvalue" : 2.84E-4,
+      "score" : 38.19,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 169,
+        "end" : 181,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.0E-9,
+    "graphscan" : "IIII",
+    "model-ac" : "PR00452"
+  }, {
+    "signature" : {
+      "accession" : "cd11759",
+      "name" : "SH3_CRK_C",
+      "description" : "SH3_CRK_C",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : {
+        "accession" : "IPR035458",
+        "name" : "CRK_SH3_C",
+        "description" : "CRK, C-terminal SH3 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Regulation of signaling by CBL",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-912631"
+        }, {
+          "name" : "MET receptor recycling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8875656"
+        }, {
+          "name" : "Downstream signal transduction",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186763"
+        }, {
+          "name" : "MET activates RAP1 and RAC1",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8875555"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 237,
+      "end" : 293,
+      "sites" : [ {
+        "description" : "SH2 interface",
+        "numLocations" : 10,
+        "siteLocations" : [ {
+          "start" : 271,
+          "end" : 271,
+          "residue" : "I"
+        }, {
+          "start" : 273,
+          "end" : 273,
+          "residue" : "G"
+        }, {
+          "start" : 293,
+          "end" : 293,
+          "residue" : "I"
+        }, {
+          "start" : 289,
+          "end" : 289,
+          "residue" : "T"
+        }, {
+          "start" : 272,
+          "end" : 272,
+          "residue" : "N"
+        }, {
+          "start" : 274,
+          "end" : 274,
+          "residue" : "Q"
+        }, {
+          "start" : 275,
+          "end" : 275,
+          "residue" : "W"
+        }, {
+          "start" : 287,
+          "end" : 287,
+          "residue" : "P"
+        }, {
+          "start" : 292,
+          "end" : 292,
+          "residue" : "K"
+        }, {
+          "start" : 288,
+          "end" : 288,
+          "residue" : "F"
+        } ]
+      }, {
+        "description" : "peptide ligand binding site",
+        "numLocations" : 9,
+        "siteLocations" : [ {
+          "start" : 273,
+          "end" : 273,
+          "residue" : "G"
+        }, {
+          "start" : 290,
+          "end" : 290,
+          "residue" : "H"
+        }, {
+          "start" : 289,
+          "end" : 289,
+          "residue" : "T"
+        }, {
+          "start" : 246,
+          "end" : 246,
+          "residue" : "R"
+        }, {
+          "start" : 249,
+          "end" : 249,
+          "residue" : "C"
+        }, {
+          "start" : 244,
+          "end" : 244,
+          "residue" : "Q"
+        }, {
+          "start" : 255,
+          "end" : 255,
+          "residue" : "A"
+        }, {
+          "start" : 274,
+          "end" : 274,
+          "residue" : "Q"
+        }, {
+          "start" : 287,
+          "end" : 287,
+          "residue" : "P"
+        } ]
+      }, {
+        "description" : "N-terminal SH3 interface",
+        "numLocations" : 8,
+        "siteLocations" : [ {
+          "start" : 238,
+          "end" : 238,
+          "residue" : "V"
+        }, {
+          "start" : 237,
+          "end" : 237,
+          "residue" : "P"
+        }, {
+          "start" : 267,
+          "end" : 267,
+          "residue" : "T"
+        }, {
+          "start" : 269,
+          "end" : 269,
+          "residue" : "M"
+        }, {
+          "start" : 239,
+          "end" : 239,
+          "residue" : "F"
+        }, {
+          "start" : 268,
+          "end" : 268,
+          "residue" : "R"
+        }, {
+          "start" : 283,
+          "end" : 283,
+          "residue" : "K"
+        }, {
+          "start" : 265,
+          "end" : 265,
+          "residue" : "K"
+        } ]
+      } ],
+      "evalue" : 8.37163E-31,
+      "score" : 108.343,
+      "location-fragments" : [ {
+        "start" : 237,
+        "end" : 293,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd11759"
+  }, {
+    "signature" : {
+      "accession" : "PF00018",
+      "name" : "SH3_1",
+      "description" : "SH3 domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR001452",
+        "name" : "SH3_domain",
+        "description" : "SH3 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 130,
+      "end" : 175,
+      "hmmStart" : 2,
+      "hmmEnd" : 48,
+      "hmmLength" : 48,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 1.3E-16,
+      "score" : 59.8,
+      "envelopeStart" : 129,
+      "envelopeEnd" : 175,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 130,
+        "end" : 175,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 8.0E-22,
+    "score" : 76.5,
+    "model-ac" : "PF00018"
+  }, {
+    "signature" : {
+      "accession" : "SM00252",
+      "name" : "SH2_5",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR000980",
+        "name" : "SH2",
+        "description" : "SH2 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 12,
+      "end" : 94,
+      "hmmStart" : 1,
+      "hmmEnd" : 87,
+      "hmmLength" : 87,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.1E-26,
+      "score" : 103.7,
+      "location-fragments" : [ {
+        "start" : 12,
+        "end" : 94,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.1E-26,
+    "score" : 103.7,
+    "model-ac" : "SM00252"
+  }, {
+    "signature" : {
+      "accession" : "cd11758",
+      "name" : "SH3_CRK_N",
+      "description" : "SH3_CRK_N",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : {
+        "accession" : "IPR035457",
+        "name" : "CRK_SH3_N",
+        "description" : "CRK, N-terminal SH3 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Downstream signal transduction",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186763"
+        }, {
+          "name" : "MET activates RAP1 and RAC1",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8875555"
+        }, {
+          "name" : "MET receptor recycling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8875656"
+        }, {
+          "name" : "Regulation of signaling by CBL",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-912631"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 126,
+      "end" : 180,
+      "sites" : [ {
+        "description" : "C-terminal SH3 interface",
+        "numLocations" : 10,
+        "siteLocations" : [ {
+          "start" : 132,
+          "end" : 132,
+          "residue" : "Y"
+        }, {
+          "start" : 134,
+          "end" : 134,
+          "residue" : "F"
+        }, {
+          "start" : 176,
+          "end" : 176,
+          "residue" : "P"
+        }, {
+          "start" : 174,
+          "end" : 174,
+          "residue" : "P"
+        }, {
+          "start" : 137,
+          "end" : 137,
+          "residue" : "N"
+        }, {
+          "start" : 157,
+          "end" : 157,
+          "residue" : "E"
+        }, {
+          "start" : 160,
+          "end" : 160,
+          "residue" : "W"
+        }, {
+          "start" : 159,
+          "end" : 159,
+          "residue" : "Q"
+        }, {
+          "start" : 133,
+          "end" : 133,
+          "residue" : "D"
+        }, {
+          "start" : 177,
+          "end" : 177,
+          "residue" : "Y"
+        } ]
+      }, {
+        "description" : "peptide ligand binding site",
+        "numLocations" : 9,
+        "siteLocations" : [ {
+          "start" : 132,
+          "end" : 132,
+          "residue" : "Y"
+        }, {
+          "start" : 134,
+          "end" : 134,
+          "residue" : "F"
+        }, {
+          "start" : 176,
+          "end" : 176,
+          "residue" : "P"
+        }, {
+          "start" : 174,
+          "end" : 174,
+          "residue" : "P"
+        }, {
+          "start" : 157,
+          "end" : 157,
+          "residue" : "E"
+        }, {
+          "start" : 159,
+          "end" : 159,
+          "residue" : "Q"
+        }, {
+          "start" : 160,
+          "end" : 160,
+          "residue" : "W"
+        }, {
+          "start" : 177,
+          "end" : 177,
+          "residue" : "Y"
+        }, {
+          "start" : 141,
+          "end" : 141,
+          "residue" : "D"
+        } ]
+      } ],
+      "evalue" : 1.77547E-37,
+      "score" : 125.553,
+      "location-fragments" : [ {
+        "start" : 126,
+        "end" : 180,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd11758"
+  }, {
+    "signature" : {
+      "accession" : "PF07653",
+      "name" : "SH3_2",
+      "description" : "Variant SH3 domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR001452",
+        "name" : "SH3_domain",
+        "description" : "SH3 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 239,
+      "end" : 293,
+      "hmmStart" : 1,
+      "hmmEnd" : 56,
+      "hmmLength" : 57,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 1.8E-12,
+      "score" : 46.6,
+      "envelopeStart" : 239,
+      "envelopeEnd" : 294,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 239,
+        "end" : 293,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.9E-25,
+    "score" : 86.6,
+    "model-ac" : "PF07653"
+  }, {
+    "signature" : {
+      "accession" : "SSF55550",
+      "name" : "SH2 domain",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036860",
+        "name" : "SH2_dom_sf",
+        "description" : "SH2 domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 12,
+      "end" : 178,
+      "hmmLength" : 129,
+      "location-fragments" : [ {
+        "start" : 12,
+        "end" : 104,
+        "dc-status" : "C_TERMINAL_DISC"
+      }, {
+        "start" : 152,
+        "end" : 178,
+        "dc-status" : "N_TERMINAL_DISC"
+      } ]
+    } ],
+    "evalue" : 2.11E-28,
+    "model-ac" : "0034940"
+  }, {
+    "signature" : {
+      "accession" : "PS50002",
+      "name" : "SH3",
+      "description" : "Src homology 3 (SH3) domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001452",
+        "name" : "SH3_domain",
+        "description" : "SH3 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 235,
+      "end" : 296,
+      "score" : 17.339,
+      "alignment" : "NGPVFAKAIQKRVpcAYDKTALALEVGDIVKVTRMNINGQWEGEVN-GRKGLFPFTHVKIFDP",
+      "location-fragments" : [ {
+        "start" : 235,
+        "end" : 296,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50002"
+  }, {
+    "signature" : {
+      "accession" : "PTHR19969:SF20",
+      "name" : "CRK-LIKE PROTEIN",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 303,
+      "hmmStart" : 1,
+      "hmmEnd" : 302,
+      "hmmLength" : 302,
+      "hmmBounds" : "COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 303,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 303,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 667.0,
+    "model-ac" : "PTHR19969:SF20"
+  }, {
+    "signature" : {
+      "accession" : "SM00326",
+      "name" : "SH3_2",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR001452",
+        "name" : "SH3_domain",
+        "description" : "SH3 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 238,
+      "end" : 295,
+      "hmmStart" : 1,
+      "hmmEnd" : 58,
+      "hmmLength" : 58,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.8E-7,
+      "score" : 39.4,
+      "location-fragments" : [ {
+        "start" : 238,
+        "end" : 295,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 126,
+      "end" : 182,
+      "hmmStart" : 1,
+      "hmmEnd" : 58,
+      "hmmLength" : 58,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 9.8E-20,
+      "score" : 81.6,
+      "location-fragments" : [ {
+        "start" : 126,
+        "end" : 182,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.3E-31,
+    "score" : 121.0,
+    "model-ac" : "SM00326"
+  }, {
+    "signature" : {
+      "accession" : "PS50001",
+      "name" : "SH2",
+      "description" : "Src homology 2 (SH2) domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR000980",
+        "name" : "SH2",
+        "description" : "SH2 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 14,
+      "end" : 102,
+      "score" : 18.902,
+      "alignment" : "WYMGPVSRQEAQTRLQGQ-RHGMFLVRDSSTCPGDYVLSVSENSRVSHYIINSLPNRRFKIGD-QEFDHLPALLEFYKIHYLDTT-TLIEPA",
+      "location-fragments" : [ {
+        "start" : 14,
+        "end" : 102,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50001"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.30.30.40",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 106,
+      "end" : 187,
+      "hmmStart" : 3,
+      "hmmEnd" : 196,
+      "hmmLength" : 215,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 2.3E-79,
+      "score" : 267.8,
+      "envelopeStart" : 2,
+      "envelopeEnd" : 202,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 106,
+        "end" : 187,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.0E-83,
+    "score" : 281.0,
+    "model-ac" : "2dvjA02"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 184,
+      "end" : 203,
+      "location-fragments" : [ {
+        "start" : 184,
+        "end" : 203,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PS50002",
+      "name" : "SH3",
+      "description" : "Src homology 3 (SH3) domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001452",
+        "name" : "SH3_domain",
+        "description" : "SH3 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 123,
+      "end" : 183,
+      "score" : 26.213,
+      "alignment" : "ENVEYVRTLYDFPGNDAEDLPFKKGEILVIIEKPEEQWWSARNKDGRVGMIPVPYVEKLVR",
+      "location-fragments" : [ {
+        "start" : 123,
+        "end" : 183,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50002"
+  }, {
+    "signature" : {
+      "accession" : "cd09926",
+      "name" : "SH2_CRK_like",
+      "description" : "SH2_CRK_like",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 6,
+      "end" : 106,
+      "sites" : [ {
+        "description" : "hydrophobic binding pocket",
+        "numLocations" : 2,
+        "siteLocations" : [ {
+          "start" : 61,
+          "end" : 61,
+          "residue" : "Y"
+        }, {
+          "start" : 88,
+          "end" : 88,
+          "residue" : "Y"
+        } ]
+      }, {
+        "description" : "phosphotyrosine binding pocket",
+        "numLocations" : 4,
+        "siteLocations" : [ {
+          "start" : 60,
+          "end" : 60,
+          "residue" : "H"
+        }, {
+          "start" : 39,
+          "end" : 39,
+          "residue" : "R"
+        }, {
+          "start" : 62,
+          "end" : 62,
+          "residue" : "I"
+        }, {
+          "start" : 21,
+          "end" : 21,
+          "residue" : "R"
+        } ]
+      } ],
+      "evalue" : 2.54057E-71,
+      "score" : 213.875,
+      "location-fragments" : [ {
+        "start" : 6,
+        "end" : 106,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd09926"
+  }, {
+    "signature" : {
+      "accession" : "PR00401",
+      "name" : "SH2DOMAIN",
+      "description" : "SH2 domain signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR000980",
+        "name" : "SH2",
+        "description" : "SH2 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 14,
+      "end" : 28,
+      "pvalue" : 2.1E-5,
+      "score" : 40.37,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 14,
+        "end" : 28,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 33,
+      "end" : 43,
+      "pvalue" : 1.4E-5,
+      "score" : 57.24,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 33,
+        "end" : 43,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 45,
+      "end" : 56,
+      "pvalue" : 2.26E-5,
+      "score" : 44.34,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 45,
+        "end" : 56,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 57,
+      "end" : 67,
+      "pvalue" : 0.00291,
+      "score" : 41.58,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 57,
+        "end" : 67,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 77,
+      "end" : 91,
+      "pvalue" : 7.58E-4,
+      "score" : 32.35,
+      "motifNumber" : 5,
+      "location-fragments" : [ {
+        "start" : 77,
+        "end" : 91,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.9E-14,
+    "graphscan" : "IIIII",
+    "model-ac" : "PR00401"
+  }, {
+    "signature" : {
+      "accession" : "PTHR19969",
+      "name" : "SH2-SH3 ADAPTOR PROTEIN-RELATED",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 303,
+      "hmmStart" : 1,
+      "hmmEnd" : 302,
+      "hmmLength" : 302,
+      "hmmBounds" : "COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 303,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 303,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 667.0,
+    "model-ac" : "PTHR19969"
+  }, {
+    "signature" : {
+      "accession" : "SSF50044",
+      "name" : "SH3-domain",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036028",
+        "name" : "SH3-like_dom_sf",
+        "description" : "SH3-like domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 223,
+      "end" : 300,
+      "hmmLength" : 107,
+      "location-fragments" : [ {
+        "start" : 223,
+        "end" : 300,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 8.93E-13,
+    "model-ac" : "0043854"
+  }, {
+    "signature" : {
+      "accession" : "PF00017",
+      "name" : "SH2",
+      "description" : "SH2 domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR000980",
+        "name" : "SH2",
+        "description" : "SH2 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 14,
+      "end" : 88,
+      "hmmStart" : 1,
+      "hmmEnd" : 77,
+      "hmmLength" : 77,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 9.6E-22,
+      "score" : 76.8,
+      "envelopeStart" : 14,
+      "envelopeEnd" : 88,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 14,
+        "end" : 88,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.4E-22,
+    "score" : 77.6,
+    "model-ac" : "PF00017"
+  }, {
+    "signature" : {
+      "accession" : "SSF50044",
+      "name" : "SH3-domain",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036028",
+        "name" : "SH3-like_dom_sf",
+        "description" : "SH3-like domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 123,
+      "end" : 208,
+      "hmmLength" : 118,
+      "location-fragments" : [ {
+        "start" : 123,
+        "end" : 208,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.88E-21,
+    "model-ac" : "0041374"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.505.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR036860",
+        "name" : "SH2_dom_sf",
+        "description" : "SH2 domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 4,
+      "end" : 105,
+      "hmmStart" : 3,
+      "hmmEnd" : 196,
+      "hmmLength" : 146,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 2.3E-79,
+      "score" : 267.8,
+      "envelopeStart" : 2,
+      "envelopeEnd" : 202,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 4,
+        "end" : 105,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.0E-83,
+    "score" : 281.0,
+    "model-ac" : "2dvjA01"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.30.30.40",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 221,
+      "end" : 295,
+      "hmmStart" : 8,
+      "hmmEnd" : 74,
+      "hmmLength" : 76,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.1E-30,
+      "score" : 105.4,
+      "envelopeStart" : 221,
+      "envelopeEnd" : 295,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 221,
+        "end" : 295,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.6E-40,
+    "score" : 137.3,
+    "model-ac" : "2l3sA02"
+  } ],
+  "xref" : [ {
+    "name" : "tr|G3HFZ9|G3HFZ9_CRIGR CRKL OS=Cricetulus griseus OX=10029 GN=CgPICR_002289 PE=4 SV=1",
+    "id" : "tr|G3HFZ9|G3HFZ9_CRIGR"
+  } ]
+} ]
+}

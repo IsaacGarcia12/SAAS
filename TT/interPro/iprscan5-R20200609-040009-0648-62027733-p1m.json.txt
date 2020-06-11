@@ -1,0 +1,579 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MADSAELKQMVMSLRVSELQVLLGYAGRNKHGRKHELLTKALHLLKAGCSPAVQMKIKELYRRRFPQKIMTPADLSIPNVHSSPMPATLSPSTIPQLTYDGHPASSPLLPVSLLGPKHELELPHLTSALHPVHPDIKLQKLPFYDLLDELIKPTSLASDNSQRFRETCFAFALTPQQVQQISSSMDISGTKCDFTVQVQLRFCLSETSCPQEDHFPPNLCVKVNTKPCSLPGYLPPTKNGVEPKRPSRPINITSLVRLSTTVPNTIVVSWTAEIGRTYSMAVYLVKQLSSTVLLQRLRAKGIRNPDHSRALIKEKLTADPDSEIATTSLRVSLLCPLGKMRLTIPCRALTCSHLQCFDATLYIQMNEKKPTWVCPVCDKKAPYEHLIIDGLFMEILKYCTDCDEIQFKEDGSWAPMRSKKEVQEVTASYNGVDGCLSSTLEHQVASHNQSSNKNKKVEVIDLTIDSSSDEEEEEPPAKRTCPSLSPTSPLSNKGILSLPHQASPVSRTPSLPAVDTSYINTSLIQDYRHPFHMTPMPYDLQGLDFFPFLSGDNQHYNTSLLAAAAAAVSDDQDLLHSSRFFPYTSSQMFLDQLSAGGSTSLPATNGSSSGSNSSLVSSNSLRESHGHGVASRSSADTASIFGIIPDIISLD",
+  "md5" : "9edd2388d4e48d203e38273712ec2139",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "PTHR10782:SF11",
+      "name" : "E3 SUMO-PROTEIN LIGASE PIAS1",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 6,
+      "end" : 648,
+      "hmmStart" : 7,
+      "hmmEnd" : 651,
+      "hmmLength" : 654,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 2,
+      "envelopeEnd" : 651,
+      "location-fragments" : [ {
+        "start" : 6,
+        "end" : 648,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 1432.9,
+    "model-ac" : "PTHR10782:SF11"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 600,
+      "end" : 630,
+      "location-fragments" : [ {
+        "start" : 600,
+        "end" : 630,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PF02891",
+      "name" : "zf-MIZ",
+      "description" : "MIZ/SP-RING zinc finger",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR004181",
+        "name" : "Znf_MIZ",
+        "description" : "Zinc finger, MIZ-type",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "zinc ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008270"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 331,
+      "end" : 379,
+      "hmmStart" : 1,
+      "hmmEnd" : 49,
+      "hmmLength" : 50,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 1.7E-20,
+      "score" : 72.4,
+      "envelopeStart" : 331,
+      "envelopeEnd" : 380,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 331,
+        "end" : 379,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 8.8E-21,
+    "score" : 73.3,
+    "model-ac" : "PF02891"
+  }, {
+    "signature" : {
+      "accession" : "PS51044",
+      "name" : "ZF_SP_RING",
+      "description" : "Zinc finger SP-RING-type profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR004181",
+        "name" : "Znf_MIZ",
+        "description" : "Zinc finger, MIZ-type",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "zinc ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008270"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 320,
+      "end" : 397,
+      "score" : 41.113,
+      "alignment" : "PDSEIATTSLRVSLLCPLGKMRLTIPCRALTCSHLQCFDATLYIQMNEKKPTWVCPVCDKKAPYEHLIIDGLFMEILK",
+      "location-fragments" : [ {
+        "start" : 320,
+        "end" : 397,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51044"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 465,
+      "end" : 511,
+      "location-fragments" : [ {
+        "start" : 465,
+        "end" : 511,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.10.720.30",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR036361",
+        "name" : "SAP_dom_sf",
+        "description" : "SAP domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 65,
+      "hmmStart" : 1,
+      "hmmEnd" : 65,
+      "hmmLength" : 65,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 6.0E-30,
+      "score" : 104.5,
+      "envelopeStart" : 1,
+      "envelopeEnd" : 65,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 65,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.0E-30,
+    "score" : 105.5,
+    "model-ac" : "1v66A00"
+  }, {
+    "signature" : {
+      "accession" : "PS51466",
+      "name" : "PINIT",
+      "description" : "PINIT domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR023321",
+        "name" : "PINIT",
+        "description" : "PINIT domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "SUMOylation of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3232118"
+        }, {
+          "name" : "SUMOylation of transcription cofactors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3899300"
+        }, {
+          "name" : "SUMOylation of intracellular receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-4090294"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 124,
+      "end" : 288,
+      "score" : 51.552,
+      "alignment" : "HLTSALHPVHPDIKLQKLPFYDLLDELIKPTSLASDNSQRFRETCFAFALTPQQVQQISSSmdISGTKCDFTVQVQLRFCLSETSCPQEDHFPPNLCVKVNTKPCSLPGYLPPTKNGVepkrpSRPINITSLVRLSTTVPNTIVVSWTAEIGRTYSMAVYLVKQL",
+      "location-fragments" : [ {
+        "start" : 124,
+        "end" : 288,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51466"
+  }, {
+    "signature" : {
+      "accession" : "PS50800",
+      "name" : "SAP",
+      "description" : "SAP motif profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR003034",
+        "name" : "SAP_dom",
+        "description" : "SAP domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 11,
+      "end" : 45,
+      "score" : 10.685,
+      "alignment" : "VMSLRVSELQVLLGYAGRNKHGRKHELLTKALHLL",
+      "location-fragments" : [ {
+        "start" : 11,
+        "end" : 45,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50800"
+  }, {
+    "signature" : {
+      "accession" : "SSF68906",
+      "name" : "SAP domain",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036361",
+        "name" : "SAP_dom_sf",
+        "description" : "SAP domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 65,
+      "hmmLength" : 65,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 65,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 8.51E-20,
+    "model-ac" : "0050065"
+  }, {
+    "signature" : {
+      "accession" : "cd16790",
+      "name" : "SP-RING_PIAS",
+      "description" : "SP-RING_PIAS",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 332,
+      "end" : 379,
+      "sites" : [ {
+        "description" : "Zn binding site",
+        "numLocations" : 4,
+        "siteLocations" : [ {
+          "start" : 374,
+          "end" : 374,
+          "residue" : "C"
+        }, {
+          "start" : 353,
+          "end" : 353,
+          "residue" : "H"
+        }, {
+          "start" : 377,
+          "end" : 377,
+          "residue" : "C"
+        }, {
+          "start" : 351,
+          "end" : 351,
+          "residue" : "C"
+        } ]
+      } ],
+      "evalue" : 1.17397E-30,
+      "score" : 111.741,
+      "location-fragments" : [ {
+        "start" : 332,
+        "end" : 379,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd16790"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.40.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR013083",
+        "name" : "Znf_RING/FYVE/PHD",
+        "description" : "Zinc finger, RING/FYVE/PHD-type",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 289,
+      "end" : 416,
+      "hmmStart" : 6,
+      "hmmEnd" : 128,
+      "hmmLength" : 129,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.1E-42,
+      "score" : 145.9,
+      "envelopeStart" : 289,
+      "envelopeEnd" : 416,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 289,
+        "end" : 416,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.1E-42,
+    "score" : 145.9,
+    "model-ac" : "4mvtB02"
+  }, {
+    "signature" : {
+      "accession" : "SM00513",
+      "name" : "sap_9",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR003034",
+        "name" : "SAP_dom",
+        "description" : "SAP domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 11,
+      "end" : 45,
+      "hmmStart" : 1,
+      "hmmEnd" : 35,
+      "hmmLength" : 35,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 7.2E-5,
+      "score" : 32.2,
+      "location-fragments" : [ {
+        "start" : 11,
+        "end" : 45,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 7.2E-5,
+    "score" : 32.2,
+    "model-ac" : "SM00513"
+  }, {
+    "signature" : {
+      "accession" : "PF14324",
+      "name" : "PINIT",
+      "description" : "PINIT domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR023321",
+        "name" : "PINIT",
+        "description" : "PINIT domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "SUMOylation of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3232118"
+        }, {
+          "name" : "SUMOylation of transcription cofactors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3899300"
+        }, {
+          "name" : "SUMOylation of intracellular receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-4090294"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 136,
+      "end" : 286,
+      "hmmStart" : 2,
+      "hmmEnd" : 146,
+      "hmmLength" : 146,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 5.0E-38,
+      "score" : 130.6,
+      "envelopeStart" : 135,
+      "envelopeEnd" : 286,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 136,
+        "end" : 286,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.2E-38,
+    "score" : 131.8,
+    "model-ac" : "PF14324"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 481,
+      "end" : 511,
+      "location-fragments" : [ {
+        "start" : 481,
+        "end" : 511,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PTHR10782",
+      "name" : "ZINC FINGER MIZ DOMAIN-CONTAINING PROTEIN",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 6,
+      "end" : 648,
+      "hmmStart" : 7,
+      "hmmEnd" : 651,
+      "hmmLength" : 654,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 2,
+      "envelopeEnd" : 651,
+      "location-fragments" : [ {
+        "start" : 6,
+        "end" : 648,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 1432.9,
+    "model-ac" : "PTHR10782"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.60.120.780",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR038654",
+        "name" : "PINIT_sf",
+        "description" : "PINIT domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "SUMOylation of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3232118"
+        }, {
+          "name" : "SUMOylation of intracellular receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-4090294"
+        }, {
+          "name" : "SUMOylation of transcription cofactors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3899300"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 135,
+      "end" : 287,
+      "hmmStart" : 3,
+      "hmmEnd" : 154,
+      "hmmLength" : 154,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.7E-64,
+      "score" : 217.7,
+      "envelopeStart" : 135,
+      "envelopeEnd" : 287,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 135,
+        "end" : 287,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.4E-64,
+    "score" : 218.6,
+    "model-ac" : "4fo9A01"
+  } ],
+  "xref" : [ {
+    "name" : "tr|G3V9T0|G3V9T0_RAT Protein inhibitor of activated STAT 1 (Predicted) OS=Rattus norvegicus OX=10116 GN=Pias1 PE=1 SV=1",
+    "id" : "tr|G3V9T0|G3V9T0_RAT"
+  } ]
+} ]
+}
