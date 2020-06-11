@@ -6,8 +6,11 @@ print (cline)
 stdout, stderr = cline()
 print(stdout)
 
+#Con esto leemos el phytlotree
 tree = Phylo.read("new.dnd", "newick")
 tree.rooted = True
+#Con esto lo convertimos a otro tipo de notacion
+Phylo.convert('new.dnd', 'newick', 'new.xml', 'phyloxml')
 #tree.ladderize()
-with open('phylo.png', 'w') as phylo:
-    phylo.write(Phylo.draw(tree))
+#Imprimimos el Arbol
+Phylo.draw_ascii(tree)
