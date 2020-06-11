@@ -30,8 +30,6 @@ def dibujar(pdf):
 	pdf.drawString(10, 700, 'y700')
 	pdf.drawString(10, 800, 'y800')
 
-def trasnformarImagenes(self):
-	imageC
 
 filename = 'PDF Prueba.pdf'
 documenttitle = 'Secuencia'
