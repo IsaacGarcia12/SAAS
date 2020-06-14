@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="5f949f0edc7b62c9d9361aedb77ec11c">MSGVSEPLSRVKVGTLRRPEGPPEPMVVVPADVEKEDVRILKVCFYSNSFNPGKNFKLVKCTVHTEIREVIASILLSGRIGPNIQLAECYGLRLKHMKSDEIHWLHPQMTVGEVQDKYECLHMEAEWRYDLQIRYLPEDFMESLKEDRTTLLYFYQQLRNDYMQRYASKVSEGMALQLGCLELRRFFKDMPHNALDKKSNFELLEKEVGLDLFFPKQMQENLKPKQFRKMIQQTFQQYASLREEECVMKFFNTLAGFANIDQETYRCELIQGWNITVDLVIGPKGIRQLTSQDTKPTCLAEFKQIKSIRCLPLEEGQAVLQLGIEGAPQSLSIKTSSLAEAENMADLIDGYCRLQGEHKGSLIIHPKKDGEKRNSLPQIPVLNLETQRSRLSESCSIESDIYAEIPDETLRRPGGPQYGIAREDVVLSRILGEGFFGEVYEGVYTNHKGEKINVAVKTCKKDCTLDNKEKFMSEAVIMKNLDHPHIVKLIGIIEEEPTWIIMELYPFGELGHYLERNKNSLKVLTLVLYSLQICKAMAYLESINCVHRDIAVRNILVASANCVKLGDFGLSRYIEDEEYYKASVTRLPIKWMAPESINFRRFTTASDVWMFAVCMWEILSFGKQPFFWLENKDVIGVLEKGDRLPKPDLCPPILYTLMTRCWDYDPSERPRFTELVCSLSDVYQMEKDIDTEQERNARYRPPKILEPTALQEPPPKPSRPKYRTPPQTNLLAPTLQFQVPEGLCASSPTLTSPMEYPSPVNSLHTPPLHRHNVFKRHSMREGDFVRPSSREEAQQLWEAERVKMRQILDKQQKQMVEDYQWLRQEEKSLDPMVYMNDKSPLTPEKEPGYTEFTGPPQKPPRLGAQSIQPTANLDRTDDLVYLNVMELVRAVLDLKNELCQLPPEGYVVVVKVRARGRRRGQQGAGCASRPGGKRGGAELPCLPSRCLSQEDPQYSKVLKGNLVPGSLGRWVLSQKGSSQGKPEVLKRKVTVTLPLSLPERGPDPAEAHRERGRSPALLAVIFTDRGGCPRPRMCHWLSPLPFTSTCPSCVPHRRLMRALSSLILPAGPSAVGSDSTSERVP</sequence>
+    <xref id="tr|A0A3Q2GT01|A0A3Q2GT01_HORSE" name="tr|A0A3Q2GT01|A0A3Q2GT01_HORSE Protein tyrosine kinase 2 beta OS=Equus caballus OX=9796 GN=PTK2B PE=3 SV=1"/>
+    <matches>
+      <fingerprints-match evalue="5.6E-27" graphscan="IIIII">
+        <signature ac="PR00109" desc="Tyrosine kinase catalytic domain signature" name="TYRKINASE">
+          <entry ac="IPR001245" desc="Serine-threonine/tyrosine-protein kinase, catalytic domain" name="Ser-Thr/Tyr_kinase_cat_dom" type="DOMAIN">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006468" name="protein phosphorylation"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004672" name="protein kinase activity"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR00109</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="0.0239" score="32.52" start="502" end="515">
+            <location-fragments>
+              <fingerprints-location-fragment start="502" end="515" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="1.23E-9" score="59.88" start="539" end="557">
+            <location-fragments>
+              <fingerprints-location-fragment start="539" end="557" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="2.61E-5" score="65.7" start="587" end="597">
+            <location-fragments>
+              <fingerprints-location-fragment start="587" end="597" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="4" pvalue="7.76E-9" score="45.11" start="606" end="628">
+            <location-fragments>
+              <fingerprints-location-fragment start="606" end="628" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="5" pvalue="9.98E-10" score="49.8" start="650" end="672">
+            <location-fragments>
+              <fingerprints-location-fragment start="650" end="672" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <hmmer2-match evalue="3.3E-44" score="162.9">
+        <signature ac="SM00295" name="B41_5">
+          <entry ac="IPR019749" desc="Band 4.1 domain" name="Band_41_domain" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00295</model-ac>
+        <locations>
+          <hmmer2-location score="162.9" evalue="3.3E-44" hmm-start="1" hmm-end="232" hmm-length="232" hmm-bounds="COMPLETE" start="35" end="265">
+            <location-fragments>
+              <hmmer2-location-fragment start="35" end="265" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="0.0" score="472.1">
+        <signature ac="SM00219" name="tyrkin_6">
+          <entry ac="IPR020635" desc="Tyrosine-protein kinase, catalytic domain" name="Tyr_kinase_cat_dom" type="DOMAIN">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006468" name="protein phosphorylation"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004713" name="protein tyrosine kinase activity"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00219</model-ac>
+        <locations>
+          <hmmer2-location score="472.1" evalue="0.0" hmm-start="1" hmm-end="280" hmm-length="280" hmm-bounds="COMPLETE" start="425" end="679">
+            <location-fragments>
+              <hmmer2-location-fragment start="425" end="679" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="8.8E-56" score="189.0">
+        <signature ac="G3DSA:3.10.20.90">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4ekuA01</model-ac>
+        <locations>
+          <hmmer3-location env-end="135" env-start="19" post-processed="true" score="187.9" evalue="2.0E-55" hmm-start="4" hmm-end="118" hmm-length="118" hmm-bounds="COMPLETE" start="19" end="135">
+            <location-fragments>
+              <hmmer3-location-fragment start="19" end="135" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.2E-57" score="194.5">
+        <signature ac="G3DSA:1.20.80.10">
+          <entry ac="IPR014352" desc="FERM/acyl-CoA-binding protein superfamily" name="FERM/acyl-CoA-bd_prot_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4ekuA02</model-ac>
+        <locations>
+          <hmmer3-location env-end="259" env-start="136" post-processed="true" score="193.4" evalue="4.8E-57" hmm-start="1" hmm-end="124" hmm-length="124" hmm-bounds="COMPLETE" start="136" end="259">
+            <location-fragments>
+              <hmmer3-location-fragment start="136" end="259" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="9.3E-46" score="157.1">
+        <signature ac="G3DSA:2.30.29.30">
+          <entry ac="IPR011993" desc="PH-like domain superfamily" name="PH-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2al6A03</model-ac>
+        <locations>
+          <hmmer3-location env-end="400" env-start="260" post-processed="true" score="156.4" evalue="1.5E-45" hmm-start="2" hmm-end="139" hmm-length="142" hmm-bounds="COMPLETE" start="260" end="400">
+            <location-fragments>
+              <hmmer3-location-fragment start="260" end="400" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="4.7E-9" score="36.2">
+        <signature ac="PF03623" desc="Focal adhesion targeting region" name="Focal_AT">
+          <entry ac="IPR005189" desc="Focal adhesion kinase, targeting (FAT) domain" name="Focal_adhesion_kin_target_dom" type="DOMAIN">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0007172" name="signal complex assembly"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004713" name="protein tyrosine kinase activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006468" name="protein phosphorylation"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005925" name="focal adhesion"/>
+            <pathway-xref db="KEGG" id="04660+2.7.10.2" name="T cell receptor signaling pathway"/>
+            <pathway-xref db="Reactome" id="R-HSA-4420097" name="VEGFA-VEGFR2 Pathway"/>
+            <pathway-xref db="Reactome" id="R-HSA-391160" name="Signal regulatory protein family interactions"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF03623</model-ac>
+        <locations>
+          <hmmer3-location env-end="915" env-start="870" post-processed="true" score="35.1" evalue="1.1E-8" hmm-start="1" hmm-end="42" hmm-length="133" hmm-bounds="N_TERMINAL_COMPLETE" start="870" end="911">
+            <location-fragments>
+              <hmmer3-location-fragment start="870" end="911" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="5.8E-36" score="124.5">
+        <signature ac="G3DSA:3.30.200.20">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3cc6A01</model-ac>
+        <locations>
+          <hmmer3-location env-end="504" env-start="414" post-processed="true" score="123.4" evalue="1.3E-35" hmm-start="5" hmm-end="93" hmm-length="93" hmm-bounds="COMPLETE" start="414" end="504">
+            <location-fragments>
+              <hmmer3-location-fragment start="414" end="504" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="6.2E-41" score="139.1">
+        <signature ac="PF18038" desc="FERM N-terminal domain" name="FERM_N_2">
+          <entry ac="IPR041390" desc="Focal adhesion kinase, N-terminal" name="FADK_N" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-391160" name="Signal regulatory protein family interactions"/>
+            <pathway-xref db="Reactome" id="R-HSA-4420097" name="VEGFA-VEGFR2 Pathway"/>
+            <pathway-xref db="KEGG" id="04660+2.7.10.2" name="T cell receptor signaling pathway"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF18038</model-ac>
+        <locations>
+          <hmmer3-location env-end="137" env-start="39" post-processed="true" score="138.0" evalue="1.4E-40" hmm-start="1" hmm-end="97" hmm-length="97" hmm-bounds="COMPLETE" start="39" end="137">
+            <location-fragments>
+              <hmmer3-location-fragment start="39" end="137" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.1E-93" score="311.7">
+        <signature ac="PF07714" desc="Protein tyrosine kinase" name="Pkinase_Tyr">
+          <entry ac="IPR001245" desc="Serine-threonine/tyrosine-protein kinase, catalytic domain" name="Ser-Thr/Tyr_kinase_cat_dom" type="DOMAIN">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006468" name="protein phosphorylation"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004672" name="protein kinase activity"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF07714</model-ac>
+        <locations>
+          <hmmer3-location env-end="679" env-start="425" post-processed="true" score="311.0" evalue="5.1E-93" hmm-start="2" hmm-end="258" hmm-length="259" hmm-bounds="INCOMPLETE" start="426" end="678">
+            <location-fragments>
+              <hmmer3-location-fragment start="426" end="678" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="4.4E-12" score="46.3">
+        <signature ac="PF00373" desc="FERM central domain" name="FERM_M">
+          <entry ac="IPR019748" desc="FERM central domain" name="FERM_central" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00373</model-ac>
+        <locations>
+          <hmmer3-location env-end="260" env-start="141" post-processed="true" score="44.8" evalue="1.3E-11" hmm-start="4" hmm-end="106" hmm-length="118" hmm-bounds="INCOMPLETE" start="144" end="253">
+            <location-fragments>
+              <hmmer3-location-fragment start="144" end="253" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.0E-14" score="55.3">
+        <signature ac="G3DSA:1.20.120.330">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3gm3A00</model-ac>
+        <locations>
+          <hmmer3-location env-end="916" env-start="858" post-processed="true" score="54.2" evalue="4.3E-14" hmm-start="5" hmm-end="55" hmm-length="153" hmm-bounds="COMPLETE" start="858" end="916">
+            <location-fragments>
+              <hmmer3-location-fragment start="858" end="916" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.4E-54" score="185.4">
+        <signature ac="G3DSA:1.10.510.10">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3cc6A02</model-ac>
+        <locations>
+          <hmmer3-location env-end="687" env-start="505" post-processed="true" score="183.6" evalue="8.5E-54" hmm-start="4" hmm-end="179" hmm-length="183" hmm-bounds="COMPLETE" start="505" end="687">
+            <location-fragments>
+              <hmmer3-location-fragment start="505" end="687" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="690" end="724">
+            <location-fragments>
+              <mobidblite-location-fragment start="690" end="724" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="841" end="862">
+            <location-fragments>
+              <mobidblite-location-fragment start="841" end="862" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Proline-rich" start="707" end="722">
+            <location-fragments>
+              <mobidblite-location-fragment start="707" end="722" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1817.8">
+        <signature ac="PTHR24418" name="TYROSINE-PROTEIN KINASE">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR24418</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="1002" hmm-start="1" hmm-end="855" hmm-length="1011" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="855">
+            <location-fragments>
+              <panther-location-fragment start="1" end="855" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1817.8">
+        <signature ac="PTHR24418:SF94" name="PROTEIN-TYROSINE KINASE 2-BETA">
+          <entry ac="IPR030610" desc="Protein-tyrosine kinase 2-beta" name="PTK2B" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0030500" name="regulation of bone mineralization"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0030334" name="regulation of cell migration"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0030155" name="regulation of cell adhesion"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0007165" name="signal transduction"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004715" name="non-membrane spanning protein tyrosine kinase activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0042127" name="regulation of cell population proliferation"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0031234" name="extrinsic component of cytoplasmic side of plasma membrane"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0002688" name="regulation of leukocyte chemotaxis"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0045765" name="regulation of angiogenesis"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:2000249" name="regulation of actin cytoskeleton reorganization"/>
+            <pathway-xref db="Reactome" id="R-HSA-9020558" name="Interleukin-2 signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-4420097" name="VEGFA-VEGFR2 Pathway"/>
+            <pathway-xref db="Reactome" id="R-HSA-391160" name="Signal regulatory protein family interactions"/>
+            <pathway-xref db="KEGG" id="04660+2.7.10.2" name="T cell receptor signaling pathway"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR24418:SF94</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="1002" hmm-start="1" hmm-end="855" hmm-length="1011" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="855">
+            <location-fragments>
+              <panther-location-fragment start="1" end="855" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <patternscan-match>
+        <signature ac="PS00107" desc="Protein kinases ATP-binding region signature." name="PROTEIN_KINASE_ATP">
+          <entry ac="IPR017441" desc="Protein kinase, ATP binding site" name="Protein_kinase_ATP_BS" type="BINDING_SITE">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS00107</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="431" end="457">
+            <location-fragments>
+              <patternscan-location-fragment start="431" end="457" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>LGEGFFGEVYeGvytnhkgekinVAVK</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <patternscan-match>
+        <signature ac="PS00109" desc="Tyrosine protein kinases specific active-site signature." name="PROTEIN_KINASE_TYR">
+          <entry ac="IPR008266" desc="Tyrosine-protein kinase, active site" name="Tyr_kinase_AS" type="ACTIVE_SITE">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006468" name="protein phosphorylation"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004672" name="protein kinase activity"/>
+          </entry>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS00109</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="545" end="557">
+            <location-fragments>
+              <patternscan-location-fragment start="545" end="557" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>CVHrDIAVRNILV</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <profilescan-match>
+        <signature ac="PS50057" desc="FERM domain profile." name="FERM_3">
+          <entry ac="IPR000299" desc="FERM domain" name="FERM_domain" type="DOMAIN">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005856" name="cytoskeleton"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50057</model-ac>
+        <locations>
+          <profilescan-location score="48.291" start="39" end="359">
+            <location-fragments>
+              <profilescan-location-fragment start="39" end="359" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>RILKVCFYSNSFNPgknfklVKCTVHTEIREVIASILLSGRIGPNIqlaeCYGLRLKHMKSDEIHWLHPQMTVGEVQDKYEclhmeAEWRYDLQIRYLPEDFMEslKEDRTTLLYFYQQLRNDYMQRYASKVSEGMaLQLGCLELRRFFKDMPHNALDKKSnfelleKEVGLDLFFPKQMQENLKPKQFRKMIQQTFQQYASLREEECVMKFFNTLAGFANIDQETYRCELIQGWN-ITVDLVIGPKGIRQLTSQDTKPTCLAEFKQiksIRCLPLEEGQAVLQLGIEGAPQSLSIKTSSLAEAENMADLIDGYCRLQGEHK</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50011" desc="Protein kinase domain profile." name="PROTEIN_KINASE_DOM">
+          <entry ac="IPR000719" desc="Protein kinase domain" name="Prot_kinase_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006468" name="protein phosphorylation"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004672" name="protein kinase activity"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50011</model-ac>
+        <locations>
+          <profilescan-location score="38.873" start="425" end="683">
+            <location-fragments>
+              <profilescan-location-fragment start="425" end="683" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>VVLSRILGEGFFGEVYEGVYTNhkgEKINVAVKTCKK-----DctldNKEKFMSEAVIMKNLDHPHIVKLIGIIEE-EPTWIIMELYPFGELGHYLERNKNSLKVLTLVLYSLQICKAMAYLESINCVHRDIAVRNILVASANCVKLGDFGLSRYIEDEEYyKASVTRLPIKWMAPESI-NFRRFTTASDVWMFAVCMWEILSfGKQPF--FwLENKDVIGVLEKGDRLPK-P--DLCPPILYTLMTRCWDYDPSERPRFTELVCslSDVY</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <rpsblast-match>
+        <signature ac="cd13190" desc="FERM_C_FAK1" name="FERM_C_FAK1">
+          <entry ac="IPR041784" desc="FAK1/PYK2, FERM domain C-lobe" name="FAK1/PYK2_FERM_C" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-391160" name="Signal regulatory protein family interactions"/>
+            <pathway-xref db="Reactome" id="R-HSA-4420097" name="VEGFA-VEGFR2 Pathway"/>
+            <pathway-xref db="KEGG" id="04660+2.7.10.2" name="T cell receptor signaling pathway"/>
+          </entry>
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd13190</model-ac>
+        <locations>
+          <rpsblast-location evalue="2.19155E-50" score="170.886" start="261" end="368">
+            <location-fragments>
+              <rpsblast-location-fragment start="261" end="368" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="putative peptide binding site" numLocations="9">
+                <site-locations>
+                  <site-location residue="S" start="307" end="307"/>
+                  <site-location residue="C" start="310" end="310"/>
+                  <site-location residue="F" start="302" end="302"/>
+                  <site-location residue="I" start="308" end="308"/>
+                  <site-location residue="A" start="345" end="345"/>
+                  <site-location residue="R" start="353" end="353"/>
+                  <site-location residue="C" start="352" end="352"/>
+                  <site-location residue="D" start="349" end="349"/>
+                  <site-location residue="R" start="309" end="309"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="putative actin binding site 2" numLocations="12">
+                <site-locations>
+                  <site-location residue="G" start="356" end="356"/>
+                  <site-location residue="Y" start="351" end="351"/>
+                  <site-location residue="Q" start="355" end="355"/>
+                  <site-location residue="I" start="348" end="348"/>
+                  <site-location residue="L" start="354" end="354"/>
+                  <site-location residue="A" start="345" end="345"/>
+                  <site-location residue="R" start="353" end="353"/>
+                  <site-location residue="D" start="346" end="346"/>
+                  <site-location residue="L" start="347" end="347"/>
+                  <site-location residue="C" start="352" end="352"/>
+                  <site-location residue="G" start="350" end="350"/>
+                  <site-location residue="D" start="349" end="349"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="putative phosphoinositide binding site" numLocations="4">
+                <site-locations>
+                  <site-location residue="Q" start="288" end="288"/>
+                  <site-location residue="T" start="297" end="297"/>
+                  <site-location residue="L" start="269" end="269"/>
+                  <site-location residue="T" start="290" end="290"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd14473" desc="FERM_B-lobe" name="FERM_B-lobe">
+          <entry ac="IPR019748" desc="FERM central domain" name="FERM_central" type="DOMAIN"/>
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd14473</model-ac>
+        <locations>
+          <rpsblast-location evalue="2.70552E-19" score="81.909" start="150" end="254">
+            <location-fragments>
+              <rpsblast-location-fragment start="150" end="254" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites/>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd05056" desc="PTKc_FAK" name="PTKc_FAK">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd05056</model-ac>
+        <locations>
+          <rpsblast-location evalue="0.0" score="554.725" start="418" end="687">
+            <location-fragments>
+              <rpsblast-location-fragment start="418" end="687" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="polypeptide substrate binding site" numLocations="9">
+                <site-locations>
+                  <site-location residue="T" start="585" end="585"/>
+                  <site-location residue="I" start="597" end="597"/>
+                  <site-location residue="R" start="553" end="553"/>
+                  <site-location residue="L" start="587" end="587"/>
+                  <site-location residue="P" start="588" end="588"/>
+                  <site-location residue="R" start="586" end="586"/>
+                  <site-location residue="V" start="584" end="584"/>
+                  <site-location residue="D" start="549" end="549"/>
+                  <site-location residue="N" start="631" end="631"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="activation loop (A-loop)" numLocations="25">
+                <site-locations>
+                  <site-location residue="Y" start="580" end="580"/>
+                  <site-location residue="E" start="577" end="577"/>
+                  <site-location residue="L" start="570" end="570"/>
+                  <site-location residue="I" start="589" end="589"/>
+                  <site-location residue="S" start="583" end="583"/>
+                  <site-location residue="D" start="567" end="567"/>
+                  <site-location residue="Y" start="579" end="579"/>
+                  <site-location residue="R" start="586" end="586"/>
+                  <site-location residue="T" start="585" end="585"/>
+                  <site-location residue="Y" start="573" end="573"/>
+                  <site-location residue="E" start="578" end="578"/>
+                  <site-location residue="A" start="582" end="582"/>
+                  <site-location residue="G" start="566" end="566"/>
+                  <site-location residue="F" start="568" end="568"/>
+                  <site-location residue="S" start="571" end="571"/>
+                  <site-location residue="G" start="569" end="569"/>
+                  <site-location residue="K" start="581" end="581"/>
+                  <site-location residue="E" start="575" end="575"/>
+                  <site-location residue="L" start="587" end="587"/>
+                  <site-location residue="R" start="572" end="572"/>
+                  <site-location residue="K" start="590" end="590"/>
+                  <site-location residue="P" start="588" end="588"/>
+                  <site-location residue="D" start="576" end="576"/>
+                  <site-location residue="I" start="574" end="574"/>
+                  <site-location residue="V" start="584" end="584"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="active site" numLocations="28">
+                <site-locations>
+                  <site-location residue="G" start="508" end="508"/>
+                  <site-location residue="N" start="554" end="554"/>
+                  <site-location residue="L" start="431" end="431"/>
+                  <site-location residue="E" start="503" end="503"/>
+                  <site-location residue="G" start="434" end="434"/>
+                  <site-location residue="V" start="439" end="439"/>
+                  <site-location residue="M" start="502" end="502"/>
+                  <site-location residue="G" start="432" end="432"/>
+                  <site-location residue="D" start="567" end="567"/>
+                  <site-location residue="F" start="435" end="435"/>
+                  <site-location residue="R" start="586" end="586"/>
+                  <site-location residue="Y" start="505" end="505"/>
+                  <site-location residue="T" start="585" end="585"/>
+                  <site-location residue="K" start="457" end="457"/>
+                  <site-location residue="D" start="549" end="549"/>
+                  <site-location residue="N" start="631" end="631"/>
+                  <site-location residue="E" start="433" end="433"/>
+                  <site-location residue="V" start="487" end="487"/>
+                  <site-location residue="E" start="474" end="474"/>
+                  <site-location residue="I" start="597" end="597"/>
+                  <site-location residue="L" start="504" end="504"/>
+                  <site-location residue="R" start="553" end="553"/>
+                  <site-location residue="L" start="587" end="587"/>
+                  <site-location residue="E" start="509" end="509"/>
+                  <site-location residue="A" start="455" end="455"/>
+                  <site-location residue="P" start="588" end="588"/>
+                  <site-location residue="V" start="584" end="584"/>
+                  <site-location residue="L" start="556" end="556"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="FERM domain interface" numLocations="8">
+                <site-locations>
+                  <site-location residue="R" start="600" end="600"/>
+                  <site-location residue="F" start="599" end="599"/>
+                  <site-location residue="E" start="639" end="639"/>
+                  <site-location residue="I" start="597" end="597"/>
+                  <site-location residue="R" start="601" end="601"/>
+                  <site-location residue="Y" start="664" end="664"/>
+                  <site-location residue="N" start="598" end="598"/>
+                  <site-location residue="I" start="635" end="635"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="ATP binding site" numLocations="20">
+                <site-locations>
+                  <site-location residue="L" start="431" end="431"/>
+                  <site-location residue="E" start="433" end="433"/>
+                  <site-location residue="G" start="508" end="508"/>
+                  <site-location residue="N" start="554" end="554"/>
+                  <site-location residue="G" start="434" end="434"/>
+                  <site-location residue="E" start="503" end="503"/>
+                  <site-location residue="V" start="439" end="439"/>
+                  <site-location residue="V" start="487" end="487"/>
+                  <site-location residue="M" start="502" end="502"/>
+                  <site-location residue="G" start="432" end="432"/>
+                  <site-location residue="D" start="567" end="567"/>
+                  <site-location residue="E" start="474" end="474"/>
+                  <site-location residue="F" start="435" end="435"/>
+                  <site-location residue="Y" start="505" end="505"/>
+                  <site-location residue="L" start="504" end="504"/>
+                  <site-location residue="R" start="553" end="553"/>
+                  <site-location residue="A" start="455" end="455"/>
+                  <site-location residue="E" start="509" end="509"/>
+                  <site-location residue="K" start="457" end="457"/>
+                  <site-location residue="L" start="556" end="556"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="5.75E-15">
+        <signature ac="SSF68993" name="FAT domain of focal adhesion kinase">
+          <entry ac="IPR036137" desc="Focal adhesion kinase, targeting (FAT) domain superfamily" name="Focal_adhe_kin_target_dom_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004713" name="protein tyrosine kinase activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0007172" name="signal complex assembly"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006468" name="protein phosphorylation"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005925" name="focal adhesion"/>
+            <pathway-xref db="KEGG" id="04660+2.7.10.2" name="T cell receptor signaling pathway"/>
+            <pathway-xref db="Reactome" id="R-HSA-4420097" name="VEGFA-VEGFR2 Pathway"/>
+            <pathway-xref db="Reactome" id="R-HSA-391160" name="Signal regulatory protein family interactions"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0048826</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="146" start="864" end="911">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="864" end="911" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="5.53E-31">
+        <signature ac="SSF50729" name="PH domain-like">
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0051791</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="110" start="261" end="366">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="261" end="366" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="2.94E-33">
+        <signature ac="SSF54236" name="Ubiquitin-like">
+          <entry ac="IPR029071" desc="Ubiquitin-like domain superfamily" name="Ubiquitin-like_domsf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0051792</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="100" start="37" end="137">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="37" end="137" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="8.77E-42">
+        <signature ac="SSF47031" name="Second domain of FERM">
+          <entry ac="IPR035963" desc="FERM superfamily, second domain" name="FERM_2" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0051790</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="123" start="138" end="256">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="138" end="256" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="1.23E-78">
+        <signature ac="SSF56112" name="Protein kinase-like (PK-like)">
+          <entry ac="IPR011009" desc="Protein kinase-like domain superfamily" name="Kinase-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0040727</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="325" start="417" end="688">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="417" end="688" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

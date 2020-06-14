@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="42e1242c37174ab604b1f12530d6c113">MKAPHSATYQDNYADAAMTARTRPSMDMDQQRNRNQAELRLLPAQRTSTSAFESPDLRFNKARRRRRSEQVPPVVVEYRRSYRVLIVSALLVSLAASFVTLSAGFQLDGSQNSFYTFRKWYTGLNGTLELEFKTEQPNGLVLYTDDGGTYDFFELKLVEGALRLRYNLGGGAQIITVGRELHDGHWHKVQVLRNDEQTSLIVDGVSQQRSTKGKEFQFGKFASNSDVYVGGMPNWYSSKLALLALPSVIFEPRFRGAIRNLVYADQPGGSTRRQEIKQQRDIKCGDVPCDHGELPARERPLRGVRGGNTTDACERNDPCQHGGICISTDSGPICECRNLEYDGQYCEKEKAPSEATFRGTQFLSYDLGQTGAEPIVSAQDAISFYFRTRQPNGLLFYTGHGTDYLNLALRDGGVSLTMGLANGKQEMHIKPSKVRFDDHQWHKVTVHRRIQEISSITSFCRLVTVVDDVYTDHSHIAGKFTMLSSSRVYVGGAVNPRALLGARVHTNFVGCLRKVEFSADTLNLNLIDLAKSGSKLIQVAGNLEYQCPSGDPQDPVTFTTRESHLVLPPWETGKQSSISFKFRTKEPNGIIVLATGSKQPRAKNPVLIAIELLNGHIYIHLDLGSGASKVRASRRRVDDGDWHDLILRRNGRDAKVSVDGVWNDFRTPGDGTILELDGHMYLGGVGPAYNSVSWPAAIWTATLRQGFVGCLRDLVLSGKAIDIAAFARVQDSASVKPSCHVQANVCNGNPCLNGGTCLEGWNRPICDCSATLYGGPTCGRELATLAFNGSQHMTIWLGNGQGTKTQTEELVIRFKTSRPAGLLLLTSAESNSPDRLEIALVAGRVRASVRLSDREKNLLAGQSVLNDNNWHTIRFSRRASNLRLQVDGAPPVRGMLSETILGRHSTMEIRSVHLGGLFHAEEEIQMTSTMPNFVGQMQGLVFNGQRYLDIVKSLGPELSALPSATFKLTARFVNSPAGQPYHAATFRSKHSYVGLAMLKAYNSISIDFRFKTVEPNGLLVFNGGRRNDFVAVELVNGHIHYTFDLGDGPVTMRDKSRIHMNDNRWHQVSIRRPGPKTHTLTVDDSFEIISLTGNNMHLELAGILYIGGVFKDMYSKLPASISSRSGFEGCLASLDLGDASPSLTSDAVVPSSLVVSGCEGPTKCSQNACANRGNCVQQWNAYACECDMTSYTGPTCYDESIAYEFGNNKGMVQYTFPENAQADTEEDNIALGFITTRPDAVLLRVESATTQDYMELEIVEGNIFMVYNIGSVDLPLGEIGTKVNDNAYHVVRFQRKGGNATLQLDDYNVQALTPQSHHSTVFNTMSNVQVGGKFSRNGRNRIERPFAGVIAGLSVNKLRILDLAVERDPHITIRGDVQLVTGVLDRNDLQRMQQTPASGYPGALDDLIFSGAGSGCRGDDEDECTPPFESGSGDDLITPVYVPPTKQTTTSQQGNSLSTGGSSSGGVITNGTERACDDEDCVHGSGDYGETTEQFTSTSTARGSESNNEMVTITTTGRSDVTTEQHQGSSSSSSSGSTPSYATTQSSSSSSSGGSAASTPGQVSTTSSVATSSTQRATSSSTSTSSSTTSTTTTTTTTQATPPPEIRSTVTERETTPYDIYIAGGGMGGSGRNDHDRMQLPDEHHPLPPLPPPIPPQDPPPYGPYGGNTYNTNMNNYRPKGKGGRINSIEEERTAMIIGIVAGILIAVVLVILLVLWLKSNGDRGYKTESEKAAAYGSHNPNAALLGNTSTNGSYHQQRQHHMHGGGGGGGAGQQQHHAQQQMHNGHNGNGNGGGGGGGGMMSSGSGSLGYGSDGRPQMAGLVQPKAKKRDSKDVKEWYV</sequence>
+    <xref id="tr|Q3KN41|Q3KN41_DROME" name="tr|Q3KN41|Q3KN41_DROME LP14275p OS=Drosophila melanogaster OX=7227 GN=Nrx-1 PE=1 SV=1"/>
+    <matches>
+      <hmmer2-match evalue="3.7E-8" score="43.1">
+        <signature ac="SM00181" name="egf_5">
+          <entry ac="IPR000742" desc="EGF-like domain" name="EGF-like_dom" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00181</model-ac>
+        <locations>
+          <hmmer2-location score="4.9" evalue="94.0" hmm-start="1" hmm-end="32" hmm-length="32" hmm-bounds="COMPLETE" start="1157" end="1197">
+            <location-fragments>
+              <hmmer2-location-fragment start="1157" end="1197" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="23.3" evalue="0.033" hmm-start="1" hmm-end="32" hmm-length="32" hmm-bounds="COMPLETE" start="312" end="347">
+            <location-fragments>
+              <hmmer2-location-fragment start="312" end="347" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="14.9" evalue="11.0" hmm-start="1" hmm-end="32" hmm-length="32" hmm-bounds="COMPLETE" start="745" end="779">
+            <location-fragments>
+              <hmmer2-location-fragment start="745" end="779" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="0.0" score="648.7">
+        <signature ac="SM00282" name="LamG_3">
+          <entry ac="IPR001791" desc="Laminin G domain" name="Laminin_G" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00282</model-ac>
+        <locations>
+          <hmmer2-location score="119.3" evalue="4.4E-31" hmm-start="1" hmm-end="137" hmm-length="137" hmm-bounds="COMPLETE" start="1002" end="1139">
+            <location-fragments>
+              <hmmer2-location-fragment start="1002" end="1139" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="127.9" evalue="1.1E-33" hmm-start="1" hmm-end="137" hmm-length="137" hmm-bounds="COMPLETE" start="574" end="719">
+            <location-fragments>
+              <hmmer2-location-fragment start="574" end="719" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="125.5" evalue="5.9E-33" hmm-start="1" hmm-end="137" hmm-length="137" hmm-bounds="COMPLETE" start="124" end="266">
+            <location-fragments>
+              <hmmer2-location-fragment start="124" end="266" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="84.3" evalue="1.5E-20" hmm-start="1" hmm-end="137" hmm-length="137" hmm-bounds="COMPLETE" start="1225" end="1358">
+            <location-fragments>
+              <hmmer2-location-fragment start="1225" end="1358" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="97.5" evalue="1.5E-24" hmm-start="1" hmm-end="137" hmm-length="137" hmm-bounds="COMPLETE" start="806" end="945">
+            <location-fragments>
+              <hmmer2-location-fragment start="806" end="945" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="94.3" evalue="1.5E-23" hmm-start="1" hmm-end="137" hmm-length="137" hmm-bounds="COMPLETE" start="378" end="520">
+            <location-fragments>
+              <hmmer2-location-fragment start="378" end="520" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="0.0" score="711.2">
+        <signature ac="G3DSA:2.60.120.200">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2r1bA00</model-ac>
+        <locations>
+          <hmmer3-location env-end="1385" env-start="1193" post-processed="true" score="161.9" evalue="6.2E-47" hmm-start="6" hmm-end="215" hmm-length="220" hmm-bounds="C_TERMINAL_COMPLETE" start="1197" end="1385">
+            <location-fragments>
+              <hmmer3-location-fragment start="1197" end="1385" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="666.0">
+        <signature ac="G3DSA:2.60.120.200">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3asiA01</model-ac>
+        <locations>
+          <hmmer3-location env-end="1159" env-start="981" post-processed="true" score="154.3" evalue="1.1E-44" hmm-start="7" hmm-end="181" hmm-length="182" hmm-bounds="COMPLETE" start="981" end="1159">
+            <location-fragments>
+              <hmmer3-location-fragment start="981" end="1159" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="686.2">
+        <signature ac="G3DSA:2.60.120.200">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2r16A00</model-ac>
+        <locations>
+          <hmmer3-location env-end="956" env-start="779" post-processed="true" score="115.3" evalue="9.4E-33" hmm-start="6" hmm-end="165" hmm-length="182" hmm-bounds="C_TERMINAL_COMPLETE" start="781" end="956">
+            <location-fragments>
+              <hmmer3-location-fragment start="781" end="956" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="704.0">
+        <signature ac="G3DSA:2.60.120.200">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2h0bC00</model-ac>
+        <locations>
+          <hmmer3-location env-end="542" env-start="349" post-processed="true" score="171.9" evalue="3.7E-50" hmm-start="6" hmm-end="183" hmm-length="184" hmm-bounds="C_TERMINAL_COMPLETE" start="351" end="542">
+            <location-fragments>
+              <hmmer3-location-fragment start="351" end="542" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="517.9">
+        <signature ac="PF02210" desc="Laminin G domain" name="Laminin_G_2">
+          <entry ac="IPR001791" desc="Laminin G domain" name="Laminin_G" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF02210</model-ac>
+        <locations>
+          <hmmer3-location env-end="520" env-start="386" post-processed="true" score="87.1" evalue="1.3E-24" hmm-start="1" hmm-end="124" hmm-length="126" hmm-bounds="N_TERMINAL_COMPLETE" start="386" end="518">
+            <location-fragments>
+              <hmmer3-location-fragment start="386" end="518" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="1139" env-start="1010" post-processed="true" score="94.2" evalue="7.9E-27" hmm-start="1" hmm-end="124" hmm-length="126" hmm-bounds="N_TERMINAL_COMPLETE" start="1010" end="1137">
+            <location-fragments>
+              <hmmer3-location-fragment start="1010" end="1137" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="1358" env-start="1233" post-processed="true" score="73.7" evalue="1.8E-20" hmm-start="1" hmm-end="125" hmm-length="126" hmm-bounds="N_TERMINAL_COMPLETE" start="1233" end="1357">
+            <location-fragments>
+              <hmmer3-location-fragment start="1233" end="1357" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="945" env-start="814" post-processed="true" score="77.9" evalue="8.7E-22" hmm-start="1" hmm-end="126" hmm-length="126" hmm-bounds="COMPLETE" start="814" end="945">
+            <location-fragments>
+              <hmmer3-location-fragment start="814" end="945" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="266" env-start="132" post-processed="true" score="93.5" evalue="1.4E-26" hmm-start="1" hmm-end="125" hmm-length="126" hmm-bounds="N_TERMINAL_COMPLETE" start="132" end="265">
+            <location-fragments>
+              <hmmer3-location-fragment start="132" end="265" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="719" env-start="582" post-processed="true" score="91.7" evalue="5.0E-26" hmm-start="1" hmm-end="126" hmm-length="126" hmm-bounds="COMPLETE" start="582" end="719">
+            <location-fragments>
+              <hmmer3-location-fragment start="582" end="719" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="6.6E-33" score="114.3">
+        <signature ac="G3DSA:2.10.25.10">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3asiA02</model-ac>
+        <locations>
+          <hmmer3-location env-end="1199" env-start="1160" post-processed="true" score="50.9" evalue="4.3E-13" hmm-start="4" hmm-end="40" hmm-length="42" hmm-bounds="N_TERMINAL_COMPLETE" start="1160" end="1196">
+            <location-fragments>
+              <hmmer3-location-fragment start="1160" end="1196" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="781" env-start="742" post-processed="true" score="46.6" evalue="9.3E-12" hmm-start="4" hmm-end="39" hmm-length="42" hmm-bounds="N_TERMINAL_COMPLETE" start="742" end="780">
+            <location-fragments>
+              <hmmer3-location-fragment start="742" end="780" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="6.0E-11" score="42.3">
+        <signature ac="PF00008" desc="EGF-like domain" name="EGF">
+          <entry ac="IPR000742" desc="EGF-like domain" name="EGF-like_dom" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00008</model-ac>
+        <locations>
+          <hmmer3-location env-end="777" env-start="746" post-processed="true" score="23.1" evalue="6.4E-5" hmm-start="1" hmm-end="29" hmm-length="32" hmm-bounds="N_TERMINAL_COMPLETE" start="746" end="774">
+            <location-fragments>
+              <hmmer3-location-fragment start="746" end="774" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="4.6E-20" score="73.5">
+        <signature ac="G3DSA:2.10.25.10">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4bdxA00</model-ac>
+        <locations>
+          <hmmer3-location env-end="351" env-start="300" post-processed="true" score="29.1" evalue="3.3E-6" hmm-start="45" hmm-end="82" hmm-length="85" hmm-bounds="N_TERMINAL_COMPLETE" start="300" end="350">
+            <location-fragments>
+              <hmmer3-location-fragment start="300" end="350" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="621.1">
+        <signature ac="G3DSA:2.60.120.200">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>5ik4A01</model-ac>
+        <locations>
+          <hmmer3-location env-end="287" env-start="91" post-processed="true" score="126.3" evalue="3.7E-36" hmm-start="31" hmm-end="192" hmm-length="218" hmm-bounds="COMPLETE" start="91" end="287">
+            <location-fragments>
+              <hmmer3-location-fragment start="91" end="287" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="696.0">
+        <signature ac="G3DSA:2.60.120.200">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3qcwA02</model-ac>
+        <locations>
+          <hmmer3-location env-end="739" env-start="553" post-processed="true" score="171.9" evalue="4.6E-50" hmm-start="3" hmm-end="195" hmm-length="195" hmm-bounds="COMPLETE" start="553" end="739">
+            <location-fragments>
+              <hmmer3-location-fragment start="553" end="739" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="1774" end="1789">
+            <location-fragments>
+              <mobidblite-location-fragment start="1774" end="1789" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="24" end="50">
+            <location-fragments>
+              <mobidblite-location-fragment start="24" end="50" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1" end="50">
+            <location-fragments>
+              <mobidblite-location-fragment start="1" end="50" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="1826" end="1840">
+            <location-fragments>
+              <mobidblite-location-fragment start="1826" end="1840" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="1489" end="1615">
+            <location-fragments>
+              <mobidblite-location-fragment start="1489" end="1615" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1411" end="1651">
+            <location-fragments>
+              <mobidblite-location-fragment start="1411" end="1651" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1737" end="1840">
+            <location-fragments>
+              <mobidblite-location-fragment start="1737" end="1840" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="1442" end="1470">
+            <location-fragments>
+              <mobidblite-location-fragment start="1442" end="1470" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="1742" end="1759">
+            <location-fragments>
+              <mobidblite-location-fragment start="1742" end="1759" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1241.3">
+        <signature ac="PTHR15036" name="FAMILY NOT NAMED">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR15036</model-ac>
+        <locations>
+          <panther-location env-start="1195" env-end="1674" hmm-start="713" hmm-end="1083" hmm-length="1083" hmm-bounds="C_TERMINAL_COMPLETE" start="1196" end="1674">
+            <location-fragments>
+              <panther-location-fragment start="1196" end="1674" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="99" env-end="352" hmm-start="223" hmm-end="436" hmm-length="1083" hmm-bounds="INCOMPLETE" start="112" end="350">
+            <location-fragments>
+              <panther-location-fragment start="112" end="350" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="1115" env-end="1197" hmm-start="355" hmm-end="432" hmm-length="1083" hmm-bounds="INCOMPLETE" start="1119" end="1196">
+            <location-fragments>
+              <panther-location-fragment start="1119" end="1196" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="342" env-end="1117" hmm-start="2" hmm-end="709" hmm-length="1083" hmm-bounds="INCOMPLETE" start="343" end="1116">
+            <location-fragments>
+              <panther-location-fragment start="343" end="1116" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1241.3">
+        <signature ac="PTHR15036:SF35" name="NEUREXIN 1, ISOFORM F">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR15036:SF35</model-ac>
+        <locations>
+          <panther-location env-start="342" env-end="1117" hmm-start="2" hmm-end="709" hmm-length="1083" hmm-bounds="INCOMPLETE" start="343" end="1116">
+            <location-fragments>
+              <panther-location-fragment start="343" end="1116" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="1115" env-end="1197" hmm-start="355" hmm-end="432" hmm-length="1083" hmm-bounds="INCOMPLETE" start="1119" end="1196">
+            <location-fragments>
+              <panther-location-fragment start="1119" end="1196" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="1195" env-end="1674" hmm-start="713" hmm-end="1083" hmm-length="1083" hmm-bounds="C_TERMINAL_COMPLETE" start="1196" end="1674">
+            <location-fragments>
+              <panther-location-fragment start="1196" end="1674" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="99" env-end="352" hmm-start="223" hmm-end="436" hmm-length="1083" hmm-bounds="INCOMPLETE" start="112" end="350">
+            <location-fragments>
+              <panther-location-fragment start="112" end="350" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <phobius-match>
+        <signature ac="TRANSMEMBRANE" desc="Region of a membrane-bound protein predicted to be embedded in the membrane." name="Transmembrane region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>TRANSMEMBRANE</model-ac>
+        <locations>
+          <phobius-location start="84" end="105">
+            <location-fragments>
+              <phobius-location-fragment start="84" end="105" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm." name="Cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="1" end="83">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="83" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="TRANSMEMBRANE" desc="Region of a membrane-bound protein predicted to be embedded in the membrane." name="Transmembrane region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>TRANSMEMBRANE</model-ac>
+        <locations>
+          <phobius-location start="1695" end="1718">
+            <location-fragments>
+              <phobius-location-fragment start="1695" end="1718" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="106" end="1694">
+            <location-fragments>
+              <phobius-location-fragment start="106" end="1694" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm." name="Cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="1719" end="1840">
+            <location-fragments>
+              <phobius-location-fragment start="1719" end="1840" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <profilescan-match>
+        <signature ac="PS50025" desc="Laminin G domain profile." name="LAM_G_DOMAIN">
+          <entry ac="IPR001791" desc="Laminin G domain" name="Laminin_G" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50025</model-ac>
+        <locations>
+          <profilescan-location score="41.256" start="982" end="1158">
+            <location-fragments>
+              <profilescan-location-fragment start="982" end="1158" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>HAATFRSKHSYVGLAMLKAY-NSISIDFRFKTVEPNGLLVFNGGR-RNDFVAVELVNGHIHYTFDLGDGPVTMRdKSRIHMNDNRWHQVSIRRPGPKThTLTVDD-SFEIISLTGNNMHLELAGILYIGGVFKDMYSKlpaSISSRSGFEGCLASLDLGDASPSLTSDAVVPsSLVVSGC</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50025" desc="Laminin G domain profile." name="LAM_G_DOMAIN">
+          <entry ac="IPR001791" desc="Laminin G domain" name="Laminin_G" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50025</model-ac>
+        <locations>
+          <profilescan-location score="24.716" start="784" end="964">
+            <location-fragments>
+              <profilescan-location-fragment start="784" end="964" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>TLAFNGSQHMTIWLGNGQGTKtQTEELVIRFKTSRPAGLLLLTSAEsNSPDRLEIALVAGRVRASVRLSDREKNLLAGQSVLNDNNWHTIRFSRRASNLRLQVDGappvrgmlSETILGRHSTMEIR-----SVHLGGLFHAEEEIqMTSTMPNFVGQMQGLVFNgQRYLDIVKSLGPELSALPSA</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50025" desc="Laminin G domain profile." name="LAM_G_DOMAIN">
+          <entry ac="IPR001791" desc="Laminin G domain" name="Laminin_G" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50025</model-ac>
+        <locations>
+          <profilescan-location score="43.255" start="554" end="739">
+            <location-fragments>
+              <profilescan-location-fragment start="554" end="739" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>DPVTFTTRESHLVLPPWETG-KQSSISFKFRTKEPNGIIVLATGSkqpraKNPVLIAIELLNGHIYIHLDLGSGASKVRASRRRVDDGDWHDLILRRNGRDAKVSVDG-VWNDFRTPGDGTILELDGHMYLGGVGPAYNSVswpaaiwTATLRQGFVGCLRDLVLSGKAIDIAAFARVQdsASVKPSC</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50025" desc="Laminin G domain profile." name="LAM_G_DOMAIN">
+          <entry ac="IPR001791" desc="Laminin G domain" name="Laminin_G" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50025</model-ac>
+        <locations>
+          <profilescan-location score="23.538" start="1201" end="1416">
+            <location-fragments>
+              <profilescan-location-fragment start="1201" end="1416" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>IAYEFGNNKGMVQYTFPENAQadtEEDNIALGFITTRPDAVLLRVESATTQDYMELEIVEGNIFMVYNIGSVDLPLGEIGTKVNDNAYHVVRFQRKGGNATLQLDDYNVQALTPQSHHSTvFNTMSNVQVGGKFSRNGRN--RIERPFAGVIAGLSVNkLRILDLAVERDPHitirgdvqlvtgvldrndlqrmqqtpasgypgalddlifSGAGSGC</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50025" desc="Laminin G domain profile." name="LAM_G_DOMAIN">
+          <entry ac="IPR001791" desc="Laminin G domain" name="Laminin_G" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50025</model-ac>
+        <locations>
+          <profilescan-location score="33.807" start="352" end="547">
+            <location-fragments>
+              <profilescan-location-fragment start="352" end="547" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>PSEATFRGTQFLSYDLGQTGAepivsAQDAISFYFRTRQPNGLLFYTG--HGTDYLNLALRDGGVSLTMGlaNGKQEMHIKPSKVRFDDHQWHKVTVHRRIQEIssitsfcrlVTVVDDVYTDHSHIAGKFTM-LSSSRVYVGGAVNPRALLGARVHTNFVGCLRKVEFSADTLNLNLIDLAKsgsklIQVAGNleyqC</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50025" desc="Laminin G domain profile." name="LAM_G_DOMAIN">
+          <entry ac="IPR001791" desc="Laminin G domain" name="Laminin_G" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50025</model-ac>
+        <locations>
+          <profilescan-location score="37.778" start="104" end="289">
+            <location-fragments>
+              <profilescan-location-fragment start="104" end="289" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>GFQLDGSQNSFYTFRKWYTG-LNGTLELEFKTEQPNGLVLYTDDGGTYDFFELKLVEGALRLRYNLGGGAQII-TVGRELHDGHWHKVQVLRNDEQTSLIVDGVSQQRSTKGKEFQFgkFASNSDVYVGGMPNWYSSKlallalpSVIFEPRFRGAIRNLVYADQPGGSTRRQEIKqqRDIKCGdvpC</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50026" desc="EGF-like domain profile." name="EGF_3">
+          <entry ac="IPR000742" desc="EGF-like domain" name="EGF-like_dom" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50026</model-ac>
+        <locations>
+          <profilescan-location score="16.938" start="309" end="347">
+            <location-fragments>
+              <profilescan-location-fragment start="309" end="347" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>TTDACErnDPCQHGGICISTDS--GPICECRNlEYDGQYCE</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50026" desc="EGF-like domain profile." name="EGF_3">
+          <entry ac="IPR000742" desc="EGF-like domain" name="EGF-like_dom" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50026</model-ac>
+        <locations>
+          <profilescan-location score="15.989" start="742" end="779">
+            <location-fragments>
+              <profilescan-location-fragment start="742" end="779" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>QANVCNgNPCLNGGTCLEGWN--RPICDCSAtLYGGPTCG</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50026" desc="EGF-like domain profile." name="EGF_3">
+          <entry ac="IPR000742" desc="EGF-like domain" name="EGF-like_dom" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50026</model-ac>
+        <locations>
+          <profilescan-location score="13.491" start="1160" end="1197">
+            <location-fragments>
+              <profilescan-location-fragment start="1160" end="1197" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>GPTKCSqNACANRGNCVQQWN--AYACECDMtSYTGPTCY</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <rpsblast-match>
+        <signature ac="cd00054" desc="EGF_CA" name="EGF_CA">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00054</model-ac>
+        <locations>
+          <rpsblast-location evalue="0.0019169" score="35.6902" start="1165" end="1196">
+            <location-fragments>
+              <rpsblast-location-fragment start="1165" end="1196" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd00054" desc="EGF_CA" name="EGF_CA">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00054</model-ac>
+        <locations>
+          <rpsblast-location evalue="2.39991E-4" score="38.0014" start="748" end="778">
+            <location-fragments>
+              <rpsblast-location-fragment start="748" end="778" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd00110" desc="LamG" name="LamG">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00110</model-ac>
+        <locations>
+          <rpsblast-location evalue="1.26121E-26" score="105.578" start="355" end="517">
+            <location-fragments>
+              <rpsblast-location-fragment start="355" end="517" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd00054" desc="EGF_CA" name="EGF_CA">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00054</model-ac>
+        <locations>
+          <rpsblast-location evalue="1.31182E-7" score="47.2462" start="311" end="347">
+            <location-fragments>
+              <rpsblast-location-fragment start="311" end="347" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd00110" desc="LamG" name="LamG">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00110</model-ac>
+        <locations>
+          <rpsblast-location evalue="2.19425E-31" score="119.06" start="988" end="1136">
+            <location-fragments>
+              <rpsblast-location-fragment start="988" end="1136" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd00110" desc="LamG" name="LamG">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00110</model-ac>
+        <locations>
+          <rpsblast-location evalue="1.18073E-31" score="119.83" start="555" end="716">
+            <location-fragments>
+              <rpsblast-location-fragment start="555" end="716" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd00110" desc="LamG" name="LamG">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00110</model-ac>
+        <locations>
+          <rpsblast-location evalue="1.08219E-31" score="119.83" start="110" end="263">
+            <location-fragments>
+              <rpsblast-location-fragment start="110" end="263" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd00110" desc="LamG" name="LamG">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00110</model-ac>
+        <locations>
+          <rpsblast-location evalue="1.80683E-21" score="90.5552" start="1214" end="1356">
+            <location-fragments>
+              <rpsblast-location-fragment start="1214" end="1356" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd00110" desc="LamG" name="LamG">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00110</model-ac>
+        <locations>
+          <rpsblast-location evalue="3.19353E-20" score="87.0884" start="784" end="943">
+            <location-fragments>
+              <rpsblast-location-fragment start="784" end="943" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="1.9E-31">
+        <signature ac="SSF49899" name="Concanavalin A-like lectins/glucanases">
+          <entry ac="IPR013320" desc="Concanavalin A-like lectin/glucanase domain superfamily" name="ConA-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0038386</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="191" start="318" end="517">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="318" end="517" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="1.96E-34">
+        <signature ac="SSF49899" name="Concanavalin A-like lectins/glucanases">
+          <entry ac="IPR013320" desc="Concanavalin A-like lectin/glucanase domain superfamily" name="ConA-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0046423</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="189" start="550" end="739">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="550" end="739" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="3.17E-33">
+        <signature ac="SSF49899" name="Concanavalin A-like lectins/glucanases">
+          <entry ac="IPR013320" desc="Concanavalin A-like lectin/glucanase domain superfamily" name="ConA-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0038386</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="191" start="1169" end="1356">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="1169" end="1356" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="4.05E-34">
+        <signature ac="SSF49899" name="Concanavalin A-like lectins/glucanases">
+          <entry ac="IPR013320" desc="Concanavalin A-like lectin/glucanase domain superfamily" name="ConA-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0038386</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="191" start="750" end="943">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="750" end="943" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="2.24E-33">
+        <signature ac="SSF49899" name="Concanavalin A-like lectins/glucanases">
+          <entry ac="IPR013320" desc="Concanavalin A-like lectin/glucanase domain superfamily" name="ConA-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0046423</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="189" start="979" end="1147">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="979" end="1147" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="9.32E-36">
+        <signature ac="SSF49899" name="Concanavalin A-like lectins/glucanases">
+          <entry ac="IPR013320" desc="Concanavalin A-like lectin/glucanase domain superfamily" name="ConA-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0038386</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="191" start="94" end="263">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="94" end="263" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="1696" end="1718">
+            <location-fragments>
+              <tmhmm-location-fragment start="1696" end="1718" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="84" end="106">
+            <location-fragments>
+              <tmhmm-location-fragment start="84" end="106" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+    </matches>
+  </protein>
+</protein-matches>

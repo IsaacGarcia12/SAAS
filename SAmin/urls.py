@@ -20,7 +20,6 @@ from TT import views
 urlpatterns = [
     path('', views.index, name='index'),
     path('cadena/', views.Funcionamiento, name='cadena'),
-    path('clustalo/', views.clustalO, name='clustal'),
     path('visualizaPDF/', views.creaPDF, name='impresionPDF'),
     path('about/', views.about, name='acerca'),
     path('contacto/', views.contacto, name='contacto'),

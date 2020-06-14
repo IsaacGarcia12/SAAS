@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_52017</BlastOutput_query-ID>
+  <BlastOutput_query-def>tr|A2RSS9|A2RSS9_MOUSE Ghrelin OS=Mus musculus OX=10090 GN=Ghrl PE=2 SV=1</BlastOutput_query-def>
+  <BlastOutput_query-len>117</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_52017</Iteration_query-ID>
+  <Iteration_query-def>tr|A2RSS9|A2RSS9_MOUSE Ghrelin OS=Mus musculus OX=10090 GN=Ghrl PE=2 SV=1</Iteration_query-def>
+  <Iteration_query-len>117</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_001366058.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform 1 preproprotein [Mus musculus] &gt;ref|NP_067463.2| appetite-regulating hormone isoform 1 preproprotein [Mus musculus] &gt;sp|Q9EQX0.1| RecName: Full=Appetite-regulating hormone; AltName: Full=Growth hormone secretagogue; AltName: Full=Growth hormone-releasing peptide; AltName: Full=Motilin-related peptide; AltName: Full=Protein M46; Contains: RecName: Full=Ghrelin; Contains: RecName: Full=Obestatin; Flags: Precursor [Mus musculus] &gt;gb|AAI32231.1| Ghrelin [Mus musculus] &gt;gb|AAI32233.1| Ghrelin [Mus musculus] &gt;gb|ACR83863.1| preproghrelin [Mus musculus] &gt;gb|EDK99499.1| ghrelin, isoform CRA_c [Mus musculus] &gt;dbj|BAB19046.1| preproghrelin [Mus musculus]</Hit_def>
+  <Hit_accession>NP_001366058</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.81</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>1.6954e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_029334101.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone [Mus caroli]</Hit_def>
+  <Hit_accession>XP_029334101</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.654</Hsp_bit-score>
+      <Hsp_score>605</Hsp_score>
+      <Hsp_evalue>5.31036e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQKKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQ+KESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|ACO71248.1|</Hit_id>
+  <Hit_def>ghrelin [Notomys alexis]</Hit_def>
+  <Hit_accession>ACO71248</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>1.30641e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEEAEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEE EEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_028644506.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X1 [Grammomys surdaster] &gt;ref|XP_034368013.1| appetite-regulating hormone isoform X1 [Arvicanthis niloticus]</Hit_def>
+  <Hit_accession>XP_028644506</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.343</Hsp_bit-score>
+      <Hsp_score>599</Hsp_score>
+      <Hsp_evalue>4.51677e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLKPRALEGWLHPEDRGQAEEAEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKL+PRALEGWLHPEDRGQAEE EEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_032761800.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X1 [Rattus rattus]</Hit_def>
+  <Hit_accession>XP_032761800</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.958</Hsp_bit-score>
+      <Hsp_score>598</Hsp_score>
+      <Hsp_evalue>6.63278e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSATICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEEAEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSS TICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEE EEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|EDK99498.1|</Hit_id>
+  <Hit_def>ghrelin, isoform CRA_b, partial [Mus musculus]</Hit_def>
+  <Hit_accession>EDK99498</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.187</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>1.82088e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQ-RKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQ RKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|NP_067701.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone preproprotein [Rattus norvegicus] &gt;sp|Q9QYH7.1| RecName: Full=Appetite-regulating hormone; AltName: Full=Growth hormone secretagogue; AltName: Full=Growth hormone-releasing peptide; AltName: Full=Motilin-related peptide; Contains: RecName: Full=Ghrelin; Contains: RecName: Full=Obestatin-23; Contains: RecName: Full=Obestatin-13; Flags: Precursor [Rattus norvegicus] &gt;gb|EDL91557.1| ghrelin precursor, isoform CRA_a [Rattus norvegicus] &gt;dbj|BAA89370.1| ghrelin precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>NP_067701</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.032</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>4.05832e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MVSSATICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEEAEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPANK</Hsp_hseq>
+      <Hsp_midline>M+SS TICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEE EEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPA+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|NP_001273333.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform 2 preproprotein [Mus musculus] &gt;emb|CAB46500.1| m46 protein [Mus musculus]</Hit_def>
+  <Hit_accession>NP_001273333</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.646</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>5.76732e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQ-RKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQ RKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_031238806.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X1 [Mastomys coucha]</Hit_def>
+  <Hit_accession>XP_031238806</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.876</Hsp_bit-score>
+      <Hsp_score>590</Hsp_score>
+      <Hsp_evalue>1.13891e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGSICSLLLLSMLWTDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEEAEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEVPADK</Hsp_hseq>
+      <Hsp_midline>MLSSG+ICSLLLLSMLW DMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEE EEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKE PADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|EDK99497.1|</Hit_id>
+  <Hit_def>ghrelin, isoform CRA_a [Mus musculus]</Hit_def>
+  <Hit_accession>EDK99497</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>5.01499e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKA--RKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKA  RKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_028644507.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X2 [Grammomys surdaster] &gt;ref|XP_034368014.1| appetite-regulating hormone isoform X2 [Arvicanthis niloticus]</Hit_def>
+  <Hit_accession>XP_028644507</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>1.51943e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQ-RKESKKPPAKLKPRALEGWLHPEDRGQAEEAEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQ RKESKKPPAKL+PRALEGWLHPEDRGQAEE EEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_032761801.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X2 [Rattus rattus]</Hit_def>
+  <Hit_accession>XP_032761801</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.409</Hsp_bit-score>
+      <Hsp_score>581</Hsp_score>
+      <Hsp_evalue>2.15892e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSATICSLLLLSMLWMDMAMAGSSFLSPEHQKAQ-RKESKKPPAKLQPRALEGWLHPEDRGQAEEAEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSS TICSLLLLSMLWMDMAMAGSSFLSPEHQKAQ RKESKKPPAKLQPRALEGWLHPEDRGQAEE EEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_015843668.1|</Hit_id>
+  <Hit_def>PREDICTED: appetite-regulating hormone isoform X3 [Peromyscus maniculatus bairdii] &gt;ref|XP_015843669.1| PREDICTED: appetite-regulating hormone isoform X3 [Peromyscus maniculatus bairdii]</Hit_def>
+  <Hit_accession>XP_015843668</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.024</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>3.23992e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGTICSLLLLSVLWMDVAMTGSSFLSPEHQKAQQRKESKKPPAKLQPRSLEGWLHPEGRGQAEGTEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSSGTICSLLLLS+LWMD+AM GSSFLSPEHQKAQQRKESKKPPAKLQPR+LEGWLHPE RGQAE TEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_006994753.1|</Hit_id>
+  <Hit_def>PREDICTED: appetite-regulating hormone isoform X1 [Peromyscus maniculatus bairdii] &gt;ref|XP_028719781.1| appetite-regulating hormone isoform X1 [Peromyscus leucopus]</Hit_def>
+  <Hit_accession>XP_006994753</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.024</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>5.67378e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGTICSLLLLSVLWMDVAMTGSSFLSPEHQKAQQRKESKKPPAKLQPRSLEGWLHPEGRGQAEGTEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSSGTICSLLLLS+LWMD+AM GSSFLSPEHQKAQQRKESKKPPAKLQPR+LEGWLHPE RGQAE TEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>dbj|BAB11956.1|</Hit_id>
+  <Hit_def>prepro-des-Gln14-ghrelin [Rattus norvegicus]</Hit_def>
+  <Hit_accession>BAB11956</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.483</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>1.57441e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MVSSATICSLLLLSMLWMDMAMAGSSFLSPEHQKAQ-RKESKKPPAKLQPRALEGWLHPEDRGQAEEAEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPANK</Hsp_hseq>
+      <Hsp_midline>M+SS TICSLLLLSMLWMDMAMAGSSFLSPEHQKAQ RKESKKPPAKLQPRALEGWLHPEDRGQAEE EEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPA+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_031238807.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X2 [Mastomys coucha]</Hit_def>
+  <Hit_accession>XP_031238807</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.328</Hsp_bit-score>
+      <Hsp_score>573</Hsp_score>
+      <Hsp_evalue>3.87282e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGSICSLLLLSMLWTDMAMAGSSFLSPEHQKAQ-RKESKKPPAKLQPRALEGWLHPEDRGQAEEAEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEVPADK</Hsp_hseq>
+      <Hsp_midline>MLSSG+ICSLLLLSMLW DMAMAGSSFLSPEHQKAQ RKESKKPPAKLQPRALEGWLHPEDRGQAEE EEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKE PADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|ERE66935.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone-like protein [Cricetulus griseus]</Hit_def>
+  <Hit_accession>ERE66935</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>2.94995e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGTICSLLLLSVLWMDVAMTGSSFLSPEHQKAQQRKESKKPQAKLQPRSLEGWLHPEGRGQAEGTEEELEIRFNAPFDVGIKLSGAQYQQHGQALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSSGTICSLLLLS+LWMD+AM GSSFLSPEHQKAQQRKESKKP AKLQPR+LEGWLHPE RGQAE TEEELEIRFNAPFDVGIKLSGAQYQQHG+ALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_003496912.2|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X1 [Cricetulus griseus] &gt;ref|XP_027284920.1| appetite-regulating hormone isoform X1 [Cricetulus griseus]</Hit_def>
+  <Hit_accession>XP_003496912</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>5.38956e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGTICSLLLLSVLWMDVAMTGSSFLSPEHQKAQQRKESKKPQAKLQPRSLEGWLHPEGRGQAEGTEEELEIRFNAPFDVGIKLSGAQYQQHGQALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSSGTICSLLLLS+LWMD+AM GSSFLSPEHQKAQQRKESKKP AKLQPR+LEGWLHPE RGQAE TEEELEIRFNAPFDVGIKLSGAQYQQHG+ALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_006994754.2|</Hit_id>
+  <Hit_def>PREDICTED: appetite-regulating hormone isoform X2 [Peromyscus maniculatus bairdii] &gt;ref|XP_028719782.1| appetite-regulating hormone isoform X2 [Peromyscus leucopus]</Hit_def>
+  <Hit_accession>XP_006994754</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.861</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>1.82162e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGTICSLLLLSVLWMDVAMTGSSFLSPEHQKAQ-RKESKKPPAKLQPRSLEGWLHPEGRGQAEGTEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSSGTICSLLLLS+LWMD+AM GSSFLSPEHQKAQ RKESKKPPAKLQPR+LEGWLHPE RGQAE TEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|AHC06152.1|</Hit_id>
+  <Hit_def>ghrelin [Cricetulus griseus]</Hit_def>
+  <Hit_accession>AHC06152</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>4.20141e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MVSSATICSLLLLSVLWMDVAMTGSSFLSPEHQKAQQRKESKKPQAKLQPRSLEGWLHPEGRGQAEGTEEELEIRFNAPFDVGIKLSGAQYQQHGQALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>M+SS TICSLLLLS+LWMD+AM GSSFLSPEHQKAQQRKESKKP AKLQPR+LEGWLHPE RGQAE TEEELEIRFNAPFDVGIKLSGAQYQQHG+ALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_007652052.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X2 [Cricetulus griseus] &gt;ref|XP_027284921.1| appetite-regulating hormone isoform X2 [Cricetulus griseus]</Hit_def>
+  <Hit_accession>XP_007652052</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>1.9303e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSSGTICSLLLLSVLWMDVAMTGSSFLSPEHQKAQ-RKESKKPQAKLQPRSLEGWLHPEGRGQAEGTEEELEIRFNAPFDVGIKLSGAQYQQHGQALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLSSGTICSLLLLS+LWMD+AM GSSFLSPEHQKAQ RKESKKP AKLQPR+LEGWLHPE RGQAE TEEELEIRFNAPFDVGIKLSGAQYQQHG+ALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_021493351.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone [Meriones unguiculatus] &gt;gb|AAO06965.1| ghrelin preproprotein [Meriones unguiculatus]</Hit_def>
+  <Hit_accession>XP_021493351</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>2.09081e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MMSSGTICSLLLLGVLWMDVAMAGSSFLSPEHQKTQQRKESKKPPAKLQPRALEGWLHPDGRGQAEGAEDELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEEATDK</Hsp_hseq>
+      <Hsp_midline>M+SSGTICSLLLL +LWMD+AMAGSSFLSPEHQK QQRKESKKPPAKLQPRALEGWLHP+ RGQAE  E+ELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKE   DK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_021080488.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone [Mesocricetus auratus]</Hit_def>
+  <Hit_accession>XP_021080488</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>3.20213e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVK</Hsp_qseq>
+      <Hsp_hseq>MLSSGTICSLLLLSVLWMDVAMTGSSFLSPEHQKAQQRKESKKPQAKLQPRSLEGWLHPEGRGQAEGTEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVK</Hsp_hseq>
+      <Hsp_midline>MLSSGTICSLLLLS+LWMD+AM GSSFLSPEHQKAQQRKESKKP AKLQPR+LEGWLHPE RGQAE TEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_026644005.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone [Microtus ochrogaster]</Hit_def>
+  <Hit_accession>XP_026644005</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.46</Hsp_bit-score>
+      <Hsp_score>537</Hsp_score>
+      <Hsp_evalue>2.09022e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVK</Hsp_qseq>
+      <Hsp_hseq>MPSSGTICSLLLLSVLWMDVAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRSLEGWLQPEGRGQADGTEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVK</Hsp_hseq>
+      <Hsp_midline>M SSGTICSLLLLS+LWMD+AMAGSSFLSPEHQKAQQRKESKKPPAKLQPR+LEGWL PE RGQA+ TEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_008853098.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X3 [Nannospalax galili]</Hit_def>
+  <Hit_accession>XP_008853098</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>1.43566e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSAGTICSFLLLSMLWMDVAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEGKGQAEEAEEELEIRFNTPFDTGIKLSGAQYQQHGQALGKFLQDILWEETKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLS+GTICS LLLSMLWMD+AMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPE +GQAEE EEELEIRFN PFD GIKLSGAQYQQHG+ALGKFLQDILWEE KEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_017650286.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X1 [Nannospalax galili]</Hit_def>
+  <Hit_accession>XP_017650286</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>1.85572e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSAGTICSFLLLSMLWMDVAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEGKGQAEEAEEELEIRFNTPFDTGIKLSGAQYQQHGQALGKFLQDILWEETKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLS+GTICS LLLSMLWMD+AMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPE +GQAEE EEELEIRFN PFD GIKLSGAQYQQHG+ALGKFLQDILWEE KEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_012616095.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X3 [Microcebus murinus]</Hit_def>
+  <Hit_accession>XP_012616095</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>1.12137e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPAD</Hsp_qseq>
+      <Hsp_hseq>MLSLGTICSLLLLSMLWADMATAGSSFLSPEHQKTQQRKESKKPPAKLQPRALEGWLRPEDGSQAEGAEDELEIRFNAPFDIGIKLSGAQYQQHSQVLGKFLQDILWEEAKEAPTD</Hsp_hseq>
+      <Hsp_midline>MLS GTICSLLLLSMLW DMA AGSSFLSPEHQK QQRKESKKPPAKLQPRALEGWL PED  QAE  E+ELEIRFNAPFD+GIKLSGAQYQQH + LGKFLQDILWEE KEAP D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_008853097.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X2 [Nannospalax galili]</Hit_def>
+  <Hit_accession>XP_008853097</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>5.75354e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSAGTICSFLLLSMLWMDVAMAGSSFLSPEHQKAQ-RKESKKPPAKLQPRALEGWLHPEGKGQAEEAEEELEIRFNTPFDTGIKLSGAQYQQHGQALGKFLQDILWEETKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLS+GTICS LLLSMLWMD+AMAGSSFLSPEHQKAQ RKESKKPPAKLQPRALEGWLHPE +GQAEE EEELEIRFN PFD GIKLSGAQYQQHG+ALGKFLQDILWEE KEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|ABZ05755.1|</Hit_id>
+  <Hit_def>ghrelin [Ailuropoda melanoleuca]</Hit_def>
+  <Hit_accession>ABZ05755</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.978</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>2.78734e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MPSPGTICSLLLFSVLWMDLAMAGSSFLSPEHQKVQQRKESKKPPAKLQPRALEGSPRPEDTSQVEGAEDELEIRFNAPFDVGIKLSGAQYQEHGQALGKFLQDILWEEADEAPADE</Hsp_hseq>
+      <Hsp_midline>M S GTICSLLL S+LWMD+AMAGSSFLSPEHQK QQRKESKKPPAKLQPRALEG   PED  Q E  E+ELEIRFNAPFDVGIKLSGAQYQ+HG+ALGKFLQDILWEE  EAPAD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_012616096.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X4 [Microcebus murinus]</Hit_def>
+  <Hit_accession>XP_012616096</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.823</Hsp_bit-score>
+      <Hsp_score>499</Hsp_score>
+      <Hsp_evalue>9.51153e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVK</Hsp_qseq>
+      <Hsp_hseq>MLSLGTICSLLLLSMLWADMATAGSSFLSPEHQKTQQRKESKKPPAKLQPRALEGWLRPEDGSQAEGAEDELEIRFNAPFDIGIKLSGAQYQQHSQVLGKFLQDILWEEAK</Hsp_hseq>
+      <Hsp_midline>MLS GTICSLLLLSMLW DMA AGSSFLSPEHQK QQRKESKKPPAKLQPRALEGWL PED  QAE  E+ELEIRFNAPFD+GIKLSGAQYQQH + LGKFLQDILWEE K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>sp|Q6BEG6.1|</Hit_id>
+  <Hit_def>RecName: Full=Appetite-regulating hormone; AltName: Full=Growth hormone secretagogue; AltName: Full=Growth hormone-releasing peptide; AltName: Full=Motilin-related peptide; Contains: RecName: Full=Ghrelin; Contains: RecName: Full=Obestatin; Flags: Precursor [Felis catus] &gt;dbj|BAD34670.1| prepro-ghrelin [Felis catus]</Hit_def>
+  <Hit_accession>Q6BEG6</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>2.16889e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MPSPGTVCSLLLFSMLWADLAMAGSSFLSPEHQKVQQRKESKKPPAKLQPRALEGLIHPEDTSQVEGAEDELEIRFNAPFDVGIKLSGAQYHQHGQALGKFLQDVLWEEADEVLADE</Hsp_hseq>
+      <Hsp_midline>M S GT+CSLLL SMLW D+AMAGSSFLSPEHQK QQRKESKKPPAKLQPRALEG +HPED  Q E  E+ELEIRFNAPFDVGIKLSGAQY QHG+ALGKFLQD+LWEE  E  AD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_012616092.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X1 [Microcebus murinus]</Hit_def>
+  <Hit_accession>XP_012616092</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>3.21631e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVK</Hsp_qseq>
+      <Hsp_hseq>MLSLGTICSLLLLSMLWADMATAGSSFLSPEHQKTQQRKESKKPPAKLQPRALEGWLRPEDGSQAEGAEDELEIRFNAPFDIGIKLSGAQYQQHSQVLGKFLQDILWEEAK</Hsp_hseq>
+      <Hsp_midline>MLS GTICSLLLLSMLW DMA AGSSFLSPEHQK QQRKESKKPPAKLQPRALEGWL PED  QAE  E+ELEIRFNAPFD+GIKLSGAQYQQH + LGKFLQDILWEE K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_004368381.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone [Trichechus manatus latirostris]</Hit_def>
+  <Hit_accession>XP_004368381</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>4.32933e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSTGTICSLLLLSVLWVDLAMAGSSFLSPKHQKVQQRKESKKPPAKLQPRATEGWLHPEDGSQAEGTEDELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEAKEAPADK</Hsp_hseq>
+      <Hsp_midline>MLS+GTICSLLLLS+LW+D+AMAGSSFLSP+HQK QQRKESKKPPAKLQPRA EGWLHPED  QAE TE+ELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEE KEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_025778017.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X1 [Puma concolor] &gt;ref|XP_026898440.1| appetite-regulating hormone isoform X3 [Acinonyx jubatus]</Hit_def>
+  <Hit_accession>XP_025778017</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>7.91556e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MPSPGTVCSLLLFSVLWADLAMAGSSFLSPEHQKVQQRKESKKPPAKLQPRALEGLIHPEDTSQVEGAEDELEIRFNAPFDVGIKLSGAQYHQHGQALGKFLQDVLWEEAEEVLADE</Hsp_hseq>
+      <Hsp_midline>M S GT+CSLLL S+LW D+AMAGSSFLSPEHQK QQRKESKKPPAKLQPRALEG +HPED  Q E  E+ELEIRFNAPFDVGIKLSGAQY QHG+ALGKFLQD+LWEE +E  AD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_030163254.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X1 [Lynx canadensis] &gt;ref|XP_030163255.1| appetite-regulating hormone isoform X1 [Lynx canadensis] &gt;emb|VFV19993.1| ghrl_felca ame: full=appetite-regulating hormone [Lynx pardinus]</Hit_def>
+  <Hit_accession>XP_030163254</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>8.64171e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MPSPGTVCSLLLFSVLWADLAMAGSSFLSPEHQKVQQRKESKKPPAKLQPRALEGLIHPEDTSQVEGAEDELEIRFNAPFDVGIKLSGAQYHQHGQALGKFLQDVLWEEADEVLADE</Hsp_hseq>
+      <Hsp_midline>M S GT+CSLLL S+LW D+AMAGSSFLSPEHQK QQRKESKKPPAKLQPRALEG +HPED  Q E  E+ELEIRFNAPFDVGIKLSGAQY QHG+ALGKFLQD+LWEE  E  AD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_022354125.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X2 [Enhydra lutris kenyoni]</Hit_def>
+  <Hit_accession>XP_022354125</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.31117e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MPSLGTLCSLLLFSMLWMDLALAGSSFLSPEHQKVQQRKESKKPPAKLQPRALEGSLRPEDTSQVEGAEDELEIRFNTPFDVGIKLSGAQYHQHGQALGKFLQDILWEEANEALADE</Hsp_hseq>
+      <Hsp_midline>M S GT+CSLLL SMLWMD+A+AGSSFLSPEHQK QQRKESKKPPAKLQPRALEG L PED  Q E  E+ELEIRFN PFDVGIKLSGAQY QHG+ALGKFLQDILWEE  EA AD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_023403696.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone [Loxodonta africana]</Hit_def>
+  <Hit_accession>XP_023403696</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.34498e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAP</Hsp_qseq>
+      <Hsp_hseq>MLSTGTLCSLLLLSVFWVDFAMAGSSFLSPKNQKLQQRKESKKPPAKLQPRAIEGWLHPEDESQAEGTEDELKIWFNAPFDIGIKLSGAQYQQHGWALGKFLQDILWEEAKGKP</Hsp_hseq>
+      <Hsp_midline>MLS+GT+CSLLLLS+ W+D AMAGSSFLSP++QK QQRKESKKPPAKLQPRA+EGWLHPED  QAE TE+EL+I FNAPFD+GIKLSGAQYQQHG ALGKFLQDILWEE K  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_007075530.1|</Hit_id>
+  <Hit_def>PREDICTED: appetite-regulating hormone isoform X2 [Panthera tigris altaica]</Hit_def>
+  <Hit_accession>XP_007075530</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>2.07861e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MPSPGTMCSLLLFSVLWADLAMAGSSFLSPEHQKVQQRKESKKPPAKLQPRALEGLIHPEDTSQVEGAEDELEIRFNAPFDVGIKLSGAQYHQHGQALGKFLQDVLWEEADEVLADE</Hsp_hseq>
+      <Hsp_midline>M S GT+CSLLL S+LW D+AMAGSSFLSPEHQK QQRKESKKPPAKLQPRALEG +HPED  Q E  E+ELEIRFNAPFDVGIKLSGAQY QHG+ALGKFLQD+LWEE  E  AD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_032988376.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone [Rhinolophus ferrumequinum]</Hit_def>
+  <Hit_accession>XP_032988376</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>2.27115e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MPSLGTICCLLLVSVLWVDLAMAGSSFLSPEHQKAQ-RKESKKPPAKLQPRELEGWLHPEDGSLVEEAEDELEIRFNAPFDVGIKLSGAQDHQHGQALGKFLQDVLWEEANEAPADK</Hsp_hseq>
+      <Hsp_midline>M S GTIC LLL+S+LW+D+AMAGSSFLSPEHQKAQ RKESKKPPAKLQPR LEGWLHPED    EE E+ELEIRFNAPFDVGIKLSGAQ  QHG+ALGKFLQD+LWEE  EAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_008696112.1|</Hit_id>
+  <Hit_def>PREDICTED: appetite-regulating hormone isoform X1 [Ursus maritimus] &gt;ref|XP_011230340.1| appetite-regulating hormone isoform X3 [Ailuropoda melanoleuca]</Hit_def>
+  <Hit_accession>XP_008696112</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>4.14898e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MPSLGTLCSLLLFSVLWMDLAMAGSSFLSPEHQKVQQRKESKKPPAKLQPRALEGSPRPEDTSQVEGAEDELEIRFNAPFDVGIKLSGAQYQEHGQALGKFLQDILWEEANEALADE</Hsp_hseq>
+      <Hsp_midline>M S GT+CSLLL S+LWMD+AMAGSSFLSPEHQK QQRKESKKPPAKLQPRALEG   PED  Q E  E+ELEIRFNAPFDVGIKLSGAQYQ+HG+ALGKFLQDILWEE  EA AD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_019506579.1|</Hit_id>
+  <Hit_def>PREDICTED: appetite-regulating hormone isoform X1 [Hipposideros armiger]</Hit_def>
+  <Hit_accession>XP_019506579</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>1.54767e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MPSLGTLCSLLLFSVLWVDLAMAGSSFLSPEHQKTQQRKESKKPPTKLQPRELEGWLRPEDGSLVEEAEDELEIRFNTPFDVGIKLSGAQDHRHGQALGKFLQDVLWEEANEAPADK</Hsp_hseq>
+      <Hsp_midline>M S GT+CSLLL S+LW+D+AMAGSSFLSPEHQK QQRKESKKPP KLQPR LEGWL PED    EE E+ELEIRFN PFDVGIKLSGAQ  +HG+ALGKFLQD+LWEE  EAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|EGW06217.1|</Hit_id>
+  <Hit_def>Appetite-regulating hormone [Cricetulus griseus]</Hit_def>
+  <Hit_accession>EGW06217</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>2.03084e-60</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MDVAMTGSSFLSPEHQKAQQRKESKKPQAKLQPRSLEGWLHPEGRGQAEGTEEELEIRFNAPFDVGIKLSGAQYQQHGQALGKFLQDILWEEVKEAPADK</Hsp_hseq>
+      <Hsp_midline>MD+AM GSSFLSPEHQKAQQRKESKKP AKLQPR+LEGWLHPE RGQAE TEEELEIRFNAPFDVGIKLSGAQYQQHG+ALGKFLQDILWEEVKEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_020023169.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone [Castor canadensis]</Hit_def>
+  <Hit_accession>XP_020023169</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>2.73334e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVK</Hsp_qseq>
+      <Hsp_hseq>MLSAGTICSLLLLSVFWVDLAMAGSSFLSPKHQKVQQRKDSKKLPAKLQPRALEGWLRPEDRGQTEEEEDELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEAK</Hsp_hseq>
+      <Hsp_midline>MLS+GTICSLLLLS+ W+D+AMAGSSFLSP+HQK QQRK+SKK PAKLQPRALEGWL PEDRGQ EE E+ELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEE K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>dbj|BAG16755.1|</Hit_id>
+  <Hit_def>preproghrelin [Pongo pygmaeus]</Hit_def>
+  <Hit_accession>BAG16755</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>1.69327e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MPSPGTICSLLLLGMLWLNLAMAGSSFLSPEHQRVQQRKESKKPPAKLQPRALEGWLRPEDGGQAEGAEDELEIRFNAPFDVGIKLSGVQYQQHSQALGKFLQDILWEEAKEAPADK</Hsp_hseq>
+      <Hsp_midline>M S GTICSLLLL MLW+++AMAGSSFLSPEHQ+ QQRKESKKPPAKLQPRALEGWL PED GQAE  E+ELEIRFNAPFDVGIKLSG QYQQH +ALGKFLQDILWEE KEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_003265013.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X1 [Nomascus leucogenys] &gt;ref|XP_003265014.1| appetite-regulating hormone isoform X1 [Nomascus leucogenys] &gt;ref|XP_003265015.1| appetite-regulating hormone isoform X1 [Nomascus leucogenys] &gt;ref|XP_003265016.1| appetite-regulating hormone isoform X1 [Nomascus leucogenys] &gt;ref|XP_012357638.1| appetite-regulating hormone isoform X1 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_003265013</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>2.45864e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MPSPGTVCSLLLLGMLWLDLAMAGSSFLSPEHQRVQQRKESKKPPAKLQPRALEGWLRPEDGGQAEGAEDELEIRFNAPFDVGIKLSGVQYQQHSQALGKFLQDILWEEAKEAPADK</Hsp_hseq>
+      <Hsp_midline>M S GT+CSLLLL MLW+D+AMAGSSFLSPEHQ+ QQRKESKKPPAKLQPRALEGWL PED GQAE  E+ELEIRFNAPFDVGIKLSG QYQQH +ALGKFLQDILWEE KEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_002813488.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X1 [Pongo abelii] &gt;ref|XP_002813489.2| appetite-regulating hormone isoform X1 [Pongo abelii] &gt;ref|XP_002813490.2| appetite-regulating hormone isoform X1 [Pongo abelii] &gt;ref|XP_002813491.1| appetite-regulating hormone isoform X1 [Pongo abelii] &gt;ref|XP_009236980.1| appetite-regulating hormone isoform X1 [Pongo abelii] &gt;gb|PNJ67819.1| GHRL isoform 1 [Pongo abelii] &gt;gb|PNJ67821.1| GHRL isoform 3 [Pongo abelii] &gt;gb|PNJ67823.1| GHRL isoform 5 [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_002813488</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>5.72143e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MPSPGTICSLLLLGMLWLNLAMAGSSFLSPEHQRVQQRKESKKPPAKLQPRALEGWLRPEDGGQAEGAEDELEIRFNAPFDVGIKLSGVQYQQHSQALGKFLQDILWEKAKEAPADK</Hsp_hseq>
+      <Hsp_midline>M S GTICSLLLL MLW+++AMAGSSFLSPEHQ+ QQRKESKKPPAKLQPRALEGWL PED GQAE  E+ELEIRFNAPFDVGIKLSG QYQQH +ALGKFLQDILWE+ KEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_012865896.1|</Hit_id>
+  <Hit_def>PREDICTED: appetite-regulating hormone isoform X1 [Dipodomys ordii]</Hit_def>
+  <Hit_accession>XP_012865896</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>1.14187e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSAGTVCSLLLLSVLWVDVAMAGSSFLSPEHQKAQQRKDSKKPPSKLQPRALEGGLGTEDRGPEEGAEDELEVRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEAREAPADE</Hsp_hseq>
+      <Hsp_midline>MLS+GT+CSLLLLS+LW+D+AMAGSSFLSPEHQKAQQRK+SKKPP+KLQPRALEG L  EDRG  E  E+ELE+RFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEE +EAPAD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_003339080.3|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X4 [Pan troglodytes] &gt;ref|XP_003339081.3| appetite-regulating hormone isoform X4 [Pan troglodytes] &gt;ref|XP_003826334.1| appetite-regulating hormone isoform X3 [Pan paniscus] &gt;ref|XP_003826335.1| appetite-regulating hormone isoform X3 [Pan paniscus] &gt;ref|XP_003826336.1| appetite-regulating hormone isoform X3 [Pan paniscus] &gt;ref|XP_024783867.1| appetite-regulating hormone isoform X3 [Pan paniscus] &gt;ref|XP_034811658.1| appetite-regulating hormone isoform X3 [Pan paniscus] &gt;gb|PNI53275.1| GHRL isoform 1 [Pan troglodytes] &gt;gb|PNI53276.1| GHRL isoform 2 [Pan troglodytes] &gt;gb|PNI53279.1| GHRL isoform 7 [Pan troglodytes] &gt;gb|PNI53282.1| GHRL isoform 10 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_003339080</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>1.46953e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MPSPGTVCSLLLLGMLWLDLAMAGSSFLSPEHQRVQQRKESKKPPAKLQPRALAGWLRPEDGGQAEGAEDELEIRFNAPFDVGIKLSGVQYQQHSQALGKFLQDILWEEAKEAPADK</Hsp_hseq>
+      <Hsp_midline>M S GT+CSLLLL MLW+D+AMAGSSFLSPEHQ+ QQRKESKKPPAKLQPRAL GWL PED GQAE  E+ELEIRFNAPFDVGIKLSG QYQQH +ALGKFLQDILWEE KEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_003785490.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X1 [Otolemur garnettii]</Hit_def>
+  <Hit_accession>XP_003785490</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>1.48574e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MLSLGTICSLLLLSVLWVDVAMAGSSFLSPDHQKIQQRKESKKPPAKLQPRALEGWVHPEDGSQGNAAEDELEIRFNSPLDVGIKLSGAQYQQHSQALGKFLQDILWEEAKEAPADQ</Hsp_hseq>
+      <Hsp_midline>MLS GTICSLLLLS+LW+D+AMAGSSFLSP+HQK QQRKESKKPPAKLQPRALEGW+HPED  Q    E+ELEIRFN+P DVGIKLSGAQYQQH +ALGKFLQDILWEE KEAPAD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_032005587.1|</Hit_id>
+  <Hit_def>appetite-regulating hormone isoform X1 [Hylobates moloch] &gt;ref|XP_032005588.1| appetite-regulating hormone isoform X1 [Hylobates moloch] &gt;ref|XP_032005589.1| appetite-regulating hormone isoform X1 [Hylobates moloch] &gt;ref|XP_032005590.1| appetite-regulating hormone isoform X1 [Hylobates moloch] &gt;dbj|BAG16756.1| preproghrelin [Hylobates lar]</Hit_def>
+  <Hit_accession>XP_032005587</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>1.63989e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MLSSGTICSLLLLSMLWMDMAMAGSSFLSPEHQKAQQRKESKKPPAKLQPRALEGWLHPEDRGQAEETEEELEIRFNAPFDVGIKLSGAQYQQHGRALGKFLQDILWEEVKEAPADK</Hsp_qseq>
+      <Hsp_hseq>MPSPGIVCSLLLLGMLWLDLAMAGSSFLSPEHQRVQQRKESKKPPAKLQPRALEGWLRPEDGGQAEGAEDELEIRFNAPFDVGIKLSGVQYQQHSQALGKFLQDILWEEAKEAPADK</Hsp_hseq>
+      <Hsp_midline>M S G +CSLLLL MLW+D+AMAGSSFLSPEHQ+ QQRKESKKPPAKLQPRALEGWL PED GQAE  E+ELEIRFNAPFDVGIKLSG QYQQH +ALGKFLQDILWEE KEAPADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>290581163</Statistics_db-num>
+      <Statistics_db-len>1524903603</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

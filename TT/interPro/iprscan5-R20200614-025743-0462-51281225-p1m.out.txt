@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="ae4b367888ba126465efd13bba1121b2">MYIAYGCYLVDLADAVWMPTVLKLPGTISILKNTSNSTGTTTKLNSRASTSGSAARLQDTLPQMLEEELRPKMIPRPMQILKRPQSSAGTDGKSPTDSKPKTQIKSLDQRKQEYAEARLRILGSAHDDEEAETKKVTPTTTSNTTASNGYRINNANNNNNNSNNSNGVVGGGSAAAGSTGVGVIGSTANSNANNAYRYHSPYRQQAPIGTFPPSLQNAPSQGLIAPMYYPSMGNQSQHHPMHSAHGMHHPPSAYPHVPHHHLQHNNHPYQHQQHFGQHINPPTGSQHLYGGRNGGNAPGGPGYFAKGGPAPYAEANGAPLLGHAPPGVHHNHTIPYGGAGGGYGQTNSHGNLVGNAGANIGNNQHVLRLPAGPDGSQGFNVRRETMASGGGDFASAKKKVLVIGAGGREHAICWKLARSDRVGAVYALPGSPGIAAVPKLHLVSDVSVKDFNAIVSWCKRNQIDLVAVGPEDPLADGLADVLRAAGVKCFGPGQRGAQIEADKNWSKDFMHRHGIPTARYASFTDADEAKAFIRQAPYQALVVKAAGLAAGKGVIVAETIDEACAAVDDILGEKKFGAAGNVVVVEEKLSGEEVSVLAFVDSRTVRVMLPAQDHKRLLDQDRGPNTGGMGAYCPCPIIQPPQLELVVREVLQRAVDGLREEGIQYNGVLYAGMMLTPSGPKTLEFNCRFGDPETQVILPLLESDLYGVMEATCDNRLHEISLKFRAGLTAVGVVMASRGYPETSTKGCVIEGLDTVAARPEHLVFHSGVARNERGEFVTNGGRVLIGVVLHTDLKQAAALATAACSTISFDGSQHRLDIAQKAFKHVSLSYKSSGVDIDAGDALVQRIKPLARGTNRPGVIGGLGGFGGLFRLNDATYTDRRGKQVRYGDPVLVQGTDGVGTKLKLAETLNCWDTIGIDLVAMCANDVLCAGAEPLAFLDYIACGRLEVPTAALIVKGIAEGCRESNCLDTVAARPEHLVFHSGVARNERGEFVTNGGRVLIGVVLHTDLKQAAALATAACSTISFDGSQHRLDIAQKAFKHVSLSYKSSGVDIDAGDALVQRIKPLARGTNRPGVIGGLGGFGGLFRLNDATYTDRRGKQVRYGDPVLVQGTDGVGTKLKLAETLNCWDTIGIDLVAMCANDVLCAGAEPLAFLDYIACGRLEVPTAALIVKGIAEGCRETNCALLGGETAEMPSMYAPGKYDLAGYCVGVVEADQILPRMDRIREGDLVVGLPSSGVHSNGFSLVNKILETTRTKLTDRAPFGEDGCSSFGEELLTPTRLYVAPVLPLLRQTDTVRALAHITGGGLVENVPRVLPEGLAVEVNFDVVDIPPIFGWLAAAGNVTEREMLRTFNCGIGLVLIVDGTDGSWKDKLAGQGAVVLGKVTRRKAGGEQVLVKNFSVAIERAAKPYRKEFPLEQASNGPAKRAQSISYKDSGVDISAGDDLVQRIKPFAKSTTRPGVMGGLGGFGGLYRLRDAGLNDLTDPILVLGTDGVGTKLKIAQDSHRHRTVGIDLVAMCVNDIICNGADPVNFLDYYACGSLDVPVAAQVIEGIADGCRQGGSALLGGETAEMPGMYAPGVYDLAGFSLGIVEQRKMLPRVDTICPGDVIIGLPSSGVHSNGFSLVHKILEFNGLTLTDVAPFSATGKTFAEELLVPTKIYVRELQPLLADEGGLVKALAHITGGGFTENIPRVLPSDAAAFLDLADLHVLPIFGWLARAGNVTPEEMLRTFNCGIGMMLVVATEHRETVLERLEPFGGRMLGTIVKKSDPLGGRVIVRGFEETLRKAQFTCVLPKKRIAVLISGSGSNLQALIDATRSTAFGIRGEIALVVSNKDGVLGLERAAKAGIPSKVILHKNYTTRELFDEAVSKVLAEERIELVCLAGFMRILSEAFVKRWKGRLINIHPALLPKHKGTHAQRQALAAGDLESGCTVHFVDEGVDTGAIILQHRVPILRQDTEEALTERIHRAEHRAYPEALRLVANDIATLGVDGQVQWS</sequence>
+    <xref id="tr|A0A182J4J4|A0A182J4J4_9DIPT" name="tr|A0A182J4J4|A0A182J4J4_9DIPT Trifunctional purine biosynthetic protein adenosine-3 OS=Anopheles atroparvus OX=41427 PE=3 SV=1"/>
+    <matches>
+      <hmmer2-match evalue="4.1E-50" score="182.5">
+        <signature ac="SM01210" name="GARS_C_2">
+          <entry ac="IPR020560" desc="Phosphoribosylglycinamide synthetase, C-domain" name="PRibGlycinamide_synth_C-dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004637" name="phosphoribosylamine-glycine ligase activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0009113" name="purine nucleobase biosynthetic process"/>
+            <pathway-xref db="KEGG" id="00230+6.3.4.13" name="Purine metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+            <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM01210</model-ac>
+        <locations>
+          <hmmer2-location score="135.9" evalue="4.4E-36" hmm-start="1" hmm-end="109" hmm-length="109" hmm-bounds="COMPLETE" start="729" end="824">
+            <location-fragments>
+              <hmmer2-location-fragment start="729" end="824" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="46.6" evalue="3.3E-9" hmm-start="1" hmm-end="109" hmm-length="109" hmm-bounds="COMPLETE" start="948" end="1040">
+            <location-fragments>
+              <hmmer2-location-fragment start="948" end="1040" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="3.8E-125" score="431.7">
+        <signature ac="SM01209" name="GARS_A_3">
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM01209</model-ac>
+        <locations>
+          <hmmer2-location score="431.7" evalue="3.8E-125" hmm-start="1" hmm-end="210" hmm-length="210" hmm-bounds="COMPLETE" start="501" end="694">
+            <location-fragments>
+              <hmmer2-location-fragment start="501" end="694" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="1.8E-40" score="137.4">
+        <signature ac="PF00586" desc="AIR synthase related protein, N-terminal domain" name="AIRS">
+          <entry ac="IPR016188" desc="PurM-like, N-terminal domain" name="PurM-like_N" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00586</model-ac>
+        <locations>
+          <hmmer3-location env-end="973" env-start="875" post-processed="true" score="36.7" evalue="4.7E-9" hmm-start="15" hmm-end="71" hmm-length="94" hmm-bounds="INCOMPLETE" start="891" end="968">
+            <location-fragments>
+              <hmmer3-location-fragment start="891" end="968" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="1213" env-start="1091" post-processed="true" score="53.7" evalue="2.3E-14" hmm-start="15" hmm-end="94" hmm-length="94" hmm-bounds="C_TERMINAL_COMPLETE" start="1107" end="1213">
+            <location-fragments>
+              <hmmer3-location-fragment start="1107" end="1213" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="1592" env-start="1476" post-processed="true" score="49.2" evalue="5.9E-13" hmm-start="2" hmm-end="92" hmm-length="94" hmm-bounds="INCOMPLETE" start="1477" end="1590">
+            <location-fragments>
+              <hmmer3-location-fragment start="1477" end="1590" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="9.8E-43" score="146.1">
+        <signature ac="G3DSA:3.90.600.10">
+          <entry ac="IPR037123" desc="Phosphoribosylglycinamide synthetase, C-domain superfamily" name="PRibGlycinamide_synth_C_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004637" name="phosphoribosylamine-glycine ligase activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0009113" name="purine nucleobase biosynthetic process"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+            <pathway-xref db="KEGG" id="00230+6.3.4.13" name="Purine metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+          </entry>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1gsoA04</model-ac>
+        <locations>
+          <hmmer3-location env-end="1041" env-start="962" post-processed="true" score="54.5" evalue="3.7E-14" hmm-start="28" hmm-end="95" hmm-length="96" hmm-bounds="C_TERMINAL_COMPLETE" start="967" end="1041">
+            <location-fragments>
+              <hmmer3-location-fragment start="967" end="1041" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.0E-33" score="115.4">
+        <signature ac="PF02843" desc="Phosphoribosylglycinamide synthetase, C domain" name="GARS_C">
+          <entry ac="IPR020560" desc="Phosphoribosylglycinamide synthetase, C-domain" name="PRibGlycinamide_synth_C-dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004637" name="phosphoribosylamine-glycine ligase activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0009113" name="purine nucleobase biosynthetic process"/>
+            <pathway-xref db="KEGG" id="00230+6.3.4.13" name="Purine metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+            <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF02843</model-ac>
+        <locations>
+          <hmmer3-location env-end="1038" env-start="955" post-processed="true" score="41.1" evalue="1.6E-10" hmm-start="25" hmm-end="80" hmm-length="80" hmm-bounds="C_TERMINAL_COMPLETE" start="977" end="1038">
+            <location-fragments>
+              <hmmer3-location-fragment start="977" end="1038" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="822" env-start="730" post-processed="true" score="72.3" evalue="2.8E-20" hmm-start="1" hmm-end="80" hmm-length="80" hmm-bounds="COMPLETE" start="730" end="822">
+            <location-fragments>
+              <hmmer3-location-fragment start="730" end="822" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="953.1">
+        <signature ac="TIGR00878" desc="purM: phosphoribosylformylglycinamidine cyclo-ligase" name="TIGR00878">
+          <entry ac="IPR004733" desc="Phosphoribosylformylglycinamidine cyclo-ligase" name="PurM_cligase" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006189" name="'de novo' IMP biosynthetic process"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004641" name="phosphoribosylformylglycinamidine cyclo-ligase activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+            <pathway-xref db="KEGG" id="00230+6.3.3.1" name="Purine metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+          </entry>
+          <signature-library-release library="TIGRFAM" version="15.0"/>
+        </signature>
+        <model-ac>TIGR00878</model-ac>
+        <locations>
+          <hmmer3-location env-end="1388" env-start="1045" post-processed="false" score="395.6" evalue="4.0E-119" hmm-start="1" hmm-end="330" hmm-length="332" hmm-bounds="N_TERMINAL_COMPLETE" start="1045" end="1386">
+            <location-fragments>
+              <hmmer3-location-fragment start="1045" end="1386" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="1768" env-start="1431" post-processed="false" score="400.3" evalue="1.5E-120" hmm-start="1" hmm-end="330" hmm-length="332" hmm-bounds="N_TERMINAL_COMPLETE" start="1431" end="1766">
+            <location-fragments>
+              <hmmer3-location-fragment start="1431" end="1766" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.6E-25" score="90.0">
+        <signature ac="G3DSA:3.30.1490.20">
+          <entry ac="IPR013815" desc="ATP-grasp fold, subdomain 1" name="ATP_grasp_subdomain_1" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+          </entry>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2qk4B02</model-ac>
+        <locations>
+          <hmmer3-location env-end="589" env-start="519" post-processed="true" score="88.3" evalue="8.7E-25" hmm-start="2" hmm-end="71" hmm-length="71" hmm-bounds="COMPLETE" start="519" end="589">
+            <location-fragments>
+              <hmmer3-location-fragment start="519" end="589" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.6E-34" score="120.1">
+        <signature ac="G3DSA:3.40.50.20">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2qk4A01</model-ac>
+        <locations>
+          <hmmer3-location env-end="493" env-start="399" post-processed="true" score="117.5" evalue="1.1E-33" hmm-start="1" hmm-end="93" hmm-length="94" hmm-bounds="COMPLETE" start="399" end="493">
+            <location-fragments>
+              <hmmer3-location-fragment start="399" end="493" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.5E-78" score="264.1">
+        <signature ac="G3DSA:3.40.50.170">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4zz1A00</model-ac>
+        <locations>
+          <hmmer3-location env-end="1998" env-start="1797" post-processed="true" score="263.3" evalue="4.5E-78" hmm-start="3" hmm-end="199" hmm-length="210" hmm-bounds="COMPLETE" start="1797" end="1998">
+            <location-fragments>
+              <hmmer3-location-fragment start="1797" end="1998" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.5E-82" score="276.0">
+        <signature ac="PF01071" desc="Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain" name="GARS_A">
+          <entry ac="IPR020561" desc="Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain" name="PRibGlycinamid_synth_ATP-grasp" type="DOMAIN">
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="KEGG" id="00230+6.3.4.13" name="Purine metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF01071</model-ac>
+        <locations>
+          <hmmer3-location env-end="694" env-start="501" post-processed="true" score="275.2" evalue="2.6E-82" hmm-start="1" hmm-end="194" hmm-length="194" hmm-bounds="COMPLETE" start="501" end="694">
+            <location-fragments>
+              <hmmer3-location-fragment start="501" end="694" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="5.9E-55" score="186.8">
+        <signature ac="G3DSA:3.30.470.20">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2qk4A03</model-ac>
+        <locations>
+          <hmmer3-location env-end="726" env-start="590" post-processed="true" score="185.7" evalue="1.2E-54" hmm-start="2" hmm-end="132" hmm-length="139" hmm-bounds="COMPLETE" start="590" end="726">
+            <location-fragments>
+              <hmmer3-location-fragment start="590" end="726" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.3E-47" score="160.7">
+        <signature ac="G3DSA:3.90.600.10">
+          <entry ac="IPR037123" desc="Phosphoribosylglycinamide synthetase, C-domain superfamily" name="PRibGlycinamide_synth_C_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004637" name="phosphoribosylamine-glycine ligase activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0009113" name="purine nucleobase biosynthetic process"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+            <pathway-xref db="KEGG" id="00230+6.3.4.13" name="Purine metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+          </entry>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2yrxA04</model-ac>
+        <locations>
+          <hmmer3-location env-end="835" env-start="729" post-processed="true" score="97.0" evalue="2.0E-27" hmm-start="2" hmm-end="98" hmm-length="106" hmm-bounds="COMPLETE" start="729" end="835">
+            <location-fragments>
+              <hmmer3-location-fragment start="729" end="835" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.5E-75" score="250.9">
+        <signature ac="TIGR00639" desc="PurN: phosphoribosylglycinamide formyltransferase" name="TIGR00639">
+          <entry ac="IPR004607" desc="Phosphoribosylglycinamide formyltransferase" name="GART" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006189" name="'de novo' IMP biosynthetic process"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004644" name="phosphoribosylglycinamide formyltransferase activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-6613" name="Tetrahydrofolate salvage from 5,10-methenyltetrahydrofolate"/>
+            <pathway-xref db="KEGG" id="00670+2.1.2.2" name="One carbon pool by folate"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="KEGG" id="00230+2.1.2.2" name="Purine metabolism"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+          </entry>
+          <signature-library-release library="TIGRFAM" version="15.0"/>
+        </signature>
+        <model-ac>TIGR00639</model-ac>
+        <locations>
+          <hmmer3-location env-end="1989" env-start="1797" post-processed="false" score="250.1" evalue="2.7E-75" hmm-start="1" hmm-end="188" hmm-length="192" hmm-bounds="N_TERMINAL_COMPLETE" start="1797" end="1986">
+            <location-fragments>
+              <hmmer3-location-fragment start="1797" end="1986" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="543.0">
+        <signature ac="TIGR00877" desc="purD: phosphoribosylamine--glycine ligase" name="TIGR00877">
+          <entry ac="IPR000115" desc="Phosphoribosylglycinamide synthetase" name="PRibGlycinamide_synth" type="FAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004637" name="phosphoribosylamine-glycine ligase activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0009113" name="purine nucleobase biosynthetic process"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="KEGG" id="00230+6.3.4.13" name="Purine metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+          </entry>
+          <signature-library-release library="TIGRFAM" version="15.0"/>
+        </signature>
+        <model-ac>TIGR00877</model-ac>
+        <locations>
+          <hmmer3-location env-end="825" env-start="398" post-processed="false" score="507.5" evalue="0.0" hmm-start="2" hmm-end="424" hmm-length="425" hmm-bounds="INCOMPLETE" start="399" end="824">
+            <location-fragments>
+              <hmmer3-location-fragment start="399" end="824" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="622.5">
+        <signature ac="G3DSA:3.30.1330.10">
+          <entry ac="IPR036921" desc="PurM-like, N-terminal domain superfamily" name="PurM-like_N_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2btuB01</model-ac>
+        <locations>
+          <hmmer3-location env-end="1598" env-start="1430" post-processed="true" score="221.9" evalue="1.8E-65" hmm-start="4" hmm-end="166" hmm-length="167" hmm-bounds="COMPLETE" start="1430" end="1598">
+            <location-fragments>
+              <hmmer3-location-fragment start="1430" end="1598" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="1219" env-start="1044" post-processed="true" score="227.7" evalue="2.9E-67" hmm-start="4" hmm-end="166" hmm-length="167" hmm-bounds="COMPLETE" start="1044" end="1219">
+            <location-fragments>
+              <hmmer3-location-fragment start="1044" end="1219" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="441.4">
+        <signature ac="G3DSA:3.90.650.10">
+          <entry ac="IPR036676" desc="PurM-like, C-terminal domain superfamily" name="PurM-like_C_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2v9yB02</model-ac>
+        <locations>
+          <hmmer3-location env-end="1411" env-start="1220" post-processed="true" score="223.7" evalue="5.1E-66" hmm-start="1" hmm-end="187" hmm-length="195" hmm-bounds="COMPLETE" start="1220" end="1411">
+            <location-fragments>
+              <hmmer3-location-fragment start="1220" end="1411" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="1793" env-start="1599" post-processed="true" score="215.3" evalue="2.0E-63" hmm-start="1" hmm-end="186" hmm-length="195" hmm-bounds="COMPLETE" start="1599" end="1793">
+            <location-fragments>
+              <hmmer3-location-fragment start="1599" end="1793" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.5E-32" score="110.9">
+        <signature ac="PF02844" desc="Phosphoribosylglycinamide synthetase, N domain" name="GARS_N">
+          <entry ac="IPR020562" desc="Phosphoribosylglycinamide synthetase, N-terminal" name="PRibGlycinamide_synth_N" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004637" name="phosphoribosylamine-glycine ligase activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0009113" name="purine nucleobase biosynthetic process"/>
+            <pathway-xref db="KEGG" id="00230+6.3.4.13" name="Purine metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+            <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF02844</model-ac>
+        <locations>
+          <hmmer3-location env-end="500" env-start="398" post-processed="true" score="107.8" evalue="3.4E-31" hmm-start="2" hmm-end="90" hmm-length="90" hmm-bounds="C_TERMINAL_COMPLETE" start="399" end="500">
+            <location-fragments>
+              <hmmer3-location-fragment start="399" end="500" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="4.9E-5" score="23.1">
+        <signature ac="PF12901" desc="SUZ-C motif" name="SUZ-C">
+          <entry ac="IPR024642" desc="SUZ-C domain" name="SUZ-C" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF12901</model-ac>
+        <locations>
+          <hmmer3-location env-end="382" env-start="359" post-processed="true" score="21.4" evalue="1.7E-4" hmm-start="12" hmm-end="31" hmm-length="33" hmm-bounds="INCOMPLETE" start="363" end="380">
+            <location-fragments>
+              <hmmer3-location-fragment start="363" end="380" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.5E-59" score="200.5">
+        <signature ac="PF02769" desc="AIR synthase related protein, C-terminal domain" name="AIRS_C">
+          <entry ac="IPR010918" desc="PurM-like, C-terminal domain" name="PurM-like_C_dom" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF02769</model-ac>
+        <locations>
+          <hmmer3-location env-end="1395" env-start="1226" post-processed="true" score="100.1" evalue="1.2E-28" hmm-start="1" hmm-end="150" hmm-length="156" hmm-bounds="N_TERMINAL_COMPLETE" start="1226" end="1390">
+            <location-fragments>
+              <hmmer3-location-fragment start="1226" end="1390" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="1771" env-start="1605" post-processed="true" score="97.5" evalue="7.5E-28" hmm-start="2" hmm-end="148" hmm-length="156" hmm-bounds="INCOMPLETE" start="1606" end="1768">
+            <location-fragments>
+              <hmmer3-location-fragment start="1606" end="1768" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.0E-65" score="220.8">
+        <signature ac="PF00551" desc="Formyl transferase" name="Formyl_trans_N">
+          <entry ac="IPR002376" desc="Formyl transferase, N-terminal" name="Formyl_transf_N" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016742" name="hydroxymethyl-, formyl- and related transferase activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0009058" name="biosynthetic process"/>
+            <pathway-xref db="KEGG" id="00670+2.1.2.9" name="One carbon pool by folate"/>
+            <pathway-xref db="KEGG" id="00970+2.1.2.9" name="Aminoacyl-tRNA biosynthesis"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00551</model-ac>
+        <locations>
+          <hmmer3-location env-end="1979" env-start="1797" post-processed="true" score="219.9" evalue="1.8E-65" hmm-start="1" hmm-end="181" hmm-length="181" hmm-bounds="COMPLETE" start="1797" end="1979">
+            <location-fragments>
+              <hmmer3-location-fragment start="1797" end="1979" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="559.0">
+        <signature ac="G3DSA:3.30.1330.10">
+          <entry ac="IPR036921" desc="PurM-like, N-terminal domain superfamily" name="PurM-like_N_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3qtyB01</model-ac>
+        <locations>
+          <hmmer3-location env-end="971" env-start="843" post-processed="true" score="147.7" evalue="8.4E-43" hmm-start="3" hmm-end="118" hmm-length="153" hmm-bounds="N_TERMINAL_COMPLETE" start="843" end="966">
+            <location-fragments>
+              <hmmer3-location-fragment start="843" end="966" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.3E-11" score="44.2">
+        <signature ac="PF12752" desc="SUZ domain" name="SUZ">
+          <entry ac="IPR024771" desc="SUZ domain" name="SUZ" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF12752</model-ac>
+        <locations>
+          <hmmer3-location env-end="126" env-start="74" post-processed="true" score="44.2" evalue="2.3E-11" hmm-start="3" hmm-end="56" hmm-length="57" hmm-bounds="INCOMPLETE" start="76" end="125">
+            <location-fragments>
+              <hmmer3-location-fragment start="76" end="125" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="33" end="57">
+            <location-fragments>
+              <mobidblite-location-fragment start="33" end="57" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="69" end="110">
+            <location-fragments>
+              <mobidblite-location-fragment start="69" end="110" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="136" end="167">
+            <location-fragments>
+              <mobidblite-location-fragment start="136" end="167" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="122" end="167">
+            <location-fragments>
+              <mobidblite-location-fragment start="122" end="167" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="83" end="102">
+            <location-fragments>
+              <mobidblite-location-fragment start="83" end="102" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1712.2">
+        <signature ac="PTHR10520:SF12" name="TRIFUNCTIONAL PURINE BIOSYNTHETIC PROTEIN ADENOSINE-3">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR10520:SF12</model-ac>
+        <locations>
+          <panther-location env-start="970" env-end="1402" hmm-start="230" hmm-end="623" hmm-length="625" hmm-bounds="INCOMPLETE" start="988" end="1400">
+            <location-fragments>
+              <panther-location-fragment start="988" end="1400" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="1401" env-end="1783" hmm-start="269" hmm-end="624" hmm-length="625" hmm-bounds="INCOMPLETE" start="1409" end="1782">
+            <location-fragments>
+              <panther-location-fragment start="1409" end="1782" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="386" env-end="973" hmm-start="2" hmm-end="407" hmm-length="625" hmm-bounds="INCOMPLETE" start="455" end="968">
+            <location-fragments>
+              <panther-location-fragment start="455" end="968" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1712.2">
+        <signature ac="PTHR10520" name="TRIFUNCTIONAL PURINE BIOSYNTHETIC PROTEIN ADENOSINE-3-RELATED">
+          <entry ac="IPR004733" desc="Phosphoribosylformylglycinamidine cyclo-ligase" name="PurM_cligase" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006189" name="'de novo' IMP biosynthetic process"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004641" name="phosphoribosylformylglycinamidine cyclo-ligase activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+            <pathway-xref db="KEGG" id="00230+6.3.3.1" name="Purine metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR10520</model-ac>
+        <locations>
+          <panther-location env-start="386" env-end="973" hmm-start="2" hmm-end="407" hmm-length="625" hmm-bounds="INCOMPLETE" start="455" end="968">
+            <location-fragments>
+              <panther-location-fragment start="455" end="968" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="970" env-end="1402" hmm-start="230" hmm-end="623" hmm-length="625" hmm-bounds="INCOMPLETE" start="988" end="1400">
+            <location-fragments>
+              <panther-location-fragment start="988" end="1400" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="1401" env-end="1783" hmm-start="269" hmm-end="624" hmm-length="625" hmm-bounds="INCOMPLETE" start="1409" end="1782">
+            <location-fragments>
+              <panther-location-fragment start="1409" end="1782" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <patternscan-match>
+        <signature ac="PS00373" desc="Phosphoribosylglycinamide formyltransferase active site." name="GART">
+          <entry ac="IPR001555" desc="Phosphoribosylglycinamide formyltransferase, active site" name="GART_AS" type="ACTIVE_SITE">
+            <pathway-xref db="KEGG" id="00970+2.1.2.9" name="Aminoacyl-tRNA biosynthesis"/>
+            <pathway-xref db="KEGG" id="00670+2.1.2.9" name="One carbon pool by folate"/>
+          </entry>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS00373</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="1931" end="1954">
+            <location-fragments>
+              <patternscan-location-fragment start="1931" end="1954" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>GcTVhFVdEgVDtGaiIlqhrvpI</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <patternscan-match>
+        <signature ac="PS00184" desc="Phosphoribosylglycinamide synthetase signature." name="GARS">
+          <entry ac="IPR020559" desc="Phosphoribosylglycinamide synthetase, conserved site" name="PRibGlycinamide_synth_CS" type="CONSERVED_SITE">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004637" name="phosphoribosylamine-glycine ligase activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0009113" name="purine nucleobase biosynthetic process"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+            <pathway-xref db="KEGG" id="00230+6.3.4.13" name="Purine metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+          </entry>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS00184</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="688" end="695">
+            <location-fragments>
+              <patternscan-location-fragment start="688" end="695" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>RFGDPEtQ</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <profilescan-match>
+        <signature ac="PS50975" desc="ATP-grasp fold profile." name="ATP_GRASP">
+          <entry ac="IPR011761" desc="ATP-grasp fold" name="ATP-grasp" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0046872" name="metal ion binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50975</model-ac>
+        <locations>
+          <profilescan-location score="33.985" start="507" end="714">
+            <location-fragments>
+              <profilescan-location-fragment start="507" end="714" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>KDFMHRHGIPTARYASFTDADEAKAFIRQAPYQALVVKAAGlAAGKGVIVAETideaCAAVDDILGEKKFGAAGNVVVVEEKLSGEEV-SVLAFVDSRTVRVMLPaqDHKRLLDQDRgpnTGGMGAYCPCPIIQPPQLELVVREVLQRAVDGLReegiqYNGVLYAGMMLTPSG-PKTLEFNCRFGDPETQVILPLLESDLYGVMEATCD</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51673" desc="SUZ domain profile." name="SUZ">
+          <entry ac="IPR024771" desc="SUZ domain" name="SUZ" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51673</model-ac>
+        <locations>
+          <profilescan-location score="12.029" start="60" end="126">
+            <location-fragments>
+              <profilescan-location-fragment start="60" end="126" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>TLPQMLEEELRPKM-----IPRPMQILKRPQSSAGTDGKSPTDSKPKT------QIKSLDQRKQEYAEARLRILGSAH</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="MF_00138" desc="Phosphoribosylamine--glycine ligase [purD]." name="GARS">
+          <entry ac="IPR000115" desc="Phosphoribosylglycinamide synthetase" name="PRibGlycinamide_synth" type="FAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004637" name="phosphoribosylamine-glycine ligase activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0009113" name="purine nucleobase biosynthetic process"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="KEGG" id="00230+6.3.4.13" name="Purine metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+          </entry>
+          <signature-library-release library="HAMAP" version="2020_01"/>
+        </signature>
+        <model-ac>MF_00138</model-ac>
+        <locations>
+          <profilescan-location score="38.692" start="398" end="824">
+            <location-fragments>
+              <profilescan-location-fragment start="398" end="824" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>Not available</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="MF_01930" desc="Phosphoribosylglycinamide formyltransferase [purN]." name="PurN">
+          <entry ac="IPR004607" desc="Phosphoribosylglycinamide formyltransferase" name="GART" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006189" name="'de novo' IMP biosynthetic process"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004644" name="phosphoribosylglycinamide formyltransferase activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-6613" name="Tetrahydrofolate salvage from 5,10-methenyltetrahydrofolate"/>
+            <pathway-xref db="KEGG" id="00670+2.1.2.2" name="One carbon pool by folate"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="KEGG" id="00230+2.1.2.2" name="Purine metabolism"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+          </entry>
+          <signature-library-release library="HAMAP" version="2020_01"/>
+        </signature>
+        <model-ac>MF_01930</model-ac>
+        <locations>
+          <profilescan-location score="32.089" start="1798" end="1985">
+            <location-fragments>
+              <profilescan-location-fragment start="1798" end="1985" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>Not available</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="MF_00741" desc="Phosphoribosylformylglycinamidine cyclo-ligase [purM]." name="AIRS">
+          <entry ac="IPR004733" desc="Phosphoribosylformylglycinamidine cyclo-ligase" name="PurM_cligase" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006189" name="'de novo' IMP biosynthetic process"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004641" name="phosphoribosylformylglycinamidine cyclo-ligase activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+            <pathway-xref db="KEGG" id="00230+6.3.3.1" name="Purine metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+          </entry>
+          <signature-library-release library="HAMAP" version="2020_01"/>
+        </signature>
+        <model-ac>MF_00741</model-ac>
+        <locations>
+          <profilescan-location score="42.659" start="1431" end="1779">
+            <location-fragments>
+              <profilescan-location-fragment start="1431" end="1779" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>Not available</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="MF_00741" desc="Phosphoribosylformylglycinamidine cyclo-ligase [purM]." name="AIRS">
+          <entry ac="IPR004733" desc="Phosphoribosylformylglycinamidine cyclo-ligase" name="PurM_cligase" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006189" name="'de novo' IMP biosynthetic process"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004641" name="phosphoribosylformylglycinamidine cyclo-ligase activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+            <pathway-xref db="KEGG" id="00230+6.3.3.1" name="Purine metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+          </entry>
+          <signature-library-release library="HAMAP" version="2020_01"/>
+        </signature>
+        <model-ac>MF_00741</model-ac>
+        <locations>
+          <profilescan-location score="43.081" start="1045" end="1397">
+            <location-fragments>
+              <profilescan-location-fragment start="1045" end="1397" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>Not available</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <rpsblast-match>
+        <signature ac="cd02196" desc="PurM" name="PurM">
+          <entry ac="IPR004733" desc="Phosphoribosylformylglycinamidine cyclo-ligase" name="PurM_cligase" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006189" name="'de novo' IMP biosynthetic process"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004641" name="phosphoribosylformylglycinamidine cyclo-ligase activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+            <pathway-xref db="KEGG" id="00230+6.3.3.1" name="Purine metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+          </entry>
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd02196</model-ac>
+        <locations>
+          <rpsblast-location evalue="0.0" score="440.373" start="1100" end="1386">
+            <location-fragments>
+              <rpsblast-location-fragment start="1100" end="1386" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="putative ATP binding site" numLocations="4">
+                <site-locations>
+                  <site-location residue="E" start="1190" end="1190"/>
+                  <site-location residue="G" start="1188" end="1188"/>
+                  <site-location residue="G" start="1189" end="1189"/>
+                  <site-location residue="D" start="1143" end="1143"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd02196" desc="PurM" name="PurM">
+          <entry ac="IPR004733" desc="Phosphoribosylformylglycinamidine cyclo-ligase" name="PurM_cligase" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006189" name="'de novo' IMP biosynthetic process"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004641" name="phosphoribosylformylglycinamidine cyclo-ligase activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+            <pathway-xref db="KEGG" id="00230+6.3.3.1" name="Purine metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+          </entry>
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd02196</model-ac>
+        <locations>
+          <rpsblast-location evalue="0.0" score="444.225" start="1477" end="1766">
+            <location-fragments>
+              <rpsblast-location-fragment start="1477" end="1766" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="putative ATP binding site" numLocations="4">
+                <site-locations>
+                  <site-location residue="E" start="1569" end="1569"/>
+                  <site-location residue="G" start="1567" end="1567"/>
+                  <site-location residue="G" start="1568" end="1568"/>
+                  <site-location residue="D" start="1522" end="1522"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd08645" desc="FMT_core_GART" name="FMT_core_GART">
+          <entry ac="IPR004607" desc="Phosphoribosylglycinamide formyltransferase" name="GART" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006189" name="'de novo' IMP biosynthetic process"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004644" name="phosphoribosylglycinamide formyltransferase activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-6613" name="Tetrahydrofolate salvage from 5,10-methenyltetrahydrofolate"/>
+            <pathway-xref db="KEGG" id="00670+2.1.2.2" name="One carbon pool by folate"/>
+            <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+            <pathway-xref db="KEGG" id="00230+2.1.2.2" name="Purine metabolism"/>
+            <pathway-xref db="Reactome" id="R-HSA-73817" name="Purine ribonucleoside monophosphate biosynthesis"/>
+          </entry>
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd08645</model-ac>
+        <locations>
+          <rpsblast-location evalue="2.9108E-98" score="312.014" start="1798" end="1982">
+            <location-fragments>
+              <rpsblast-location-fragment start="1798" end="1982" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="cosubstrate binding site" numLocations="11">
+                <site-locations>
+                  <site-location residue="F" start="1886" end="1886"/>
+                  <site-location residue="R" start="1888" end="1888"/>
+                  <site-location residue="D" start="1942" end="1942"/>
+                  <site-location residue="L" start="1890" end="1890"/>
+                  <site-location residue="V" start="1937" end="1937"/>
+                  <site-location residue="N" start="1904" end="1904"/>
+                  <site-location residue="V" start="1895" end="1895"/>
+                  <site-location residue="L" start="1883" end="1883"/>
+                  <site-location residue="D" start="1938" end="1938"/>
+                  <site-location residue="V" start="1941" end="1941"/>
+                  <site-location residue="I" start="1889" end="1889"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="substrate binding site" numLocations="7">
+                <site-locations>
+                  <site-location residue="P" start="1907" end="1907"/>
+                  <site-location residue="A" start="1884" end="1884"/>
+                  <site-location residue="G" start="1885" end="1885"/>
+                  <site-location residue="N" start="1809" end="1809"/>
+                  <site-location residue="S" start="1808" end="1808"/>
+                  <site-location residue="E" start="1971" end="1971"/>
+                  <site-location residue="I" start="1905" end="1905"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="active site" numLocations="24">
+                <site-locations>
+                  <site-location residue="F" start="1886" end="1886"/>
+                  <site-location residue="R" start="1888" end="1888"/>
+                  <site-location residue="V" start="1937" end="1937"/>
+                  <site-location residue="H" start="1935" end="1935"/>
+                  <site-location residue="N" start="1904" end="1904"/>
+                  <site-location residue="V" start="1895" end="1895"/>
+                  <site-location residue="D" start="1938" end="1938"/>
+                  <site-location residue="V" start="1941" end="1941"/>
+                  <site-location residue="I" start="1803" end="1803"/>
+                  <site-location residue="G" start="1915" end="1915"/>
+                  <site-location residue="I" start="1905" end="1905"/>
+                  <site-location residue="I" start="1889" end="1889"/>
+                  <site-location residue="L" start="1890" end="1890"/>
+                  <site-location residue="D" start="1942" end="1942"/>
+                  <site-location residue="L" start="1810" end="1810"/>
+                  <site-location residue="P" start="1907" end="1907"/>
+                  <site-location residue="H" start="1906" end="1906"/>
+                  <site-location residue="A" start="1884" end="1884"/>
+                  <site-location residue="L" start="1883" end="1883"/>
+                  <site-location residue="G" start="1885" end="1885"/>
+                  <site-location residue="N" start="1809" end="1809"/>
+                  <site-location residue="M" start="1887" end="1887"/>
+                  <site-location residue="E" start="1971" end="1971"/>
+                  <site-location residue="S" start="1808" end="1808"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="catalytic site" numLocations="3">
+                <site-locations>
+                  <site-location residue="D" start="1942" end="1942"/>
+                  <site-location residue="N" start="1904" end="1904"/>
+                  <site-location residue="H" start="1906" end="1906"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="2.27E-44">
+        <signature ac="SSF55326" name="PurM N-terminal domain-like">
+          <entry ac="IPR036921" desc="PurM-like, N-terminal domain superfamily" name="PurM-like_N_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0046171</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="166" start="1431" end="1597">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="1431" end="1597" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="6.2E-13">
+        <signature ac="SSF51246" name="Rudiment single hybrid motif">
+          <entry ac="IPR011054" desc="Rudiment single hybrid motif" name="Rudment_hybrid_motif" type="HOMOLOGOUS_SUPERFAMILY">
+            <pathway-xref db="Reactome" id="R-HSA-196780" name="Biotin transport and metabolism"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0038249</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="99" start="974" end="1040">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="974" end="1040" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="1.88E-51">
+        <signature ac="SSF56042" name="PurM C-terminal domain-like">
+          <entry ac="IPR036676" desc="PurM-like, C-terminal domain superfamily" name="PurM-like_C_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0036051</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="175" start="1603" end="1769">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="1603" end="1769" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="6.02E-60">
+        <signature ac="SSF53328" name="Formyltransferase">
+          <entry ac="IPR036477" desc="Formyl transferase, N-terminal domain superfamily" name="Formyl_transf_N_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016742" name="hydroxymethyl-, formyl- and related transferase activity"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0009058" name="biosynthetic process"/>
+            <pathway-xref db="KEGG" id="00670+2.1.2.9" name="One carbon pool by folate"/>
+            <pathway-xref db="KEGG" id="00970+2.1.2.9" name="Aminoacyl-tRNA biosynthesis"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0040902</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="205" start="1797" end="1997">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="1797" end="1997" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="4.08E-22">
+        <signature ac="SSF51246" name="Rudiment single hybrid motif">
+          <entry ac="IPR011054" desc="Rudiment single hybrid motif" name="Rudment_hybrid_motif" type="HOMOLOGOUS_SUPERFAMILY">
+            <pathway-xref db="Reactome" id="R-HSA-196780" name="Biotin transport and metabolism"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0038249</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="99" start="730" end="824">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="730" end="824" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="1.08E-55">
+        <signature ac="SSF56059" name="Glutathione synthetase ATP-binding domain-like">
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0038251</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="224" start="502" end="719">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="502" end="719" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="1.87E-31">
+        <signature ac="SSF52440" name="PreATP-grasp domain">
+          <entry ac="IPR016185" desc="Pre-ATP-grasp domain superfamily" name="PreATP-grasp_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0047049</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="105" start="398" end="500">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="398" end="500" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="1.73E-32">
+        <signature ac="SSF55326" name="PurM N-terminal domain-like">
+          <entry ac="IPR036921" desc="PurM-like, N-terminal domain superfamily" name="PurM-like_N_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0046171</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="166" start="829" end="969">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="829" end="969" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="9.21E-49">
+        <signature ac="SSF56042" name="PurM C-terminal domain-like">
+          <entry ac="IPR036676" desc="PurM-like, C-terminal domain superfamily" name="PurM-like_C_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0036051</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="175" start="1223" end="1391">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="1223" end="1391" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="7.5E-46">
+        <signature ac="SSF55326" name="PurM N-terminal domain-like">
+          <entry ac="IPR036921" desc="PurM-like, N-terminal domain superfamily" name="PurM-like_N_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0046171</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="166" start="1045" end="1219">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="1045" end="1219" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

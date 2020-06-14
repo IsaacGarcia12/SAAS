@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="0407f2af268f89a1097d4147462a49c5">MGLAWGLGVLFLLHVCGTNRIPESGGDNSVFDIFELTGAARKGSGRRLVKGPDPSSPAFRIEDANLIPPVPDDKFQDLVDAVRAEKGFLLLASLRQMKKTRGTLLALERKDHSGQVFSVVSNGKAGTLDLSLTVQGKQHVVSVEEALLATGQWKSITLFVQEDRAQLYIDCEKMENAELDVPIQSVFTRDLASIARLRIAKGGVNDNFQGVLQNVRFVFGTTPEDILRNKGCSSSTSVLLTLDNNVVNGSSPAIRTNYIGHKTKDLQAICGISCDELSSMVLELRGLRTIVTTLQDSIRKVTEENKELVNELRRPPLCYHNGVQYRNNEEWTVDSCTECRCQNSVTICKKVSCPIMPCSNATVPDGECCPRCWPSDSADDGWSPWSEWTSCSTSCGNGIQQRGRSCDSLNNRCEGSSVQTRTCHIQECDKRFKQDGGWSHWSPWSSCSVTCGDGVITRIRLCNSPSPQMNGKPCEGEARETKACKKDACPINGGWGPWSPWDICSVTCGGGVQKRSRLCNNPTPQFGGKDCIGDVTENQICNKQDCPIDGCLSNPCFAGVKCTSYPDGSWKCGACPPGYSGNGIQCTDVDECKEVPDACFNHNGEHRCKNTDPGYNCLPCPPRFTGSQPFGQGVEYATANKQVCKPRNPCTDGTHDCNKNAKCNYLGHYSDPMYRCECKPGYAGNGIICGEDTDLDGWPNEDLVCVANATYHCKKDNCPNLPNSGQEDYDKDGIGDACDDDDDNDKIPDDRDNCPFHYNPAQYDYDRDDVGDRCDNCPYNHNPDQADTDSNGEGDACAADIDGDGILNERDNCQYVYNVDQRDTDMDGVGDQCDNCPLEHNPDQLDSDSDRIGDTCDNNQDIDEDGHQNNLDNCPYVPNANQADHDKDGKGDACDHDDDNDGIPDDRDNCRLVPNPDQKDSDGDGRGDACKDDFDHDNVPDIDDICPENVDISETDFRRFQMIPLDPKGTSQNDPNWVVRHQGKELVQTVNCDPGLAVGYDEFNAVDFSGTFFINTERDDDYAGFVFGYQSSSRFYVVMWKQVTQSYWDTNPTRAQGYSGLSVKVVNSTTGPGEHLRNALWHTGNTPGQVRTLWHDPRHIGWKDFTAYRWRLSHRPKTGFIRVVMYEGKKIMADSGPIYDKTYAGGRLGLFVFSQEMVFFSDLKYECRDSLNFYH</sequence>
+    <xref id="tr|A0A2I3M690|A0A2I3M690_PAPAN" name="tr|A0A2I3M690|A0A2I3M690_PAPAN Thrombospondin 1 OS=Papio anubis OX=9555 GN=THBS1 PE=4 SV=1"/>
+    <matches>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="291" end="311">
+            <location-fragments>
+              <coils-location-fragment start="291" end="311" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <fingerprints-match evalue="4.9E-6" graphscan="III">
+        <signature ac="PR01705" desc="Thrombospondin type 1 repeat signature" name="TSP1REPEAT">
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR01705</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="4.98E-6" score="57.97" start="436" end="449">
+            <location-fragments>
+              <fingerprints-location-fragment start="436" end="449" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="4.34E-4" score="46.73" start="454" end="465">
+            <location-fragments>
+              <fingerprints-location-fragment start="454" end="465" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="3" pvalue="0.00103" score="41.29" start="473" end="484">
+            <location-fragments>
+              <fingerprints-location-fragment start="473" end="484" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <hmmer2-match evalue="1.9E-7" score="40.7">
+        <signature ac="SM00179" name="egfca_6">
+          <entry ac="IPR001881" desc="EGF-like calcium-binding domain" name="EGF-like_Ca-bd_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005509" name="calcium ion binding"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00179</model-ac>
+        <locations>
+          <hmmer2-location score="29.4" evalue="3.8E-4" hmm-start="1" hmm-end="34" hmm-length="34" hmm-bounds="COMPLETE" start="588" end="645">
+            <location-fragments>
+              <hmmer2-location-fragment start="588" end="645" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="11.3" evalue="0.066" hmm-start="1" hmm-end="34" hmm-length="34" hmm-bounds="COMPLETE" start="542" end="587">
+            <location-fragments>
+              <hmmer2-location-fragment start="542" end="587" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="2.5E-20" score="83.6">
+        <signature ac="SM00214" name="vwc">
+          <entry ac="IPR001007" desc="VWFC domain" name="VWF_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00214</model-ac>
+        <locations>
+          <hmmer2-location score="83.6" evalue="2.5E-20" hmm-start="1" hmm-end="75" hmm-length="75" hmm-bounds="COMPLETE" start="318" end="372">
+            <location-fragments>
+              <hmmer2-location-fragment start="318" end="372" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="1.4E-56" score="203.9">
+        <signature ac="SM00209" name="TSP1_2">
+          <entry ac="IPR000884" desc="Thrombospondin type-1 (TSP1) repeat" name="TSP1_rpt" type="REPEAT"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00209</model-ac>
+        <locations>
+          <hmmer2-location score="76.2" evalue="4.1E-18" hmm-start="1" hmm-end="66" hmm-length="66" hmm-bounds="COMPLETE" start="438" end="490">
+            <location-fragments>
+              <hmmer2-location-fragment start="438" end="490" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="51.8" evalue="8.9E-11" hmm-start="1" hmm-end="66" hmm-length="66" hmm-bounds="COMPLETE" start="382" end="429">
+            <location-fragments>
+              <hmmer2-location-fragment start="382" end="429" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="75.9" evalue="4.8E-18" hmm-start="1" hmm-end="66" hmm-length="66" hmm-bounds="COMPLETE" start="495" end="547">
+            <location-fragments>
+              <hmmer2-location-fragment start="495" end="547" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="6.4E-12" score="55.6">
+        <signature ac="SM00181" name="egf_5">
+          <entry ac="IPR000742" desc="EGF-like domain" name="EGF-like_dom" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00181</model-ac>
+        <locations>
+          <hmmer2-location score="11.2" evalue="26.0" hmm-start="1" hmm-end="32" hmm-length="32" hmm-bounds="COMPLETE" start="591" end="645">
+            <location-fragments>
+              <hmmer2-location-fragment start="591" end="645" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="22.6" evalue="0.054" hmm-start="1" hmm-end="32" hmm-length="32" hmm-bounds="COMPLETE" start="550" end="587">
+            <location-fragments>
+              <hmmer2-location-fragment start="550" end="587" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="21.8" evalue="0.095" hmm-start="1" hmm-end="32" hmm-length="32" hmm-bounds="COMPLETE" start="649" end="690">
+            <location-fragments>
+              <hmmer2-location-fragment start="649" end="690" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="5.0E-73" score="258.6">
+        <signature ac="SM00210" name="TSPN_2">
+          <entry ac="IPR001791" desc="Laminin G domain" name="Laminin_G" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00210</model-ac>
+        <locations>
+          <hmmer2-location score="258.6" evalue="5.0E-73" hmm-start="1" hmm-end="218" hmm-length="218" hmm-bounds="COMPLETE" start="24" end="221">
+            <location-fragments>
+              <hmmer2-location-fragment start="24" end="221" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="1.6E-41" score="140.2">
+        <signature ac="PF00090" desc="Thrombospondin type 1 domain" name="TSP_1">
+          <entry ac="IPR000884" desc="Thrombospondin type-1 (TSP1) repeat" name="TSP1_rpt" type="REPEAT"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00090</model-ac>
+        <locations>
+          <hmmer3-location env-end="546" env-start="496" post-processed="true" score="61.1" evalue="8.2E-17" hmm-start="1" hmm-end="49" hmm-length="49" hmm-bounds="COMPLETE" start="496" end="546">
+            <location-fragments>
+              <hmmer3-location-fragment start="496" end="546" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="489" env-start="439" post-processed="true" score="63.3" evalue="1.6E-17" hmm-start="1" hmm-end="49" hmm-length="49" hmm-bounds="COMPLETE" start="439" end="489">
+            <location-fragments>
+              <hmmer3-location-fragment start="439" end="489" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="428" env-start="383" post-processed="true" score="46.4" evalue="3.1E-12" hmm-start="1" hmm-end="49" hmm-length="49" hmm-bounds="COMPLETE" start="383" end="428">
+            <location-fragments>
+              <hmmer3-location-fragment start="383" end="428" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="6.0E-59" score="195.3">
+        <signature ac="PF02412" desc="Thrombospondin type 3 repeat" name="TSP_3">
+          <entry ac="IPR003367" desc="Thrombospondin, type 3-like repeat" name="Thrombospondin_3-like_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005509" name="calcium ion binding"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0007155" name="cell adhesion"/>
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF02412</model-ac>
+        <locations>
+          <hmmer3-location env-end="882" env-start="845" post-processed="true" score="46.9" evalue="1.5E-12" hmm-start="2" hmm-end="36" hmm-length="36" hmm-bounds="C_TERMINAL_COMPLETE" start="846" end="882">
+            <location-fragments>
+              <hmmer3-location-fragment start="846" end="882" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="785" env-start="762" post-processed="true" score="15.0" evalue="0.014" hmm-start="14" hmm-end="36" hmm-length="36" hmm-bounds="C_TERMINAL_COMPLETE" start="763" end="785">
+            <location-fragments>
+              <hmmer3-location-fragment start="763" end="785" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="844" env-start="821" post-processed="true" score="19.1" evalue="7.2E-4" hmm-start="14" hmm-end="36" hmm-length="36" hmm-bounds="C_TERMINAL_COMPLETE" start="822" end="844">
+            <location-fragments>
+              <hmmer3-location-fragment start="822" end="844" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="954" env-start="919" post-processed="true" score="30.2" evalue="2.5E-7" hmm-start="1" hmm-end="32" hmm-length="36" hmm-bounds="N_TERMINAL_COMPLETE" start="919" end="950">
+            <location-fragments>
+              <hmmer3-location-fragment start="919" end="950" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="918" env-start="883" post-processed="true" score="38.7" evalue="5.3E-10" hmm-start="2" hmm-end="36" hmm-length="36" hmm-bounds="C_TERMINAL_COMPLETE" start="884" end="918">
+            <location-fragments>
+              <hmmer3-location-fragment start="884" end="918" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="821" env-start="786" post-processed="true" score="42.5" evalue="3.4E-11" hmm-start="2" hmm-end="36" hmm-length="36" hmm-bounds="C_TERMINAL_COMPLETE" start="787" end="821">
+            <location-fragments>
+              <hmmer3-location-fragment start="787" end="821" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="762" env-start="727" post-processed="true" score="36.0" evalue="3.8E-9" hmm-start="1" hmm-end="36" hmm-length="36" hmm-bounds="COMPLETE" start="727" end="762">
+            <location-fragments>
+              <hmmer3-location-fragment start="727" end="762" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.7E-49" score="167.2">
+        <signature ac="G3DSA:2.20.100.10">
+          <entry ac="IPR036383" desc="Thrombospondin type-1 (TSP1) repeat superfamily" name="TSP1_rpt_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1lslA01</model-ac>
+        <locations>
+          <hmmer3-location env-end="489" env-start="434" post-processed="true" score="82.7" evalue="6.6E-23" hmm-start="2" hmm-end="56" hmm-length="56" hmm-bounds="COMPLETE" start="434" end="489">
+            <location-fragments>
+              <hmmer3-location-fragment start="434" end="489" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.5E-6" score="29.9">
+        <signature ac="G3DSA:2.10.70.10">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1u5mA01</model-ac>
+        <locations>
+          <hmmer3-location env-end="351" env-start="318" post-processed="true" score="29.9" evalue="1.5E-6" hmm-start="2" hmm-end="35" hmm-length="36" hmm-bounds="COMPLETE" start="318" end="351">
+            <location-fragments>
+              <hmmer3-location-fragment start="318" end="351" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.5E-23" score="83.9">
+        <signature ac="G3DSA:2.10.25.10">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1yo8A02</model-ac>
+        <locations>
+          <hmmer3-location env-end="651" env-start="596" post-processed="true" score="83.9" evalue="1.5E-23" hmm-start="1" hmm-end="55" hmm-length="56" hmm-bounds="COMPLETE" start="596" end="651">
+            <location-fragments>
+              <hmmer3-location-fragment start="596" end="651" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.6E-12" score="47.4">
+        <signature ac="PF00093" desc="von Willebrand factor type C domain" name="VWC">
+          <entry ac="IPR001007" desc="VWFC domain" name="VWF_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00093</model-ac>
+        <locations>
+          <hmmer3-location env-end="372" env-start="318" post-processed="true" score="47.4" evalue="1.6E-12" hmm-start="1" hmm-end="57" hmm-length="57" hmm-bounds="COMPLETE" start="318" end="372">
+            <location-fragments>
+              <hmmer3-location-fragment start="318" end="372" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.5E-54" score="186.0">
+        <signature ac="G3DSA:2.60.120.200">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2erfA00</model-ac>
+        <locations>
+          <hmmer3-location env-end="233" env-start="25" post-processed="true" score="185.5" evalue="3.6E-54" hmm-start="3" hmm-end="208" hmm-length="209" hmm-bounds="COMPLETE" start="25" end="233">
+            <location-fragments>
+              <hmmer3-location-fragment start="25" end="233" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="5.3E-12" score="47.6">
+        <signature ac="G3DSA:2.10.25.10">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1yo8A03</model-ac>
+        <locations>
+          <hmmer3-location env-end="690" env-start="652" post-processed="true" score="41.0" evalue="6.1E-10" hmm-start="3" hmm-end="38" hmm-length="40" hmm-bounds="COMPLETE" start="652" end="690">
+            <location-fragments>
+              <hmmer3-location-fragment start="652" end="690" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="4.3E-88" score="294.3">
+        <signature ac="G3DSA:4.10.1080.10">
+          <entry ac="IPR028974" desc="TSP type-3 repeat" name="TSP_type-3_rpt" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005509" name="calcium ion binding"/>
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+          </entry>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1ux6A01</model-ac>
+        <locations>
+          <hmmer3-location env-end="835" env-start="763" post-processed="true" score="80.8" evalue="3.5E-22" hmm-start="41" hmm-end="111" hmm-length="137" hmm-bounds="N_TERMINAL_COMPLETE" start="763" end="833">
+            <location-fragments>
+              <hmmer3-location-fragment start="763" end="833" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="957" env-start="832" post-processed="true" score="169.7" evalue="1.2E-49" hmm-start="13" hmm-end="137" hmm-length="137" hmm-bounds="INCOMPLETE" start="834" end="955">
+            <location-fragments>
+              <hmmer3-location-fragment start="834" end="955" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.1E-35" score="122.7">
+        <signature ac="G3DSA:2.20.100.10">
+          <entry ac="IPR036383" desc="Thrombospondin type-1 (TSP1) repeat superfamily" name="TSP1_rpt_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1vexA00</model-ac>
+        <locations>
+          <hmmer3-location env-end="428" env-start="377" post-processed="true" score="43.3" evalue="1.3E-10" hmm-start="7" hmm-end="55" hmm-length="56" hmm-bounds="COMPLETE" start="377" end="428">
+            <location-fragments>
+              <hmmer3-location-fragment start="377" end="428" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.2E-105" score="352.4">
+        <signature ac="G3DSA:2.60.120.200">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1yo8A05</model-ac>
+        <locations>
+          <hmmer3-location env-end="1175" env-start="954" post-processed="true" score="352.0" evalue="4.5E-105" hmm-start="2" hmm-end="217" hmm-length="226" hmm-bounds="C_TERMINAL_COMPLETE" start="956" end="1175">
+            <location-fragments>
+              <hmmer3-location-fragment start="956" end="1175" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.3E-16" score="61.2">
+        <signature ac="G3DSA:2.10.25.10">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1yo8A01</model-ac>
+        <locations>
+          <hmmer3-location env-end="593" env-start="547" post-processed="true" score="55.9" evalue="1.6E-14" hmm-start="3" hmm-end="48" hmm-length="50" hmm-bounds="COMPLETE" start="547" end="593">
+            <location-fragments>
+              <hmmer3-location-fragment start="547" end="593" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.0E-45" score="154.9">
+        <signature ac="G3DSA:2.20.100.10">
+          <entry ac="IPR036383" desc="Thrombospondin type-1 (TSP1) repeat superfamily" name="TSP1_rpt_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1lslA02</model-ac>
+        <locations>
+          <hmmer3-location env-end="546" env-start="490" post-processed="true" score="75.7" evalue="1.1E-20" hmm-start="1" hmm-end="57" hmm-length="57" hmm-bounds="COMPLETE" start="490" end="546">
+            <location-fragments>
+              <hmmer3-location-fragment start="490" end="546" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.0E-97" score="324.2">
+        <signature ac="PF05735" desc="Thrombospondin C-terminal region" name="TSP_C">
+          <entry ac="IPR008859" desc="Thrombospondin, C-terminal" name="Thrombospondin_C" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005509" name="calcium ion binding"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0007155" name="cell adhesion"/>
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF05735</model-ac>
+        <locations>
+          <hmmer3-location env-end="1169" env-start="972" post-processed="true" score="323.7" evalue="4.3E-97" hmm-start="1" hmm-end="198" hmm-length="198" hmm-bounds="COMPLETE" start="972" end="1169">
+            <location-fragments>
+              <hmmer3-location-fragment start="972" end="1169" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="839" end="934">
+            <location-fragments>
+              <mobidblite-location-fragment start="839" end="934" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="883" end="897">
+            <location-fragments>
+              <mobidblite-location-fragment start="883" end="897" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="903" end="934">
+            <location-fragments>
+              <mobidblite-location-fragment start="903" end="934" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="841" end="868">
+            <location-fragments>
+              <mobidblite-location-fragment start="841" end="868" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="2575.8">
+        <signature ac="PTHR10199:SF78" name="THROMBOSPONDIN-1">
+          <entry ac="IPR028499" desc="Thrombospondin-1" name="Thrombospondin-1" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0016525" name="negative regulation of angiogenesis"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005615" name="extracellular space"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008201" name="heparin binding"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006954" name="inflammatory response"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0050840" name="extracellular matrix binding"/>
+            <pathway-xref db="Reactome" id="R-HSA-216083" name="Integrin cell surface interactions"/>
+            <pathway-xref db="Reactome" id="R-HSA-5173214" name="O-glycosylation of TSR domain-containing proteins"/>
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+            <pathway-xref db="Reactome" id="R-HSA-114608" name="Platelet degranulation"/>
+            <pathway-xref db="Reactome" id="R-HSA-3000170" name="Syndecan interactions"/>
+            <pathway-xref db="Reactome" id="R-HSA-8936459" name="RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function"/>
+            <pathway-xref db="Reactome" id="R-HSA-5083635" name="Defective B3GALTL causes Peters-plus syndrome (PpS)"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR10199:SF78</model-ac>
+        <locations>
+          <panther-location env-start="2" env-end="1170" hmm-start="7" hmm-end="1169" hmm-length="1169" hmm-bounds="C_TERMINAL_COMPLETE" start="7" end="1170">
+            <location-fragments>
+              <panther-location-fragment start="7" end="1170" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="2575.8">
+        <signature ac="PTHR10199" name="THROMBOSPONDIN">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR10199</model-ac>
+        <locations>
+          <panther-location env-start="2" env-end="1170" hmm-start="7" hmm-end="1169" hmm-length="1169" hmm-bounds="C_TERMINAL_COMPLETE" start="7" end="1170">
+            <location-fragments>
+              <panther-location-fragment start="7" end="1170" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <patternscan-match>
+        <signature ac="PS01186" desc="EGF-like domain signature 2." name="EGF_2">
+          <entry ac="IPR013032" desc="EGF-like, conserved site" name="EGF-like_CS" type="CONSERVED_SITE"/>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS01186</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="676" end="689">
+            <location-fragments>
+              <patternscan-location-fragment start="676" end="689" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>CeCkpGYagngiiC</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <patternscan-match>
+        <signature ac="PS01208" desc="VWFC domain signature." name="VWFC_1">
+          <entry ac="IPR001007" desc="VWFC domain" name="VWF_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS01208</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="336" end="372">
+            <location-fragments>
+              <patternscan-location-fragment start="336" end="372" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>CteCRCqnsvtiCkkvsCpimpCsnatvpdgeCCprC</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="19" end="1175">
+            <location-fragments>
+              <phobius-location-fragment start="19" end="1175" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_C_REGION" desc="C-terminal region of a signal peptide." name="Signal peptide C-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_C_REGION</model-ac>
+        <locations>
+          <phobius-location start="14" end="18">
+            <location-fragments>
+              <phobius-location-fragment start="14" end="18" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_N_REGION" desc="N-terminal region of a signal peptide." name="Signal peptide N-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_N_REGION</model-ac>
+        <locations>
+          <phobius-location start="1" end="2">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="2" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE_H_REGION" desc="Hydrophobic region of a signal peptide." name="Signal peptide H-region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE_H_REGION</model-ac>
+        <locations>
+          <phobius-location start="3" end="13">
+            <location-fragments>
+              <phobius-location-fragment start="3" end="13" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="SIGNAL_PEPTIDE" desc="Signal peptide region" name="Signal Peptide">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>SIGNAL_PEPTIDE</model-ac>
+        <locations>
+          <phobius-location start="1" end="18">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="18" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <profilescan-match>
+        <signature ac="PS50092" desc="Thrombospondin type-1 (TSP1) repeat profile." name="TSP1">
+          <entry ac="IPR000884" desc="Thrombospondin type-1 (TSP1) repeat" name="TSP1_rpt" type="REPEAT"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50092</model-ac>
+        <locations>
+          <profilescan-location score="12.845" start="379" end="429">
+            <location-fragments>
+              <profilescan-location-fragment start="379" end="429" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>DDgWSPWSEWTSCSTSCGNGIQQRGRsCDS----LNNRCEGSSVQTRTCHIQECD</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50092" desc="Thrombospondin type-1 (TSP1) repeat profile." name="TSP1">
+          <entry ac="IPR000884" desc="Thrombospondin type-1 (TSP1) repeat" name="TSP1_rpt" type="REPEAT"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50092</model-ac>
+        <locations>
+          <profilescan-location score="14.328" start="492" end="547">
+            <location-fragments>
+              <profilescan-location-fragment start="492" end="547" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>NGgWGPWSPWDICSVTCGGGVQKRSRlCNNPTPQfGGKDCIGDVTENQICNKQDCP</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51234" desc="Thrombospondin type-3 (TSP3) repeat profile." name="TSP3">
+          <entry ac="IPR017897" desc="Thrombospondin, type 3 repeat" name="Thrombospondin_3_rpt" type="REPEAT">
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51234</model-ac>
+        <locations>
+          <profilescan-location score="11.836" start="763" end="785">
+            <location-fragments>
+              <profilescan-location-fragment start="763" end="785" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>YDYDRDDVGDRC-------------DNCPYNHNPDQ</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50026" desc="EGF-like domain profile." name="EGF_3">
+          <entry ac="IPR000742" desc="EGF-like domain" name="EGF-like_dom" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50026</model-ac>
+        <locations>
+          <profilescan-location score="10.948" start="646" end="690">
+            <location-fragments>
+              <profilescan-location-fragment start="646" end="690" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>PRNPCTdgtHDCNKNAKCNYLGHysDPMYRCECKPGYAGngIICG</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51234" desc="Thrombospondin type-3 (TSP3) repeat profile." name="TSP3">
+          <entry ac="IPR017897" desc="Thrombospondin, type 3 repeat" name="Thrombospondin_3_rpt" type="REPEAT">
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51234</model-ac>
+        <locations>
+          <profilescan-location score="16.239" start="919" end="954">
+            <location-fragments>
+              <profilescan-location-fragment start="919" end="954" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>KDSDGDGRGDACKDDFDHDNVPDIDDICPENVDISE</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51234" desc="Thrombospondin type-3 (TSP3) repeat profile." name="TSP3">
+          <entry ac="IPR017897" desc="Thrombospondin, type 3 repeat" name="Thrombospondin_3_rpt" type="REPEAT">
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51234</model-ac>
+        <locations>
+          <profilescan-location score="17.948" start="727" end="762">
+            <location-fragments>
+              <profilescan-location-fragment start="727" end="762" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>EDYDKDGIGDACDDDDDNDKIPDDRDNCPFHYNPAQ</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50026" desc="EGF-like domain profile." name="EGF_3">
+          <entry ac="IPR000742" desc="EGF-like domain" name="EGF-like_dom" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50026</model-ac>
+        <locations>
+          <profilescan-location score="9.234" start="547" end="587">
+            <location-fragments>
+              <profilescan-location-fragment start="547" end="587" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>PIDGCLsNPCFAGVKCTSYPD-GSWKCgACPPGYSGngIQCT</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51236" desc="Thrombospondin C-terminal domain profile." name="TSP_CTER">
+          <entry ac="IPR008859" desc="Thrombospondin, C-terminal" name="Thrombospondin_C" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005509" name="calcium ion binding"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005576" name="extracellular region"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0007155" name="cell adhesion"/>
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51236</model-ac>
+        <locations>
+          <profilescan-location score="99.576" start="958" end="1172">
+            <location-fragments>
+              <profilescan-location-fragment start="958" end="1172" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>RRFQMIPLDPKGTSQNDPNWVVRHQGKELVQTVNCDPGLAVGYDEFNAVDFSGTFFINTERDDDYAGFVFGYQSSSRFYVVMWKQVTQSYWDTNPTRAQGYSGLSVKVVNSTTGPGEHLRNALWHTGNTPGQVRTLWHDPRHIGWKDFTAYRWRLSHRPKTGFIRVVMYEGKKIMADSGPIYDKTYAGGRLGLFVFSQEMVFFSDLKYECRDSLN</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51234" desc="Thrombospondin type-3 (TSP3) repeat profile." name="TSP3">
+          <entry ac="IPR017897" desc="Thrombospondin, type 3 repeat" name="Thrombospondin_3_rpt" type="REPEAT">
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51234</model-ac>
+        <locations>
+          <profilescan-location score="14.147" start="845" end="882">
+            <location-fragments>
+              <profilescan-location-fragment start="845" end="882" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>LDSDSDRIGDTCDnnQDIDEDGHQNNLDNCPYVPNANQ</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50092" desc="Thrombospondin type-1 (TSP1) repeat profile." name="TSP1">
+          <entry ac="IPR000884" desc="Thrombospondin type-1 (TSP1) repeat" name="TSP1_rpt" type="REPEAT"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50092</model-ac>
+        <locations>
+          <profilescan-location score="14.831" start="435" end="490">
+            <location-fragments>
+              <profilescan-location-fragment start="435" end="490" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>DGgWSHWSPWSSCSVTCGDGVITRIRlCNSPSPQmNGKPCEGEARETKACKKDACP</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51234" desc="Thrombospondin type-3 (TSP3) repeat profile." name="TSP3">
+          <entry ac="IPR017897" desc="Thrombospondin, type 3 repeat" name="Thrombospondin_3_rpt" type="REPEAT">
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51234</model-ac>
+        <locations>
+          <profilescan-location score="16.44" start="786" end="821">
+            <location-fragments>
+              <profilescan-location-fragment start="786" end="821" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>ADTDSNGEGDACAADIDGDGILNERDNCQYVYNVDQ</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50184" desc="VWFC domain profile." name="VWFC_2">
+          <entry ac="IPR001007" desc="VWFC domain" name="VWF_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50184</model-ac>
+        <locations>
+          <profilescan-location score="13.529" start="316" end="373">
+            <location-fragments>
+              <profilescan-location-fragment start="316" end="373" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>PLCYHNGVQYRNNEEWTVDSCTECRCQNSVTICKKVSCPI-MPCSNATVPD--GECCPRCW</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51234" desc="Thrombospondin type-3 (TSP3) repeat profile." name="TSP3">
+          <entry ac="IPR017897" desc="Thrombospondin, type 3 repeat" name="Thrombospondin_3_rpt" type="REPEAT">
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51234</model-ac>
+        <locations>
+          <profilescan-location score="18.021" start="883" end="918">
+            <location-fragments>
+              <profilescan-location-fragment start="883" end="918" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>ADHDKDGKGDACDHDDDNDGIPDDRDNCRLVPNPDQ</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51234" desc="Thrombospondin type-3 (TSP3) repeat profile." name="TSP3">
+          <entry ac="IPR017897" desc="Thrombospondin, type 3 repeat" name="Thrombospondin_3_rpt" type="REPEAT">
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51234</model-ac>
+        <locations>
+          <profilescan-location score="12.305" start="822" end="844">
+            <location-fragments>
+              <profilescan-location-fragment start="822" end="844" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>RDTDMDGVGDQC-------------DNCPLEHNPDQ</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51234" desc="Thrombospondin type-3 (TSP3) repeat profile." name="TSP3">
+          <entry ac="IPR017897" desc="Thrombospondin, type 3 repeat" name="Thrombospondin_3_rpt" type="REPEAT">
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51234</model-ac>
+        <locations>
+          <profilescan-location score="13.113" start="691" end="726">
+            <location-fragments>
+              <profilescan-location-fragment start="691" end="726" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>EDTDLDGWPNedlVC---VANATYHCKKDNCPNLPNSGQ</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <rpsblast-match>
+        <signature ac="cd00054" desc="EGF_CA" name="EGF_CA">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00054</model-ac>
+        <locations>
+          <rpsblast-location evalue="0.00487009" score="33.7642" start="588" end="626">
+            <location-fragments>
+              <rpsblast-location-fragment start="588" end="626" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="Ca2+ binding site" numLocations="3">
+                <site-locations>
+                  <site-location residue="N" start="610" end="610"/>
+                  <site-location residue="D" start="588" end="588"/>
+                  <site-location residue="E" start="591" end="591"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <signalp-match>
+        <signature ac="SignalP-noTM" name="SignalP-noTM">
+          <signature-library-release library="SIGNALP_EUK" version="4.1"/>
+        </signature>
+        <model-ac>SignalP-noTM</model-ac>
+        <locations>
+          <signalp-location score="0.787" start="1" end="18">
+            <location-fragments>
+              <signalp-location-fragment start="1" end="18" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </signalp-location>
+        </locations>
+      </signalp-match>
+      <superfamilyhmmer3-match evalue="1.29E-13">
+        <signature ac="SSF103647" name="TSP type-3 repeat">
+          <entry ac="IPR028974" desc="TSP type-3 repeat" name="TSP_type-3_rpt" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005509" name="calcium ion binding"/>
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0044556</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="124" start="764" end="834">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="764" end="834" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="3.79E-16">
+        <signature ac="SSF82895" name="TSP-1 type 1 repeat">
+          <entry ac="IPR036383" desc="Thrombospondin type-1 (TSP1) repeat superfamily" name="TSP1_rpt_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0040647</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="54" start="435" end="484">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="435" end="484" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="1.76E-5">
+        <signature ac="SSF57196" name="EGF/Laminin">
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0040138</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="61" start="547" end="601">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="547" end="601" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="1.44E-10">
+        <signature ac="SSF82895" name="TSP-1 type 1 repeat">
+          <entry ac="IPR036383" desc="Thrombospondin type-1 (TSP1) repeat superfamily" name="TSP1_rpt_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0040648</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="59" start="379" end="428">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="379" end="428" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="3.98E-13">
+        <signature ac="SSF57603" name="FnI-like domain">
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0049793</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="73" start="317" end="374">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="317" end="374" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="2.22E-107">
+        <signature ac="SSF49899" name="Concanavalin A-like lectins/glucanases">
+          <entry ac="IPR013320" desc="Concanavalin A-like lectin/glucanase domain superfamily" name="ConA-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0044555</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="216" start="955" end="1169">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="955" end="1169" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="2.62E-17">
+        <signature ac="SSF82895" name="TSP-1 type 1 repeat">
+          <entry ac="IPR036383" desc="Thrombospondin type-1 (TSP1) repeat superfamily" name="TSP1_rpt_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0040648</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="59" start="489" end="546">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="489" end="546" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="5.1E-37">
+        <signature ac="SSF103647" name="TSP type-3 repeat">
+          <entry ac="IPR028974" desc="TSP type-3 repeat" name="TSP_type-3_rpt" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005509" name="calcium ion binding"/>
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0044556</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="124" start="832" end="953">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="832" end="953" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="3.79E-12">
+        <signature ac="SSF103647" name="TSP type-3 repeat">
+          <entry ac="IPR028974" desc="TSP type-3 repeat" name="TSP_type-3_rpt" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005509" name="calcium ion binding"/>
+            <pathway-xref db="Reactome" id="R-HSA-186797" name="Signaling by PDGF"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0044556</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="124" start="691" end="775">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="691" end="775" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="1.72E-39">
+        <signature ac="SSF49899" name="Concanavalin A-like lectins/glucanases">
+          <entry ac="IPR013320" desc="Concanavalin A-like lectin/glucanase domain superfamily" name="ConA-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0052500</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="206" start="29" end="233">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="29" end="233" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

@@ -1,0 +1,2307 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MGLAWGLGVLFLLHVCGTNRIPESGGDNSVFDIFELTGAARKGSGRRLVKGPDPSSPAFRIEDANLIPPVPDDKFQDLVDAVRAEKGFLLLASLRQMKKTRGTLLALERKDHSGQVFSVVSNGKAGTLDLSLTVQGKQHVVSVEEALLATGQWKSITLFVQEDRAQLYIDCEKMENAELDVPIQSVFTRDLASIARLRIAKGGVNDNFQGVLQNVRFVFGTTPEDILRNKGCSSSTSVLLTLDNNVVNGSSPAIRTNYIGHKTKDLQAICGISCDELSSMVLELRGLRTIVTTLQDSIRKVTEENKELVNELRRPPLCYHNGVQYRNNEEWTVDSCTECRCQNSVTICKKVSCPIMPCSNATVPDGECCPRCWPSDSADDGWSPWSEWTSCSTSCGNGIQQRGRSCDSLNNRCEGSSVQTRTCHIQECDKRFKQDGGWSHWSPWSSCSVTCGDGVITRIRLCNSPSPQMNGKPCEGEARETKACKKDACPINGGWGPWSPWDICSVTCGGGVQKRSRLCNNPTPQFGGKDCIGDVTENQICNKQDCPIDGCLSNPCFAGVKCTSYPDGSWKCGACPPGYSGNGIQCTDVDECKEVPDACFNHNGEHRCKNTDPGYNCLPCPPRFTGSQPFGQGVEYATANKQVCKPRNPCTDGTHDCNKNAKCNYLGHYSDPMYRCECKPGYAGNGIICGEDTDLDGWPNEDLVCVANATYHCKKDNCPNLPNSGQEDYDKDGIGDACDDDDDNDKIPDDRDNCPFHYNPAQYDYDRDDVGDRCDNCPYNHNPDQADTDSNGEGDACAADIDGDGILNERDNCQYVYNVDQRDTDMDGVGDQCDNCPLEHNPDQLDSDSDRIGDTCDNNQDIDEDGHQNNLDNCPYVPNANQADHDKDGKGDACDHDDDNDGIPDDRDNCRLVPNPDQKDSDGDGRGDACKDDFDHDNVPDIDDICPENVDISETDFRRFQMIPLDPKGTSQNDPNWVVRHQGKELVQTVNCDPGLAVGYDEFNAVDFSGTFFINTERDDDYAGFVFGYQSSSRFYVVMWKQVTQSYWDTNPTRAQGYSGLSVKVVNSTTGPGEHLRNALWHTGNTPGQVRTLWHDPRHIGWKDFTAYRWRLSHRPKTGFIRVVMYEGKKIMADSGPIYDKTYAGGRLGLFVFSQEMVFFSDLKYECRDSLNFYH",
+  "md5" : "0407f2af268f89a1097d4147462a49c5",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "PS50092",
+      "name" : "TSP1",
+      "description" : "Thrombospondin type-1 (TSP1) repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR000884",
+        "name" : "TSP1_rpt",
+        "description" : "Thrombospondin type-1 (TSP1) repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 379,
+      "end" : 429,
+      "score" : 12.845,
+      "alignment" : "DDgWSPWSEWTSCSTSCGNGIQQRGRsCDS----LNNRCEGSSVQTRTCHIQECD",
+      "location-fragments" : [ {
+        "start" : 379,
+        "end" : 429,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50092"
+  }, {
+    "signature" : {
+      "accession" : "PF00090",
+      "name" : "TSP_1",
+      "description" : "Thrombospondin type 1 domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR000884",
+        "name" : "TSP1_rpt",
+        "description" : "Thrombospondin type-1 (TSP1) repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 496,
+      "end" : 546,
+      "hmmStart" : 1,
+      "hmmEnd" : 49,
+      "hmmLength" : 49,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 8.2E-17,
+      "score" : 61.1,
+      "envelopeStart" : 496,
+      "envelopeEnd" : 546,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 496,
+        "end" : 546,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 439,
+      "end" : 489,
+      "hmmStart" : 1,
+      "hmmEnd" : 49,
+      "hmmLength" : 49,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.6E-17,
+      "score" : 63.3,
+      "envelopeStart" : 439,
+      "envelopeEnd" : 489,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 439,
+        "end" : 489,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 383,
+      "end" : 428,
+      "hmmStart" : 1,
+      "hmmEnd" : 49,
+      "hmmLength" : 49,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.1E-12,
+      "score" : 46.4,
+      "envelopeStart" : 383,
+      "envelopeEnd" : 428,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 383,
+        "end" : 428,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.6E-41,
+    "score" : 140.2,
+    "model-ac" : "PF00090"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 839,
+      "end" : 934,
+      "location-fragments" : [ {
+        "start" : 839,
+        "end" : 934,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 19,
+      "end" : 1175,
+      "location-fragments" : [ {
+        "start" : 19,
+        "end" : 1175,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "PS50092",
+      "name" : "TSP1",
+      "description" : "Thrombospondin type-1 (TSP1) repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR000884",
+        "name" : "TSP1_rpt",
+        "description" : "Thrombospondin type-1 (TSP1) repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 492,
+      "end" : 547,
+      "score" : 14.328,
+      "alignment" : "NGgWGPWSPWDICSVTCGGGVQKRSRlCNNPTPQfGGKDCIGDVTENQICNKQDCP",
+      "location-fragments" : [ {
+        "start" : 492,
+        "end" : 547,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50092"
+  }, {
+    "signature" : {
+      "accession" : "SM00179",
+      "name" : "egfca_6",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR001881",
+        "name" : "EGF-like_Ca-bd_dom",
+        "description" : "EGF-like calcium-binding domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "calcium ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005509"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 588,
+      "end" : 645,
+      "hmmStart" : 1,
+      "hmmEnd" : 34,
+      "hmmLength" : 34,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.8E-4,
+      "score" : 29.4,
+      "location-fragments" : [ {
+        "start" : 588,
+        "end" : 645,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 542,
+      "end" : 587,
+      "hmmStart" : 1,
+      "hmmEnd" : 34,
+      "hmmLength" : 34,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.066,
+      "score" : 11.3,
+      "location-fragments" : [ {
+        "start" : 542,
+        "end" : 587,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.9E-7,
+    "score" : 40.7,
+    "model-ac" : "SM00179"
+  }, {
+    "signature" : {
+      "accession" : "PS51234",
+      "name" : "TSP3",
+      "description" : "Thrombospondin type-3 (TSP3) repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR017897",
+        "name" : "Thrombospondin_3_rpt",
+        "description" : "Thrombospondin, type 3 repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 763,
+      "end" : 785,
+      "score" : 11.836,
+      "alignment" : "YDYDRDDVGDRC-------------DNCPYNHNPDQ",
+      "location-fragments" : [ {
+        "start" : 763,
+        "end" : 785,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51234"
+  }, {
+    "signature" : {
+      "accession" : "PS50026",
+      "name" : "EGF_3",
+      "description" : "EGF-like domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR000742",
+        "name" : "EGF-like_dom",
+        "description" : "EGF-like domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 646,
+      "end" : 690,
+      "score" : 10.948,
+      "alignment" : "PRNPCTdgtHDCNKNAKCNYLGHysDPMYRCECKPGYAGngIICG",
+      "location-fragments" : [ {
+        "start" : 646,
+        "end" : 690,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50026"
+  }, {
+    "signature" : {
+      "accession" : "PS51234",
+      "name" : "TSP3",
+      "description" : "Thrombospondin type-3 (TSP3) repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR017897",
+        "name" : "Thrombospondin_3_rpt",
+        "description" : "Thrombospondin, type 3 repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 919,
+      "end" : 954,
+      "score" : 16.239,
+      "alignment" : "KDSDGDGRGDACKDDFDHDNVPDIDDICPENVDISE",
+      "location-fragments" : [ {
+        "start" : 919,
+        "end" : 954,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51234"
+  }, {
+    "signature" : {
+      "accession" : "PS51234",
+      "name" : "TSP3",
+      "description" : "Thrombospondin type-3 (TSP3) repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR017897",
+        "name" : "Thrombospondin_3_rpt",
+        "description" : "Thrombospondin, type 3 repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 727,
+      "end" : 762,
+      "score" : 17.948,
+      "alignment" : "EDYDKDGIGDACDDDDDNDKIPDDRDNCPFHYNPAQ",
+      "location-fragments" : [ {
+        "start" : 727,
+        "end" : 762,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51234"
+  }, {
+    "signature" : {
+      "accession" : "PF02412",
+      "name" : "TSP_3",
+      "description" : "Thrombospondin type 3 repeat",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR003367",
+        "name" : "Thrombospondin_3-like_rpt",
+        "description" : "Thrombospondin, type 3-like repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "calcium ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005509"
+        }, {
+          "name" : "cell adhesion",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0007155"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 846,
+      "end" : 882,
+      "hmmStart" : 2,
+      "hmmEnd" : 36,
+      "hmmLength" : 36,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 1.5E-12,
+      "score" : 46.9,
+      "envelopeStart" : 845,
+      "envelopeEnd" : 882,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 846,
+        "end" : 882,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 763,
+      "end" : 785,
+      "hmmStart" : 14,
+      "hmmEnd" : 36,
+      "hmmLength" : 36,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 0.014,
+      "score" : 15.0,
+      "envelopeStart" : 762,
+      "envelopeEnd" : 785,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 763,
+        "end" : 785,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 822,
+      "end" : 844,
+      "hmmStart" : 14,
+      "hmmEnd" : 36,
+      "hmmLength" : 36,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 7.2E-4,
+      "score" : 19.1,
+      "envelopeStart" : 821,
+      "envelopeEnd" : 844,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 822,
+        "end" : 844,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 919,
+      "end" : 950,
+      "hmmStart" : 1,
+      "hmmEnd" : 32,
+      "hmmLength" : 36,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 2.5E-7,
+      "score" : 30.2,
+      "envelopeStart" : 919,
+      "envelopeEnd" : 954,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 919,
+        "end" : 950,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 884,
+      "end" : 918,
+      "hmmStart" : 2,
+      "hmmEnd" : 36,
+      "hmmLength" : 36,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 5.3E-10,
+      "score" : 38.7,
+      "envelopeStart" : 883,
+      "envelopeEnd" : 918,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 884,
+        "end" : 918,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 787,
+      "end" : 821,
+      "hmmStart" : 2,
+      "hmmEnd" : 36,
+      "hmmLength" : 36,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 3.4E-11,
+      "score" : 42.5,
+      "envelopeStart" : 786,
+      "envelopeEnd" : 821,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 787,
+        "end" : 821,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 727,
+      "end" : 762,
+      "hmmStart" : 1,
+      "hmmEnd" : 36,
+      "hmmLength" : 36,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.8E-9,
+      "score" : 36.0,
+      "envelopeStart" : 727,
+      "envelopeEnd" : 762,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 727,
+        "end" : 762,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 6.0E-59,
+    "score" : 195.3,
+    "model-ac" : "PF02412"
+  }, {
+    "signature" : {
+      "accession" : "SM00214",
+      "name" : "vwc",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR001007",
+        "name" : "VWF_dom",
+        "description" : "VWFC domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 318,
+      "end" : 372,
+      "hmmStart" : 1,
+      "hmmEnd" : 75,
+      "hmmLength" : 75,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.5E-20,
+      "score" : 83.6,
+      "location-fragments" : [ {
+        "start" : 318,
+        "end" : 372,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.5E-20,
+    "score" : 83.6,
+    "model-ac" : "SM00214"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_C_REGION",
+      "name" : "Signal peptide C-region",
+      "description" : "C-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 14,
+      "end" : 18,
+      "location-fragments" : [ {
+        "start" : 14,
+        "end" : 18,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_C_REGION"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.20.100.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR036383",
+        "name" : "TSP1_rpt_sf",
+        "description" : "Thrombospondin type-1 (TSP1) repeat superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 434,
+      "end" : 489,
+      "hmmStart" : 2,
+      "hmmEnd" : 56,
+      "hmmLength" : 56,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 6.6E-23,
+      "score" : 82.7,
+      "envelopeStart" : 434,
+      "envelopeEnd" : 489,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 434,
+        "end" : 489,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.7E-49,
+    "score" : 167.2,
+    "model-ac" : "1lslA01"
+  }, {
+    "signature" : {
+      "accession" : "PTHR10199:SF78",
+      "name" : "THROMBOSPONDIN-1",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : {
+        "accession" : "IPR028499",
+        "name" : "Thrombospondin-1",
+        "description" : "Thrombospondin-1",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "negative regulation of angiogenesis",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0016525"
+        }, {
+          "name" : "extracellular space",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005615"
+        }, {
+          "name" : "heparin binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0008201"
+        }, {
+          "name" : "inflammatory response",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006954"
+        }, {
+          "name" : "extracellular matrix binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0050840"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Integrin cell surface interactions",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-216083"
+        }, {
+          "name" : "O-glycosylation of TSR domain-containing proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5173214"
+        }, {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        }, {
+          "name" : "Platelet degranulation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-114608"
+        }, {
+          "name" : "Syndecan interactions",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3000170"
+        }, {
+          "name" : "RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8936459"
+        }, {
+          "name" : "Defective B3GALTL causes Peters-plus syndrome (PpS)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5083635"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 1170,
+      "hmmStart" : 7,
+      "hmmEnd" : 1169,
+      "hmmLength" : 1169,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "envelopeStart" : 2,
+      "envelopeEnd" : 1170,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 1170,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 2575.8,
+    "model-ac" : "PTHR10199:SF78"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_N_REGION",
+      "name" : "Signal peptide N-region",
+      "description" : "N-terminal region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 2,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 2,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_N_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SSF103647",
+      "name" : "TSP type-3 repeat",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR028974",
+        "name" : "TSP_type-3_rpt",
+        "description" : "TSP type-3 repeat",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "calcium ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005509"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 764,
+      "end" : 834,
+      "hmmLength" : 124,
+      "location-fragments" : [ {
+        "start" : 764,
+        "end" : 834,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.29E-13,
+    "model-ac" : "0044556"
+  }, {
+    "signature" : {
+      "accession" : "SSF82895",
+      "name" : "TSP-1 type 1 repeat",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036383",
+        "name" : "TSP1_rpt_sf",
+        "description" : "Thrombospondin type-1 (TSP1) repeat superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 435,
+      "end" : 484,
+      "hmmLength" : 54,
+      "location-fragments" : [ {
+        "start" : 435,
+        "end" : 484,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.79E-16,
+    "model-ac" : "0040647"
+  }, {
+    "signature" : {
+      "accession" : "PS50026",
+      "name" : "EGF_3",
+      "description" : "EGF-like domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR000742",
+        "name" : "EGF-like_dom",
+        "description" : "EGF-like domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 547,
+      "end" : 587,
+      "score" : 9.234,
+      "alignment" : "PIDGCLsNPCFAGVKCTSYPD-GSWKCgACPPGYSGngIQCT",
+      "location-fragments" : [ {
+        "start" : 547,
+        "end" : 587,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50026"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.10.70.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 318,
+      "end" : 351,
+      "hmmStart" : 2,
+      "hmmEnd" : 35,
+      "hmmLength" : 36,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.5E-6,
+      "score" : 29.9,
+      "envelopeStart" : 318,
+      "envelopeEnd" : 351,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 318,
+        "end" : 351,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.5E-6,
+    "score" : 29.9,
+    "model-ac" : "1u5mA01"
+  }, {
+    "signature" : {
+      "accession" : "PS51236",
+      "name" : "TSP_CTER",
+      "description" : "Thrombospondin C-terminal domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR008859",
+        "name" : "Thrombospondin_C",
+        "description" : "Thrombospondin, C-terminal",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "calcium ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005509"
+        }, {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "cell adhesion",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0007155"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 958,
+      "end" : 1172,
+      "score" : 99.576,
+      "alignment" : "RRFQMIPLDPKGTSQNDPNWVVRHQGKELVQTVNCDPGLAVGYDEFNAVDFSGTFFINTERDDDYAGFVFGYQSSSRFYVVMWKQVTQSYWDTNPTRAQGYSGLSVKVVNSTTGPGEHLRNALWHTGNTPGQVRTLWHDPRHIGWKDFTAYRWRLSHRPKTGFIRVVMYEGKKIMADSGPIYDKTYAGGRLGLFVFSQEMVFFSDLKYECRDSLN",
+      "location-fragments" : [ {
+        "start" : 958,
+        "end" : 1172,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51236"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.10.25.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 596,
+      "end" : 651,
+      "hmmStart" : 1,
+      "hmmEnd" : 55,
+      "hmmLength" : 56,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.5E-23,
+      "score" : 83.9,
+      "envelopeStart" : 596,
+      "envelopeEnd" : 651,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 596,
+        "end" : 651,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.5E-23,
+    "score" : 83.9,
+    "model-ac" : "1yo8A02"
+  }, {
+    "signature" : {
+      "accession" : "SSF57196",
+      "name" : "EGF/Laminin",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 547,
+      "end" : 601,
+      "hmmLength" : 61,
+      "location-fragments" : [ {
+        "start" : 547,
+        "end" : 601,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.76E-5,
+    "model-ac" : "0040138"
+  }, {
+    "signature" : {
+      "accession" : "PF00093",
+      "name" : "VWC",
+      "description" : "von Willebrand factor type C domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR001007",
+        "name" : "VWF_dom",
+        "description" : "VWFC domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 318,
+      "end" : 372,
+      "hmmStart" : 1,
+      "hmmEnd" : 57,
+      "hmmLength" : 57,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.6E-12,
+      "score" : 47.4,
+      "envelopeStart" : 318,
+      "envelopeEnd" : 372,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 318,
+        "end" : 372,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.6E-12,
+    "score" : 47.4,
+    "model-ac" : "PF00093"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.60.120.200",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 25,
+      "end" : 233,
+      "hmmStart" : 3,
+      "hmmEnd" : 208,
+      "hmmLength" : 209,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.6E-54,
+      "score" : 185.5,
+      "envelopeStart" : 25,
+      "envelopeEnd" : 233,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 25,
+        "end" : 233,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.5E-54,
+    "score" : 186.0,
+    "model-ac" : "2erfA00"
+  }, {
+    "signature" : {
+      "accession" : "SSF82895",
+      "name" : "TSP-1 type 1 repeat",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036383",
+        "name" : "TSP1_rpt_sf",
+        "description" : "Thrombospondin type-1 (TSP1) repeat superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 379,
+      "end" : 428,
+      "hmmLength" : 59,
+      "location-fragments" : [ {
+        "start" : 379,
+        "end" : 428,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.44E-10,
+    "model-ac" : "0040648"
+  }, {
+    "signature" : {
+      "accession" : "PS01186",
+      "name" : "EGF_2",
+      "description" : "EGF-like domain signature 2.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PATTERNS",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR013032",
+        "name" : "EGF-like_CS",
+        "description" : "EGF-like, conserved site",
+        "type" : "CONSERVED_SITE",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 676,
+      "end" : 689,
+      "level" : "STRONG",
+      "cigarAlignment" : "1M1I1M2I2M6I1M",
+      "alignment" : "CeCkpGYagngiiC",
+      "location-fragments" : [ {
+        "start" : 676,
+        "end" : 689,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS01186"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.10.25.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 652,
+      "end" : 690,
+      "hmmStart" : 3,
+      "hmmEnd" : 38,
+      "hmmLength" : 40,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 6.1E-10,
+      "score" : 41.0,
+      "envelopeStart" : 652,
+      "envelopeEnd" : 690,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 652,
+        "end" : 690,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.3E-12,
+    "score" : 47.6,
+    "model-ac" : "1yo8A03"
+  }, {
+    "signature" : {
+      "accession" : "SSF57603",
+      "name" : "FnI-like domain",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 317,
+      "end" : 374,
+      "hmmLength" : 73,
+      "location-fragments" : [ {
+        "start" : 317,
+        "end" : 374,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.98E-13,
+    "model-ac" : "0049793"
+  }, {
+    "signature" : {
+      "accession" : "PS01208",
+      "name" : "VWFC_1",
+      "description" : "VWFC domain signature.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PATTERNS",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001007",
+        "name" : "VWF_dom",
+        "description" : "VWFC domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 336,
+      "end" : 372,
+      "level" : "STRONG",
+      "cigarAlignment" : "1M2I3M6I1M4I1M4I1M9I2M2I1M",
+      "alignment" : "CteCRCqnsvtiCkkvsCpimpCsnatvpdgeCCprC",
+      "location-fragments" : [ {
+        "start" : 336,
+        "end" : 372,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS01208"
+  }, {
+    "signature" : {
+      "accession" : "SM00209",
+      "name" : "TSP1_2",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR000884",
+        "name" : "TSP1_rpt",
+        "description" : "Thrombospondin type-1 (TSP1) repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 438,
+      "end" : 490,
+      "hmmStart" : 1,
+      "hmmEnd" : 66,
+      "hmmLength" : 66,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.1E-18,
+      "score" : 76.2,
+      "location-fragments" : [ {
+        "start" : 438,
+        "end" : 490,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 382,
+      "end" : 429,
+      "hmmStart" : 1,
+      "hmmEnd" : 66,
+      "hmmLength" : 66,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 8.9E-11,
+      "score" : 51.8,
+      "location-fragments" : [ {
+        "start" : 382,
+        "end" : 429,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 495,
+      "end" : 547,
+      "hmmStart" : 1,
+      "hmmEnd" : 66,
+      "hmmLength" : 66,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.8E-18,
+      "score" : 75.9,
+      "location-fragments" : [ {
+        "start" : 495,
+        "end" : 547,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.4E-56,
+    "score" : 203.9,
+    "model-ac" : "SM00209"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 883,
+      "end" : 897,
+      "location-fragments" : [ {
+        "start" : 883,
+        "end" : 897,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 903,
+      "end" : 934,
+      "location-fragments" : [ {
+        "start" : 903,
+        "end" : 934,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE_H_REGION",
+      "name" : "Signal peptide H-region",
+      "description" : "Hydrophobic region of a signal peptide.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 3,
+      "end" : 13,
+      "location-fragments" : [ {
+        "start" : 3,
+        "end" : 13,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE_H_REGION"
+  }, {
+    "signature" : {
+      "accession" : "SignalP-noTM",
+      "name" : "SignalP-noTM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SIGNALP_EUK",
+        "version" : "4.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 18,
+      "score" : 0.787,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 18,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "orgType" : "EUK",
+    "model-ac" : "SignalP-noTM"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:4.10.1080.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR028974",
+        "name" : "TSP_type-3_rpt",
+        "description" : "TSP type-3 repeat",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "calcium ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005509"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 763,
+      "end" : 833,
+      "hmmStart" : 41,
+      "hmmEnd" : 111,
+      "hmmLength" : 137,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 3.5E-22,
+      "score" : 80.8,
+      "envelopeStart" : 763,
+      "envelopeEnd" : 835,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 763,
+        "end" : 833,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 834,
+      "end" : 955,
+      "hmmStart" : 13,
+      "hmmEnd" : 137,
+      "hmmLength" : 137,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 1.2E-49,
+      "score" : 169.7,
+      "envelopeStart" : 832,
+      "envelopeEnd" : 957,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 834,
+        "end" : 955,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.3E-88,
+    "score" : 294.3,
+    "model-ac" : "1ux6A01"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 291,
+      "end" : 311,
+      "location-fragments" : [ {
+        "start" : 291,
+        "end" : 311,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "PS51234",
+      "name" : "TSP3",
+      "description" : "Thrombospondin type-3 (TSP3) repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR017897",
+        "name" : "Thrombospondin_3_rpt",
+        "description" : "Thrombospondin, type 3 repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 845,
+      "end" : 882,
+      "score" : 14.147,
+      "alignment" : "LDSDSDRIGDTCDnnQDIDEDGHQNNLDNCPYVPNANQ",
+      "location-fragments" : [ {
+        "start" : 845,
+        "end" : 882,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51234"
+  }, {
+    "signature" : {
+      "accession" : "PS50092",
+      "name" : "TSP1",
+      "description" : "Thrombospondin type-1 (TSP1) repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR000884",
+        "name" : "TSP1_rpt",
+        "description" : "Thrombospondin type-1 (TSP1) repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 435,
+      "end" : 490,
+      "score" : 14.831,
+      "alignment" : "DGgWSHWSPWSSCSVTCGDGVITRIRlCNSPSPQmNGKPCEGEARETKACKKDACP",
+      "location-fragments" : [ {
+        "start" : 435,
+        "end" : 490,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50092"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.20.100.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR036383",
+        "name" : "TSP1_rpt_sf",
+        "description" : "Thrombospondin type-1 (TSP1) repeat superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 377,
+      "end" : 428,
+      "hmmStart" : 7,
+      "hmmEnd" : 55,
+      "hmmLength" : 56,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.3E-10,
+      "score" : 43.3,
+      "envelopeStart" : 377,
+      "envelopeEnd" : 428,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 377,
+        "end" : 428,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.1E-35,
+    "score" : 122.7,
+    "model-ac" : "1vexA00"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.60.120.200",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 956,
+      "end" : 1175,
+      "hmmStart" : 2,
+      "hmmEnd" : 217,
+      "hmmLength" : 226,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 4.5E-105,
+      "score" : 352.0,
+      "envelopeStart" : 954,
+      "envelopeEnd" : 1175,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 956,
+        "end" : 1175,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.2E-105,
+    "score" : 352.4,
+    "model-ac" : "1yo8A05"
+  }, {
+    "signature" : {
+      "accession" : "SM00181",
+      "name" : "egf_5",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR000742",
+        "name" : "EGF-like_dom",
+        "description" : "EGF-like domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 591,
+      "end" : 645,
+      "hmmStart" : 1,
+      "hmmEnd" : 32,
+      "hmmLength" : 32,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 26.0,
+      "score" : 11.2,
+      "location-fragments" : [ {
+        "start" : 591,
+        "end" : 645,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 550,
+      "end" : 587,
+      "hmmStart" : 1,
+      "hmmEnd" : 32,
+      "hmmLength" : 32,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.054,
+      "score" : 22.6,
+      "location-fragments" : [ {
+        "start" : 550,
+        "end" : 587,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 649,
+      "end" : 690,
+      "hmmStart" : 1,
+      "hmmEnd" : 32,
+      "hmmLength" : 32,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.095,
+      "score" : 21.8,
+      "location-fragments" : [ {
+        "start" : 649,
+        "end" : 690,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 6.4E-12,
+    "score" : 55.6,
+    "model-ac" : "SM00181"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 841,
+      "end" : 868,
+      "location-fragments" : [ {
+        "start" : 841,
+        "end" : 868,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.10.25.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 547,
+      "end" : 593,
+      "hmmStart" : 3,
+      "hmmEnd" : 48,
+      "hmmLength" : 50,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.6E-14,
+      "score" : 55.9,
+      "envelopeStart" : 547,
+      "envelopeEnd" : 593,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 547,
+        "end" : 593,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.3E-16,
+    "score" : 61.2,
+    "model-ac" : "1yo8A01"
+  }, {
+    "signature" : {
+      "accession" : "SSF49899",
+      "name" : "Concanavalin A-like lectins/glucanases",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR013320",
+        "name" : "ConA-like_dom_sf",
+        "description" : "Concanavalin A-like lectin/glucanase domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 955,
+      "end" : 1169,
+      "hmmLength" : 216,
+      "location-fragments" : [ {
+        "start" : 955,
+        "end" : 1169,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.22E-107,
+    "model-ac" : "0044555"
+  }, {
+    "signature" : {
+      "accession" : "SM00210",
+      "name" : "TSPN_2",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR001791",
+        "name" : "Laminin_G",
+        "description" : "Laminin G domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 24,
+      "end" : 221,
+      "hmmStart" : 1,
+      "hmmEnd" : 218,
+      "hmmLength" : 218,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 5.0E-73,
+      "score" : 258.6,
+      "location-fragments" : [ {
+        "start" : 24,
+        "end" : 221,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.0E-73,
+    "score" : 258.6,
+    "model-ac" : "SM00210"
+  }, {
+    "signature" : {
+      "accession" : "cd00054",
+      "name" : "EGF_CA",
+      "description" : "EGF_CA",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 588,
+      "end" : 626,
+      "sites" : [ {
+        "description" : "Ca2+ binding site",
+        "numLocations" : 3,
+        "siteLocations" : [ {
+          "start" : 610,
+          "end" : 610,
+          "residue" : "N"
+        }, {
+          "start" : 588,
+          "end" : 588,
+          "residue" : "D"
+        }, {
+          "start" : 591,
+          "end" : 591,
+          "residue" : "E"
+        } ]
+      } ],
+      "evalue" : 0.00487009,
+      "score" : 33.7642,
+      "location-fragments" : [ {
+        "start" : 588,
+        "end" : 626,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00054"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.20.100.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR036383",
+        "name" : "TSP1_rpt_sf",
+        "description" : "Thrombospondin type-1 (TSP1) repeat superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 490,
+      "end" : 546,
+      "hmmStart" : 1,
+      "hmmEnd" : 57,
+      "hmmLength" : 57,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.1E-20,
+      "score" : 75.7,
+      "envelopeStart" : 490,
+      "envelopeEnd" : 546,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 490,
+        "end" : 546,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.0E-45,
+    "score" : 154.9,
+    "model-ac" : "1lslA02"
+  }, {
+    "signature" : {
+      "accession" : "PS51234",
+      "name" : "TSP3",
+      "description" : "Thrombospondin type-3 (TSP3) repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR017897",
+        "name" : "Thrombospondin_3_rpt",
+        "description" : "Thrombospondin, type 3 repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 786,
+      "end" : 821,
+      "score" : 16.44,
+      "alignment" : "ADTDSNGEGDACAADIDGDGILNERDNCQYVYNVDQ",
+      "location-fragments" : [ {
+        "start" : 786,
+        "end" : 821,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51234"
+  }, {
+    "signature" : {
+      "accession" : "PS50184",
+      "name" : "VWFC_2",
+      "description" : "VWFC domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001007",
+        "name" : "VWF_dom",
+        "description" : "VWFC domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 316,
+      "end" : 373,
+      "score" : 13.529,
+      "alignment" : "PLCYHNGVQYRNNEEWTVDSCTECRCQNSVTICKKVSCPI-MPCSNATVPD--GECCPRCW",
+      "location-fragments" : [ {
+        "start" : 316,
+        "end" : 373,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50184"
+  }, {
+    "signature" : {
+      "accession" : "PS51234",
+      "name" : "TSP3",
+      "description" : "Thrombospondin type-3 (TSP3) repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR017897",
+        "name" : "Thrombospondin_3_rpt",
+        "description" : "Thrombospondin, type 3 repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 883,
+      "end" : 918,
+      "score" : 18.021,
+      "alignment" : "ADHDKDGKGDACDHDDDNDGIPDDRDNCRLVPNPDQ",
+      "location-fragments" : [ {
+        "start" : 883,
+        "end" : 918,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51234"
+  }, {
+    "signature" : {
+      "accession" : "SSF82895",
+      "name" : "TSP-1 type 1 repeat",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036383",
+        "name" : "TSP1_rpt_sf",
+        "description" : "Thrombospondin type-1 (TSP1) repeat superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 489,
+      "end" : 546,
+      "hmmLength" : 59,
+      "location-fragments" : [ {
+        "start" : 489,
+        "end" : 546,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.62E-17,
+    "model-ac" : "0040648"
+  }, {
+    "signature" : {
+      "accession" : "PTHR10199",
+      "name" : "THROMBOSPONDIN",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 1170,
+      "hmmStart" : 7,
+      "hmmEnd" : 1169,
+      "hmmLength" : 1169,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "envelopeStart" : 2,
+      "envelopeEnd" : 1170,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 1170,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 2575.8,
+    "model-ac" : "PTHR10199"
+  }, {
+    "signature" : {
+      "accession" : "SSF103647",
+      "name" : "TSP type-3 repeat",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR028974",
+        "name" : "TSP_type-3_rpt",
+        "description" : "TSP type-3 repeat",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "calcium ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005509"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 832,
+      "end" : 953,
+      "hmmLength" : 124,
+      "location-fragments" : [ {
+        "start" : 832,
+        "end" : 953,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.1E-37,
+    "model-ac" : "0044556"
+  }, {
+    "signature" : {
+      "accession" : "PS51234",
+      "name" : "TSP3",
+      "description" : "Thrombospondin type-3 (TSP3) repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR017897",
+        "name" : "Thrombospondin_3_rpt",
+        "description" : "Thrombospondin, type 3 repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 822,
+      "end" : 844,
+      "score" : 12.305,
+      "alignment" : "RDTDMDGVGDQC-------------DNCPLEHNPDQ",
+      "location-fragments" : [ {
+        "start" : 822,
+        "end" : 844,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51234"
+  }, {
+    "signature" : {
+      "accession" : "SSF103647",
+      "name" : "TSP type-3 repeat",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR028974",
+        "name" : "TSP_type-3_rpt",
+        "description" : "TSP type-3 repeat",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "calcium ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005509"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 691,
+      "end" : 775,
+      "hmmLength" : 124,
+      "location-fragments" : [ {
+        "start" : 691,
+        "end" : 775,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.79E-12,
+    "model-ac" : "0044556"
+  }, {
+    "signature" : {
+      "accession" : "SSF49899",
+      "name" : "Concanavalin A-like lectins/glucanases",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR013320",
+        "name" : "ConA-like_dom_sf",
+        "description" : "Concanavalin A-like lectin/glucanase domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 29,
+      "end" : 233,
+      "hmmLength" : 206,
+      "location-fragments" : [ {
+        "start" : 29,
+        "end" : 233,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.72E-39,
+    "model-ac" : "0052500"
+  }, {
+    "signature" : {
+      "accession" : "PR01705",
+      "name" : "TSP1REPEAT",
+      "description" : "Thrombospondin type 1 repeat signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 436,
+      "end" : 449,
+      "pvalue" : 4.98E-6,
+      "score" : 57.97,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 436,
+        "end" : 449,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 454,
+      "end" : 465,
+      "pvalue" : 4.34E-4,
+      "score" : 46.73,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 454,
+        "end" : 465,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 473,
+      "end" : 484,
+      "pvalue" : 0.00103,
+      "score" : 41.29,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 473,
+        "end" : 484,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.9E-6,
+    "graphscan" : "III",
+    "model-ac" : "PR01705"
+  }, {
+    "signature" : {
+      "accession" : "PF05735",
+      "name" : "TSP_C",
+      "description" : "Thrombospondin C-terminal region",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR008859",
+        "name" : "Thrombospondin_C",
+        "description" : "Thrombospondin, C-terminal",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "calcium ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005509"
+        }, {
+          "name" : "extracellular region",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005576"
+        }, {
+          "name" : "cell adhesion",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0007155"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 972,
+      "end" : 1169,
+      "hmmStart" : 1,
+      "hmmEnd" : 198,
+      "hmmLength" : 198,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.3E-97,
+      "score" : 323.7,
+      "envelopeStart" : 972,
+      "envelopeEnd" : 1169,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 972,
+        "end" : 1169,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.0E-97,
+    "score" : 324.2,
+    "model-ac" : "PF05735"
+  }, {
+    "signature" : {
+      "accession" : "PS51234",
+      "name" : "TSP3",
+      "description" : "Thrombospondin type-3 (TSP3) repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR017897",
+        "name" : "Thrombospondin_3_rpt",
+        "description" : "Thrombospondin, type 3 repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Signaling by PDGF",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-186797"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 691,
+      "end" : 726,
+      "score" : 13.113,
+      "alignment" : "EDTDLDGWPNedlVC---VANATYHCKKDNCPNLPNSGQ",
+      "location-fragments" : [ {
+        "start" : 691,
+        "end" : 726,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51234"
+  }, {
+    "signature" : {
+      "accession" : "SIGNAL_PEPTIDE",
+      "name" : "Signal Peptide",
+      "description" : "Signal peptide region",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 18,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 18,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "SIGNAL_PEPTIDE"
+  } ],
+  "xref" : [ {
+    "name" : "tr|A0A2I3M690|A0A2I3M690_PAPAN Thrombospondin 1 OS=Papio anubis OX=9555 GN=THBS1 PE=4 SV=1",
+    "id" : "tr|A0A2I3M690|A0A2I3M690_PAPAN"
+  } ]
+} ]
+}

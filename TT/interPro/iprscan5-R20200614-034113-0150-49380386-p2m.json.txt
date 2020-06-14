@@ -1,0 +1,1020 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MASAVSPANSAAVLLQPRWKRVVGWSGPVPRPRHGHRAVAIKELIVVFGGGNEGIVDELHVYNTATNQWFIPAVRGDIPPGCAAYGFVCDGTRLLVFGGMVEYGKYSNDLYELQASRWEWKRLKAKTPKNGPPPCPRLGHSFSLVGNKCYLFGGLANDSEDPKNNIPRYLNDLYILELRPGSGVVAWDIPITYGVLPPPRESHTAVVYTEKDNKKSKLVIYGGMSGCRLGDLWTLDIETLTWNKPSLSGVAPLPRSLHSATTIGNKMYVFGGWVPLVMDDVKVATHEKEWKCTNTLACLNLDTMAWETILMDTLEDNIPRARAGHCAVAINTRLYIWSGRDGYRKAWNNQVCCKDLWYLETEKPPPPARVQLVRANTNSLEVSWGAVATADSYLLQLQKYDIPATAATATSPTPNPVPSVPANPPKSPAPAAAAPAVQPLTQVGITLLPQAAAAPPTTTTIQVLPPVPGSSISVPAATRTQGVPAVLKVTGPQATTGTPLVTMRPASQAGKAPVTVTSLPAGVRMVVPSQSAQGTVIGSNPQMSGMAALAAAAAATQKIPPSSAPTVLSVPAGTTIVKTVAVTPGTTTLPATVKVASSPVMVSNPATRMLKTAAAQVGTSVSSAANTSTRPIITVHKSGTVTVAQQAQVVTTVVGGVTKTITLVKSPISVPGGSALISNLGKVMSVVQTKPVQTSAVTGQASTGPVTQIIQTKGPLPAGTILKLVTSADGKPTTIITTTQASGAGSKPTILGISSVSPSTTKPGTTTIIKTIPMSAIITQAGATGVTSSPGIKSPITIITTKVMTSGTGTPAKIITAVPKIATGHGQQGVTQVVLKGAPGQPGTILRTVPMGGVRLVTPVTVSAVKPAVTTLVVKGTTGVTTLGTMTGTVSTSLAGAGGHSTSASLATPITTLGTIATLSSQVINPTAITVSAAQTTLTGAGSLTTPTITMQPVSQPTQVTLITAPSGVEAQPVHDLPVSILASPTTEQPTATVTIADSGQGDVQPGTVTLVCSNPPCETHETGTTNTATTTVVANMGGHPQPNQVQFVCDRPDAAASLVTSTVGQQNGNVVRLGCSNPPCETHETGTTSTATTAMSSIGAGQQQGARHACVATTIPVVRISVPTGTLEGAQGFKSSCQTRQTSATSTTMTVMATGTSRSDSPLLAPSRALEAAGHSPAFVQLASTTGQVRLGPSSKDSPVTDLGQLVSMGRQPEAQHTHTTNTPTTARSSMGAGESGELRGIPTPAYESSSSAAVTVTGLEALLCSSATVTQVCSNPPCETHETGTTHTPTTATSGGGAGQPEGGQQPPASRPCETHQTTSTGTTMSVSVGALLPDSTPPLRTLESGLEGAAPPTSASQASTSLLTPFPTQRVCSNPPCETHETGTTHTATTVTSNMSSNQDPPPAASDQGEVESTQGDSVNITSSSAITTTVSSTLTRAVTTVTQSTPVPGPSVPPPEELQASPGPRQQLPPQQLLQPASTPLMGESTEVLSASQTSELQAAVDLSSTGDPASGQESANSAMVATVVVQPPAPTQSEVDQLSLPQELMAEAQAGTTTLMVTGLTPEELAVTAAAEAAAQAAATEEAQALAIQAVLQAAQQAVMGTGEAMDTSEGAGAVTQAELSHLSAEGQEGQATTIPIVLTQQELAALVQQQQQLQEAQAQQQHHHLPTEALAPADSLNDPTIEGNCLSELAGAVPSTVALLPSTATESLAPSNTFVAPQPVVGSSPAKLQAAATLTEVANGIESLGVKPELPPPPSKAPVKKENQWFDVGVIKGTNVMVTHYFLPPDDAAPSDDDSGTLPDYNQLKKHELQPGTAYKFRVAGINACGRGPFSEISAFKTCLPGFPGAPCAIKISKSPDGAHLTWEPPSVTSGKIVEYSVYLAIQSSQASGETKSSTPAQLAFMRVYCGPSPSCLVQSSSLSNAHIDYTTKPAIIFRIAARNEKGYGPATQVRWLQETSKDSPGTKPASKRPMSSPEMKTAPKKSKADGQ",
+  "md5" : "be2c875afbe49e1a3556f687e02515dc",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1212,
+      "end" : 1233,
+      "location-fragments" : [ {
+        "start" : 1212,
+        "end" : 1233,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PF13415",
+      "name" : "Kelch_3",
+      "description" : "Galactose oxidase, central domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 264,
+      "end" : 330,
+      "hmmStart" : 1,
+      "hmmEnd" : 49,
+      "hmmLength" : 49,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.2E-5,
+      "score" : 25.4,
+      "envelopeStart" : 264,
+      "envelopeEnd" : 330,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 264,
+        "end" : 330,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.1E-27,
+    "score" : 95.6,
+    "model-ac" : "PF13415"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.60.40.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR013783",
+        "name" : "Ig-like_fold",
+        "description" : "Immunoglobulin-like fold",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1764,
+      "end" : 1847,
+      "hmmStart" : 4,
+      "hmmEnd" : 85,
+      "hmmLength" : 85,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 9.6E-30,
+      "score" : 104.9,
+      "envelopeStart" : 1764,
+      "envelopeEnd" : 1847,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1764,
+        "end" : 1847,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.6E-33,
+    "score" : 116.3,
+    "model-ac" : "4go6B01"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1393,
+      "end" : 1428,
+      "location-fragments" : [ {
+        "start" : 1393,
+        "end" : 1428,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "cd00063",
+      "name" : "FN3",
+      "description" : "FN3",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : {
+        "accession" : "IPR003961",
+        "name" : "FN3_dom",
+        "description" : "Fibronectin type III",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1850,
+      "end" : 1955,
+      "sites" : [ {
+        "description" : "Cytokine receptor motif",
+        "numLocations" : 4,
+        "siteLocations" : [ {
+          "start" : 1950,
+          "end" : 1950,
+          "residue" : "Y"
+        }, {
+          "start" : 1951,
+          "end" : 1951,
+          "residue" : "G"
+        }, {
+          "start" : 1953,
+          "end" : 1953,
+          "residue" : "A"
+        }, {
+          "start" : 1954,
+          "end" : 1954,
+          "residue" : "T"
+        } ]
+      }, {
+        "description" : "Interdomain contacts",
+        "numLocations" : 3,
+        "siteLocations" : [ {
+          "start" : 1928,
+          "end" : 1928,
+          "residue" : "A"
+        }, {
+          "start" : 1949,
+          "end" : 1949,
+          "residue" : "G"
+        }, {
+          "start" : 1850,
+          "end" : 1850,
+          "residue" : "P"
+        } ]
+      } ],
+      "evalue" : 0.0033155,
+      "score" : 36.7055,
+      "location-fragments" : [ {
+        "start" : 1850,
+        "end" : 1955,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00063"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1280,
+      "end" : 1363,
+      "location-fragments" : [ {
+        "start" : 1280,
+        "end" : 1363,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1212,
+      "end" : 1239,
+      "location-fragments" : [ {
+        "start" : 1212,
+        "end" : 1239,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1312,
+      "end" : 1333,
+      "location-fragments" : [ {
+        "start" : 1312,
+        "end" : 1333,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.60.40.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR013783",
+        "name" : "Ig-like_fold",
+        "description" : "Immunoglobulin-like fold",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1848,
+      "end" : 1976,
+      "hmmStart" : 1,
+      "hmmEnd" : 129,
+      "hmmLength" : 129,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 8.3E-61,
+      "score" : 205.8,
+      "envelopeStart" : 1848,
+      "envelopeEnd" : 1976,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1848,
+        "end" : 1976,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.6E-62,
+    "score" : 210.2,
+    "model-ac" : "4go6B02"
+  }, {
+    "signature" : {
+      "accession" : "cd00063",
+      "name" : "FN3",
+      "description" : "FN3",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : {
+        "accession" : "IPR003961",
+        "name" : "FN3_dom",
+        "description" : "Fibronectin type III",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1813,
+      "end" : 1844,
+      "sites" : [ {
+        "description" : "Cytokine receptor motif",
+        "numLocations" : 4,
+        "siteLocations" : [ {
+          "start" : 1836,
+          "end" : 1836,
+          "residue" : "F"
+        }, {
+          "start" : 1833,
+          "end" : 1833,
+          "residue" : "R"
+        }, {
+          "start" : 1834,
+          "end" : 1834,
+          "residue" : "G"
+        }, {
+          "start" : 1837,
+          "end" : 1837,
+          "residue" : "S"
+        } ]
+      } ],
+      "evalue" : 5.03793E-4,
+      "score" : 39.0167,
+      "location-fragments" : [ {
+        "start" : 1813,
+        "end" : 1844,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00063"
+  }, {
+    "signature" : {
+      "accession" : "PS50853",
+      "name" : "FN3",
+      "description" : "Fibronectin type-III domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR003961",
+        "name" : "FN3_dom",
+        "description" : "Fibronectin type III",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1759,
+      "end" : 1847,
+      "score" : 9.01,
+      "alignment" : "PPSKAPVKKENqWFDVGVIKG----TNVMVTHYFLPP----DDAAPSDDDSgTlPDYNQLKKHELQPGTAYKFRVAGINACGRGPFSEISAFKTCLP",
+      "location-fragments" : [ {
+        "start" : 1759,
+        "end" : 1847,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50853"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.120.10.80",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR015915",
+        "name" : "Kelch-typ_b-propeller",
+        "description" : "Kelch-type beta propeller",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 186,
+      "end" : 365,
+      "hmmStart" : 145,
+      "hmmEnd" : 266,
+      "hmmLength" : 301,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.0E-17,
+      "score" : 65.1,
+      "envelopeStart" : 186,
+      "envelopeEnd" : 365,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 186,
+        "end" : 365,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 7.0E-37,
+    "score" : 129.0,
+    "model-ac" : "2vpjA00"
+  }, {
+    "signature" : {
+      "accession" : "PF01344",
+      "name" : "Kelch_1",
+      "description" : "Kelch motif",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR006652",
+        "name" : "Kelch_1",
+        "description" : "Kelch repeat type 1",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 32,
+      "end" : 69,
+      "hmmStart" : 1,
+      "hmmEnd" : 39,
+      "hmmLength" : 46,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 1.3E-5,
+      "score" : 24.5,
+      "envelopeStart" : 32,
+      "envelopeEnd" : 70,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 32,
+        "end" : 69,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.2E-25,
+    "score" : 88.8,
+    "model-ac" : "PF01344"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.120.10.80",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR015915",
+        "name" : "Kelch-typ_b-propeller",
+        "description" : "Kelch-type beta propeller",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 14,
+      "end" : 179,
+      "hmmStart" : 138,
+      "hmmEnd" : 279,
+      "hmmLength" : 318,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.5E-17,
+      "score" : 65.4,
+      "envelopeStart" : 14,
+      "envelopeEnd" : 179,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 14,
+        "end" : 179,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.8E-36,
+    "score" : 126.9,
+    "model-ac" : "2wozA00"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1953,
+      "end" : 1994,
+      "location-fragments" : [ {
+        "start" : 1953,
+        "end" : 1994,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PS50853",
+      "name" : "FN3",
+      "description" : "Fibronectin type-III domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR003961",
+        "name" : "FN3_dom",
+        "description" : "Fibronectin type III",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1849,
+      "end" : 1965,
+      "score" : 10.146,
+      "alignment" : "FPGAPCAIKISksPDGAHLTWEPPSVTSGKIVEYSVYLAIQSSQASGETKSStPaqlafmrvycGPSPSCLVQSsslsnahidYTTKPAIIFRIAARNEKGYGPATQVRWLQeTSKD",
+      "location-fragments" : [ {
+        "start" : 1849,
+        "end" : 1965,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50853"
+  }, {
+    "signature" : {
+      "accession" : "PTHR46003",
+      "name" : "FAMILY NOT NAMED",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 1248,
+      "hmmStart" : 1,
+      "hmmEnd" : 1268,
+      "hmmLength" : 2084,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 1267,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 1248,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1459,
+      "end" : 1994,
+      "hmmStart" : 1552,
+      "hmmEnd" : 2084,
+      "hmmLength" : 2084,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "envelopeStart" : 1458,
+      "envelopeEnd" : 1994,
+      "location-fragments" : [ {
+        "start" : 1459,
+        "end" : 1994,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1266,
+      "end" : 1459,
+      "hmmStart" : 1316,
+      "hmmEnd" : 1511,
+      "hmmLength" : 2084,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 1244,
+      "envelopeEnd" : 1461,
+      "location-fragments" : [ {
+        "start" : 1266,
+        "end" : 1459,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 3725.5,
+    "model-ac" : "PTHR46003"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 414,
+      "end" : 432,
+      "location-fragments" : [ {
+        "start" : 414,
+        "end" : 432,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Proline-rich"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SM00060",
+      "name" : "FN3_2",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR003961",
+        "name" : "FN3_dom",
+        "description" : "Fibronectin type III",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1850,
+      "end" : 1951,
+      "hmmStart" : 1,
+      "hmmEnd" : 69,
+      "hmmLength" : 69,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.11,
+      "score" : 21.7,
+      "location-fragments" : [ {
+        "start" : 1850,
+        "end" : 1951,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1757,
+      "end" : 1834,
+      "hmmStart" : 1,
+      "hmmEnd" : 69,
+      "hmmLength" : 69,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.8,
+      "score" : 16.3,
+      "location-fragments" : [ {
+        "start" : 1757,
+        "end" : 1834,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.3E-6,
+    "score" : 37.9,
+    "model-ac" : "SM00060"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1445,
+      "end" : 1475,
+      "location-fragments" : [ {
+        "start" : 1445,
+        "end" : 1475,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1956,
+      "end" : 1973,
+      "location-fragments" : [ {
+        "start" : 1956,
+        "end" : 1973,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PS50853",
+      "name" : "FN3",
+      "description" : "Fibronectin type-III domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR003961",
+        "name" : "FN3_dom",
+        "description" : "Fibronectin type III",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 366,
+      "end" : 466,
+      "score" : 8.016,
+      "alignment" : "PPARVQLVRANTNSLEVSWGAV----ATADSYLLQLQKYDIPATAATATSPtpnpVPSVPANPPKSPAPAAAAPAVQPLTQVGItllpqaaAAPPTTTTIQVLPP",
+      "location-fragments" : [ {
+        "start" : 366,
+        "end" : 466,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50853"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1280,
+      "end" : 1302,
+      "location-fragments" : [ {
+        "start" : 1280,
+        "end" : 1302,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1642,
+      "end" : 1665,
+      "location-fragments" : [ {
+        "start" : 1642,
+        "end" : 1665,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "SSF49265",
+      "name" : "Fibronectin type III",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036116",
+        "name" : "FN3_sf",
+        "description" : "Fibronectin type III superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1780,
+      "end" : 1959,
+      "hmmLength" : 196,
+      "location-fragments" : [ {
+        "start" : 1780,
+        "end" : 1959,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.62E-19,
+    "model-ac" : "0053850"
+  }, {
+    "signature" : {
+      "accession" : "SSF117281",
+      "name" : "Kelch motif",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR015915",
+        "name" : "Kelch-typ_b-propeller",
+        "description" : "Kelch-type beta propeller",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 76,
+      "end" : 362,
+      "hmmLength" : 285,
+      "location-fragments" : [ {
+        "start" : 76,
+        "end" : 362,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.29E-45,
+    "model-ac" : "0052715"
+  }, {
+    "signature" : {
+      "accession" : "PTHR46003:SF3",
+      "name" : "HOST CELL FACTOR 1",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : {
+        "accession" : "IPR037854",
+        "name" : "HCF1",
+        "description" : "Host cell factor 1",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "Set1C/COMPASS complex",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0048188"
+        }, {
+          "name" : "MLL1 complex",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0071339"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3214847"
+        }, {
+          "name" : "Transcriptional activation of mitochondrial biogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2151201"
+        }, {
+          "name" : "UCH proteinases",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5689603"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1459,
+      "end" : 1994,
+      "hmmStart" : 1552,
+      "hmmEnd" : 2084,
+      "hmmLength" : 2084,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "envelopeStart" : 1458,
+      "envelopeEnd" : 1994,
+      "location-fragments" : [ {
+        "start" : 1459,
+        "end" : 1994,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1,
+      "end" : 1248,
+      "hmmStart" : 1,
+      "hmmEnd" : 1268,
+      "hmmLength" : 2084,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 1267,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 1248,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1266,
+      "end" : 1459,
+      "hmmStart" : 1316,
+      "hmmEnd" : 1511,
+      "hmmLength" : 2084,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 1244,
+      "envelopeEnd" : 1461,
+      "location-fragments" : [ {
+        "start" : 1266,
+        "end" : 1459,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 3725.5,
+    "model-ac" : "PTHR46003:SF3"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 407,
+      "end" : 434,
+      "location-fragments" : [ {
+        "start" : 407,
+        "end" : 434,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  } ],
+  "xref" : [ {
+    "name" : "tr|G1PPP6|G1PPP6_MYOLU Host cell factor C1 OS=Myotis lucifugus OX=59463 GN=HCFC1 PE=4 SV=1",
+    "id" : "tr|G1PPP6|G1PPP6_MYOLU"
+  } ]
+} ]
+}

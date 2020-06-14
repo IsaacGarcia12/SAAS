@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.views.generic import View
 
 #Importaciones
-from .models import Secuencia, Blast
+from .models import Secuencia, Blast, Cath
 from .forms import IngresarForm
 from .utils import render_pdf
 from . import crearPDF
@@ -36,48 +36,53 @@ def Funcionamiento(request):
     moment=time.strftime("%Y-%b-%d__%H_%M_%S",time.localtime())
 
     #Hacemos un archivo para algunas apis
-    with open('creacion.fasta', 'w') as crea:
+    with open('/home/isaac/Escritorio/SAmin/TT/creacion.fasta', 'w') as crea:
         crea.write(cadena+'\n'+cadena1)
 
     #Aqui mandamos a llamar a BLAST
     #record = SeqIO.read(cad, format="fasta")
     result_handle = NCBIWWW.qblast("blastp", "nr", cadena.format("fasta"))
-    with open('/home/isaac/Escritorio/SAmin/TT/salida'+moment+'.xml', 'w') as out_handle:
+    with open('/home/isaac/Escritorio/SAmin/TT/static/TT/blast_result/salida'+moment+'.xml', 'w') as out_handle:
         out_handle.write(result_handle.read())
     result_handle.close()
 
     #Interpro
-    interpro = subprocess.Popen(['python', '/home/isaac/Escritorio/SAmin/TT/interpro.py', '--email', mail, cadena, cadena1])                               
+    interpro = subprocess.Popen(['python', '/home/isaac/Escritorio/SAmin/TT/interpro.py', '--email', mail, cadena])                               
     
     #CATH:
-    file_fasta = '/home/isaac/Escritorio/SAmin/TT/new.fasta'
+    file_fasta = cadena.format("fasta")
     req = requests.post('http://www.cathdb.info/search/by_funfhmmer', json={'fasta': file_fasta})
-    print(r.text)
-    moment = time.strftime("%Y-%b-%d__%H_%M_%S",time.localtime())
-    with open('/home/isaac/Escritorio/SAmin/TT/static/TT/salida'+moment+'.json', 'w') as out:
-        out.write(r.text)
-
+    req_dict = req.json()
+    idCath = req_dict['task_id']
+    with open('/home/isaac/Escritorio/SAmin/TT/static/TT/cath_results/salida'+moment+'.json', 'w') as out:
+        out.write(req_dict['task_id'])
+        #out.write(r_dict)
+    
     #cath = subprocess.Popen(["perl", "/home/isaac/Escritorio/SAmin/TT/cath.pl", cadena], stdin=subprocess.PIPE)
     
     #CLUSTAL Obtencion del phylotree:
-    cline = ClustalwCommandline("clustalw", infile="new.fasta", outfile="new.aln")
+    cline = ClustalwCommandline("clustalw", infile="/home/isaac/Escritorio/SAmin/TT/creacion.fasta", outfile="new.aln")
     print (cline)
     stdout, stderr = cline()
     print(stdout)
 
     #Con esto leemos el phytlotree
-    tree = Phylo.read("new.dnd", "newick")
+    tree = Phylo.read("/home/isaac/Escritorio/SAmin/TT/creacion.dnd", "newick")
     tree.rooted = True
 
     #Con esto lo convertimos a otro tipo de notacion
-    Phylo.convert('new.dnd', 'newick', 'new.xml', 'phyloxml')
+    #Phylo.convert('new.dnd', 'newick', 'new.xml', 'phyloxml')
 
     #Imprimimos el Arbol
-    Phylo.draw_ascii(tree)
+    with open('arbol.png', 'wb') as arbol:
+        Phylo.draw_ascii(tree)
 
     cadena_obj = Secuencia(Secuencia = cadena, Nombre = nombre, Correo = mail)
     cadena_obj.save()
-    
+
+    cath_obj = Cath(secIdRes = req_dict['task_id'], Nombre = nombre)
+    cath_obj.save()
+
     return render(request, 'TT/cadena.html', {'cadena':cadena})
 
 def creaPDF(request):

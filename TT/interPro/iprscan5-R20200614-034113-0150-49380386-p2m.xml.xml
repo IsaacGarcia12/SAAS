@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="be2c875afbe49e1a3556f687e02515dc">MASAVSPANSAAVLLQPRWKRVVGWSGPVPRPRHGHRAVAIKELIVVFGGGNEGIVDELHVYNTATNQWFIPAVRGDIPPGCAAYGFVCDGTRLLVFGGMVEYGKYSNDLYELQASRWEWKRLKAKTPKNGPPPCPRLGHSFSLVGNKCYLFGGLANDSEDPKNNIPRYLNDLYILELRPGSGVVAWDIPITYGVLPPPRESHTAVVYTEKDNKKSKLVIYGGMSGCRLGDLWTLDIETLTWNKPSLSGVAPLPRSLHSATTIGNKMYVFGGWVPLVMDDVKVATHEKEWKCTNTLACLNLDTMAWETILMDTLEDNIPRARAGHCAVAINTRLYIWSGRDGYRKAWNNQVCCKDLWYLETEKPPPPARVQLVRANTNSLEVSWGAVATADSYLLQLQKYDIPATAATATSPTPNPVPSVPANPPKSPAPAAAAPAVQPLTQVGITLLPQAAAAPPTTTTIQVLPPVPGSSISVPAATRTQGVPAVLKVTGPQATTGTPLVTMRPASQAGKAPVTVTSLPAGVRMVVPSQSAQGTVIGSNPQMSGMAALAAAAAATQKIPPSSAPTVLSVPAGTTIVKTVAVTPGTTTLPATVKVASSPVMVSNPATRMLKTAAAQVGTSVSSAANTSTRPIITVHKSGTVTVAQQAQVVTTVVGGVTKTITLVKSPISVPGGSALISNLGKVMSVVQTKPVQTSAVTGQASTGPVTQIIQTKGPLPAGTILKLVTSADGKPTTIITTTQASGAGSKPTILGISSVSPSTTKPGTTTIIKTIPMSAIITQAGATGVTSSPGIKSPITIITTKVMTSGTGTPAKIITAVPKIATGHGQQGVTQVVLKGAPGQPGTILRTVPMGGVRLVTPVTVSAVKPAVTTLVVKGTTGVTTLGTMTGTVSTSLAGAGGHSTSASLATPITTLGTIATLSSQVINPTAITVSAAQTTLTGAGSLTTPTITMQPVSQPTQVTLITAPSGVEAQPVHDLPVSILASPTTEQPTATVTIADSGQGDVQPGTVTLVCSNPPCETHETGTTNTATTTVVANMGGHPQPNQVQFVCDRPDAAASLVTSTVGQQNGNVVRLGCSNPPCETHETGTTSTATTAMSSIGAGQQQGARHACVATTIPVVRISVPTGTLEGAQGFKSSCQTRQTSATSTTMTVMATGTSRSDSPLLAPSRALEAAGHSPAFVQLASTTGQVRLGPSSKDSPVTDLGQLVSMGRQPEAQHTHTTNTPTTARSSMGAGESGELRGIPTPAYESSSSAAVTVTGLEALLCSSATVTQVCSNPPCETHETGTTHTPTTATSGGGAGQPEGGQQPPASRPCETHQTTSTGTTMSVSVGALLPDSTPPLRTLESGLEGAAPPTSASQASTSLLTPFPTQRVCSNPPCETHETGTTHTATTVTSNMSSNQDPPPAASDQGEVESTQGDSVNITSSSAITTTVSSTLTRAVTTVTQSTPVPGPSVPPPEELQASPGPRQQLPPQQLLQPASTPLMGESTEVLSASQTSELQAAVDLSSTGDPASGQESANSAMVATVVVQPPAPTQSEVDQLSLPQELMAEAQAGTTTLMVTGLTPEELAVTAAAEAAAQAAATEEAQALAIQAVLQAAQQAVMGTGEAMDTSEGAGAVTQAELSHLSAEGQEGQATTIPIVLTQQELAALVQQQQQLQEAQAQQQHHHLPTEALAPADSLNDPTIEGNCLSELAGAVPSTVALLPSTATESLAPSNTFVAPQPVVGSSPAKLQAAATLTEVANGIESLGVKPELPPPPSKAPVKKENQWFDVGVIKGTNVMVTHYFLPPDDAAPSDDDSGTLPDYNQLKKHELQPGTAYKFRVAGINACGRGPFSEISAFKTCLPGFPGAPCAIKISKSPDGAHLTWEPPSVTSGKIVEYSVYLAIQSSQASGETKSSTPAQLAFMRVYCGPSPSCLVQSSSLSNAHIDYTTKPAIIFRIAARNEKGYGPATQVRWLQETSKDSPGTKPASKRPMSSPEMKTAPKKSKADGQ</sequence>
+    <xref id="tr|G1PPP6|G1PPP6_MYOLU" name="tr|G1PPP6|G1PPP6_MYOLU Host cell factor C1 OS=Myotis lucifugus OX=59463 GN=HCFC1 PE=4 SV=1"/>
+    <matches>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="1642" end="1665">
+            <location-fragments>
+              <coils-location-fragment start="1642" end="1665" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <hmmer2-match evalue="1.3E-6" score="37.9">
+        <signature ac="SM00060" name="FN3_2">
+          <entry ac="IPR003961" desc="Fibronectin type III" name="FN3_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00060</model-ac>
+        <locations>
+          <hmmer2-location score="21.7" evalue="0.11" hmm-start="1" hmm-end="69" hmm-length="69" hmm-bounds="COMPLETE" start="1850" end="1951">
+            <location-fragments>
+              <hmmer2-location-fragment start="1850" end="1951" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="16.3" evalue="2.8" hmm-start="1" hmm-end="69" hmm-length="69" hmm-bounds="COMPLETE" start="1757" end="1834">
+            <location-fragments>
+              <hmmer2-location-fragment start="1757" end="1834" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="1.1E-27" score="95.6">
+        <signature ac="PF13415" desc="Galactose oxidase, central domain" name="Kelch_3">
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF13415</model-ac>
+        <locations>
+          <hmmer3-location env-end="330" env-start="264" post-processed="true" score="25.4" evalue="1.2E-5" hmm-start="1" hmm-end="49" hmm-length="49" hmm-bounds="COMPLETE" start="264" end="330">
+            <location-fragments>
+              <hmmer3-location-fragment start="264" end="330" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.6E-33" score="116.3">
+        <signature ac="G3DSA:2.60.40.10">
+          <entry ac="IPR013783" desc="Immunoglobulin-like fold" name="Ig-like_fold" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4go6B01</model-ac>
+        <locations>
+          <hmmer3-location env-end="1847" env-start="1764" post-processed="true" score="104.9" evalue="9.6E-30" hmm-start="4" hmm-end="85" hmm-length="85" hmm-bounds="COMPLETE" start="1764" end="1847">
+            <location-fragments>
+              <hmmer3-location-fragment start="1764" end="1847" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.6E-62" score="210.2">
+        <signature ac="G3DSA:2.60.40.10">
+          <entry ac="IPR013783" desc="Immunoglobulin-like fold" name="Ig-like_fold" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4go6B02</model-ac>
+        <locations>
+          <hmmer3-location env-end="1976" env-start="1848" post-processed="true" score="205.8" evalue="8.3E-61" hmm-start="1" hmm-end="129" hmm-length="129" hmm-bounds="COMPLETE" start="1848" end="1976">
+            <location-fragments>
+              <hmmer3-location-fragment start="1848" end="1976" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="7.0E-37" score="129.0">
+        <signature ac="G3DSA:2.120.10.80">
+          <entry ac="IPR015915" desc="Kelch-type beta propeller" name="Kelch-typ_b-propeller" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2vpjA00</model-ac>
+        <locations>
+          <hmmer3-location env-end="365" env-start="186" post-processed="true" score="65.1" evalue="2.0E-17" hmm-start="145" hmm-end="266" hmm-length="301" hmm-bounds="COMPLETE" start="186" end="365">
+            <location-fragments>
+              <hmmer3-location-fragment start="186" end="365" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.2E-25" score="88.8">
+        <signature ac="PF01344" desc="Kelch motif" name="Kelch_1">
+          <entry ac="IPR006652" desc="Kelch repeat type 1" name="Kelch_1" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF01344</model-ac>
+        <locations>
+          <hmmer3-location env-end="70" env-start="32" post-processed="true" score="24.5" evalue="1.3E-5" hmm-start="1" hmm-end="39" hmm-length="46" hmm-bounds="N_TERMINAL_COMPLETE" start="32" end="69">
+            <location-fragments>
+              <hmmer3-location-fragment start="32" end="69" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.8E-36" score="126.9">
+        <signature ac="G3DSA:2.120.10.80">
+          <entry ac="IPR015915" desc="Kelch-type beta propeller" name="Kelch-typ_b-propeller" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2wozA00</model-ac>
+        <locations>
+          <hmmer3-location env-end="179" env-start="14" post-processed="true" score="65.4" evalue="1.5E-17" hmm-start="138" hmm-end="279" hmm-length="318" hmm-bounds="COMPLETE" start="14" end="179">
+            <location-fragments>
+              <hmmer3-location-fragment start="14" end="179" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="1212" end="1233">
+            <location-fragments>
+              <mobidblite-location-fragment start="1212" end="1233" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1393" end="1428">
+            <location-fragments>
+              <mobidblite-location-fragment start="1393" end="1428" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1280" end="1363">
+            <location-fragments>
+              <mobidblite-location-fragment start="1280" end="1363" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1212" end="1239">
+            <location-fragments>
+              <mobidblite-location-fragment start="1212" end="1239" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="1312" end="1333">
+            <location-fragments>
+              <mobidblite-location-fragment start="1312" end="1333" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1953" end="1994">
+            <location-fragments>
+              <mobidblite-location-fragment start="1953" end="1994" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Proline-rich" start="414" end="432">
+            <location-fragments>
+              <mobidblite-location-fragment start="414" end="432" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1445" end="1475">
+            <location-fragments>
+              <mobidblite-location-fragment start="1445" end="1475" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="1956" end="1973">
+            <location-fragments>
+              <mobidblite-location-fragment start="1956" end="1973" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="1280" end="1302">
+            <location-fragments>
+              <mobidblite-location-fragment start="1280" end="1302" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="407" end="434">
+            <location-fragments>
+              <mobidblite-location-fragment start="407" end="434" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="3725.5">
+        <signature ac="PTHR46003" name="FAMILY NOT NAMED">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR46003</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="1267" hmm-start="1" hmm-end="1268" hmm-length="2084" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="1248">
+            <location-fragments>
+              <panther-location-fragment start="1" end="1248" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="1458" env-end="1994" hmm-start="1552" hmm-end="2084" hmm-length="2084" hmm-bounds="C_TERMINAL_COMPLETE" start="1459" end="1994">
+            <location-fragments>
+              <panther-location-fragment start="1459" end="1994" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="1244" env-end="1461" hmm-start="1316" hmm-end="1511" hmm-length="2084" hmm-bounds="INCOMPLETE" start="1266" end="1459">
+            <location-fragments>
+              <panther-location-fragment start="1266" end="1459" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="3725.5">
+        <signature ac="PTHR46003:SF3" name="HOST CELL FACTOR 1">
+          <entry ac="IPR037854" desc="Host cell factor 1" name="HCF1" type="FAMILY">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0048188" name="Set1C/COMPASS complex"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0071339" name="MLL1 complex"/>
+            <pathway-xref db="Reactome" id="R-HSA-3214847" name="HATs acetylate histones"/>
+            <pathway-xref db="Reactome" id="R-HSA-2151201" name="Transcriptional activation of mitochondrial biogenesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-5689603" name="UCH proteinases"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR46003:SF3</model-ac>
+        <locations>
+          <panther-location env-start="1458" env-end="1994" hmm-start="1552" hmm-end="2084" hmm-length="2084" hmm-bounds="C_TERMINAL_COMPLETE" start="1459" end="1994">
+            <location-fragments>
+              <panther-location-fragment start="1459" end="1994" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="1" env-end="1267" hmm-start="1" hmm-end="1268" hmm-length="2084" hmm-bounds="N_TERMINAL_COMPLETE" start="1" end="1248">
+            <location-fragments>
+              <panther-location-fragment start="1" end="1248" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="1244" env-end="1461" hmm-start="1316" hmm-end="1511" hmm-length="2084" hmm-bounds="INCOMPLETE" start="1266" end="1459">
+            <location-fragments>
+              <panther-location-fragment start="1266" end="1459" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <profilescan-match>
+        <signature ac="PS50853" desc="Fibronectin type-III domain profile." name="FN3">
+          <entry ac="IPR003961" desc="Fibronectin type III" name="FN3_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50853</model-ac>
+        <locations>
+          <profilescan-location score="9.01" start="1759" end="1847">
+            <location-fragments>
+              <profilescan-location-fragment start="1759" end="1847" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>PPSKAPVKKENqWFDVGVIKG----TNVMVTHYFLPP----DDAAPSDDDSgTlPDYNQLKKHELQPGTAYKFRVAGINACGRGPFSEISAFKTCLP</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50853" desc="Fibronectin type-III domain profile." name="FN3">
+          <entry ac="IPR003961" desc="Fibronectin type III" name="FN3_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50853</model-ac>
+        <locations>
+          <profilescan-location score="10.146" start="1849" end="1965">
+            <location-fragments>
+              <profilescan-location-fragment start="1849" end="1965" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>FPGAPCAIKISksPDGAHLTWEPPSVTSGKIVEYSVYLAIQSSQASGETKSStPaqlafmrvycGPSPSCLVQSsslsnahidYTTKPAIIFRIAARNEKGYGPATQVRWLQeTSKD</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50853" desc="Fibronectin type-III domain profile." name="FN3">
+          <entry ac="IPR003961" desc="Fibronectin type III" name="FN3_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50853</model-ac>
+        <locations>
+          <profilescan-location score="8.016" start="366" end="466">
+            <location-fragments>
+              <profilescan-location-fragment start="366" end="466" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>PPARVQLVRANTNSLEVSWGAV----ATADSYLLQLQKYDIPATAATATSPtpnpVPSVPANPPKSPAPAAAAPAVQPLTQVGItllpqaaAAPPTTTTIQVLPP</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <rpsblast-match>
+        <signature ac="cd00063" desc="FN3" name="FN3">
+          <entry ac="IPR003961" desc="Fibronectin type III" name="FN3_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00063</model-ac>
+        <locations>
+          <rpsblast-location evalue="0.0033155" score="36.7055" start="1850" end="1955">
+            <location-fragments>
+              <rpsblast-location-fragment start="1850" end="1955" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="Cytokine receptor motif" numLocations="4">
+                <site-locations>
+                  <site-location residue="Y" start="1950" end="1950"/>
+                  <site-location residue="G" start="1951" end="1951"/>
+                  <site-location residue="A" start="1953" end="1953"/>
+                  <site-location residue="T" start="1954" end="1954"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="Interdomain contacts" numLocations="3">
+                <site-locations>
+                  <site-location residue="A" start="1928" end="1928"/>
+                  <site-location residue="G" start="1949" end="1949"/>
+                  <site-location residue="P" start="1850" end="1850"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd00063" desc="FN3" name="FN3">
+          <entry ac="IPR003961" desc="Fibronectin type III" name="FN3_dom" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00063</model-ac>
+        <locations>
+          <rpsblast-location evalue="5.03793E-4" score="39.0167" start="1813" end="1844">
+            <location-fragments>
+              <rpsblast-location-fragment start="1813" end="1844" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="Cytokine receptor motif" numLocations="4">
+                <site-locations>
+                  <site-location residue="F" start="1836" end="1836"/>
+                  <site-location residue="R" start="1833" end="1833"/>
+                  <site-location residue="G" start="1834" end="1834"/>
+                  <site-location residue="S" start="1837" end="1837"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="4.62E-19">
+        <signature ac="SSF49265" name="Fibronectin type III">
+          <entry ac="IPR036116" desc="Fibronectin type III superfamily" name="FN3_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0053850</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="196" start="1780" end="1959">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="1780" end="1959" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="2.29E-45">
+        <signature ac="SSF117281" name="Kelch motif">
+          <entry ac="IPR015915" desc="Kelch-type beta propeller" name="Kelch-typ_b-propeller" type="HOMOLOGOUS_SUPERFAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0052715</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="285" start="76" end="362">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="76" end="362" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

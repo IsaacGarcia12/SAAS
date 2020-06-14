@@ -41,10 +41,12 @@ E_VALUE_THRESH = 0.1
 for alignment in b_record.alignments:
     for hsp in alignment.hsps:
         if hsp.expect < E_VALUE_THRESH:
-            print("****Alineacion****")
-            print("secuencia: %s" % alignment.title)
-            print("longitud: %i" % alignment.length)
-            print("e value: %f" % hsp.expect)
-            print(hsp.query[0:75] + "...")
-            print(hsp.match[0:75] + "...")
-            print(hsp.sbjct[0:75] + "...")
+            with open("parsed.xml") as out:
+                out.write()
+                print("****Alineacion****")
+                print("secuencia: %s" % alignment.title)
+                print("longitud: %i" % alignment.length)
+                print("e value: %f" % hsp.expect)
+                print(hsp.query[0:75] + "...")
+                print(hsp.match[0:75] + "...")
+                print(hsp.sbjct[0:75] + "...")

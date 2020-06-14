@@ -1,0 +1,2663 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MYIAYGCYLVDLADAVWMPTVLKLPGTISILKNTSNSTGTTTKLNSRASTSGSAARLQDTLPQMLEEELRPKMIPRPMQILKRPQSSAGTDGKSPTDSKPKTQIKSLDQRKQEYAEARLRILGSAHDDEEAETKKVTPTTTSNTTASNGYRINNANNNNNNSNNSNGVVGGGSAAAGSTGVGVIGSTANSNANNAYRYHSPYRQQAPIGTFPPSLQNAPSQGLIAPMYYPSMGNQSQHHPMHSAHGMHHPPSAYPHVPHHHLQHNNHPYQHQQHFGQHINPPTGSQHLYGGRNGGNAPGGPGYFAKGGPAPYAEANGAPLLGHAPPGVHHNHTIPYGGAGGGYGQTNSHGNLVGNAGANIGNNQHVLRLPAGPDGSQGFNVRRETMASGGGDFASAKKKVLVIGAGGREHAICWKLARSDRVGAVYALPGSPGIAAVPKLHLVSDVSVKDFNAIVSWCKRNQIDLVAVGPEDPLADGLADVLRAAGVKCFGPGQRGAQIEADKNWSKDFMHRHGIPTARYASFTDADEAKAFIRQAPYQALVVKAAGLAAGKGVIVAETIDEACAAVDDILGEKKFGAAGNVVVVEEKLSGEEVSVLAFVDSRTVRVMLPAQDHKRLLDQDRGPNTGGMGAYCPCPIIQPPQLELVVREVLQRAVDGLREEGIQYNGVLYAGMMLTPSGPKTLEFNCRFGDPETQVILPLLESDLYGVMEATCDNRLHEISLKFRAGLTAVGVVMASRGYPETSTKGCVIEGLDTVAARPEHLVFHSGVARNERGEFVTNGGRVLIGVVLHTDLKQAAALATAACSTISFDGSQHRLDIAQKAFKHVSLSYKSSGVDIDAGDALVQRIKPLARGTNRPGVIGGLGGFGGLFRLNDATYTDRRGKQVRYGDPVLVQGTDGVGTKLKLAETLNCWDTIGIDLVAMCANDVLCAGAEPLAFLDYIACGRLEVPTAALIVKGIAEGCRESNCLDTVAARPEHLVFHSGVARNERGEFVTNGGRVLIGVVLHTDLKQAAALATAACSTISFDGSQHRLDIAQKAFKHVSLSYKSSGVDIDAGDALVQRIKPLARGTNRPGVIGGLGGFGGLFRLNDATYTDRRGKQVRYGDPVLVQGTDGVGTKLKLAETLNCWDTIGIDLVAMCANDVLCAGAEPLAFLDYIACGRLEVPTAALIVKGIAEGCRETNCALLGGETAEMPSMYAPGKYDLAGYCVGVVEADQILPRMDRIREGDLVVGLPSSGVHSNGFSLVNKILETTRTKLTDRAPFGEDGCSSFGEELLTPTRLYVAPVLPLLRQTDTVRALAHITGGGLVENVPRVLPEGLAVEVNFDVVDIPPIFGWLAAAGNVTEREMLRTFNCGIGLVLIVDGTDGSWKDKLAGQGAVVLGKVTRRKAGGEQVLVKNFSVAIERAAKPYRKEFPLEQASNGPAKRAQSISYKDSGVDISAGDDLVQRIKPFAKSTTRPGVMGGLGGFGGLYRLRDAGLNDLTDPILVLGTDGVGTKLKIAQDSHRHRTVGIDLVAMCVNDIICNGADPVNFLDYYACGSLDVPVAAQVIEGIADGCRQGGSALLGGETAEMPGMYAPGVYDLAGFSLGIVEQRKMLPRVDTICPGDVIIGLPSSGVHSNGFSLVHKILEFNGLTLTDVAPFSATGKTFAEELLVPTKIYVRELQPLLADEGGLVKALAHITGGGFTENIPRVLPSDAAAFLDLADLHVLPIFGWLARAGNVTPEEMLRTFNCGIGMMLVVATEHRETVLERLEPFGGRMLGTIVKKSDPLGGRVIVRGFEETLRKAQFTCVLPKKRIAVLISGSGSNLQALIDATRSTAFGIRGEIALVVSNKDGVLGLERAAKAGIPSKVILHKNYTTRELFDEAVSKVLAEERIELVCLAGFMRILSEAFVKRWKGRLINIHPALLPKHKGTHAQRQALAAGDLESGCTVHFVDEGVDTGAIILQHRVPILRQDTEEALTERIHRAEHRAYPEALRLVANDIATLGVDGQVQWS",
+  "md5" : "ae4b367888ba126465efd13bba1121b2",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "PS50975",
+      "name" : "ATP_GRASP",
+      "description" : "ATP-grasp fold profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR011761",
+        "name" : "ATP-grasp",
+        "description" : "ATP-grasp fold",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        }, {
+          "name" : "metal ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0046872"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 507,
+      "end" : 714,
+      "score" : 33.985,
+      "alignment" : "KDFMHRHGIPTARYASFTDADEAKAFIRQAPYQALVVKAAGlAAGKGVIVAETideaCAAVDDILGEKKFGAAGNVVVVEEKLSGEEV-SVLAFVDSRTVRVMLPaqDHKRLLDQDRgpnTGGMGAYCPCPIIQPPQLELVVREVLQRAVDGLReegiqYNGVLYAGMMLTPSG-PKTLEFNCRFGDPETQVILPLLESDLYGVMEATCD",
+      "location-fragments" : [ {
+        "start" : 507,
+        "end" : 714,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50975"
+  }, {
+    "signature" : {
+      "accession" : "PF00586",
+      "name" : "AIRS",
+      "description" : "AIR synthase related protein, N-terminal domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR016188",
+        "name" : "PurM-like_N",
+        "description" : "PurM-like, N-terminal domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 891,
+      "end" : 968,
+      "hmmStart" : 15,
+      "hmmEnd" : 71,
+      "hmmLength" : 94,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 4.7E-9,
+      "score" : 36.7,
+      "envelopeStart" : 875,
+      "envelopeEnd" : 973,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 891,
+        "end" : 968,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1107,
+      "end" : 1213,
+      "hmmStart" : 15,
+      "hmmEnd" : 94,
+      "hmmLength" : 94,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 2.3E-14,
+      "score" : 53.7,
+      "envelopeStart" : 1091,
+      "envelopeEnd" : 1213,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1107,
+        "end" : 1213,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1477,
+      "end" : 1590,
+      "hmmStart" : 2,
+      "hmmEnd" : 92,
+      "hmmLength" : 94,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 5.9E-13,
+      "score" : 49.2,
+      "envelopeStart" : 1476,
+      "envelopeEnd" : 1592,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1477,
+        "end" : 1590,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.8E-40,
+    "score" : 137.4,
+    "model-ac" : "PF00586"
+  }, {
+    "signature" : {
+      "accession" : "PS00373",
+      "name" : "GART",
+      "description" : "Phosphoribosylglycinamide formyltransferase active site.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PATTERNS",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001555",
+        "name" : "GART_AS",
+        "description" : "Phosphoribosylglycinamide formyltransferase, active site",
+        "type" : "ACTIVE_SITE",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Aminoacyl-tRNA biosynthesis",
+          "databaseName" : "KEGG",
+          "id" : "00970+2.1.2.9"
+        }, {
+          "name" : "One carbon pool by folate",
+          "databaseName" : "KEGG",
+          "id" : "00670+2.1.2.9"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1931,
+      "end" : 1954,
+      "level" : "STRONG",
+      "cigarAlignment" : "1M1I2M1I2M1I1M1I2M1I1M2I1M6I1M",
+      "alignment" : "GcTVhFVdEgVDtGaiIlqhrvpI",
+      "location-fragments" : [ {
+        "start" : 1931,
+        "end" : 1954,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS00373"
+  }, {
+    "signature" : {
+      "accession" : "PTHR10520:SF12",
+      "name" : "TRIFUNCTIONAL PURINE BIOSYNTHETIC PROTEIN ADENOSINE-3",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 988,
+      "end" : 1400,
+      "hmmStart" : 230,
+      "hmmEnd" : 623,
+      "hmmLength" : 625,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 970,
+      "envelopeEnd" : 1402,
+      "location-fragments" : [ {
+        "start" : 988,
+        "end" : 1400,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1409,
+      "end" : 1782,
+      "hmmStart" : 269,
+      "hmmEnd" : 624,
+      "hmmLength" : 625,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 1401,
+      "envelopeEnd" : 1783,
+      "location-fragments" : [ {
+        "start" : 1409,
+        "end" : 1782,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 455,
+      "end" : 968,
+      "hmmStart" : 2,
+      "hmmEnd" : 407,
+      "hmmLength" : 625,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 386,
+      "envelopeEnd" : 973,
+      "location-fragments" : [ {
+        "start" : 455,
+        "end" : 968,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 1712.2,
+    "model-ac" : "PTHR10520:SF12"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.90.600.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR037123",
+        "name" : "PRibGlycinamide_synth_C_sf",
+        "description" : "Phosphoribosylglycinamide synthetase, C-domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "phosphoribosylamine-glycine ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004637"
+        }, {
+          "name" : "purine nucleobase biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0009113"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6122"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        }, {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+6.3.4.13"
+        }, {
+          "name" : "Superpathway of 5-aminoimidazole ribonucleotide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6277"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 967,
+      "end" : 1041,
+      "hmmStart" : 28,
+      "hmmEnd" : 95,
+      "hmmLength" : 96,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 3.7E-14,
+      "score" : 54.5,
+      "envelopeStart" : 962,
+      "envelopeEnd" : 1041,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 967,
+        "end" : 1041,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 9.8E-43,
+    "score" : 146.1,
+    "model-ac" : "1gsoA04"
+  }, {
+    "signature" : {
+      "accession" : "SM01210",
+      "name" : "GARS_C_2",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR020560",
+        "name" : "PRibGlycinamide_synth_C-dom",
+        "description" : "Phosphoribosylglycinamide synthetase, C-domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "phosphoribosylamine-glycine ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004637"
+        }, {
+          "name" : "purine nucleobase biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0009113"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+6.3.4.13"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6122"
+        }, {
+          "name" : "Superpathway of 5-aminoimidazole ribonucleotide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6277"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 729,
+      "end" : 824,
+      "hmmStart" : 1,
+      "hmmEnd" : 109,
+      "hmmLength" : 109,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.4E-36,
+      "score" : 135.9,
+      "location-fragments" : [ {
+        "start" : 729,
+        "end" : 824,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 948,
+      "end" : 1040,
+      "hmmStart" : 1,
+      "hmmEnd" : 109,
+      "hmmLength" : 109,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.3E-9,
+      "score" : 46.6,
+      "location-fragments" : [ {
+        "start" : 948,
+        "end" : 1040,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.1E-50,
+    "score" : 182.5,
+    "model-ac" : "SM01210"
+  }, {
+    "signature" : {
+      "accession" : "PTHR10520",
+      "name" : "TRIFUNCTIONAL PURINE BIOSYNTHETIC PROTEIN ADENOSINE-3-RELATED",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : {
+        "accession" : "IPR004733",
+        "name" : "PurM_cligase",
+        "description" : "Phosphoribosylformylglycinamidine cyclo-ligase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "'de novo' IMP biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006189"
+        }, {
+          "name" : "phosphoribosylformylglycinamidine cyclo-ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004641"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Superpathway of 5-aminoimidazole ribonucleotide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6277"
+        }, {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+6.3.3.1"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6122"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 455,
+      "end" : 968,
+      "hmmStart" : 2,
+      "hmmEnd" : 407,
+      "hmmLength" : 625,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 386,
+      "envelopeEnd" : 973,
+      "location-fragments" : [ {
+        "start" : 455,
+        "end" : 968,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 988,
+      "end" : 1400,
+      "hmmStart" : 230,
+      "hmmEnd" : 623,
+      "hmmLength" : 625,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 970,
+      "envelopeEnd" : 1402,
+      "location-fragments" : [ {
+        "start" : 988,
+        "end" : 1400,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1409,
+      "end" : 1782,
+      "hmmStart" : 269,
+      "hmmEnd" : 624,
+      "hmmLength" : 625,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 1401,
+      "envelopeEnd" : 1783,
+      "location-fragments" : [ {
+        "start" : 1409,
+        "end" : 1782,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 1712.2,
+    "model-ac" : "PTHR10520"
+  }, {
+    "signature" : {
+      "accession" : "SSF55326",
+      "name" : "PurM N-terminal domain-like",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036921",
+        "name" : "PurM-like_N_sf",
+        "description" : "PurM-like, N-terminal domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1431,
+      "end" : 1597,
+      "hmmLength" : 166,
+      "location-fragments" : [ {
+        "start" : 1431,
+        "end" : 1597,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.27E-44,
+    "model-ac" : "0046171"
+  }, {
+    "signature" : {
+      "accession" : "SSF51246",
+      "name" : "Rudiment single hybrid motif",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR011054",
+        "name" : "Rudment_hybrid_motif",
+        "description" : "Rudiment single hybrid motif",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Biotin transport and metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-196780"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 974,
+      "end" : 1040,
+      "hmmLength" : 99,
+      "location-fragments" : [ {
+        "start" : 974,
+        "end" : 1040,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 6.2E-13,
+    "model-ac" : "0038249"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 33,
+      "end" : 57,
+      "location-fragments" : [ {
+        "start" : 33,
+        "end" : 57,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PS00184",
+      "name" : "GARS",
+      "description" : "Phosphoribosylglycinamide synthetase signature.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PATTERNS",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR020559",
+        "name" : "PRibGlycinamide_synth_CS",
+        "description" : "Phosphoribosylglycinamide synthetase, conserved site",
+        "type" : "CONSERVED_SITE",
+        "goXRefs" : [ {
+          "name" : "phosphoribosylamine-glycine ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004637"
+        }, {
+          "name" : "purine nucleobase biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0009113"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        }, {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+6.3.4.13"
+        }, {
+          "name" : "Superpathway of 5-aminoimidazole ribonucleotide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6277"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6122"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 688,
+      "end" : 695,
+      "level" : "STRONG",
+      "cigarAlignment" : "6M1I1M",
+      "alignment" : "RFGDPEtQ",
+      "location-fragments" : [ {
+        "start" : 688,
+        "end" : 695,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS00184"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 69,
+      "end" : 110,
+      "location-fragments" : [ {
+        "start" : 69,
+        "end" : 110,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PS51673",
+      "name" : "SUZ",
+      "description" : "SUZ domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR024771",
+        "name" : "SUZ",
+        "description" : "SUZ domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 60,
+      "end" : 126,
+      "score" : 12.029,
+      "alignment" : "TLPQMLEEELRPKM-----IPRPMQILKRPQSSAGTDGKSPTDSKPKT------QIKSLDQRKQEYAEARLRILGSAH",
+      "location-fragments" : [ {
+        "start" : 60,
+        "end" : 126,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51673"
+  }, {
+    "signature" : {
+      "accession" : "SSF56042",
+      "name" : "PurM C-terminal domain-like",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036676",
+        "name" : "PurM-like_C_sf",
+        "description" : "PurM-like, C-terminal domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1603,
+      "end" : 1769,
+      "hmmLength" : 175,
+      "location-fragments" : [ {
+        "start" : 1603,
+        "end" : 1769,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.88E-51,
+    "model-ac" : "0036051"
+  }, {
+    "signature" : {
+      "accession" : "MF_00138",
+      "name" : "GARS",
+      "description" : "Phosphoribosylamine--glycine ligase [purD].",
+      "signatureLibraryRelease" : {
+        "library" : "HAMAP",
+        "version" : "2020_01"
+      },
+      "entry" : {
+        "accession" : "IPR000115",
+        "name" : "PRibGlycinamide_synth",
+        "description" : "Phosphoribosylglycinamide synthetase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "phosphoribosylamine-glycine ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004637"
+        }, {
+          "name" : "purine nucleobase biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0009113"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+6.3.4.13"
+        }, {
+          "name" : "Superpathway of 5-aminoimidazole ribonucleotide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6277"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6122"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 398,
+      "end" : 824,
+      "score" : 38.692,
+      "alignment" : "Not available",
+      "location-fragments" : [ {
+        "start" : 398,
+        "end" : 824,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "MF_00138"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 136,
+      "end" : 167,
+      "location-fragments" : [ {
+        "start" : 136,
+        "end" : 167,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PF02843",
+      "name" : "GARS_C",
+      "description" : "Phosphoribosylglycinamide synthetase, C domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR020560",
+        "name" : "PRibGlycinamide_synth_C-dom",
+        "description" : "Phosphoribosylglycinamide synthetase, C-domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "phosphoribosylamine-glycine ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004637"
+        }, {
+          "name" : "purine nucleobase biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0009113"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+6.3.4.13"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6122"
+        }, {
+          "name" : "Superpathway of 5-aminoimidazole ribonucleotide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6277"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 977,
+      "end" : 1038,
+      "hmmStart" : 25,
+      "hmmEnd" : 80,
+      "hmmLength" : 80,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 1.6E-10,
+      "score" : 41.1,
+      "envelopeStart" : 955,
+      "envelopeEnd" : 1038,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 977,
+        "end" : 1038,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 730,
+      "end" : 822,
+      "hmmStart" : 1,
+      "hmmEnd" : 80,
+      "hmmLength" : 80,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.8E-20,
+      "score" : 72.3,
+      "envelopeStart" : 730,
+      "envelopeEnd" : 822,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 730,
+        "end" : 822,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.0E-33,
+    "score" : 115.4,
+    "model-ac" : "PF02843"
+  }, {
+    "signature" : {
+      "accession" : "TIGR00878",
+      "name" : "TIGR00878",
+      "description" : "purM: phosphoribosylformylglycinamidine cyclo-ligase",
+      "signatureLibraryRelease" : {
+        "library" : "TIGRFAM",
+        "version" : "15.0"
+      },
+      "entry" : {
+        "accession" : "IPR004733",
+        "name" : "PurM_cligase",
+        "description" : "Phosphoribosylformylglycinamidine cyclo-ligase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "'de novo' IMP biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006189"
+        }, {
+          "name" : "phosphoribosylformylglycinamidine cyclo-ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004641"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Superpathway of 5-aminoimidazole ribonucleotide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6277"
+        }, {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+6.3.3.1"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6122"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1045,
+      "end" : 1386,
+      "hmmStart" : 1,
+      "hmmEnd" : 330,
+      "hmmLength" : 332,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 4.0E-119,
+      "score" : 395.6,
+      "envelopeStart" : 1045,
+      "envelopeEnd" : 1388,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 1045,
+        "end" : 1386,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1431,
+      "end" : 1766,
+      "hmmStart" : 1,
+      "hmmEnd" : 330,
+      "hmmLength" : 332,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 1.5E-120,
+      "score" : 400.3,
+      "envelopeStart" : 1431,
+      "envelopeEnd" : 1768,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 1431,
+        "end" : 1766,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 953.1,
+    "model-ac" : "TIGR00878"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.1490.20",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR013815",
+        "name" : "ATP_grasp_subdomain_1",
+        "description" : "ATP-grasp fold, subdomain 1",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 519,
+      "end" : 589,
+      "hmmStart" : 2,
+      "hmmEnd" : 71,
+      "hmmLength" : 71,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 8.7E-25,
+      "score" : 88.3,
+      "envelopeStart" : 519,
+      "envelopeEnd" : 589,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 519,
+        "end" : 589,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.6E-25,
+    "score" : 90.0,
+    "model-ac" : "2qk4B02"
+  }, {
+    "signature" : {
+      "accession" : "SSF53328",
+      "name" : "Formyltransferase",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036477",
+        "name" : "Formyl_transf_N_sf",
+        "description" : "Formyl transferase, N-terminal domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "hydroxymethyl-, formyl- and related transferase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0016742"
+        }, {
+          "name" : "biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0009058"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "One carbon pool by folate",
+          "databaseName" : "KEGG",
+          "id" : "00670+2.1.2.9"
+        }, {
+          "name" : "Aminoacyl-tRNA biosynthesis",
+          "databaseName" : "KEGG",
+          "id" : "00970+2.1.2.9"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1797,
+      "end" : 1997,
+      "hmmLength" : 205,
+      "location-fragments" : [ {
+        "start" : 1797,
+        "end" : 1997,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 6.02E-60,
+    "model-ac" : "0040902"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.40.50.20",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 399,
+      "end" : 493,
+      "hmmStart" : 1,
+      "hmmEnd" : 93,
+      "hmmLength" : 94,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.1E-33,
+      "score" : 117.5,
+      "envelopeStart" : 399,
+      "envelopeEnd" : 493,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 399,
+        "end" : 493,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.6E-34,
+    "score" : 120.1,
+    "model-ac" : "2qk4A01"
+  }, {
+    "signature" : {
+      "accession" : "MF_01930",
+      "name" : "PurN",
+      "description" : "Phosphoribosylglycinamide formyltransferase [purN].",
+      "signatureLibraryRelease" : {
+        "library" : "HAMAP",
+        "version" : "2020_01"
+      },
+      "entry" : {
+        "accession" : "IPR004607",
+        "name" : "GART",
+        "description" : "Phosphoribosylglycinamide formyltransferase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "'de novo' IMP biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006189"
+        }, {
+          "name" : "phosphoribosylglycinamide formyltransferase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004644"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Tetrahydrofolate salvage from 5,10-methenyltetrahydrofolate",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6613"
+        }, {
+          "name" : "One carbon pool by folate",
+          "databaseName" : "KEGG",
+          "id" : "00670+2.1.2.2"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+2.1.2.2"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1798,
+      "end" : 1985,
+      "score" : 32.089,
+      "alignment" : "Not available",
+      "location-fragments" : [ {
+        "start" : 1798,
+        "end" : 1985,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "MF_01930"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.40.50.170",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1797,
+      "end" : 1998,
+      "hmmStart" : 3,
+      "hmmEnd" : 199,
+      "hmmLength" : 210,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.5E-78,
+      "score" : 263.3,
+      "envelopeStart" : 1797,
+      "envelopeEnd" : 1998,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1797,
+        "end" : 1998,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.5E-78,
+    "score" : 264.1,
+    "model-ac" : "4zz1A00"
+  }, {
+    "signature" : {
+      "accession" : "PF01071",
+      "name" : "GARS_A",
+      "description" : "Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR020561",
+        "name" : "PRibGlycinamid_synth_ATP-grasp",
+        "description" : "Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+6.3.4.13"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6122"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        }, {
+          "name" : "Superpathway of 5-aminoimidazole ribonucleotide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6277"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 501,
+      "end" : 694,
+      "hmmStart" : 1,
+      "hmmEnd" : 194,
+      "hmmLength" : 194,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.6E-82,
+      "score" : 275.2,
+      "envelopeStart" : 501,
+      "envelopeEnd" : 694,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 501,
+        "end" : 694,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.5E-82,
+    "score" : 276.0,
+    "model-ac" : "PF01071"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.470.20",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 590,
+      "end" : 726,
+      "hmmStart" : 2,
+      "hmmEnd" : 132,
+      "hmmLength" : 139,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.2E-54,
+      "score" : 185.7,
+      "envelopeStart" : 590,
+      "envelopeEnd" : 726,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 590,
+        "end" : 726,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.9E-55,
+    "score" : 186.8,
+    "model-ac" : "2qk4A03"
+  }, {
+    "signature" : {
+      "accession" : "cd02196",
+      "name" : "PurM",
+      "description" : "PurM",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : {
+        "accession" : "IPR004733",
+        "name" : "PurM_cligase",
+        "description" : "Phosphoribosylformylglycinamidine cyclo-ligase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "'de novo' IMP biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006189"
+        }, {
+          "name" : "phosphoribosylformylglycinamidine cyclo-ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004641"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Superpathway of 5-aminoimidazole ribonucleotide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6277"
+        }, {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+6.3.3.1"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6122"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1100,
+      "end" : 1386,
+      "sites" : [ {
+        "description" : "putative ATP binding site",
+        "numLocations" : 4,
+        "siteLocations" : [ {
+          "start" : 1190,
+          "end" : 1190,
+          "residue" : "E"
+        }, {
+          "start" : 1188,
+          "end" : 1188,
+          "residue" : "G"
+        }, {
+          "start" : 1189,
+          "end" : 1189,
+          "residue" : "G"
+        }, {
+          "start" : 1143,
+          "end" : 1143,
+          "residue" : "D"
+        } ]
+      } ],
+      "evalue" : 0.0,
+      "score" : 440.373,
+      "location-fragments" : [ {
+        "start" : 1100,
+        "end" : 1386,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd02196"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 122,
+      "end" : 167,
+      "location-fragments" : [ {
+        "start" : 122,
+        "end" : 167,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.90.600.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR037123",
+        "name" : "PRibGlycinamide_synth_C_sf",
+        "description" : "Phosphoribosylglycinamide synthetase, C-domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "phosphoribosylamine-glycine ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004637"
+        }, {
+          "name" : "purine nucleobase biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0009113"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6122"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        }, {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+6.3.4.13"
+        }, {
+          "name" : "Superpathway of 5-aminoimidazole ribonucleotide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6277"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 729,
+      "end" : 835,
+      "hmmStart" : 2,
+      "hmmEnd" : 98,
+      "hmmLength" : 106,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.0E-27,
+      "score" : 97.0,
+      "envelopeStart" : 729,
+      "envelopeEnd" : 835,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 729,
+        "end" : 835,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.3E-47,
+    "score" : 160.7,
+    "model-ac" : "2yrxA04"
+  }, {
+    "signature" : {
+      "accession" : "TIGR00639",
+      "name" : "TIGR00639",
+      "description" : "PurN: phosphoribosylglycinamide formyltransferase",
+      "signatureLibraryRelease" : {
+        "library" : "TIGRFAM",
+        "version" : "15.0"
+      },
+      "entry" : {
+        "accession" : "IPR004607",
+        "name" : "GART",
+        "description" : "Phosphoribosylglycinamide formyltransferase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "'de novo' IMP biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006189"
+        }, {
+          "name" : "phosphoribosylglycinamide formyltransferase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004644"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Tetrahydrofolate salvage from 5,10-methenyltetrahydrofolate",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6613"
+        }, {
+          "name" : "One carbon pool by folate",
+          "databaseName" : "KEGG",
+          "id" : "00670+2.1.2.2"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+2.1.2.2"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1797,
+      "end" : 1986,
+      "hmmStart" : 1,
+      "hmmEnd" : 188,
+      "hmmLength" : 192,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 2.7E-75,
+      "score" : 250.1,
+      "envelopeStart" : 1797,
+      "envelopeEnd" : 1989,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 1797,
+        "end" : 1986,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.5E-75,
+    "score" : 250.9,
+    "model-ac" : "TIGR00639"
+  }, {
+    "signature" : {
+      "accession" : "SSF51246",
+      "name" : "Rudiment single hybrid motif",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR011054",
+        "name" : "Rudment_hybrid_motif",
+        "description" : "Rudiment single hybrid motif",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Biotin transport and metabolism",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-196780"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 730,
+      "end" : 824,
+      "hmmLength" : 99,
+      "location-fragments" : [ {
+        "start" : 730,
+        "end" : 824,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.08E-22,
+    "model-ac" : "0038249"
+  }, {
+    "signature" : {
+      "accession" : "SSF56059",
+      "name" : "Glutathione synthetase ATP-binding domain-like",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 502,
+      "end" : 719,
+      "hmmLength" : 224,
+      "location-fragments" : [ {
+        "start" : 502,
+        "end" : 719,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.08E-55,
+    "model-ac" : "0038251"
+  }, {
+    "signature" : {
+      "accession" : "SSF52440",
+      "name" : "PreATP-grasp domain",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR016185",
+        "name" : "PreATP-grasp_dom_sf",
+        "description" : "Pre-ATP-grasp domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 398,
+      "end" : 500,
+      "hmmLength" : 105,
+      "location-fragments" : [ {
+        "start" : 398,
+        "end" : 500,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.87E-31,
+    "model-ac" : "0047049"
+  }, {
+    "signature" : {
+      "accession" : "cd02196",
+      "name" : "PurM",
+      "description" : "PurM",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : {
+        "accession" : "IPR004733",
+        "name" : "PurM_cligase",
+        "description" : "Phosphoribosylformylglycinamidine cyclo-ligase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "'de novo' IMP biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006189"
+        }, {
+          "name" : "phosphoribosylformylglycinamidine cyclo-ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004641"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Superpathway of 5-aminoimidazole ribonucleotide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6277"
+        }, {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+6.3.3.1"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6122"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1477,
+      "end" : 1766,
+      "sites" : [ {
+        "description" : "putative ATP binding site",
+        "numLocations" : 4,
+        "siteLocations" : [ {
+          "start" : 1569,
+          "end" : 1569,
+          "residue" : "E"
+        }, {
+          "start" : 1567,
+          "end" : 1567,
+          "residue" : "G"
+        }, {
+          "start" : 1568,
+          "end" : 1568,
+          "residue" : "G"
+        }, {
+          "start" : 1522,
+          "end" : 1522,
+          "residue" : "D"
+        } ]
+      } ],
+      "evalue" : 0.0,
+      "score" : 444.225,
+      "location-fragments" : [ {
+        "start" : 1477,
+        "end" : 1766,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd02196"
+  }, {
+    "signature" : {
+      "accession" : "TIGR00877",
+      "name" : "TIGR00877",
+      "description" : "purD: phosphoribosylamine--glycine ligase",
+      "signatureLibraryRelease" : {
+        "library" : "TIGRFAM",
+        "version" : "15.0"
+      },
+      "entry" : {
+        "accession" : "IPR000115",
+        "name" : "PRibGlycinamide_synth",
+        "description" : "Phosphoribosylglycinamide synthetase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "phosphoribosylamine-glycine ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004637"
+        }, {
+          "name" : "purine nucleobase biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0009113"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+6.3.4.13"
+        }, {
+          "name" : "Superpathway of 5-aminoimidazole ribonucleotide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6277"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6122"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 399,
+      "end" : 824,
+      "hmmStart" : 2,
+      "hmmEnd" : 424,
+      "hmmLength" : 425,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 0.0,
+      "score" : 507.5,
+      "envelopeStart" : 398,
+      "envelopeEnd" : 825,
+      "postProcessed" : false,
+      "location-fragments" : [ {
+        "start" : 399,
+        "end" : 824,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 543.0,
+    "model-ac" : "TIGR00877"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.1330.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR036921",
+        "name" : "PurM-like_N_sf",
+        "description" : "PurM-like, N-terminal domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1430,
+      "end" : 1598,
+      "hmmStart" : 4,
+      "hmmEnd" : 166,
+      "hmmLength" : 167,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.8E-65,
+      "score" : 221.9,
+      "envelopeStart" : 1430,
+      "envelopeEnd" : 1598,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1430,
+        "end" : 1598,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1044,
+      "end" : 1219,
+      "hmmStart" : 4,
+      "hmmEnd" : 166,
+      "hmmLength" : 167,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.9E-67,
+      "score" : 227.7,
+      "envelopeStart" : 1044,
+      "envelopeEnd" : 1219,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1044,
+        "end" : 1219,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 622.5,
+    "model-ac" : "2btuB01"
+  }, {
+    "signature" : {
+      "accession" : "cd08645",
+      "name" : "FMT_core_GART",
+      "description" : "FMT_core_GART",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : {
+        "accession" : "IPR004607",
+        "name" : "GART",
+        "description" : "Phosphoribosylglycinamide formyltransferase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "'de novo' IMP biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006189"
+        }, {
+          "name" : "phosphoribosylglycinamide formyltransferase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004644"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Tetrahydrofolate salvage from 5,10-methenyltetrahydrofolate",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6613"
+        }, {
+          "name" : "One carbon pool by folate",
+          "databaseName" : "KEGG",
+          "id" : "00670+2.1.2.2"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+2.1.2.2"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1798,
+      "end" : 1982,
+      "sites" : [ {
+        "description" : "cosubstrate binding site",
+        "numLocations" : 11,
+        "siteLocations" : [ {
+          "start" : 1886,
+          "end" : 1886,
+          "residue" : "F"
+        }, {
+          "start" : 1888,
+          "end" : 1888,
+          "residue" : "R"
+        }, {
+          "start" : 1942,
+          "end" : 1942,
+          "residue" : "D"
+        }, {
+          "start" : 1890,
+          "end" : 1890,
+          "residue" : "L"
+        }, {
+          "start" : 1937,
+          "end" : 1937,
+          "residue" : "V"
+        }, {
+          "start" : 1904,
+          "end" : 1904,
+          "residue" : "N"
+        }, {
+          "start" : 1895,
+          "end" : 1895,
+          "residue" : "V"
+        }, {
+          "start" : 1883,
+          "end" : 1883,
+          "residue" : "L"
+        }, {
+          "start" : 1938,
+          "end" : 1938,
+          "residue" : "D"
+        }, {
+          "start" : 1941,
+          "end" : 1941,
+          "residue" : "V"
+        }, {
+          "start" : 1889,
+          "end" : 1889,
+          "residue" : "I"
+        } ]
+      }, {
+        "description" : "substrate binding site",
+        "numLocations" : 7,
+        "siteLocations" : [ {
+          "start" : 1907,
+          "end" : 1907,
+          "residue" : "P"
+        }, {
+          "start" : 1884,
+          "end" : 1884,
+          "residue" : "A"
+        }, {
+          "start" : 1885,
+          "end" : 1885,
+          "residue" : "G"
+        }, {
+          "start" : 1809,
+          "end" : 1809,
+          "residue" : "N"
+        }, {
+          "start" : 1808,
+          "end" : 1808,
+          "residue" : "S"
+        }, {
+          "start" : 1971,
+          "end" : 1971,
+          "residue" : "E"
+        }, {
+          "start" : 1905,
+          "end" : 1905,
+          "residue" : "I"
+        } ]
+      }, {
+        "description" : "active site",
+        "numLocations" : 24,
+        "siteLocations" : [ {
+          "start" : 1886,
+          "end" : 1886,
+          "residue" : "F"
+        }, {
+          "start" : 1888,
+          "end" : 1888,
+          "residue" : "R"
+        }, {
+          "start" : 1937,
+          "end" : 1937,
+          "residue" : "V"
+        }, {
+          "start" : 1935,
+          "end" : 1935,
+          "residue" : "H"
+        }, {
+          "start" : 1904,
+          "end" : 1904,
+          "residue" : "N"
+        }, {
+          "start" : 1895,
+          "end" : 1895,
+          "residue" : "V"
+        }, {
+          "start" : 1938,
+          "end" : 1938,
+          "residue" : "D"
+        }, {
+          "start" : 1941,
+          "end" : 1941,
+          "residue" : "V"
+        }, {
+          "start" : 1803,
+          "end" : 1803,
+          "residue" : "I"
+        }, {
+          "start" : 1915,
+          "end" : 1915,
+          "residue" : "G"
+        }, {
+          "start" : 1905,
+          "end" : 1905,
+          "residue" : "I"
+        }, {
+          "start" : 1889,
+          "end" : 1889,
+          "residue" : "I"
+        }, {
+          "start" : 1890,
+          "end" : 1890,
+          "residue" : "L"
+        }, {
+          "start" : 1942,
+          "end" : 1942,
+          "residue" : "D"
+        }, {
+          "start" : 1810,
+          "end" : 1810,
+          "residue" : "L"
+        }, {
+          "start" : 1907,
+          "end" : 1907,
+          "residue" : "P"
+        }, {
+          "start" : 1906,
+          "end" : 1906,
+          "residue" : "H"
+        }, {
+          "start" : 1884,
+          "end" : 1884,
+          "residue" : "A"
+        }, {
+          "start" : 1883,
+          "end" : 1883,
+          "residue" : "L"
+        }, {
+          "start" : 1885,
+          "end" : 1885,
+          "residue" : "G"
+        }, {
+          "start" : 1809,
+          "end" : 1809,
+          "residue" : "N"
+        }, {
+          "start" : 1887,
+          "end" : 1887,
+          "residue" : "M"
+        }, {
+          "start" : 1971,
+          "end" : 1971,
+          "residue" : "E"
+        }, {
+          "start" : 1808,
+          "end" : 1808,
+          "residue" : "S"
+        } ]
+      }, {
+        "description" : "catalytic site",
+        "numLocations" : 3,
+        "siteLocations" : [ {
+          "start" : 1942,
+          "end" : 1942,
+          "residue" : "D"
+        }, {
+          "start" : 1904,
+          "end" : 1904,
+          "residue" : "N"
+        }, {
+          "start" : 1906,
+          "end" : 1906,
+          "residue" : "H"
+        } ]
+      } ],
+      "evalue" : 2.9108E-98,
+      "score" : 312.014,
+      "location-fragments" : [ {
+        "start" : 1798,
+        "end" : 1982,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd08645"
+  }, {
+    "signature" : {
+      "accession" : "SSF55326",
+      "name" : "PurM N-terminal domain-like",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036921",
+        "name" : "PurM-like_N_sf",
+        "description" : "PurM-like, N-terminal domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 829,
+      "end" : 969,
+      "hmmLength" : 166,
+      "location-fragments" : [ {
+        "start" : 829,
+        "end" : 969,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.73E-32,
+    "model-ac" : "0046171"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.90.650.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR036676",
+        "name" : "PurM-like_C_sf",
+        "description" : "PurM-like, C-terminal domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1220,
+      "end" : 1411,
+      "hmmStart" : 1,
+      "hmmEnd" : 187,
+      "hmmLength" : 195,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 5.1E-66,
+      "score" : 223.7,
+      "envelopeStart" : 1220,
+      "envelopeEnd" : 1411,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1220,
+        "end" : 1411,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1599,
+      "end" : 1793,
+      "hmmStart" : 1,
+      "hmmEnd" : 186,
+      "hmmLength" : 195,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.0E-63,
+      "score" : 215.3,
+      "envelopeStart" : 1599,
+      "envelopeEnd" : 1793,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1599,
+        "end" : 1793,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 441.4,
+    "model-ac" : "2v9yB02"
+  }, {
+    "signature" : {
+      "accession" : "SSF56042",
+      "name" : "PurM C-terminal domain-like",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036676",
+        "name" : "PurM-like_C_sf",
+        "description" : "PurM-like, C-terminal domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1223,
+      "end" : 1391,
+      "hmmLength" : 175,
+      "location-fragments" : [ {
+        "start" : 1223,
+        "end" : 1391,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 9.21E-49,
+    "model-ac" : "0036051"
+  }, {
+    "signature" : {
+      "accession" : "PF02844",
+      "name" : "GARS_N",
+      "description" : "Phosphoribosylglycinamide synthetase, N domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR020562",
+        "name" : "PRibGlycinamide_synth_N",
+        "description" : "Phosphoribosylglycinamide synthetase, N-terminal",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "phosphoribosylamine-glycine ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004637"
+        }, {
+          "name" : "purine nucleobase biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0009113"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+6.3.4.13"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6122"
+        }, {
+          "name" : "Superpathway of 5-aminoimidazole ribonucleotide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6277"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 399,
+      "end" : 500,
+      "hmmStart" : 2,
+      "hmmEnd" : 90,
+      "hmmLength" : 90,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 3.4E-31,
+      "score" : 107.8,
+      "envelopeStart" : 398,
+      "envelopeEnd" : 500,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 399,
+        "end" : 500,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.5E-32,
+    "score" : 110.9,
+    "model-ac" : "PF02844"
+  }, {
+    "signature" : {
+      "accession" : "SSF55326",
+      "name" : "PurM N-terminal domain-like",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036921",
+        "name" : "PurM-like_N_sf",
+        "description" : "PurM-like, N-terminal domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1045,
+      "end" : 1219,
+      "hmmLength" : 166,
+      "location-fragments" : [ {
+        "start" : 1045,
+        "end" : 1219,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 7.5E-46,
+    "model-ac" : "0046171"
+  }, {
+    "signature" : {
+      "accession" : "PF12901",
+      "name" : "SUZ-C",
+      "description" : "SUZ-C motif",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR024642",
+        "name" : "SUZ-C",
+        "description" : "SUZ-C domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 363,
+      "end" : 380,
+      "hmmStart" : 12,
+      "hmmEnd" : 31,
+      "hmmLength" : 33,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 1.7E-4,
+      "score" : 21.4,
+      "envelopeStart" : 359,
+      "envelopeEnd" : 382,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 363,
+        "end" : 380,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.9E-5,
+    "score" : 23.1,
+    "model-ac" : "PF12901"
+  }, {
+    "signature" : {
+      "accession" : "SM01209",
+      "name" : "GARS_A_3",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 501,
+      "end" : 694,
+      "hmmStart" : 1,
+      "hmmEnd" : 210,
+      "hmmLength" : 210,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.8E-125,
+      "score" : 431.7,
+      "location-fragments" : [ {
+        "start" : 501,
+        "end" : 694,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.8E-125,
+    "score" : 431.7,
+    "model-ac" : "SM01209"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 83,
+      "end" : 102,
+      "location-fragments" : [ {
+        "start" : 83,
+        "end" : 102,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PF02769",
+      "name" : "AIRS_C",
+      "description" : "AIR synthase related protein, C-terminal domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR010918",
+        "name" : "PurM-like_C_dom",
+        "description" : "PurM-like, C-terminal domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1226,
+      "end" : 1390,
+      "hmmStart" : 1,
+      "hmmEnd" : 150,
+      "hmmLength" : 156,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 1.2E-28,
+      "score" : 100.1,
+      "envelopeStart" : 1226,
+      "envelopeEnd" : 1395,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1226,
+        "end" : 1390,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1606,
+      "end" : 1768,
+      "hmmStart" : 2,
+      "hmmEnd" : 148,
+      "hmmLength" : 156,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 7.5E-28,
+      "score" : 97.5,
+      "envelopeStart" : 1605,
+      "envelopeEnd" : 1771,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1606,
+        "end" : 1768,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.5E-59,
+    "score" : 200.5,
+    "model-ac" : "PF02769"
+  }, {
+    "signature" : {
+      "accession" : "PF00551",
+      "name" : "Formyl_trans_N",
+      "description" : "Formyl transferase",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR002376",
+        "name" : "Formyl_transf_N",
+        "description" : "Formyl transferase, N-terminal",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "hydroxymethyl-, formyl- and related transferase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0016742"
+        }, {
+          "name" : "biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0009058"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "One carbon pool by folate",
+          "databaseName" : "KEGG",
+          "id" : "00670+2.1.2.9"
+        }, {
+          "name" : "Aminoacyl-tRNA biosynthesis",
+          "databaseName" : "KEGG",
+          "id" : "00970+2.1.2.9"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1797,
+      "end" : 1979,
+      "hmmStart" : 1,
+      "hmmEnd" : 181,
+      "hmmLength" : 181,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.8E-65,
+      "score" : 219.9,
+      "envelopeStart" : 1797,
+      "envelopeEnd" : 1979,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1797,
+        "end" : 1979,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.0E-65,
+    "score" : 220.8,
+    "model-ac" : "PF00551"
+  }, {
+    "signature" : {
+      "accession" : "MF_00741",
+      "name" : "AIRS",
+      "description" : "Phosphoribosylformylglycinamidine cyclo-ligase [purM].",
+      "signatureLibraryRelease" : {
+        "library" : "HAMAP",
+        "version" : "2020_01"
+      },
+      "entry" : {
+        "accession" : "IPR004733",
+        "name" : "PurM_cligase",
+        "description" : "Phosphoribosylformylglycinamidine cyclo-ligase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "'de novo' IMP biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006189"
+        }, {
+          "name" : "phosphoribosylformylglycinamidine cyclo-ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004641"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Superpathway of 5-aminoimidazole ribonucleotide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6277"
+        }, {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+6.3.3.1"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6122"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1431,
+      "end" : 1779,
+      "score" : 42.659,
+      "alignment" : "Not available",
+      "location-fragments" : [ {
+        "start" : 1431,
+        "end" : 1779,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "MF_00741"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.1330.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR036921",
+        "name" : "PurM-like_N_sf",
+        "description" : "PurM-like, N-terminal domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 843,
+      "end" : 966,
+      "hmmStart" : 3,
+      "hmmEnd" : 118,
+      "hmmLength" : 153,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 8.4E-43,
+      "score" : 147.7,
+      "envelopeStart" : 843,
+      "envelopeEnd" : 971,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 843,
+        "end" : 966,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 559.0,
+    "model-ac" : "3qtyB01"
+  }, {
+    "signature" : {
+      "accession" : "PF12752",
+      "name" : "SUZ",
+      "description" : "SUZ domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR024771",
+        "name" : "SUZ",
+        "description" : "SUZ domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 76,
+      "end" : 125,
+      "hmmStart" : 3,
+      "hmmEnd" : 56,
+      "hmmLength" : 57,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 2.3E-11,
+      "score" : 44.2,
+      "envelopeStart" : 74,
+      "envelopeEnd" : 126,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 76,
+        "end" : 125,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.3E-11,
+    "score" : 44.2,
+    "model-ac" : "PF12752"
+  }, {
+    "signature" : {
+      "accession" : "MF_00741",
+      "name" : "AIRS",
+      "description" : "Phosphoribosylformylglycinamidine cyclo-ligase [purM].",
+      "signatureLibraryRelease" : {
+        "library" : "HAMAP",
+        "version" : "2020_01"
+      },
+      "entry" : {
+        "accession" : "IPR004733",
+        "name" : "PurM_cligase",
+        "description" : "Phosphoribosylformylglycinamidine cyclo-ligase",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "'de novo' IMP biosynthetic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006189"
+        }, {
+          "name" : "phosphoribosylformylglycinamidine cyclo-ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004641"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Superpathway of 5-aminoimidazole ribonucleotide biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6277"
+        }, {
+          "name" : "Purine metabolism",
+          "databaseName" : "KEGG",
+          "id" : "00230+6.3.3.1"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6121"
+        }, {
+          "name" : "Purine ribonucleoside monophosphate biosynthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-73817"
+        }, {
+          "name" : "5-aminoimidazole ribonucleotide biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6122"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1045,
+      "end" : 1397,
+      "score" : 43.081,
+      "alignment" : "Not available",
+      "location-fragments" : [ {
+        "start" : 1045,
+        "end" : 1397,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "MF_00741"
+  } ],
+  "xref" : [ {
+    "name" : "tr|A0A182J4J4|A0A182J4J4_9DIPT Trifunctional purine biosynthetic protein adenosine-3 OS=Anopheles atroparvus OX=41427 PE=3 SV=1",
+    "id" : "tr|A0A182J4J4|A0A182J4J4_9DIPT"
+  } ]
+} ]
+}

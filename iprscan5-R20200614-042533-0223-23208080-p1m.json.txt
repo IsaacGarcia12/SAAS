@@ -1,0 +1,2028 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MAERPRRSGSDPAADAATSFLRAARSGNLDKALDHLRNGVDINTCNQNGLNGLHLASKEGHVKMVVELLHKEIILETTTKVRDGFTPLAVALQQGHENVVAHLINYGTKGKVRLPALHIAARNDDTRTAAVLLQNDPNPDVLSKTGFTPLHIAAHYENLNVAQLLLNRGASVNFTPQNGITPLHIASRRGNVIMVRLLLDRGAQIETRTKDELTPLHCAARNGHVRISEILLDHGAPIQAKTKNGLSPIHMAAQGDHLDCVRLLLQYNAEIDDITLDHLTPLHVAAHCGHHRVAKVLLDKGAKPNSRALNGFTPLHIACKKNHIRVMELLLKTGASIDAVTEKVETPLHMAARAGHTEVAKYLLQNKAKANAKAKDDQTPLHCAARIGHTSMVKLLLENDASPNLATTAGHTPLHTAAREGHVDTALALLEKEASQACMTKKGFTPLHVAAKYGKVRLAELLLEHDAHPNAAGKNGLTPLHVAVHHNNLDIVQLLLPRGGSPHSPAWNGYTPLHIAAKQNQIEVARSLLQYGGSANAESVQGVTPLHLAAQEGHTEMVALLLSKQANGNLGNKSGLTPLHLVAQEGHVPVADVLIKHGVTVDATTRMGYTPLHVASHYGNIKLVKFLLQHQADVNAKTKLGYSPLHQAAQQGHTDIVTLLLKNGASPNEVSSNGTTPLAIAKRLGYISVTDVLKVVTDETSVVLVSDKHRMSYPETVDEILDVSEDEGTAHISLTGDELVGSKAERRDSRDVGEEKELLDFVPKLDQVVESPAIPRIPCVTPETVVIRSEDQEQASKEYDEDSLIPSSPATETSDNISPVASPVHTGFLVSFMVDARGGSMRGSRHNGLRVVIPPRTCAAPTRITCRLVKPQKLSTPPPLAEEEGLASRIIALGPTGAQFLSPVIVEIPHFASHGRGDRELVVLRSENGSVWKEHKSRYGESYLDQILNGMDEELGSLEELEKKRVCRIITTDFPLYFVIMSRLCQDYDTIGPEGGSLRSKLVPLVQATFPENAVTKKVKLALQAQPVPDELVTKLLGNQATFSPIVTVEPRRRKFHRPIGLRIPLPPSWTDNPRDSGEGDTTSLRLLCSVIGGTDQAQWEDITGTTKLVYANECANFTTNVSARFWLSDCPRTAEAVHFATLLYKELTAVPYMAKFVIFAKMNDPREGRLRCYCMTDDKVDKTLEQHENFVEVARSRDIEVLEGMPLFAELSGNLVPVKKAAQQRSFHFQSFRENRLAIPVKVRDSSREPGGFLSFLRKPMKYEDAQHILCHLNVTMPPCTKGSGAEDRRRTLTPLTLRYSILSESRLGFTSDTDRVEMKMAVIREHLGLSWAVENLYTALRNIDRSEIVNMLEGSGRQSRNLKPDRRHGDREYSLSPSQVNGYSSLQDELLSPASLHYALPSPLCADQYWNEVAVIDAIPLAATEHDTMLEMSDMQVWSSGLTPSLVTAEDSSLECSKAEDSDAIPEWKLEGAHSEDTQGPELGSQDLVEDDTVDSDATNGLADLLGQQRVHARITDSPSVRQVLDRSQARTVDWYKQGSAASYPQEAAQSSWQEEVTQGPQSFQRRITTIQGPEPGTLQEYEQVVVSTREHVQRGPPESDSPKAGKDPSLWASESAFSQEVQGDELQNIPGEQVTEEQFTDEQGNIVTKKIIRKVVRQVDSSGAIDTQQHEEVELRGSGLQPDLIEGRKGAQIVKRASLKRGKQ",
+  "md5" : "08762d69f8f15b3a55456110853b3948",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "G3DSA:2.60.220.30",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 983,
+      "end" : 1148,
+      "hmmStart" : 2,
+      "hmmEnd" : 167,
+      "hmmLength" : 168,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 3.7E-69,
+      "score" : 233.5,
+      "envelopeStart" : 981,
+      "envelopeEnd" : 1148,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 983,
+        "end" : 1148,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.3E-78,
+    "score" : 262.2,
+    "model-ac" : "3ud1A02"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.25.40.20",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR036770",
+        "name" : "Ankyrin_rpt-contain_sf",
+        "description" : "Ankyrin repeat-containing domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 78,
+      "end" : 229,
+      "hmmStart" : 160,
+      "hmmEnd" : 320,
+      "hmmLength" : 329,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 2.6E-48,
+      "score" : 166.9,
+      "envelopeStart" : 75,
+      "envelopeEnd" : 231,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 78,
+        "end" : 229,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 3,
+      "end" : 77,
+      "hmmStart" : 30,
+      "hmmEnd" : 89,
+      "hmmLength" : 329,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 3.0E-11,
+      "score" : 45.0,
+      "envelopeStart" : 3,
+      "envelopeEnd" : 80,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 3,
+        "end" : 77,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 783.6,
+    "model-ac" : "4rlyA00"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 475,
+      "end" : 499,
+      "score" : 12.022,
+      "alignment" : "NGLTPLHVAVHHNNLDIVQLLLPRG--------",
+      "location-fragments" : [ {
+        "start" : 475,
+        "end" : 499,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1357,
+      "end" : 1380,
+      "location-fragments" : [ {
+        "start" : 1357,
+        "end" : 1380,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PF13637",
+      "name" : "Ank_4",
+      "description" : "Ankyrin repeats (many copies)",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 642,
+      "end" : 681,
+      "hmmStart" : 2,
+      "hmmEnd" : 42,
+      "hmmLength" : 55,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 2.5E-7,
+      "score" : 31.0,
+      "envelopeStart" : 641,
+      "envelopeEnd" : 693,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 642,
+        "end" : 681,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 445,
+      "end" : 496,
+      "hmmStart" : 3,
+      "hmmEnd" : 55,
+      "hmmLength" : 55,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 9.2E-12,
+      "score" : 45.2,
+      "envelopeStart" : 443,
+      "envelopeEnd" : 496,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 445,
+        "end" : 496,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.8E-113,
+    "score" : 368.4,
+    "model-ac" : "PF13637"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 409,
+      "end" : 441,
+      "score" : 10.259,
+      "alignment" : "AGHTPLHTAAREGHVDTALALLEKEASQACMTK",
+      "location-fragments" : [ {
+        "start" : 409,
+        "end" : 441,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1473,
+      "end" : 1498,
+      "location-fragments" : [ {
+        "start" : 1473,
+        "end" : 1498,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PR01415",
+      "name" : "ANKYRIN",
+      "description" : "Ankyrin repeat signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 542,
+      "end" : 557,
+      "pvalue" : 6.85E-9,
+      "score" : 46.84,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 542,
+        "end" : 557,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 623,
+      "end" : 637,
+      "pvalue" : 3.53E-6,
+      "score" : 40.69,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 623,
+        "end" : 637,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 6.6E-8,
+    "graphscan" : "II",
+    "model-ac" : "PR01415"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 178,
+      "end" : 210,
+      "score" : 14.8,
+      "alignment" : "NGITPLHIASRRGNVIMVRLLLDRGAQIETRTK",
+      "location-fragments" : [ {
+        "start" : 178,
+        "end" : 210,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 574,
+      "end" : 606,
+      "score" : 12.876,
+      "alignment" : "SGLTPLHLVAQEGHVPVADVLIKHGVTVDATTR",
+      "location-fragments" : [ {
+        "start" : 574,
+        "end" : 606,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "SM00218",
+      "name" : "zu_1",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR000906",
+        "name" : "ZU5_dom",
+        "description" : "ZU5 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 826,
+      "end" : 930,
+      "hmmStart" : 1,
+      "hmmEnd" : 115,
+      "hmmLength" : 115,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.3E-60,
+      "score" : 215.6,
+      "location-fragments" : [ {
+        "start" : 826,
+        "end" : 930,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.3E-60,
+    "score" : 215.6,
+    "model-ac" : "SM00218"
+  }, {
+    "signature" : {
+      "accession" : "PF00023",
+      "name" : "Ank",
+      "description" : "Ankyrin repeat",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 377,
+      "end" : 406,
+      "hmmStart" : 2,
+      "hmmEnd" : 30,
+      "hmmLength" : 32,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 8.5E-6,
+      "score" : 25.9,
+      "envelopeStart" : 376,
+      "envelopeEnd" : 408,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 377,
+        "end" : 406,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.3E-108,
+    "score" : 351.0,
+    "model-ac" : "PF00023"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 343,
+      "end" : 375,
+      "score" : 12.315,
+      "alignment" : "KVETPLHMAARAGHTEVAKYLLQNKAKANAKAK",
+      "location-fragments" : [ {
+        "start" : 343,
+        "end" : 375,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "PS51145",
+      "name" : "ZU5",
+      "description" : "ZU5 domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR000906",
+        "name" : "ZU5_dom",
+        "description" : "ZU5 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 828,
+      "end" : 983,
+      "score" : 24.245,
+      "alignment" : "FLVSFMVDARGGSMRGSRhNGLRVVIPPRTCA--APTRITCRLVKPQKLSTPPplAEEEGLASRIIALGPTGAQFLSPVIVEIPHFASHGR-----GDRELVVLRSENGSVWkehksrygesyldqilngmdEELGSLEELEKKRVCRIITTDFPLYFVIMSR",
+      "location-fragments" : [ {
+        "start" : 828,
+        "end" : 983,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51145"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1573,
+      "end" : 1614,
+      "location-fragments" : [ {
+        "start" : 1573,
+        "end" : 1614,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PF17809",
+      "name" : "UPA_2",
+      "description" : "UPA domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR040745",
+        "name" : "Ankyrin_UPA",
+        "description" : "Ankyrin, UPA domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Interaction between L1 and Ankyrins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-445095"
+        }, {
+          "name" : "COPI-mediated anterograde transport",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6807878"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1151,
+      "end" : 1279,
+      "hmmStart" : 1,
+      "hmmEnd" : 130,
+      "hmmLength" : 131,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 1.1E-57,
+      "score" : 193.4,
+      "envelopeStart" : 1151,
+      "envelopeEnd" : 1280,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1151,
+        "end" : 1279,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.9E-58,
+    "score" : 194.5,
+    "model-ac" : "PF17809"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 442,
+      "end" : 474,
+      "score" : 12.93,
+      "alignment" : "KGFTPLHVAAKYGKVRLAELLLEHDAHPNAAGK",
+      "location-fragments" : [ {
+        "start" : 442,
+        "end" : 474,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 508,
+      "end" : 540,
+      "score" : 13.491,
+      "alignment" : "NGYTPLHIAAKQNQIEVARSLLQYGGSANAESV",
+      "location-fragments" : [ {
+        "start" : 508,
+        "end" : 540,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "SM00248",
+      "name" : "ANK_2a",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 244,
+      "end" : 273,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.2E-6,
+      "score" : 36.3,
+      "location-fragments" : [ {
+        "start" : 244,
+        "end" : 273,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 48,
+      "end" : 77,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 5.7,
+      "score" : 15.9,
+      "location-fragments" : [ {
+        "start" : 48,
+        "end" : 77,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 541,
+      "end" : 572,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 5.7E-4,
+      "score" : 29.2,
+      "location-fragments" : [ {
+        "start" : 541,
+        "end" : 572,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 145,
+      "end" : 174,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 7.5E-6,
+      "score" : 35.4,
+      "location-fragments" : [ {
+        "start" : 145,
+        "end" : 174,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 607,
+      "end" : 636,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.8E-7,
+      "score" : 40.2,
+      "location-fragments" : [ {
+        "start" : 607,
+        "end" : 636,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 277,
+      "end" : 306,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.2E-5,
+      "score" : 34.8,
+      "location-fragments" : [ {
+        "start" : 277,
+        "end" : 306,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 475,
+      "end" : 504,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 5.1E-6,
+      "score" : 36.0,
+      "location-fragments" : [ {
+        "start" : 475,
+        "end" : 504,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 343,
+      "end" : 372,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.3E-4,
+      "score" : 31.3,
+      "location-fragments" : [ {
+        "start" : 343,
+        "end" : 372,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 211,
+      "end" : 240,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.4E-4,
+      "score" : 31.3,
+      "location-fragments" : [ {
+        "start" : 211,
+        "end" : 240,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 640,
+      "end" : 669,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 5.0E-5,
+      "score" : 32.7,
+      "location-fragments" : [ {
+        "start" : 640,
+        "end" : 669,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 376,
+      "end" : 405,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.2E-6,
+      "score" : 37.2,
+      "location-fragments" : [ {
+        "start" : 376,
+        "end" : 405,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 574,
+      "end" : 603,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 5.5E-4,
+      "score" : 29.2,
+      "location-fragments" : [ {
+        "start" : 574,
+        "end" : 603,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 178,
+      "end" : 207,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.3E-5,
+      "score" : 33.8,
+      "location-fragments" : [ {
+        "start" : 178,
+        "end" : 207,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 83,
+      "end" : 111,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.83,
+      "score" : 18.7,
+      "location-fragments" : [ {
+        "start" : 83,
+        "end" : 111,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 310,
+      "end" : 339,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 9.0E-8,
+      "score" : 41.8,
+      "location-fragments" : [ {
+        "start" : 310,
+        "end" : 339,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 409,
+      "end" : 438,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.0046,
+      "score" : 26.2,
+      "location-fragments" : [ {
+        "start" : 409,
+        "end" : 438,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 442,
+      "end" : 471,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.4E-5,
+      "score" : 33.3,
+      "location-fragments" : [ {
+        "start" : 442,
+        "end" : 471,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 15,
+      "end" : 44,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4400.0,
+      "score" : 0.2,
+      "location-fragments" : [ {
+        "start" : 15,
+        "end" : 44,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 508,
+      "end" : 537,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.3E-5,
+      "score" : 34.6,
+      "location-fragments" : [ {
+        "start" : 508,
+        "end" : 537,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 112,
+      "end" : 141,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.6,
+      "score" : 17.1,
+      "location-fragments" : [ {
+        "start" : 112,
+        "end" : 141,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 595.2,
+    "model-ac" : "SM00248"
+  }, {
+    "signature" : {
+      "accession" : "PF12796",
+      "name" : "Ank_2",
+      "description" : "Ankyrin repeats (3 copies)",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR020683",
+        "name" : "Ankyrin_rpt-contain_dom",
+        "description" : "Ankyrin repeat-containing domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 177,
+      "end" : 241,
+      "hmmStart" : 24,
+      "hmmEnd" : 82,
+      "hmmLength" : 83,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 2.8E-12,
+      "score" : 47.0,
+      "envelopeStart" : 172,
+      "envelopeEnd" : 242,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 177,
+        "end" : 241,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 22,
+      "end" : 108,
+      "hmmStart" : 3,
+      "hmmEnd" : 77,
+      "hmmLength" : 83,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 1.7E-10,
+      "score" : 41.3,
+      "envelopeStart" : 20,
+      "envelopeEnd" : 114,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 22,
+        "end" : 108,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 310,
+      "end" : 373,
+      "hmmStart" : 25,
+      "hmmEnd" : 82,
+      "hmmLength" : 83,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 2.8E-13,
+      "score" : 50.2,
+      "envelopeStart" : 305,
+      "envelopeEnd" : 376,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 310,
+        "end" : 373,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 502,
+      "end" : 569,
+      "hmmStart" : 22,
+      "hmmEnd" : 80,
+      "hmmLength" : 83,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 1.4E-12,
+      "score" : 48.0,
+      "envelopeStart" : 496,
+      "envelopeEnd" : 572,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 502,
+        "end" : 569,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 573,
+      "end" : 637,
+      "hmmStart" : 24,
+      "hmmEnd" : 82,
+      "hmmLength" : 83,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 9.6E-13,
+      "score" : 48.4,
+      "envelopeStart" : 565,
+      "envelopeEnd" : 638,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 573,
+        "end" : 637,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 115,
+      "end" : 174,
+      "hmmStart" : 28,
+      "hmmEnd" : 81,
+      "hmmLength" : 83,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 3.2E-9,
+      "score" : 37.2,
+      "envelopeStart" : 108,
+      "envelopeEnd" : 176,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 115,
+        "end" : 174,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 243,
+      "end" : 307,
+      "hmmStart" : 24,
+      "hmmEnd" : 82,
+      "hmmLength" : 83,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 1.3E-12,
+      "score" : 48.0,
+      "envelopeStart" : 239,
+      "envelopeEnd" : 308,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 243,
+        "end" : 307,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 8.7E-128,
+    "score" : 417.1,
+    "model-ac" : "PF12796"
+  }, {
+    "signature" : {
+      "accession" : "PTHR24133:SF38",
+      "name" : "ANKYRIN-1",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1335,
+      "end" : 1376,
+      "hmmStart" : 1467,
+      "hmmEnd" : 1508,
+      "hmmLength" : 1861,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 1334,
+      "envelopeEnd" : 1423,
+      "location-fragments" : [ {
+        "start" : 1335,
+        "end" : 1376,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 6,
+      "end" : 80,
+      "hmmStart" : 5,
+      "hmmEnd" : 79,
+      "hmmLength" : 1861,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 2,
+      "envelopeEnd" : 82,
+      "location-fragments" : [ {
+        "start" : 6,
+        "end" : 80,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 343,
+      "end" : 1334,
+      "hmmStart" : 439,
+      "hmmEnd" : 1422,
+      "hmmLength" : 1861,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 342,
+      "envelopeEnd" : 1336,
+      "location-fragments" : [ {
+        "start" : 343,
+        "end" : 1334,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 81,
+      "end" : 342,
+      "hmmStart" : 144,
+      "hmmEnd" : 405,
+      "hmmLength" : 1861,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 80,
+      "envelopeEnd" : 343,
+      "location-fragments" : [ {
+        "start" : 81,
+        "end" : 342,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 3156.8,
+    "model-ac" : "PTHR24133:SF38"
+  }, {
+    "signature" : {
+      "accession" : "SSF48403",
+      "name" : "Ankyrin repeat",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036770",
+        "name" : "Ankyrin_rpt-contain_sf",
+        "description" : "Ankyrin repeat-containing domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 15,
+      "end" : 341,
+      "hmmLength" : 408,
+      "location-fragments" : [ {
+        "start" : 15,
+        "end" : 341,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.02E-85,
+    "model-ac" : "0048259"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.60.220.30",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 824,
+      "end" : 982,
+      "hmmStart" : 4,
+      "hmmEnd" : 161,
+      "hmmLength" : 161,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 2.1E-65,
+      "score" : 221.2,
+      "envelopeStart" : 824,
+      "envelopeEnd" : 983,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 824,
+        "end" : 982,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.8E-79,
+    "score" : 265.3,
+    "model-ac" : "3f59D00"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1361,
+      "end" : 1375,
+      "location-fragments" : [ {
+        "start" : 1361,
+        "end" : 1375,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 83,
+      "end" : 107,
+      "score" : 9.271,
+      "alignment" : "DGFTPLAVALQQGHENVVAHLINYG--------",
+      "location-fragments" : [ {
+        "start" : 83,
+        "end" : 107,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.25.40.20",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR036770",
+        "name" : "Ankyrin_rpt-contain_sf",
+        "description" : "Ankyrin repeat-containing domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 337,
+      "end" : 734,
+      "hmmStart" : 37,
+      "hmmEnd" : 432,
+      "hmmLength" : 437,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 0.0,
+      "score" : 500.4,
+      "envelopeStart" : 334,
+      "envelopeEnd" : 734,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 337,
+        "end" : 734,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 801.1,
+    "model-ac" : "1n11A00"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 607,
+      "end" : 639,
+      "score" : 14.613,
+      "alignment" : "MGYTPLHVASHYGNIKLVKFLLQHQADVNAKTK",
+      "location-fragments" : [ {
+        "start" : 607,
+        "end" : 639,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.25.40.20",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR036770",
+        "name" : "Ankyrin_rpt-contain_sf",
+        "description" : "Ankyrin repeat-containing domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 230,
+      "end" : 336,
+      "hmmStart" : 31,
+      "hmmEnd" : 140,
+      "hmmLength" : 142,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 2.7E-33,
+      "score" : 116.7,
+      "envelopeStart" : 228,
+      "envelopeEnd" : 339,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 230,
+        "end" : 336,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 645.8,
+    "model-ac" : "5eypF00"
+  }, {
+    "signature" : {
+      "accession" : "SSF48403",
+      "name" : "Ankyrin repeat",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036770",
+        "name" : "Ankyrin_rpt-contain_sf",
+        "description" : "Ankyrin repeat-containing domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 326,
+      "end" : 715,
+      "hmmLength" : 408,
+      "location-fragments" : [ {
+        "start" : 326,
+        "end" : 715,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 9.41E-125,
+    "model-ac" : "0048259"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 244,
+      "end" : 276,
+      "score" : 11.755,
+      "alignment" : "NGLSPIHMAAQGDHLDCVRLLLQYNAEIDDITL",
+      "location-fragments" : [ {
+        "start" : 244,
+        "end" : 276,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 211,
+      "end" : 243,
+      "score" : 12.716,
+      "alignment" : "DELTPLHCAARNGHVRISEILLDHGAPIQAKTK",
+      "location-fragments" : [ {
+        "start" : 211,
+        "end" : 243,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 944,
+      "end" : 964,
+      "location-fragments" : [ {
+        "start" : 944,
+        "end" : 964,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1573,
+      "end" : 1589,
+      "location-fragments" : [ {
+        "start" : 1573,
+        "end" : 1589,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PS51145",
+      "name" : "ZU5",
+      "description" : "ZU5 domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR000906",
+        "name" : "ZU5_dom",
+        "description" : "ZU5 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 985,
+      "end" : 1131,
+      "score" : 19.914,
+      "alignment" : "CQDYDTIGPEGGSLRSKLvPLVQATFPENAVT--KKVKLALQAQPVPDELVTKlLGNQATFSPIVTVEPRRRKFHRPIGLRIPLPPSWTDNPRDSgegdttsLRLLCSVIGGTDQAQWEDITGTTKLVYANECANFTTNVSARFWLSDC",
+      "location-fragments" : [ {
+        "start" : 985,
+        "end" : 1131,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51145"
+  }, {
+    "signature" : {
+      "accession" : "PF00791",
+      "name" : "ZU5",
+      "description" : "ZU5 domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR000906",
+        "name" : "ZU5_dom",
+        "description" : "ZU5 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 830,
+      "end" : 927,
+      "hmmStart" : 2,
+      "hmmEnd" : 98,
+      "hmmLength" : 98,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 1.2E-26,
+      "score" : 92.8,
+      "envelopeStart" : 829,
+      "envelopeEnd" : 927,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 830,
+        "end" : 927,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 9.6E-34,
+    "score" : 115.6,
+    "model-ac" : "PF00791"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.60.40.2660",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1149,
+      "end" : 1301,
+      "hmmStart" : 2,
+      "hmmEnd" : 143,
+      "hmmLength" : 164,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 6.0E-59,
+      "score" : 200.1,
+      "envelopeStart" : 1149,
+      "envelopeEnd" : 1301,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1149,
+        "end" : 1301,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.1E-59,
+    "score" : 201.0,
+    "model-ac" : "4d8oA03"
+  }, {
+    "signature" : {
+      "accession" : "PTHR24133",
+      "name" : "FAMILY NOT NAMED",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 6,
+      "end" : 80,
+      "hmmStart" : 5,
+      "hmmEnd" : 79,
+      "hmmLength" : 1861,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 2,
+      "envelopeEnd" : 82,
+      "location-fragments" : [ {
+        "start" : 6,
+        "end" : 80,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1335,
+      "end" : 1376,
+      "hmmStart" : 1467,
+      "hmmEnd" : 1508,
+      "hmmLength" : 1861,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 1334,
+      "envelopeEnd" : 1423,
+      "location-fragments" : [ {
+        "start" : 1335,
+        "end" : 1376,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 343,
+      "end" : 1334,
+      "hmmStart" : 439,
+      "hmmEnd" : 1422,
+      "hmmLength" : 1861,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 342,
+      "envelopeEnd" : 1336,
+      "location-fragments" : [ {
+        "start" : 343,
+        "end" : 1334,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 81,
+      "end" : 342,
+      "hmmStart" : 144,
+      "hmmEnd" : 405,
+      "hmmLength" : 1861,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 80,
+      "envelopeEnd" : 343,
+      "location-fragments" : [ {
+        "start" : 81,
+        "end" : 342,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 3156.8,
+    "model-ac" : "PTHR24133"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 541,
+      "end" : 573,
+      "score" : 13.678,
+      "alignment" : "QGVTPLHLAAQEGHTEMVALLLSKQANGNLGNK",
+      "location-fragments" : [ {
+        "start" : 541,
+        "end" : 573,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "PS50297",
+      "name" : "ANK_REP_REGION",
+      "description" : "Ankyrin repeat region circular profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR020683",
+        "name" : "Ankyrin_rpt-contain_dom",
+        "description" : "Ankyrin repeat-containing domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 15,
+      "end" : 693,
+      "score" : 208.369,
+      "alignment" : "DAATSFLRAARSGNLDKALDHLRNGVDINTCNQNGLNGLHLASKEGHVKMVVELLHKEIILETTTKvrDGFTPLAVALQQGHENVVAHLINYGTKGKVR----LPALHIAARNDDTRTAAVLLQNDPNPDVLSKTGFTPLHIAAHYENLNVAQLLLNRGASVNFTPQNGITPLHIASRRGNVIMVRLLLDRGAQIETRTKDELTPLHCAARNGHVRISEILLDHGAPIQAKTKNGLSPIHMAAQGDHLDCVRLLLQYNAEIDDITLDHLTPLHVAAHCGHHRVAKVLLDKGAKPNSRALNGFTPLHIACKKNHIRVMELLLKTGASIDAVTEKVETPLHMAARAGHTEVAKYLLQNKAKANAKAKDDQTPLHCAARIGHTSMVKLLLENDASPNLATTAGHTPLHTAAREGHVDTALALLEKEASQACMTKKGFTPLHVAAKYGKVRLAELLLEHDAHPNAAGKNGLTPLHVAVHHNNLDIVQLLLPRGGSPHSPAWNGYTPLHIAAKQNQIEVARSLLQYGGSANAESVQGVTPLHLAAQEGHTEMVALLLSKQANGNLGNKSGLTPLHLVAQEGHVPVADVLIKHGVTVDATTRMGYTPLHVASHYGNIKLVKFLLQHQADVNAKTKLGYSPLHQAAQQGHTDIVTLLLKNGASPNEVSSNGTTPLAIAKRLGYISVTDVL------------",
+      "location-fragments" : [ {
+        "start" : 15,
+        "end" : 693,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50297"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 277,
+      "end" : 309,
+      "score" : 11.835,
+      "alignment" : "DHLTPLHVAAHCGHHRVAKVLLDKGAKPNSRAL",
+      "location-fragments" : [ {
+        "start" : 277,
+        "end" : 309,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.10.533.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1334,
+      "end" : 1368,
+      "hmmStart" : 78,
+      "hmmEnd" : 111,
+      "hmmLength" : 111,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.0E-6,
+      "score" : 29.3,
+      "envelopeStart" : 1334,
+      "envelopeEnd" : 1368,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1334,
+        "end" : 1368,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.2E-11,
+    "score" : 44.3,
+    "model-ac" : "2yviA00"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 640,
+      "end" : 672,
+      "score" : 13.945,
+      "alignment" : "LGYSPLHQAAQQGHTDIVTLLLKNGASPNEVSS",
+      "location-fragments" : [ {
+        "start" : 640,
+        "end" : 672,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 145,
+      "end" : 177,
+      "score" : 13.624,
+      "alignment" : "TGFTPLHIAAHYENLNVAQLLLNRGASVNFTPQ",
+      "location-fragments" : [ {
+        "start" : 145,
+        "end" : 177,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 791,
+      "end" : 819,
+      "location-fragments" : [ {
+        "start" : 791,
+        "end" : 819,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 376,
+      "end" : 408,
+      "score" : 12.476,
+      "alignment" : "DDQTPLHCAARIGHTSMVKLLLENDASPNLATT",
+      "location-fragments" : [ {
+        "start" : 376,
+        "end" : 408,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  }, {
+    "signature" : {
+      "accession" : "PS50088",
+      "name" : "ANK_REPEAT",
+      "description" : "Ankyrin repeat profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR002110",
+        "name" : "Ankyrin_rpt",
+        "description" : "Ankyrin repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 310,
+      "end" : 342,
+      "score" : 14.586,
+      "alignment" : "NGFTPLHIACKKNHIRVMELLLKTGASIDAVTE",
+      "location-fragments" : [ {
+        "start" : 310,
+        "end" : 342,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50088"
+  } ],
+  "xref" : [ {
+    "name" : "tr|D3Z9Z0|D3Z9Z0_RAT Ankyrin 1 OS=Rattus norvegicus OX=10116 GN=Ank1 PE=1 SV=1",
+    "id" : "tr|D3Z9Z0|D3Z9Z0_RAT"
+  } ]
+} ]
+}

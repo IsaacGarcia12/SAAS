@@ -1,0 +1,1718 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MSGVSEPLSRVKVGTLRRPEGPPEPMVVVPADVEKEDVRILKVCFYSNSFNPGKNFKLVKCTVHTEIREVIASILLSGRIGPNIQLAECYGLRLKHMKSDEIHWLHPQMTVGEVQDKYECLHMEAEWRYDLQIRYLPEDFMESLKEDRTTLLYFYQQLRNDYMQRYASKVSEGMALQLGCLELRRFFKDMPHNALDKKSNFELLEKEVGLDLFFPKQMQENLKPKQFRKMIQQTFQQYASLREEECVMKFFNTLAGFANIDQETYRCELIQGWNITVDLVIGPKGIRQLTSQDTKPTCLAEFKQIKSIRCLPLEEGQAVLQLGIEGAPQSLSIKTSSLAEAENMADLIDGYCRLQGEHKGSLIIHPKKDGEKRNSLPQIPVLNLETQRSRLSESCSIESDIYAEIPDETLRRPGGPQYGIAREDVVLSRILGEGFFGEVYEGVYTNHKGEKINVAVKTCKKDCTLDNKEKFMSEAVIMKNLDHPHIVKLIGIIEEEPTWIIMELYPFGELGHYLERNKNSLKVLTLVLYSLQICKAMAYLESINCVHRDIAVRNILVASANCVKLGDFGLSRYIEDEEYYKASVTRLPIKWMAPESINFRRFTTASDVWMFAVCMWEILSFGKQPFFWLENKDVIGVLEKGDRLPKPDLCPPILYTLMTRCWDYDPSERPRFTELVCSLSDVYQMEKDIDTEQERNARYRPPKILEPTALQEPPPKPSRPKYRTPPQTNLLAPTLQFQVPEGLCASSPTLTSPMEYPSPVNSLHTPPLHRHNVFKRHSMREGDFVRPSSREEAQQLWEAERVKMRQILDKQQKQMVEDYQWLRQEEKSLDPMVYMNDKSPLTPEKEPGYTEFTGPPQKPPRLGAQSIQPTANLDRTDDLVYLNVMELVRAVLDLKNELCQLPPEGYVVVVKVRARGRRRGQQGAGCASRPGGKRGGAELPCLPSRCLSQEDPQYSKVLKGNLVPGSLGRWVLSQKGSSQGKPEVLKRKVTVTLPLSLPERGPDPAEAHRERGRSPALLAVIFTDRGGCPRPRMCHWLSPLPFTSTCPSCVPHRRLMRALSSLILPAGPSAVGSDSTSERVP",
+  "md5" : "5f949f0edc7b62c9d9361aedb77ec11c",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "SSF68993",
+      "name" : "FAT domain of focal adhesion kinase",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036137",
+        "name" : "Focal_adhe_kin_target_dom_sf",
+        "description" : "Focal adhesion kinase, targeting (FAT) domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ {
+          "name" : "protein tyrosine kinase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004713"
+        }, {
+          "name" : "signal complex assembly",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0007172"
+        }, {
+          "name" : "protein phosphorylation",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006468"
+        }, {
+          "name" : "focal adhesion",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005925"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "T cell receptor signaling pathway",
+          "databaseName" : "KEGG",
+          "id" : "04660+2.7.10.2"
+        }, {
+          "name" : "VEGFA-VEGFR2 Pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-4420097"
+        }, {
+          "name" : "Signal regulatory protein family interactions",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-391160"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 864,
+      "end" : 911,
+      "hmmLength" : 146,
+      "location-fragments" : [ {
+        "start" : 864,
+        "end" : 911,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.75E-15,
+    "model-ac" : "0048826"
+  }, {
+    "signature" : {
+      "accession" : "SM00295",
+      "name" : "B41_5",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR019749",
+        "name" : "Band_41_domain",
+        "description" : "Band 4.1 domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 35,
+      "end" : 265,
+      "hmmStart" : 1,
+      "hmmEnd" : 232,
+      "hmmLength" : 232,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.3E-44,
+      "score" : 162.9,
+      "location-fragments" : [ {
+        "start" : 35,
+        "end" : 265,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.3E-44,
+    "score" : 162.9,
+    "model-ac" : "SM00295"
+  }, {
+    "signature" : {
+      "accession" : "PTHR24418",
+      "name" : "TYROSINE-PROTEIN KINASE",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 855,
+      "hmmStart" : 1,
+      "hmmEnd" : 855,
+      "hmmLength" : 1011,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 1002,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 855,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 1817.8,
+    "model-ac" : "PTHR24418"
+  }, {
+    "signature" : {
+      "accession" : "SSF50729",
+      "name" : "PH domain-like",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 261,
+      "end" : 366,
+      "hmmLength" : 110,
+      "location-fragments" : [ {
+        "start" : 261,
+        "end" : 366,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.53E-31,
+    "model-ac" : "0051791"
+  }, {
+    "signature" : {
+      "accession" : "SSF54236",
+      "name" : "Ubiquitin-like",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR029071",
+        "name" : "Ubiquitin-like_domsf",
+        "description" : "Ubiquitin-like domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 37,
+      "end" : 137,
+      "hmmLength" : 100,
+      "location-fragments" : [ {
+        "start" : 37,
+        "end" : 137,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.94E-33,
+    "model-ac" : "0051792"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.10.20.90",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 19,
+      "end" : 135,
+      "hmmStart" : 4,
+      "hmmEnd" : 118,
+      "hmmLength" : 118,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.0E-55,
+      "score" : 187.9,
+      "envelopeStart" : 19,
+      "envelopeEnd" : 135,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 19,
+        "end" : 135,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 8.8E-56,
+    "score" : 189.0,
+    "model-ac" : "4ekuA01"
+  }, {
+    "signature" : {
+      "accession" : "PS00107",
+      "name" : "PROTEIN_KINASE_ATP",
+      "description" : "Protein kinases ATP-binding region signature.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PATTERNS",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR017441",
+        "name" : "Protein_kinase_ATP_BS",
+        "description" : "Protein kinase, ATP binding site",
+        "type" : "BINDING_SITE",
+        "goXRefs" : [ {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 431,
+      "end" : 457,
+      "level" : "STRONG",
+      "cigarAlignment" : "10M1I1M11I4M",
+      "alignment" : "LGEGFFGEVYeGvytnhkgekinVAVK",
+      "location-fragments" : [ {
+        "start" : 431,
+        "end" : 457,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS00107"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.20.80.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR014352",
+        "name" : "FERM/acyl-CoA-bd_prot_sf",
+        "description" : "FERM/acyl-CoA-binding protein superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 136,
+      "end" : 259,
+      "hmmStart" : 1,
+      "hmmEnd" : 124,
+      "hmmLength" : 124,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.8E-57,
+      "score" : 193.4,
+      "envelopeStart" : 136,
+      "envelopeEnd" : 259,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 136,
+        "end" : 259,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.2E-57,
+    "score" : 194.5,
+    "model-ac" : "4ekuA02"
+  }, {
+    "signature" : {
+      "accession" : "SM00219",
+      "name" : "tyrkin_6",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR020635",
+        "name" : "Tyr_kinase_cat_dom",
+        "description" : "Tyrosine-protein kinase, catalytic domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein phosphorylation",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006468"
+        }, {
+          "name" : "protein tyrosine kinase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004713"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 425,
+      "end" : 679,
+      "hmmStart" : 1,
+      "hmmEnd" : 280,
+      "hmmLength" : 280,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.0,
+      "score" : 472.1,
+      "location-fragments" : [ {
+        "start" : 425,
+        "end" : 679,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 472.1,
+    "model-ac" : "SM00219"
+  }, {
+    "signature" : {
+      "accession" : "PTHR24418:SF94",
+      "name" : "PROTEIN-TYROSINE KINASE 2-BETA",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : {
+        "accession" : "IPR030610",
+        "name" : "PTK2B",
+        "description" : "Protein-tyrosine kinase 2-beta",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "regulation of bone mineralization",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0030500"
+        }, {
+          "name" : "regulation of cell migration",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0030334"
+        }, {
+          "name" : "regulation of cell adhesion",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0030155"
+        }, {
+          "name" : "signal transduction",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0007165"
+        }, {
+          "name" : "non-membrane spanning protein tyrosine kinase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004715"
+        }, {
+          "name" : "regulation of cell population proliferation",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0042127"
+        }, {
+          "name" : "extrinsic component of cytoplasmic side of plasma membrane",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0031234"
+        }, {
+          "name" : "regulation of leukocyte chemotaxis",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0002688"
+        }, {
+          "name" : "regulation of angiogenesis",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0045765"
+        }, {
+          "name" : "regulation of actin cytoskeleton reorganization",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:2000249"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Interleukin-2 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9020558"
+        }, {
+          "name" : "VEGFA-VEGFR2 Pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-4420097"
+        }, {
+          "name" : "Signal regulatory protein family interactions",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-391160"
+        }, {
+          "name" : "T cell receptor signaling pathway",
+          "databaseName" : "KEGG",
+          "id" : "04660+2.7.10.2"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 855,
+      "hmmStart" : 1,
+      "hmmEnd" : 855,
+      "hmmLength" : 1011,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 1002,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 855,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 1817.8,
+    "model-ac" : "PTHR24418:SF94"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.30.29.30",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR011993",
+        "name" : "PH-like_dom_sf",
+        "description" : "PH-like domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 260,
+      "end" : 400,
+      "hmmStart" : 2,
+      "hmmEnd" : 139,
+      "hmmLength" : 142,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.5E-45,
+      "score" : 156.4,
+      "envelopeStart" : 260,
+      "envelopeEnd" : 400,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 260,
+        "end" : 400,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 9.3E-46,
+    "score" : 157.1,
+    "model-ac" : "2al6A03"
+  }, {
+    "signature" : {
+      "accession" : "PS50057",
+      "name" : "FERM_3",
+      "description" : "FERM domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR000299",
+        "name" : "FERM_domain",
+        "description" : "FERM domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "cytoskeleton",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005856"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 39,
+      "end" : 359,
+      "score" : 48.291,
+      "alignment" : "RILKVCFYSNSFNPgknfklVKCTVHTEIREVIASILLSGRIGPNIqlaeCYGLRLKHMKSDEIHWLHPQMTVGEVQDKYEclhmeAEWRYDLQIRYLPEDFMEslKEDRTTLLYFYQQLRNDYMQRYASKVSEGMaLQLGCLELRRFFKDMPHNALDKKSnfelleKEVGLDLFFPKQMQENLKPKQFRKMIQQTFQQYASLREEECVMKFFNTLAGFANIDQETYRCELIQGWN-ITVDLVIGPKGIRQLTSQDTKPTCLAEFKQiksIRCLPLEEGQAVLQLGIEGAPQSLSIKTSSLAEAENMADLIDGYCRLQGEHK",
+      "location-fragments" : [ {
+        "start" : 39,
+        "end" : 359,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50057"
+  }, {
+    "signature" : {
+      "accession" : "cd13190",
+      "name" : "FERM_C_FAK1",
+      "description" : "FERM_C_FAK1",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : {
+        "accession" : "IPR041784",
+        "name" : "FAK1/PYK2_FERM_C",
+        "description" : "FAK1/PYK2, FERM domain C-lobe",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Signal regulatory protein family interactions",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-391160"
+        }, {
+          "name" : "VEGFA-VEGFR2 Pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-4420097"
+        }, {
+          "name" : "T cell receptor signaling pathway",
+          "databaseName" : "KEGG",
+          "id" : "04660+2.7.10.2"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 261,
+      "end" : 368,
+      "sites" : [ {
+        "description" : "putative peptide binding site",
+        "numLocations" : 9,
+        "siteLocations" : [ {
+          "start" : 307,
+          "end" : 307,
+          "residue" : "S"
+        }, {
+          "start" : 310,
+          "end" : 310,
+          "residue" : "C"
+        }, {
+          "start" : 302,
+          "end" : 302,
+          "residue" : "F"
+        }, {
+          "start" : 308,
+          "end" : 308,
+          "residue" : "I"
+        }, {
+          "start" : 345,
+          "end" : 345,
+          "residue" : "A"
+        }, {
+          "start" : 353,
+          "end" : 353,
+          "residue" : "R"
+        }, {
+          "start" : 352,
+          "end" : 352,
+          "residue" : "C"
+        }, {
+          "start" : 349,
+          "end" : 349,
+          "residue" : "D"
+        }, {
+          "start" : 309,
+          "end" : 309,
+          "residue" : "R"
+        } ]
+      }, {
+        "description" : "putative actin binding site 2",
+        "numLocations" : 12,
+        "siteLocations" : [ {
+          "start" : 356,
+          "end" : 356,
+          "residue" : "G"
+        }, {
+          "start" : 351,
+          "end" : 351,
+          "residue" : "Y"
+        }, {
+          "start" : 355,
+          "end" : 355,
+          "residue" : "Q"
+        }, {
+          "start" : 348,
+          "end" : 348,
+          "residue" : "I"
+        }, {
+          "start" : 354,
+          "end" : 354,
+          "residue" : "L"
+        }, {
+          "start" : 345,
+          "end" : 345,
+          "residue" : "A"
+        }, {
+          "start" : 353,
+          "end" : 353,
+          "residue" : "R"
+        }, {
+          "start" : 346,
+          "end" : 346,
+          "residue" : "D"
+        }, {
+          "start" : 347,
+          "end" : 347,
+          "residue" : "L"
+        }, {
+          "start" : 352,
+          "end" : 352,
+          "residue" : "C"
+        }, {
+          "start" : 350,
+          "end" : 350,
+          "residue" : "G"
+        }, {
+          "start" : 349,
+          "end" : 349,
+          "residue" : "D"
+        } ]
+      }, {
+        "description" : "putative phosphoinositide binding site",
+        "numLocations" : 4,
+        "siteLocations" : [ {
+          "start" : 288,
+          "end" : 288,
+          "residue" : "Q"
+        }, {
+          "start" : 297,
+          "end" : 297,
+          "residue" : "T"
+        }, {
+          "start" : 269,
+          "end" : 269,
+          "residue" : "L"
+        }, {
+          "start" : 290,
+          "end" : 290,
+          "residue" : "T"
+        } ]
+      } ],
+      "evalue" : 2.19155E-50,
+      "score" : 170.886,
+      "location-fragments" : [ {
+        "start" : 261,
+        "end" : 368,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd13190"
+  }, {
+    "signature" : {
+      "accession" : "PF03623",
+      "name" : "Focal_AT",
+      "description" : "Focal adhesion targeting region",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR005189",
+        "name" : "Focal_adhesion_kin_target_dom",
+        "description" : "Focal adhesion kinase, targeting (FAT) domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "signal complex assembly",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0007172"
+        }, {
+          "name" : "protein tyrosine kinase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004713"
+        }, {
+          "name" : "protein phosphorylation",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006468"
+        }, {
+          "name" : "focal adhesion",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005925"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "T cell receptor signaling pathway",
+          "databaseName" : "KEGG",
+          "id" : "04660+2.7.10.2"
+        }, {
+          "name" : "VEGFA-VEGFR2 Pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-4420097"
+        }, {
+          "name" : "Signal regulatory protein family interactions",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-391160"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 870,
+      "end" : 911,
+      "hmmStart" : 1,
+      "hmmEnd" : 42,
+      "hmmLength" : 133,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 1.1E-8,
+      "score" : 35.1,
+      "envelopeStart" : 870,
+      "envelopeEnd" : 915,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 870,
+        "end" : 911,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.7E-9,
+    "score" : 36.2,
+    "model-ac" : "PF03623"
+  }, {
+    "signature" : {
+      "accession" : "PS00109",
+      "name" : "PROTEIN_KINASE_TYR",
+      "description" : "Tyrosine protein kinases specific active-site signature.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PATTERNS",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR008266",
+        "name" : "Tyr_kinase_AS",
+        "description" : "Tyrosine-protein kinase, active site",
+        "type" : "ACTIVE_SITE",
+        "goXRefs" : [ {
+          "name" : "protein phosphorylation",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006468"
+        }, {
+          "name" : "protein kinase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004672"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 545,
+      "end" : 557,
+      "level" : "STRONG",
+      "cigarAlignment" : "3M1I9M",
+      "alignment" : "CVHrDIAVRNILV",
+      "location-fragments" : [ {
+        "start" : 545,
+        "end" : 557,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS00109"
+  }, {
+    "signature" : {
+      "accession" : "PR00109",
+      "name" : "TYRKINASE",
+      "description" : "Tyrosine kinase catalytic domain signature",
+      "signatureLibraryRelease" : {
+        "library" : "PRINTS",
+        "version" : "42.0"
+      },
+      "entry" : {
+        "accession" : "IPR001245",
+        "name" : "Ser-Thr/Tyr_kinase_cat_dom",
+        "description" : "Serine-threonine/tyrosine-protein kinase, catalytic domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein phosphorylation",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006468"
+        }, {
+          "name" : "protein kinase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004672"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 502,
+      "end" : 515,
+      "pvalue" : 0.0239,
+      "score" : 32.52,
+      "motifNumber" : 1,
+      "location-fragments" : [ {
+        "start" : 502,
+        "end" : 515,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 539,
+      "end" : 557,
+      "pvalue" : 1.23E-9,
+      "score" : 59.88,
+      "motifNumber" : 2,
+      "location-fragments" : [ {
+        "start" : 539,
+        "end" : 557,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 587,
+      "end" : 597,
+      "pvalue" : 2.61E-5,
+      "score" : 65.7,
+      "motifNumber" : 3,
+      "location-fragments" : [ {
+        "start" : 587,
+        "end" : 597,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 606,
+      "end" : 628,
+      "pvalue" : 7.76E-9,
+      "score" : 45.11,
+      "motifNumber" : 4,
+      "location-fragments" : [ {
+        "start" : 606,
+        "end" : 628,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 650,
+      "end" : 672,
+      "pvalue" : 9.98E-10,
+      "score" : 49.8,
+      "motifNumber" : 5,
+      "location-fragments" : [ {
+        "start" : 650,
+        "end" : 672,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.6E-27,
+    "graphscan" : "IIIII",
+    "model-ac" : "PR00109"
+  }, {
+    "signature" : {
+      "accession" : "PS50011",
+      "name" : "PROTEIN_KINASE_DOM",
+      "description" : "Protein kinase domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR000719",
+        "name" : "Prot_kinase_dom",
+        "description" : "Protein kinase domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "ATP binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005524"
+        }, {
+          "name" : "protein phosphorylation",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006468"
+        }, {
+          "name" : "protein kinase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004672"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 425,
+      "end" : 683,
+      "score" : 38.873,
+      "alignment" : "VVLSRILGEGFFGEVYEGVYTNhkgEKINVAVKTCKK-----DctldNKEKFMSEAVIMKNLDHPHIVKLIGIIEE-EPTWIIMELYPFGELGHYLERNKNSLKVLTLVLYSLQICKAMAYLESINCVHRDIAVRNILVASANCVKLGDFGLSRYIEDEEYyKASVTRLPIKWMAPESI-NFRRFTTASDVWMFAVCMWEILSfGKQPF--FwLENKDVIGVLEKGDRLPK-P--DLCPPILYTLMTRCWDYDPSERPRFTELVCslSDVY",
+      "location-fragments" : [ {
+        "start" : 425,
+        "end" : 683,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50011"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.200.20",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 414,
+      "end" : 504,
+      "hmmStart" : 5,
+      "hmmEnd" : 93,
+      "hmmLength" : 93,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.3E-35,
+      "score" : 123.4,
+      "envelopeStart" : 414,
+      "envelopeEnd" : 504,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 414,
+        "end" : 504,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 5.8E-36,
+    "score" : 124.5,
+    "model-ac" : "3cc6A01"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 690,
+      "end" : 724,
+      "location-fragments" : [ {
+        "start" : 690,
+        "end" : 724,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SSF47031",
+      "name" : "Second domain of FERM",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR035963",
+        "name" : "FERM_2",
+        "description" : "FERM superfamily, second domain",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 138,
+      "end" : 256,
+      "hmmLength" : 123,
+      "location-fragments" : [ {
+        "start" : 138,
+        "end" : 256,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 8.77E-42,
+    "model-ac" : "0051790"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 841,
+      "end" : 862,
+      "location-fragments" : [ {
+        "start" : 841,
+        "end" : 862,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PF18038",
+      "name" : "FERM_N_2",
+      "description" : "FERM N-terminal domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR041390",
+        "name" : "FADK_N",
+        "description" : "Focal adhesion kinase, N-terminal",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Signal regulatory protein family interactions",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-391160"
+        }, {
+          "name" : "VEGFA-VEGFR2 Pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-4420097"
+        }, {
+          "name" : "T cell receptor signaling pathway",
+          "databaseName" : "KEGG",
+          "id" : "04660+2.7.10.2"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 39,
+      "end" : 137,
+      "hmmStart" : 1,
+      "hmmEnd" : 97,
+      "hmmLength" : 97,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.4E-40,
+      "score" : 138.0,
+      "envelopeStart" : 39,
+      "envelopeEnd" : 137,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 39,
+        "end" : 137,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 6.2E-41,
+    "score" : 139.1,
+    "model-ac" : "PF18038"
+  }, {
+    "signature" : {
+      "accession" : "SSF56112",
+      "name" : "Protein kinase-like (PK-like)",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR011009",
+        "name" : "Kinase-like_dom_sf",
+        "description" : "Protein kinase-like domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 417,
+      "end" : 688,
+      "hmmLength" : 325,
+      "location-fragments" : [ {
+        "start" : 417,
+        "end" : 688,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.23E-78,
+    "model-ac" : "0040727"
+  }, {
+    "signature" : {
+      "accession" : "PF07714",
+      "name" : "Pkinase_Tyr",
+      "description" : "Protein tyrosine kinase",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR001245",
+        "name" : "Ser-Thr/Tyr_kinase_cat_dom",
+        "description" : "Serine-threonine/tyrosine-protein kinase, catalytic domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "protein phosphorylation",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006468"
+        }, {
+          "name" : "protein kinase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004672"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 426,
+      "end" : 678,
+      "hmmStart" : 2,
+      "hmmEnd" : 258,
+      "hmmLength" : 259,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 5.1E-93,
+      "score" : 311.0,
+      "envelopeStart" : 425,
+      "envelopeEnd" : 679,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 426,
+        "end" : 678,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.1E-93,
+    "score" : 311.7,
+    "model-ac" : "PF07714"
+  }, {
+    "signature" : {
+      "accession" : "PF00373",
+      "name" : "FERM_M",
+      "description" : "FERM central domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR019748",
+        "name" : "FERM_central",
+        "description" : "FERM central domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 144,
+      "end" : 253,
+      "hmmStart" : 4,
+      "hmmEnd" : 106,
+      "hmmLength" : 118,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 1.3E-11,
+      "score" : 44.8,
+      "envelopeStart" : 141,
+      "envelopeEnd" : 260,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 144,
+        "end" : 253,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.4E-12,
+    "score" : 46.3,
+    "model-ac" : "PF00373"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.20.120.330",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 858,
+      "end" : 916,
+      "hmmStart" : 5,
+      "hmmEnd" : 55,
+      "hmmLength" : 153,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.3E-14,
+      "score" : 54.2,
+      "envelopeStart" : 858,
+      "envelopeEnd" : 916,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 858,
+        "end" : 916,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.0E-14,
+    "score" : 55.3,
+    "model-ac" : "3gm3A00"
+  }, {
+    "signature" : {
+      "accession" : "cd14473",
+      "name" : "FERM_B-lobe",
+      "description" : "FERM_B-lobe",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : {
+        "accession" : "IPR019748",
+        "name" : "FERM_central",
+        "description" : "FERM central domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 150,
+      "end" : 254,
+      "sites" : [ ],
+      "evalue" : 2.70552E-19,
+      "score" : 81.909,
+      "location-fragments" : [ {
+        "start" : 150,
+        "end" : 254,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd14473"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.10.510.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 505,
+      "end" : 687,
+      "hmmStart" : 4,
+      "hmmEnd" : 179,
+      "hmmLength" : 183,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 8.5E-54,
+      "score" : 183.6,
+      "envelopeStart" : 505,
+      "envelopeEnd" : 687,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 505,
+        "end" : 687,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.4E-54,
+    "score" : 185.4,
+    "model-ac" : "3cc6A02"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 707,
+      "end" : 722,
+      "location-fragments" : [ {
+        "start" : 707,
+        "end" : 722,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Proline-rich"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "cd05056",
+      "name" : "PTKc_FAK",
+      "description" : "PTKc_FAK",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 418,
+      "end" : 687,
+      "sites" : [ {
+        "description" : "polypeptide substrate binding site",
+        "numLocations" : 9,
+        "siteLocations" : [ {
+          "start" : 585,
+          "end" : 585,
+          "residue" : "T"
+        }, {
+          "start" : 597,
+          "end" : 597,
+          "residue" : "I"
+        }, {
+          "start" : 553,
+          "end" : 553,
+          "residue" : "R"
+        }, {
+          "start" : 587,
+          "end" : 587,
+          "residue" : "L"
+        }, {
+          "start" : 588,
+          "end" : 588,
+          "residue" : "P"
+        }, {
+          "start" : 586,
+          "end" : 586,
+          "residue" : "R"
+        }, {
+          "start" : 584,
+          "end" : 584,
+          "residue" : "V"
+        }, {
+          "start" : 549,
+          "end" : 549,
+          "residue" : "D"
+        }, {
+          "start" : 631,
+          "end" : 631,
+          "residue" : "N"
+        } ]
+      }, {
+        "description" : "activation loop (A-loop)",
+        "numLocations" : 25,
+        "siteLocations" : [ {
+          "start" : 580,
+          "end" : 580,
+          "residue" : "Y"
+        }, {
+          "start" : 577,
+          "end" : 577,
+          "residue" : "E"
+        }, {
+          "start" : 570,
+          "end" : 570,
+          "residue" : "L"
+        }, {
+          "start" : 589,
+          "end" : 589,
+          "residue" : "I"
+        }, {
+          "start" : 583,
+          "end" : 583,
+          "residue" : "S"
+        }, {
+          "start" : 567,
+          "end" : 567,
+          "residue" : "D"
+        }, {
+          "start" : 579,
+          "end" : 579,
+          "residue" : "Y"
+        }, {
+          "start" : 586,
+          "end" : 586,
+          "residue" : "R"
+        }, {
+          "start" : 585,
+          "end" : 585,
+          "residue" : "T"
+        }, {
+          "start" : 573,
+          "end" : 573,
+          "residue" : "Y"
+        }, {
+          "start" : 578,
+          "end" : 578,
+          "residue" : "E"
+        }, {
+          "start" : 582,
+          "end" : 582,
+          "residue" : "A"
+        }, {
+          "start" : 566,
+          "end" : 566,
+          "residue" : "G"
+        }, {
+          "start" : 568,
+          "end" : 568,
+          "residue" : "F"
+        }, {
+          "start" : 571,
+          "end" : 571,
+          "residue" : "S"
+        }, {
+          "start" : 569,
+          "end" : 569,
+          "residue" : "G"
+        }, {
+          "start" : 581,
+          "end" : 581,
+          "residue" : "K"
+        }, {
+          "start" : 575,
+          "end" : 575,
+          "residue" : "E"
+        }, {
+          "start" : 587,
+          "end" : 587,
+          "residue" : "L"
+        }, {
+          "start" : 572,
+          "end" : 572,
+          "residue" : "R"
+        }, {
+          "start" : 590,
+          "end" : 590,
+          "residue" : "K"
+        }, {
+          "start" : 588,
+          "end" : 588,
+          "residue" : "P"
+        }, {
+          "start" : 576,
+          "end" : 576,
+          "residue" : "D"
+        }, {
+          "start" : 574,
+          "end" : 574,
+          "residue" : "I"
+        }, {
+          "start" : 584,
+          "end" : 584,
+          "residue" : "V"
+        } ]
+      }, {
+        "description" : "active site",
+        "numLocations" : 28,
+        "siteLocations" : [ {
+          "start" : 508,
+          "end" : 508,
+          "residue" : "G"
+        }, {
+          "start" : 554,
+          "end" : 554,
+          "residue" : "N"
+        }, {
+          "start" : 431,
+          "end" : 431,
+          "residue" : "L"
+        }, {
+          "start" : 503,
+          "end" : 503,
+          "residue" : "E"
+        }, {
+          "start" : 434,
+          "end" : 434,
+          "residue" : "G"
+        }, {
+          "start" : 439,
+          "end" : 439,
+          "residue" : "V"
+        }, {
+          "start" : 502,
+          "end" : 502,
+          "residue" : "M"
+        }, {
+          "start" : 432,
+          "end" : 432,
+          "residue" : "G"
+        }, {
+          "start" : 567,
+          "end" : 567,
+          "residue" : "D"
+        }, {
+          "start" : 435,
+          "end" : 435,
+          "residue" : "F"
+        }, {
+          "start" : 586,
+          "end" : 586,
+          "residue" : "R"
+        }, {
+          "start" : 505,
+          "end" : 505,
+          "residue" : "Y"
+        }, {
+          "start" : 585,
+          "end" : 585,
+          "residue" : "T"
+        }, {
+          "start" : 457,
+          "end" : 457,
+          "residue" : "K"
+        }, {
+          "start" : 549,
+          "end" : 549,
+          "residue" : "D"
+        }, {
+          "start" : 631,
+          "end" : 631,
+          "residue" : "N"
+        }, {
+          "start" : 433,
+          "end" : 433,
+          "residue" : "E"
+        }, {
+          "start" : 487,
+          "end" : 487,
+          "residue" : "V"
+        }, {
+          "start" : 474,
+          "end" : 474,
+          "residue" : "E"
+        }, {
+          "start" : 597,
+          "end" : 597,
+          "residue" : "I"
+        }, {
+          "start" : 504,
+          "end" : 504,
+          "residue" : "L"
+        }, {
+          "start" : 553,
+          "end" : 553,
+          "residue" : "R"
+        }, {
+          "start" : 587,
+          "end" : 587,
+          "residue" : "L"
+        }, {
+          "start" : 509,
+          "end" : 509,
+          "residue" : "E"
+        }, {
+          "start" : 455,
+          "end" : 455,
+          "residue" : "A"
+        }, {
+          "start" : 588,
+          "end" : 588,
+          "residue" : "P"
+        }, {
+          "start" : 584,
+          "end" : 584,
+          "residue" : "V"
+        }, {
+          "start" : 556,
+          "end" : 556,
+          "residue" : "L"
+        } ]
+      }, {
+        "description" : "FERM domain interface",
+        "numLocations" : 8,
+        "siteLocations" : [ {
+          "start" : 600,
+          "end" : 600,
+          "residue" : "R"
+        }, {
+          "start" : 599,
+          "end" : 599,
+          "residue" : "F"
+        }, {
+          "start" : 639,
+          "end" : 639,
+          "residue" : "E"
+        }, {
+          "start" : 597,
+          "end" : 597,
+          "residue" : "I"
+        }, {
+          "start" : 601,
+          "end" : 601,
+          "residue" : "R"
+        }, {
+          "start" : 664,
+          "end" : 664,
+          "residue" : "Y"
+        }, {
+          "start" : 598,
+          "end" : 598,
+          "residue" : "N"
+        }, {
+          "start" : 635,
+          "end" : 635,
+          "residue" : "I"
+        } ]
+      }, {
+        "description" : "ATP binding site",
+        "numLocations" : 20,
+        "siteLocations" : [ {
+          "start" : 431,
+          "end" : 431,
+          "residue" : "L"
+        }, {
+          "start" : 433,
+          "end" : 433,
+          "residue" : "E"
+        }, {
+          "start" : 508,
+          "end" : 508,
+          "residue" : "G"
+        }, {
+          "start" : 554,
+          "end" : 554,
+          "residue" : "N"
+        }, {
+          "start" : 434,
+          "end" : 434,
+          "residue" : "G"
+        }, {
+          "start" : 503,
+          "end" : 503,
+          "residue" : "E"
+        }, {
+          "start" : 439,
+          "end" : 439,
+          "residue" : "V"
+        }, {
+          "start" : 487,
+          "end" : 487,
+          "residue" : "V"
+        }, {
+          "start" : 502,
+          "end" : 502,
+          "residue" : "M"
+        }, {
+          "start" : 432,
+          "end" : 432,
+          "residue" : "G"
+        }, {
+          "start" : 567,
+          "end" : 567,
+          "residue" : "D"
+        }, {
+          "start" : 474,
+          "end" : 474,
+          "residue" : "E"
+        }, {
+          "start" : 435,
+          "end" : 435,
+          "residue" : "F"
+        }, {
+          "start" : 505,
+          "end" : 505,
+          "residue" : "Y"
+        }, {
+          "start" : 504,
+          "end" : 504,
+          "residue" : "L"
+        }, {
+          "start" : 553,
+          "end" : 553,
+          "residue" : "R"
+        }, {
+          "start" : 455,
+          "end" : 455,
+          "residue" : "A"
+        }, {
+          "start" : 509,
+          "end" : 509,
+          "residue" : "E"
+        }, {
+          "start" : 457,
+          "end" : 457,
+          "residue" : "K"
+        }, {
+          "start" : 556,
+          "end" : 556,
+          "residue" : "L"
+        } ]
+      } ],
+      "evalue" : 0.0,
+      "score" : 554.725,
+      "location-fragments" : [ {
+        "start" : 418,
+        "end" : 687,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd05056"
+  } ],
+  "xref" : [ {
+    "name" : "tr|A0A3Q2GT01|A0A3Q2GT01_HORSE Protein tyrosine kinase 2 beta OS=Equus caballus OX=9796 GN=PTK2B PE=3 SV=1",
+    "id" : "tr|A0A3Q2GT01|A0A3Q2GT01_HORSE"
+  } ]
+} ]
+}

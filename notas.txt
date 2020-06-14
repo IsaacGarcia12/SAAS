@@ -1,15 +1,26 @@
 ************
 DEPENDENCIAS QUE SE TIENEN QUE INSTALAR
 Hay que instalar las liberias necesarias para que funcione esta cosa
-por ejemplo, pillow creo, biopython, reportlab (por si las dudas), xmltamp2 y xhtml2pdf 
+por ejemplo, 
+pillow creo, 
+biopython, 
+reportlab (por si las dudas), 
+xmltamp2 y 
+xhtml2pdf
+ 
 esta ultima hay que instalarla en python 3 asi: pip install --pre xhtml2pdf 
-matplotlib, pylab por si acaso, pillow, requests
+
+matplotlib, pylab por si acaso, 
+requests
+
 Instalar la linea de comandos de Clustalw osea en debian apt install Clustalw
+Django
+MariaDB
+
 ************
 
 -> Falta hacer el PDF 
--> Encontrar una manera de transformar los XML en XSLT para poder hacer los SVG
--> Falta acomodar las imagenes en el PDF y el parseo del xml
+-> Falta acomodar las imagenes en el PDF }
 
 Clustal w ya entrega phylotree es con el codigo de clustalw.py
 Ya ClustalW esta integrado en views.py.

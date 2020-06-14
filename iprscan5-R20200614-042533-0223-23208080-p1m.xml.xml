@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="08762d69f8f15b3a55456110853b3948">MAERPRRSGSDPAADAATSFLRAARSGNLDKALDHLRNGVDINTCNQNGLNGLHLASKEGHVKMVVELLHKEIILETTTKVRDGFTPLAVALQQGHENVVAHLINYGTKGKVRLPALHIAARNDDTRTAAVLLQNDPNPDVLSKTGFTPLHIAAHYENLNVAQLLLNRGASVNFTPQNGITPLHIASRRGNVIMVRLLLDRGAQIETRTKDELTPLHCAARNGHVRISEILLDHGAPIQAKTKNGLSPIHMAAQGDHLDCVRLLLQYNAEIDDITLDHLTPLHVAAHCGHHRVAKVLLDKGAKPNSRALNGFTPLHIACKKNHIRVMELLLKTGASIDAVTEKVETPLHMAARAGHTEVAKYLLQNKAKANAKAKDDQTPLHCAARIGHTSMVKLLLENDASPNLATTAGHTPLHTAAREGHVDTALALLEKEASQACMTKKGFTPLHVAAKYGKVRLAELLLEHDAHPNAAGKNGLTPLHVAVHHNNLDIVQLLLPRGGSPHSPAWNGYTPLHIAAKQNQIEVARSLLQYGGSANAESVQGVTPLHLAAQEGHTEMVALLLSKQANGNLGNKSGLTPLHLVAQEGHVPVADVLIKHGVTVDATTRMGYTPLHVASHYGNIKLVKFLLQHQADVNAKTKLGYSPLHQAAQQGHTDIVTLLLKNGASPNEVSSNGTTPLAIAKRLGYISVTDVLKVVTDETSVVLVSDKHRMSYPETVDEILDVSEDEGTAHISLTGDELVGSKAERRDSRDVGEEKELLDFVPKLDQVVESPAIPRIPCVTPETVVIRSEDQEQASKEYDEDSLIPSSPATETSDNISPVASPVHTGFLVSFMVDARGGSMRGSRHNGLRVVIPPRTCAAPTRITCRLVKPQKLSTPPPLAEEEGLASRIIALGPTGAQFLSPVIVEIPHFASHGRGDRELVVLRSENGSVWKEHKSRYGESYLDQILNGMDEELGSLEELEKKRVCRIITTDFPLYFVIMSRLCQDYDTIGPEGGSLRSKLVPLVQATFPENAVTKKVKLALQAQPVPDELVTKLLGNQATFSPIVTVEPRRRKFHRPIGLRIPLPPSWTDNPRDSGEGDTTSLRLLCSVIGGTDQAQWEDITGTTKLVYANECANFTTNVSARFWLSDCPRTAEAVHFATLLYKELTAVPYMAKFVIFAKMNDPREGRLRCYCMTDDKVDKTLEQHENFVEVARSRDIEVLEGMPLFAELSGNLVPVKKAAQQRSFHFQSFRENRLAIPVKVRDSSREPGGFLSFLRKPMKYEDAQHILCHLNVTMPPCTKGSGAEDRRRTLTPLTLRYSILSESRLGFTSDTDRVEMKMAVIREHLGLSWAVENLYTALRNIDRSEIVNMLEGSGRQSRNLKPDRRHGDREYSLSPSQVNGYSSLQDELLSPASLHYALPSPLCADQYWNEVAVIDAIPLAATEHDTMLEMSDMQVWSSGLTPSLVTAEDSSLECSKAEDSDAIPEWKLEGAHSEDTQGPELGSQDLVEDDTVDSDATNGLADLLGQQRVHARITDSPSVRQVLDRSQARTVDWYKQGSAASYPQEAAQSSWQEEVTQGPQSFQRRITTIQGPEPGTLQEYEQVVVSTREHVQRGPPESDSPKAGKDPSLWASESAFSQEVQGDELQNIPGEQVTEEQFTDEQGNIVTKKIIRKVVRQVDSSGAIDTQQHEEVELRGSGLQPDLIEGRKGAQIVKRASLKRGKQ</sequence>
+    <xref id="tr|D3Z9Z0|D3Z9Z0_RAT" name="tr|D3Z9Z0|D3Z9Z0_RAT Ankyrin 1 OS=Rattus norvegicus OX=10116 GN=Ank1 PE=1 SV=1"/>
+    <matches>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="944" end="964">
+            <location-fragments>
+              <coils-location-fragment start="944" end="964" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <fingerprints-match evalue="6.6E-8" graphscan="II">
+        <signature ac="PR01415" desc="Ankyrin repeat signature" name="ANKYRIN">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PRINTS" version="42.0"/>
+        </signature>
+        <model-ac>PR01415</model-ac>
+        <locations>
+          <fingerprints-location motifNumber="1" pvalue="6.85E-9" score="46.84" start="542" end="557">
+            <location-fragments>
+              <fingerprints-location-fragment start="542" end="557" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+          <fingerprints-location motifNumber="2" pvalue="3.53E-6" score="40.69" start="623" end="637">
+            <location-fragments>
+              <fingerprints-location-fragment start="623" end="637" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </fingerprints-location>
+        </locations>
+      </fingerprints-match>
+      <hmmer2-match evalue="4.3E-60" score="215.6">
+        <signature ac="SM00218" name="zu_1">
+          <entry ac="IPR000906" desc="ZU5 domain" name="ZU5_dom" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00218</model-ac>
+        <locations>
+          <hmmer2-location score="215.6" evalue="4.3E-60" hmm-start="1" hmm-end="115" hmm-length="115" hmm-bounds="COMPLETE" start="826" end="930">
+            <location-fragments>
+              <hmmer2-location-fragment start="826" end="930" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="0.0" score="595.2">
+        <signature ac="SM00248" name="ANK_2a">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00248</model-ac>
+        <locations>
+          <hmmer2-location score="36.3" evalue="4.2E-6" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="244" end="273">
+            <location-fragments>
+              <hmmer2-location-fragment start="244" end="273" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="15.9" evalue="5.7" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="48" end="77">
+            <location-fragments>
+              <hmmer2-location-fragment start="48" end="77" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="29.2" evalue="5.7E-4" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="541" end="572">
+            <location-fragments>
+              <hmmer2-location-fragment start="541" end="572" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="35.4" evalue="7.5E-6" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="145" end="174">
+            <location-fragments>
+              <hmmer2-location-fragment start="145" end="174" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="40.2" evalue="2.8E-7" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="607" end="636">
+            <location-fragments>
+              <hmmer2-location-fragment start="607" end="636" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="34.8" evalue="1.2E-5" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="277" end="306">
+            <location-fragments>
+              <hmmer2-location-fragment start="277" end="306" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="36.0" evalue="5.1E-6" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="475" end="504">
+            <location-fragments>
+              <hmmer2-location-fragment start="475" end="504" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="31.3" evalue="1.3E-4" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="343" end="372">
+            <location-fragments>
+              <hmmer2-location-fragment start="343" end="372" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="31.3" evalue="1.4E-4" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="211" end="240">
+            <location-fragments>
+              <hmmer2-location-fragment start="211" end="240" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="32.7" evalue="5.0E-5" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="640" end="669">
+            <location-fragments>
+              <hmmer2-location-fragment start="640" end="669" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="37.2" evalue="2.2E-6" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="376" end="405">
+            <location-fragments>
+              <hmmer2-location-fragment start="376" end="405" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="29.2" evalue="5.5E-4" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="574" end="603">
+            <location-fragments>
+              <hmmer2-location-fragment start="574" end="603" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="33.8" evalue="2.3E-5" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="178" end="207">
+            <location-fragments>
+              <hmmer2-location-fragment start="178" end="207" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="18.7" evalue="0.83" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="83" end="111">
+            <location-fragments>
+              <hmmer2-location-fragment start="83" end="111" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="41.8" evalue="9.0E-8" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="310" end="339">
+            <location-fragments>
+              <hmmer2-location-fragment start="310" end="339" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="26.2" evalue="0.0046" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="409" end="438">
+            <location-fragments>
+              <hmmer2-location-fragment start="409" end="438" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="33.3" evalue="3.4E-5" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="442" end="471">
+            <location-fragments>
+              <hmmer2-location-fragment start="442" end="471" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="0.2" evalue="4400.0" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="15" end="44">
+            <location-fragments>
+              <hmmer2-location-fragment start="15" end="44" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="34.6" evalue="1.3E-5" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="508" end="537">
+            <location-fragments>
+              <hmmer2-location-fragment start="508" end="537" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="17.1" evalue="2.6" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="112" end="141">
+            <location-fragments>
+              <hmmer2-location-fragment start="112" end="141" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="5.3E-78" score="262.2">
+        <signature ac="G3DSA:2.60.220.30">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3ud1A02</model-ac>
+        <locations>
+          <hmmer3-location env-end="1148" env-start="981" post-processed="true" score="233.5" evalue="3.7E-69" hmm-start="2" hmm-end="167" hmm-length="168" hmm-bounds="C_TERMINAL_COMPLETE" start="983" end="1148">
+            <location-fragments>
+              <hmmer3-location-fragment start="983" end="1148" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="783.6">
+        <signature ac="G3DSA:1.25.40.20">
+          <entry ac="IPR036770" desc="Ankyrin repeat-containing domain superfamily" name="Ankyrin_rpt-contain_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4rlyA00</model-ac>
+        <locations>
+          <hmmer3-location env-end="231" env-start="75" post-processed="true" score="166.9" evalue="2.6E-48" hmm-start="160" hmm-end="320" hmm-length="329" hmm-bounds="INCOMPLETE" start="78" end="229">
+            <location-fragments>
+              <hmmer3-location-fragment start="78" end="229" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="80" env-start="3" post-processed="true" score="45.0" evalue="3.0E-11" hmm-start="30" hmm-end="89" hmm-length="329" hmm-bounds="N_TERMINAL_COMPLETE" start="3" end="77">
+            <location-fragments>
+              <hmmer3-location-fragment start="3" end="77" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.8E-113" score="368.4">
+        <signature ac="PF13637" desc="Ankyrin repeats (many copies)" name="Ank_4">
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF13637</model-ac>
+        <locations>
+          <hmmer3-location env-end="693" env-start="641" post-processed="true" score="31.0" evalue="2.5E-7" hmm-start="2" hmm-end="42" hmm-length="55" hmm-bounds="INCOMPLETE" start="642" end="681">
+            <location-fragments>
+              <hmmer3-location-fragment start="642" end="681" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="496" env-start="443" post-processed="true" score="45.2" evalue="9.2E-12" hmm-start="3" hmm-end="55" hmm-length="55" hmm-bounds="C_TERMINAL_COMPLETE" start="445" end="496">
+            <location-fragments>
+              <hmmer3-location-fragment start="445" end="496" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.3E-108" score="351.0">
+        <signature ac="PF00023" desc="Ankyrin repeat" name="Ank">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00023</model-ac>
+        <locations>
+          <hmmer3-location env-end="408" env-start="376" post-processed="true" score="25.9" evalue="8.5E-6" hmm-start="2" hmm-end="30" hmm-length="32" hmm-bounds="INCOMPLETE" start="377" end="406">
+            <location-fragments>
+              <hmmer3-location-fragment start="377" end="406" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="4.9E-58" score="194.5">
+        <signature ac="PF17809" desc="UPA domain" name="UPA_2">
+          <entry ac="IPR040745" desc="Ankyrin, UPA domain" name="Ankyrin_UPA" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-445095" name="Interaction between L1 and Ankyrins"/>
+            <pathway-xref db="Reactome" id="R-HSA-6807878" name="COPI-mediated anterograde transport"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF17809</model-ac>
+        <locations>
+          <hmmer3-location env-end="1280" env-start="1151" post-processed="true" score="193.4" evalue="1.1E-57" hmm-start="1" hmm-end="130" hmm-length="131" hmm-bounds="N_TERMINAL_COMPLETE" start="1151" end="1279">
+            <location-fragments>
+              <hmmer3-location-fragment start="1151" end="1279" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="8.7E-128" score="417.1">
+        <signature ac="PF12796" desc="Ankyrin repeats (3 copies)" name="Ank_2">
+          <entry ac="IPR020683" desc="Ankyrin repeat-containing domain" name="Ankyrin_rpt-contain_dom" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF12796</model-ac>
+        <locations>
+          <hmmer3-location env-end="242" env-start="172" post-processed="true" score="47.0" evalue="2.8E-12" hmm-start="24" hmm-end="82" hmm-length="83" hmm-bounds="INCOMPLETE" start="177" end="241">
+            <location-fragments>
+              <hmmer3-location-fragment start="177" end="241" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="114" env-start="20" post-processed="true" score="41.3" evalue="1.7E-10" hmm-start="3" hmm-end="77" hmm-length="83" hmm-bounds="INCOMPLETE" start="22" end="108">
+            <location-fragments>
+              <hmmer3-location-fragment start="22" end="108" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="376" env-start="305" post-processed="true" score="50.2" evalue="2.8E-13" hmm-start="25" hmm-end="82" hmm-length="83" hmm-bounds="INCOMPLETE" start="310" end="373">
+            <location-fragments>
+              <hmmer3-location-fragment start="310" end="373" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="572" env-start="496" post-processed="true" score="48.0" evalue="1.4E-12" hmm-start="22" hmm-end="80" hmm-length="83" hmm-bounds="INCOMPLETE" start="502" end="569">
+            <location-fragments>
+              <hmmer3-location-fragment start="502" end="569" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="638" env-start="565" post-processed="true" score="48.4" evalue="9.6E-13" hmm-start="24" hmm-end="82" hmm-length="83" hmm-bounds="INCOMPLETE" start="573" end="637">
+            <location-fragments>
+              <hmmer3-location-fragment start="573" end="637" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="176" env-start="108" post-processed="true" score="37.2" evalue="3.2E-9" hmm-start="28" hmm-end="81" hmm-length="83" hmm-bounds="INCOMPLETE" start="115" end="174">
+            <location-fragments>
+              <hmmer3-location-fragment start="115" end="174" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="308" env-start="239" post-processed="true" score="48.0" evalue="1.3E-12" hmm-start="24" hmm-end="82" hmm-length="83" hmm-bounds="INCOMPLETE" start="243" end="307">
+            <location-fragments>
+              <hmmer3-location-fragment start="243" end="307" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="5.8E-79" score="265.3">
+        <signature ac="G3DSA:2.60.220.30">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3f59D00</model-ac>
+        <locations>
+          <hmmer3-location env-end="983" env-start="824" post-processed="true" score="221.2" evalue="2.1E-65" hmm-start="4" hmm-end="161" hmm-length="161" hmm-bounds="N_TERMINAL_COMPLETE" start="824" end="982">
+            <location-fragments>
+              <hmmer3-location-fragment start="824" end="982" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="801.1">
+        <signature ac="G3DSA:1.25.40.20">
+          <entry ac="IPR036770" desc="Ankyrin repeat-containing domain superfamily" name="Ankyrin_rpt-contain_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1n11A00</model-ac>
+        <locations>
+          <hmmer3-location env-end="734" env-start="334" post-processed="true" score="500.4" evalue="0.0" hmm-start="37" hmm-end="432" hmm-length="437" hmm-bounds="C_TERMINAL_COMPLETE" start="337" end="734">
+            <location-fragments>
+              <hmmer3-location-fragment start="337" end="734" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="645.8">
+        <signature ac="G3DSA:1.25.40.20">
+          <entry ac="IPR036770" desc="Ankyrin repeat-containing domain superfamily" name="Ankyrin_rpt-contain_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>5eypF00</model-ac>
+        <locations>
+          <hmmer3-location env-end="339" env-start="228" post-processed="true" score="116.7" evalue="2.7E-33" hmm-start="31" hmm-end="140" hmm-length="142" hmm-bounds="INCOMPLETE" start="230" end="336">
+            <location-fragments>
+              <hmmer3-location-fragment start="230" end="336" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="9.6E-34" score="115.6">
+        <signature ac="PF00791" desc="ZU5 domain" name="ZU5">
+          <entry ac="IPR000906" desc="ZU5 domain" name="ZU5_dom" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00791</model-ac>
+        <locations>
+          <hmmer3-location env-end="927" env-start="829" post-processed="true" score="92.8" evalue="1.2E-26" hmm-start="2" hmm-end="98" hmm-length="98" hmm-bounds="C_TERMINAL_COMPLETE" start="830" end="927">
+            <location-fragments>
+              <hmmer3-location-fragment start="830" end="927" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.1E-59" score="201.0">
+        <signature ac="G3DSA:2.60.40.2660">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4d8oA03</model-ac>
+        <locations>
+          <hmmer3-location env-end="1301" env-start="1149" post-processed="true" score="200.1" evalue="6.0E-59" hmm-start="2" hmm-end="143" hmm-length="164" hmm-bounds="COMPLETE" start="1149" end="1301">
+            <location-fragments>
+              <hmmer3-location-fragment start="1149" end="1301" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="4.2E-11" score="44.3">
+        <signature ac="G3DSA:1.10.533.10">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2yviA00</model-ac>
+        <locations>
+          <hmmer3-location env-end="1368" env-start="1334" post-processed="true" score="29.3" evalue="2.0E-6" hmm-start="78" hmm-end="111" hmm-length="111" hmm-bounds="COMPLETE" start="1334" end="1368">
+            <location-fragments>
+              <hmmer3-location-fragment start="1334" end="1368" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1357" end="1380">
+            <location-fragments>
+              <mobidblite-location-fragment start="1357" end="1380" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1473" end="1498">
+            <location-fragments>
+              <mobidblite-location-fragment start="1473" end="1498" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1573" end="1614">
+            <location-fragments>
+              <mobidblite-location-fragment start="1573" end="1614" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="1361" end="1375">
+            <location-fragments>
+              <mobidblite-location-fragment start="1361" end="1375" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="1573" end="1589">
+            <location-fragments>
+              <mobidblite-location-fragment start="1573" end="1589" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="791" end="819">
+            <location-fragments>
+              <mobidblite-location-fragment start="791" end="819" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="3156.8">
+        <signature ac="PTHR24133:SF38" name="ANKYRIN-1">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR24133:SF38</model-ac>
+        <locations>
+          <panther-location env-start="1334" env-end="1423" hmm-start="1467" hmm-end="1508" hmm-length="1861" hmm-bounds="INCOMPLETE" start="1335" end="1376">
+            <location-fragments>
+              <panther-location-fragment start="1335" end="1376" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="2" env-end="82" hmm-start="5" hmm-end="79" hmm-length="1861" hmm-bounds="INCOMPLETE" start="6" end="80">
+            <location-fragments>
+              <panther-location-fragment start="6" end="80" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="342" env-end="1336" hmm-start="439" hmm-end="1422" hmm-length="1861" hmm-bounds="INCOMPLETE" start="343" end="1334">
+            <location-fragments>
+              <panther-location-fragment start="343" end="1334" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="80" env-end="343" hmm-start="144" hmm-end="405" hmm-length="1861" hmm-bounds="INCOMPLETE" start="81" end="342">
+            <location-fragments>
+              <panther-location-fragment start="81" end="342" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="3156.8">
+        <signature ac="PTHR24133" name="FAMILY NOT NAMED">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR24133</model-ac>
+        <locations>
+          <panther-location env-start="2" env-end="82" hmm-start="5" hmm-end="79" hmm-length="1861" hmm-bounds="INCOMPLETE" start="6" end="80">
+            <location-fragments>
+              <panther-location-fragment start="6" end="80" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="1334" env-end="1423" hmm-start="1467" hmm-end="1508" hmm-length="1861" hmm-bounds="INCOMPLETE" start="1335" end="1376">
+            <location-fragments>
+              <panther-location-fragment start="1335" end="1376" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="342" env-end="1336" hmm-start="439" hmm-end="1422" hmm-length="1861" hmm-bounds="INCOMPLETE" start="343" end="1334">
+            <location-fragments>
+              <panther-location-fragment start="343" end="1334" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+          <panther-location env-start="80" env-end="343" hmm-start="144" hmm-end="405" hmm-length="1861" hmm-bounds="INCOMPLETE" start="81" end="342">
+            <location-fragments>
+              <panther-location-fragment start="81" end="342" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="12.022" start="475" end="499">
+            <location-fragments>
+              <profilescan-location-fragment start="475" end="499" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>NGLTPLHVAVHHNNLDIVQLLLPRG--------</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="10.259" start="409" end="441">
+            <location-fragments>
+              <profilescan-location-fragment start="409" end="441" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>AGHTPLHTAAREGHVDTALALLEKEASQACMTK</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="14.8" start="178" end="210">
+            <location-fragments>
+              <profilescan-location-fragment start="178" end="210" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>NGITPLHIASRRGNVIMVRLLLDRGAQIETRTK</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="12.876" start="574" end="606">
+            <location-fragments>
+              <profilescan-location-fragment start="574" end="606" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>SGLTPLHLVAQEGHVPVADVLIKHGVTVDATTR</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="12.315" start="343" end="375">
+            <location-fragments>
+              <profilescan-location-fragment start="343" end="375" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>KVETPLHMAARAGHTEVAKYLLQNKAKANAKAK</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51145" desc="ZU5 domain profile." name="ZU5">
+          <entry ac="IPR000906" desc="ZU5 domain" name="ZU5_dom" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51145</model-ac>
+        <locations>
+          <profilescan-location score="24.245" start="828" end="983">
+            <location-fragments>
+              <profilescan-location-fragment start="828" end="983" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>FLVSFMVDARGGSMRGSRhNGLRVVIPPRTCA--APTRITCRLVKPQKLSTPPplAEEEGLASRIIALGPTGAQFLSPVIVEIPHFASHGR-----GDRELVVLRSENGSVWkehksrygesyldqilngmdEELGSLEELEKKRVCRIITTDFPLYFVIMSR</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="12.93" start="442" end="474">
+            <location-fragments>
+              <profilescan-location-fragment start="442" end="474" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>KGFTPLHVAAKYGKVRLAELLLEHDAHPNAAGK</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="13.491" start="508" end="540">
+            <location-fragments>
+              <profilescan-location-fragment start="508" end="540" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>NGYTPLHIAAKQNQIEVARSLLQYGGSANAESV</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="9.271" start="83" end="107">
+            <location-fragments>
+              <profilescan-location-fragment start="83" end="107" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>DGFTPLAVALQQGHENVVAHLINYG--------</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="14.613" start="607" end="639">
+            <location-fragments>
+              <profilescan-location-fragment start="607" end="639" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>MGYTPLHVASHYGNIKLVKFLLQHQADVNAKTK</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="11.755" start="244" end="276">
+            <location-fragments>
+              <profilescan-location-fragment start="244" end="276" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>NGLSPIHMAAQGDHLDCVRLLLQYNAEIDDITL</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="12.716" start="211" end="243">
+            <location-fragments>
+              <profilescan-location-fragment start="211" end="243" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>DELTPLHCAARNGHVRISEILLDHGAPIQAKTK</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51145" desc="ZU5 domain profile." name="ZU5">
+          <entry ac="IPR000906" desc="ZU5 domain" name="ZU5_dom" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51145</model-ac>
+        <locations>
+          <profilescan-location score="19.914" start="985" end="1131">
+            <location-fragments>
+              <profilescan-location-fragment start="985" end="1131" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>CQDYDTIGPEGGSLRSKLvPLVQATFPENAVT--KKVKLALQAQPVPDELVTKlLGNQATFSPIVTVEPRRRKFHRPIGLRIPLPPSWTDNPRDSgegdttsLRLLCSVIGGTDQAQWEDITGTTKLVYANECANFTTNVSARFWLSDC</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="13.678" start="541" end="573">
+            <location-fragments>
+              <profilescan-location-fragment start="541" end="573" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>QGVTPLHLAAQEGHTEMVALLLSKQANGNLGNK</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50297" desc="Ankyrin repeat region circular profile." name="ANK_REP_REGION">
+          <entry ac="IPR020683" desc="Ankyrin repeat-containing domain" name="Ankyrin_rpt-contain_dom" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50297</model-ac>
+        <locations>
+          <profilescan-location score="208.369" start="15" end="693">
+            <location-fragments>
+              <profilescan-location-fragment start="15" end="693" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>DAATSFLRAARSGNLDKALDHLRNGVDINTCNQNGLNGLHLASKEGHVKMVVELLHKEIILETTTKvrDGFTPLAVALQQGHENVVAHLINYGTKGKVR----LPALHIAARNDDTRTAAVLLQNDPNPDVLSKTGFTPLHIAAHYENLNVAQLLLNRGASVNFTPQNGITPLHIASRRGNVIMVRLLLDRGAQIETRTKDELTPLHCAARNGHVRISEILLDHGAPIQAKTKNGLSPIHMAAQGDHLDCVRLLLQYNAEIDDITLDHLTPLHVAAHCGHHRVAKVLLDKGAKPNSRALNGFTPLHIACKKNHIRVMELLLKTGASIDAVTEKVETPLHMAARAGHTEVAKYLLQNKAKANAKAKDDQTPLHCAARIGHTSMVKLLLENDASPNLATTAGHTPLHTAAREGHVDTALALLEKEASQACMTKKGFTPLHVAAKYGKVRLAELLLEHDAHPNAAGKNGLTPLHVAVHHNNLDIVQLLLPRGGSPHSPAWNGYTPLHIAAKQNQIEVARSLLQYGGSANAESVQGVTPLHLAAQEGHTEMVALLLSKQANGNLGNKSGLTPLHLVAQEGHVPVADVLIKHGVTVDATTRMGYTPLHVASHYGNIKLVKFLLQHQADVNAKTKLGYSPLHQAAQQGHTDIVTLLLKNGASPNEVSSNGTTPLAIAKRLGYISVTDVL------------</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="11.835" start="277" end="309">
+            <location-fragments>
+              <profilescan-location-fragment start="277" end="309" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>DHLTPLHVAAHCGHHRVAKVLLDKGAKPNSRAL</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="13.945" start="640" end="672">
+            <location-fragments>
+              <profilescan-location-fragment start="640" end="672" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>LGYSPLHQAAQQGHTDIVTLLLKNGASPNEVSS</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="13.624" start="145" end="177">
+            <location-fragments>
+              <profilescan-location-fragment start="145" end="177" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>TGFTPLHIAAHYENLNVAQLLLNRGASVNFTPQ</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="12.476" start="376" end="408">
+            <location-fragments>
+              <profilescan-location-fragment start="376" end="408" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>DDQTPLHCAARIGHTSMVKLLLENDASPNLATT</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50088" desc="Ankyrin repeat profile." name="ANK_REPEAT">
+          <entry ac="IPR002110" desc="Ankyrin repeat" name="Ankyrin_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50088</model-ac>
+        <locations>
+          <profilescan-location score="14.586" start="310" end="342">
+            <location-fragments>
+              <profilescan-location-fragment start="310" end="342" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>NGFTPLHIACKKNHIRVMELLLKTGASIDAVTE</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <superfamilyhmmer3-match evalue="3.02E-85">
+        <signature ac="SSF48403" name="Ankyrin repeat">
+          <entry ac="IPR036770" desc="Ankyrin repeat-containing domain superfamily" name="Ankyrin_rpt-contain_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0048259</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="408" start="15" end="341">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="15" end="341" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="9.41E-125">
+        <signature ac="SSF48403" name="Ankyrin repeat">
+          <entry ac="IPR036770" desc="Ankyrin repeat-containing domain superfamily" name="Ankyrin_rpt-contain_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0048259</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="408" start="326" end="715">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="326" end="715" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

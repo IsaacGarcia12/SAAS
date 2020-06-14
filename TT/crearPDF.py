@@ -10,6 +10,9 @@ from reportlab.lib import colors
 
 #Import para transformar imagenes
 import cairo
+from PIL import Image
+
+import time
 
 
 def dibujar(pdf):
@@ -30,16 +33,16 @@ def dibujar(pdf):
 	pdf.drawString(10, 700, 'y700')
 	pdf.drawString(10, 800, 'y800')
 
-
-filename = 'PDF Prueba.pdf'
-documenttitle = 'Secuencia'
-title = 'Ejemplo PDF'
+moment=time.strftime("%Y-%b-%d__%H_%M_%S",time.localtime())
+filename = 'PDF_Prueba'+moment+'.pdf'
+documenttitle = 'SAAS'
+title = 'Trabajo Terminal 2'
 subTitle = 'Anotaciones'
-textLines = ['Cath Task Id:', 
-'Raptor Task Id:', 
-'imprimir tareas']
-imageI = '/home/isaac/Escritorio/SAmin/TT/static/TT/prueba1.png'
-imaeC  = ''
+cathId = '1aec322834de7471cfa3d703d6659b6a'
+#Para poder escribir se manda como array
+textLines = ['Blast: ', 'Cath Task Id: ' + cathId, 'Familia: ', 'Arbol: ']
+imageFam = '/home/isaac/Escritorio/SAmin/TT/static/TT/prueba1.png'
+imageTree  = '/home/isaac/Escritorio/SAmin/TT/static/TT/Figure_1.png'
 pdf = canvas.Canvas(filename)
 pdf.setTitle(documenttitle)
 
@@ -48,21 +51,7 @@ En la siguiente linea de codigo se muestra como "pintar"
 algo, las coordenadas son en X y Y, el limite para y = 800
 limite para x = 500
 """
-#Para poder registrar un font nuevo
-#Sale de los modulos importados para poder registrar el font
-#pdfmetrics.registerFont(
-	#Supongo que abc es el nombre del 
-	#font que le otorgamos para este codigo
-#	TTFont('abc', 'PTS55F.ttf'))
 
-"""
-#Ira carnal ahi te van los fonts
-for font in pdf.getAvailableFonts():
-	print(font)
-dibujar(pdf)
-"""
-#Este es para el titulo
-#pdf.setFont('abc', 36)
 pdf.drawCentredString(300,770, title) 
 
 #Esta funcion de setFillColor
@@ -71,7 +60,7 @@ pdf.setFillColorRGB(255, 0, 0)
 pdf.setFont('Courier-Bold', 24)
 pdf.drawCentredString(290, 720, subTitle)
 
-#Ora vamos a dibujar una linea :v
+#Ora vamos a dibujar una linea
 pdf.line(30, 710, 550, 710)
 
 #Ora el texto:
@@ -81,16 +70,14 @@ text.setFont('Courier', 12)
 #Este metodo sale de colors declarado arriba
 #Recuerda que el texto tiene que ser mandado
 #a traves de un array
-text.setFillColor(colors.green)
 for line in textLines:
 	text.textLine(line)
 pdf.drawText(text)
 
 
 #Ahora para poner una imagen
-
-#image._restrictSize(1*inch, 2*inch)
-pdf.drawInlineImage(imageI, 130,400)
-
+#pdf.drawImage(imageI, 130, 400, width=100,height=66.62, mask='auto')
+pdf.drawImage(imageFam, 120, 100, width=300, height=300)
+#pdf.drawInlineImage(imageTree, 120, 400)
 
 pdf.save()

@@ -1,0 +1,1777 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MKAPHSATYQDNYADAAMTARTRPSMDMDQQRNRNQAELRLLPAQRTSTSAFESPDLRFNKARRRRRSEQVPPVVVEYRRSYRVLIVSALLVSLAASFVTLSAGFQLDGSQNSFYTFRKWYTGLNGTLELEFKTEQPNGLVLYTDDGGTYDFFELKLVEGALRLRYNLGGGAQIITVGRELHDGHWHKVQVLRNDEQTSLIVDGVSQQRSTKGKEFQFGKFASNSDVYVGGMPNWYSSKLALLALPSVIFEPRFRGAIRNLVYADQPGGSTRRQEIKQQRDIKCGDVPCDHGELPARERPLRGVRGGNTTDACERNDPCQHGGICISTDSGPICECRNLEYDGQYCEKEKAPSEATFRGTQFLSYDLGQTGAEPIVSAQDAISFYFRTRQPNGLLFYTGHGTDYLNLALRDGGVSLTMGLANGKQEMHIKPSKVRFDDHQWHKVTVHRRIQEISSITSFCRLVTVVDDVYTDHSHIAGKFTMLSSSRVYVGGAVNPRALLGARVHTNFVGCLRKVEFSADTLNLNLIDLAKSGSKLIQVAGNLEYQCPSGDPQDPVTFTTRESHLVLPPWETGKQSSISFKFRTKEPNGIIVLATGSKQPRAKNPVLIAIELLNGHIYIHLDLGSGASKVRASRRRVDDGDWHDLILRRNGRDAKVSVDGVWNDFRTPGDGTILELDGHMYLGGVGPAYNSVSWPAAIWTATLRQGFVGCLRDLVLSGKAIDIAAFARVQDSASVKPSCHVQANVCNGNPCLNGGTCLEGWNRPICDCSATLYGGPTCGRELATLAFNGSQHMTIWLGNGQGTKTQTEELVIRFKTSRPAGLLLLTSAESNSPDRLEIALVAGRVRASVRLSDREKNLLAGQSVLNDNNWHTIRFSRRASNLRLQVDGAPPVRGMLSETILGRHSTMEIRSVHLGGLFHAEEEIQMTSTMPNFVGQMQGLVFNGQRYLDIVKSLGPELSALPSATFKLTARFVNSPAGQPYHAATFRSKHSYVGLAMLKAYNSISIDFRFKTVEPNGLLVFNGGRRNDFVAVELVNGHIHYTFDLGDGPVTMRDKSRIHMNDNRWHQVSIRRPGPKTHTLTVDDSFEIISLTGNNMHLELAGILYIGGVFKDMYSKLPASISSRSGFEGCLASLDLGDASPSLTSDAVVPSSLVVSGCEGPTKCSQNACANRGNCVQQWNAYACECDMTSYTGPTCYDESIAYEFGNNKGMVQYTFPENAQADTEEDNIALGFITTRPDAVLLRVESATTQDYMELEIVEGNIFMVYNIGSVDLPLGEIGTKVNDNAYHVVRFQRKGGNATLQLDDYNVQALTPQSHHSTVFNTMSNVQVGGKFSRNGRNRIERPFAGVIAGLSVNKLRILDLAVERDPHITIRGDVQLVTGVLDRNDLQRMQQTPASGYPGALDDLIFSGAGSGCRGDDEDECTPPFESGSGDDLITPVYVPPTKQTTTSQQGNSLSTGGSSSGGVITNGTERACDDEDCVHGSGDYGETTEQFTSTSTARGSESNNEMVTITTTGRSDVTTEQHQGSSSSSSSGSTPSYATTQSSSSSSSGGSAASTPGQVSTTSSVATSSTQRATSSSTSTSSSTTSTTTTTTTTQATPPPEIRSTVTERETTPYDIYIAGGGMGGSGRNDHDRMQLPDEHHPLPPLPPPIPPQDPPPYGPYGGNTYNTNMNNYRPKGKGGRINSIEEERTAMIIGIVAGILIAVVLVILLVLWLKSNGDRGYKTESEKAAAYGSHNPNAALLGNTSTNGSYHQQRQHHMHGGGGGGGAGQQQHHAQQQMHNGHNGNGNGGGGGGGGMMSSGSGSLGYGSDGRPQMAGLVQPKAKKRDSKDVKEWYV",
+  "md5" : "42e1242c37174ab604b1f12530d6c113",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1774,
+      "end" : 1789,
+      "location-fragments" : [ {
+        "start" : 1774,
+        "end" : 1789,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PS50025",
+      "name" : "LAM_G_DOMAIN",
+      "description" : "Laminin G domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001791",
+        "name" : "Laminin_G",
+        "description" : "Laminin G domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 982,
+      "end" : 1158,
+      "score" : 41.256,
+      "alignment" : "HAATFRSKHSYVGLAMLKAY-NSISIDFRFKTVEPNGLLVFNGGR-RNDFVAVELVNGHIHYTFDLGDGPVTMRdKSRIHMNDNRWHQVSIRRPGPKThTLTVDD-SFEIISLTGNNMHLELAGILYIGGVFKDMYSKlpaSISSRSGFEGCLASLDLGDASPSLTSDAVVPsSLVVSGC",
+      "location-fragments" : [ {
+        "start" : 982,
+        "end" : 1158,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50025"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.60.120.200",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1197,
+      "end" : 1385,
+      "hmmStart" : 6,
+      "hmmEnd" : 215,
+      "hmmLength" : 220,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 6.2E-47,
+      "score" : 161.9,
+      "envelopeStart" : 1193,
+      "envelopeEnd" : 1385,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1197,
+        "end" : 1385,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 711.2,
+    "model-ac" : "2r1bA00"
+  }, {
+    "signature" : {
+      "accession" : "SM00181",
+      "name" : "egf_5",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR000742",
+        "name" : "EGF-like_dom",
+        "description" : "EGF-like domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1157,
+      "end" : 1197,
+      "hmmStart" : 1,
+      "hmmEnd" : 32,
+      "hmmLength" : 32,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 94.0,
+      "score" : 4.9,
+      "location-fragments" : [ {
+        "start" : 1157,
+        "end" : 1197,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 312,
+      "end" : 347,
+      "hmmStart" : 1,
+      "hmmEnd" : 32,
+      "hmmLength" : 32,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.033,
+      "score" : 23.3,
+      "location-fragments" : [ {
+        "start" : 312,
+        "end" : 347,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 745,
+      "end" : 779,
+      "hmmStart" : 1,
+      "hmmEnd" : 32,
+      "hmmLength" : 32,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 11.0,
+      "score" : 14.9,
+      "location-fragments" : [ {
+        "start" : 745,
+        "end" : 779,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.7E-8,
+    "score" : 43.1,
+    "model-ac" : "SM00181"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.60.120.200",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 981,
+      "end" : 1159,
+      "hmmStart" : 7,
+      "hmmEnd" : 181,
+      "hmmLength" : 182,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.1E-44,
+      "score" : 154.3,
+      "envelopeStart" : 981,
+      "envelopeEnd" : 1159,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 981,
+        "end" : 1159,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 666.0,
+    "model-ac" : "3asiA01"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 24,
+      "end" : 50,
+      "location-fragments" : [ {
+        "start" : 24,
+        "end" : 50,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 50,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 50,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1826,
+      "end" : 1840,
+      "location-fragments" : [ {
+        "start" : 1826,
+        "end" : 1840,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SSF49899",
+      "name" : "Concanavalin A-like lectins/glucanases",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR013320",
+        "name" : "ConA-like_dom_sf",
+        "description" : "Concanavalin A-like lectin/glucanase domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 318,
+      "end" : 517,
+      "hmmLength" : 191,
+      "location-fragments" : [ {
+        "start" : 318,
+        "end" : 517,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.9E-31,
+    "model-ac" : "0038386"
+  }, {
+    "signature" : {
+      "accession" : "SSF49899",
+      "name" : "Concanavalin A-like lectins/glucanases",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR013320",
+        "name" : "ConA-like_dom_sf",
+        "description" : "Concanavalin A-like lectin/glucanase domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 550,
+      "end" : 739,
+      "hmmLength" : 189,
+      "location-fragments" : [ {
+        "start" : 550,
+        "end" : 739,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.96E-34,
+    "model-ac" : "0046423"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.60.120.200",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 781,
+      "end" : 956,
+      "hmmStart" : 6,
+      "hmmEnd" : 165,
+      "hmmLength" : 182,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 9.4E-33,
+      "score" : 115.3,
+      "envelopeStart" : 779,
+      "envelopeEnd" : 956,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 781,
+        "end" : 956,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 686.2,
+    "model-ac" : "2r16A00"
+  }, {
+    "signature" : {
+      "accession" : "PS50025",
+      "name" : "LAM_G_DOMAIN",
+      "description" : "Laminin G domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001791",
+        "name" : "Laminin_G",
+        "description" : "Laminin G domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 784,
+      "end" : 964,
+      "score" : 24.716,
+      "alignment" : "TLAFNGSQHMTIWLGNGQGTKtQTEELVIRFKTSRPAGLLLLTSAEsNSPDRLEIALVAGRVRASVRLSDREKNLLAGQSVLNDNNWHTIRFSRRASNLRLQVDGappvrgmlSETILGRHSTMEIR-----SVHLGGLFHAEEEIqMTSTMPNFVGQMQGLVFNgQRYLDIVKSLGPELSALPSA",
+      "location-fragments" : [ {
+        "start" : 784,
+        "end" : 964,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50025"
+  }, {
+    "signature" : {
+      "accession" : "PS50025",
+      "name" : "LAM_G_DOMAIN",
+      "description" : "Laminin G domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001791",
+        "name" : "Laminin_G",
+        "description" : "Laminin G domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 554,
+      "end" : 739,
+      "score" : 43.255,
+      "alignment" : "DPVTFTTRESHLVLPPWETG-KQSSISFKFRTKEPNGIIVLATGSkqpraKNPVLIAIELLNGHIYIHLDLGSGASKVRASRRRVDDGDWHDLILRRNGRDAKVSVDG-VWNDFRTPGDGTILELDGHMYLGGVGPAYNSVswpaaiwTATLRQGFVGCLRDLVLSGKAIDIAAFARVQdsASVKPSC",
+      "location-fragments" : [ {
+        "start" : 554,
+        "end" : 739,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50025"
+  }, {
+    "signature" : {
+      "accession" : "PS50025",
+      "name" : "LAM_G_DOMAIN",
+      "description" : "Laminin G domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001791",
+        "name" : "Laminin_G",
+        "description" : "Laminin G domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1201,
+      "end" : 1416,
+      "score" : 23.538,
+      "alignment" : "IAYEFGNNKGMVQYTFPENAQadtEEDNIALGFITTRPDAVLLRVESATTQDYMELEIVEGNIFMVYNIGSVDLPLGEIGTKVNDNAYHVVRFQRKGGNATLQLDDYNVQALTPQSHHSTvFNTMSNVQVGGKFSRNGRN--RIERPFAGVIAGLSVNkLRILDLAVERDPHitirgdvqlvtgvldrndlqrmqqtpasgypgalddlifSGAGSGC",
+      "location-fragments" : [ {
+        "start" : 1201,
+        "end" : 1416,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50025"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1696,
+      "end" : 1718,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 1696,
+        "end" : 1718,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1489,
+      "end" : 1615,
+      "location-fragments" : [ {
+        "start" : 1489,
+        "end" : 1615,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PS50025",
+      "name" : "LAM_G_DOMAIN",
+      "description" : "Laminin G domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001791",
+        "name" : "Laminin_G",
+        "description" : "Laminin G domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 352,
+      "end" : 547,
+      "score" : 33.807,
+      "alignment" : "PSEATFRGTQFLSYDLGQTGAepivsAQDAISFYFRTRQPNGLLFYTG--HGTDYLNLALRDGGVSLTMGlaNGKQEMHIKPSKVRFDDHQWHKVTVHRRIQEIssitsfcrlVTVVDDVYTDHSHIAGKFTM-LSSSRVYVGGAVNPRALLGARVHTNFVGCLRKVEFSADTLNLNLIDLAKsgsklIQVAGNleyqC",
+      "location-fragments" : [ {
+        "start" : 352,
+        "end" : 547,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50025"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.60.120.200",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 351,
+      "end" : 542,
+      "hmmStart" : 6,
+      "hmmEnd" : 183,
+      "hmmLength" : 184,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 3.7E-50,
+      "score" : 171.9,
+      "envelopeStart" : 349,
+      "envelopeEnd" : 542,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 351,
+        "end" : 542,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 704.0,
+    "model-ac" : "2h0bC00"
+  }, {
+    "signature" : {
+      "accession" : "SSF49899",
+      "name" : "Concanavalin A-like lectins/glucanases",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR013320",
+        "name" : "ConA-like_dom_sf",
+        "description" : "Concanavalin A-like lectin/glucanase domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1169,
+      "end" : 1356,
+      "hmmLength" : 191,
+      "location-fragments" : [ {
+        "start" : 1169,
+        "end" : 1356,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.17E-33,
+    "model-ac" : "0038386"
+  }, {
+    "signature" : {
+      "accession" : "PS50025",
+      "name" : "LAM_G_DOMAIN",
+      "description" : "Laminin G domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001791",
+        "name" : "Laminin_G",
+        "description" : "Laminin G domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 104,
+      "end" : 289,
+      "score" : 37.778,
+      "alignment" : "GFQLDGSQNSFYTFRKWYTG-LNGTLELEFKTEQPNGLVLYTDDGGTYDFFELKLVEGALRLRYNLGGGAQII-TVGRELHDGHWHKVQVLRNDEQTSLIVDGVSQQRSTKGKEFQFgkFASNSDVYVGGMPNWYSSKlallalpSVIFEPRFRGAIRNLVYADQPGGSTRRQEIKqqRDIKCGdvpC",
+      "location-fragments" : [ {
+        "start" : 104,
+        "end" : 289,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50025"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 84,
+      "end" : 105,
+      "location-fragments" : [ {
+        "start" : 84,
+        "end" : 105,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "PF02210",
+      "name" : "Laminin_G_2",
+      "description" : "Laminin G domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR001791",
+        "name" : "Laminin_G",
+        "description" : "Laminin G domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 386,
+      "end" : 518,
+      "hmmStart" : 1,
+      "hmmEnd" : 124,
+      "hmmLength" : 126,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 1.3E-24,
+      "score" : 87.1,
+      "envelopeStart" : 386,
+      "envelopeEnd" : 520,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 386,
+        "end" : 518,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1010,
+      "end" : 1137,
+      "hmmStart" : 1,
+      "hmmEnd" : 124,
+      "hmmLength" : 126,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 7.9E-27,
+      "score" : 94.2,
+      "envelopeStart" : 1010,
+      "envelopeEnd" : 1139,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1010,
+        "end" : 1137,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1233,
+      "end" : 1357,
+      "hmmStart" : 1,
+      "hmmEnd" : 125,
+      "hmmLength" : 126,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 1.8E-20,
+      "score" : 73.7,
+      "envelopeStart" : 1233,
+      "envelopeEnd" : 1358,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1233,
+        "end" : 1357,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 814,
+      "end" : 945,
+      "hmmStart" : 1,
+      "hmmEnd" : 126,
+      "hmmLength" : 126,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 8.7E-22,
+      "score" : 77.9,
+      "envelopeStart" : 814,
+      "envelopeEnd" : 945,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 814,
+        "end" : 945,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 132,
+      "end" : 265,
+      "hmmStart" : 1,
+      "hmmEnd" : 125,
+      "hmmLength" : 126,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 1.4E-26,
+      "score" : 93.5,
+      "envelopeStart" : 132,
+      "envelopeEnd" : 266,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 132,
+        "end" : 265,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 582,
+      "end" : 719,
+      "hmmStart" : 1,
+      "hmmEnd" : 126,
+      "hmmLength" : 126,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 5.0E-26,
+      "score" : 91.7,
+      "envelopeStart" : 582,
+      "envelopeEnd" : 719,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 582,
+        "end" : 719,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 517.9,
+    "model-ac" : "PF02210"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1411,
+      "end" : 1651,
+      "location-fragments" : [ {
+        "start" : 1411,
+        "end" : 1651,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SSF49899",
+      "name" : "Concanavalin A-like lectins/glucanases",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR013320",
+        "name" : "ConA-like_dom_sf",
+        "description" : "Concanavalin A-like lectin/glucanase domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 750,
+      "end" : 943,
+      "hmmLength" : 191,
+      "location-fragments" : [ {
+        "start" : 750,
+        "end" : 943,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.05E-34,
+    "model-ac" : "0038386"
+  }, {
+    "signature" : {
+      "accession" : "cd00054",
+      "name" : "EGF_CA",
+      "description" : "EGF_CA",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1165,
+      "end" : 1196,
+      "sites" : null,
+      "evalue" : 0.0019169,
+      "score" : 35.6902,
+      "location-fragments" : [ {
+        "start" : 1165,
+        "end" : 1196,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00054"
+  }, {
+    "signature" : {
+      "accession" : "TMhelix",
+      "name" : null,
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "TMHMM",
+        "version" : "2.0c"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 84,
+      "end" : 106,
+      "prediction" : null,
+      "score" : -1.0,
+      "location-fragments" : [ {
+        "start" : 84,
+        "end" : 106,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TMhelix"
+  }, {
+    "signature" : {
+      "accession" : "cd00054",
+      "name" : "EGF_CA",
+      "description" : "EGF_CA",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 748,
+      "end" : 778,
+      "sites" : null,
+      "evalue" : 2.39991E-4,
+      "score" : 38.0014,
+      "location-fragments" : [ {
+        "start" : 748,
+        "end" : 778,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00054"
+  }, {
+    "signature" : {
+      "accession" : "cd00110",
+      "name" : "LamG",
+      "description" : "LamG",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 355,
+      "end" : 517,
+      "sites" : null,
+      "evalue" : 1.26121E-26,
+      "score" : 105.578,
+      "location-fragments" : [ {
+        "start" : 355,
+        "end" : 517,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00110"
+  }, {
+    "signature" : {
+      "accession" : "PS50026",
+      "name" : "EGF_3",
+      "description" : "EGF-like domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR000742",
+        "name" : "EGF-like_dom",
+        "description" : "EGF-like domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 309,
+      "end" : 347,
+      "score" : 16.938,
+      "alignment" : "TTDACErnDPCQHGGICISTDS--GPICECRNlEYDGQYCE",
+      "location-fragments" : [ {
+        "start" : 309,
+        "end" : 347,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50026"
+  }, {
+    "signature" : {
+      "accession" : "cd00054",
+      "name" : "EGF_CA",
+      "description" : "EGF_CA",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 311,
+      "end" : 347,
+      "sites" : null,
+      "evalue" : 1.31182E-7,
+      "score" : 47.2462,
+      "location-fragments" : [ {
+        "start" : 311,
+        "end" : 347,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00054"
+  }, {
+    "signature" : {
+      "accession" : "cd00110",
+      "name" : "LamG",
+      "description" : "LamG",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 988,
+      "end" : 1136,
+      "sites" : null,
+      "evalue" : 2.19425E-31,
+      "score" : 119.06,
+      "location-fragments" : [ {
+        "start" : 988,
+        "end" : 1136,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00110"
+  }, {
+    "signature" : {
+      "accession" : "SM00282",
+      "name" : "LamG_3",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR001791",
+        "name" : "Laminin_G",
+        "description" : "Laminin G domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1002,
+      "end" : 1139,
+      "hmmStart" : 1,
+      "hmmEnd" : 137,
+      "hmmLength" : 137,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.4E-31,
+      "score" : 119.3,
+      "location-fragments" : [ {
+        "start" : 1002,
+        "end" : 1139,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 574,
+      "end" : 719,
+      "hmmStart" : 1,
+      "hmmEnd" : 137,
+      "hmmLength" : 137,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.1E-33,
+      "score" : 127.9,
+      "location-fragments" : [ {
+        "start" : 574,
+        "end" : 719,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 124,
+      "end" : 266,
+      "hmmStart" : 1,
+      "hmmEnd" : 137,
+      "hmmLength" : 137,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 5.9E-33,
+      "score" : 125.5,
+      "location-fragments" : [ {
+        "start" : 124,
+        "end" : 266,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1225,
+      "end" : 1358,
+      "hmmStart" : 1,
+      "hmmEnd" : 137,
+      "hmmLength" : 137,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.5E-20,
+      "score" : 84.3,
+      "location-fragments" : [ {
+        "start" : 1225,
+        "end" : 1358,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 806,
+      "end" : 945,
+      "hmmStart" : 1,
+      "hmmEnd" : 137,
+      "hmmLength" : 137,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.5E-24,
+      "score" : 97.5,
+      "location-fragments" : [ {
+        "start" : 806,
+        "end" : 945,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 378,
+      "end" : 520,
+      "hmmStart" : 1,
+      "hmmEnd" : 137,
+      "hmmLength" : 137,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.5E-23,
+      "score" : 94.3,
+      "location-fragments" : [ {
+        "start" : 378,
+        "end" : 520,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 648.7,
+    "model-ac" : "SM00282"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1737,
+      "end" : 1840,
+      "location-fragments" : [ {
+        "start" : 1737,
+        "end" : 1840,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "cd00110",
+      "name" : "LamG",
+      "description" : "LamG",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 555,
+      "end" : 716,
+      "sites" : null,
+      "evalue" : 1.18073E-31,
+      "score" : 119.83,
+      "location-fragments" : [ {
+        "start" : 555,
+        "end" : 716,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00110"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1442,
+      "end" : 1470,
+      "location-fragments" : [ {
+        "start" : 1442,
+        "end" : 1470,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 83,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 83,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "TRANSMEMBRANE",
+      "name" : "Transmembrane region",
+      "description" : "Region of a membrane-bound protein predicted to be embedded in the membrane.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1695,
+      "end" : 1718,
+      "location-fragments" : [ {
+        "start" : 1695,
+        "end" : 1718,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "TRANSMEMBRANE"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.10.25.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1160,
+      "end" : 1196,
+      "hmmStart" : 4,
+      "hmmEnd" : 40,
+      "hmmLength" : 42,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 4.3E-13,
+      "score" : 50.9,
+      "envelopeStart" : 1160,
+      "envelopeEnd" : 1199,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 1160,
+        "end" : 1196,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 742,
+      "end" : 780,
+      "hmmStart" : 4,
+      "hmmEnd" : 39,
+      "hmmLength" : 42,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 9.3E-12,
+      "score" : 46.6,
+      "envelopeStart" : 742,
+      "envelopeEnd" : 781,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 742,
+        "end" : 780,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 6.6E-33,
+    "score" : 114.3,
+    "model-ac" : "3asiA02"
+  }, {
+    "signature" : {
+      "accession" : "PTHR15036",
+      "name" : "FAMILY NOT NAMED",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1196,
+      "end" : 1674,
+      "hmmStart" : 713,
+      "hmmEnd" : 1083,
+      "hmmLength" : 1083,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "envelopeStart" : 1195,
+      "envelopeEnd" : 1674,
+      "location-fragments" : [ {
+        "start" : 1196,
+        "end" : 1674,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 112,
+      "end" : 350,
+      "hmmStart" : 223,
+      "hmmEnd" : 436,
+      "hmmLength" : 1083,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 99,
+      "envelopeEnd" : 352,
+      "location-fragments" : [ {
+        "start" : 112,
+        "end" : 350,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1119,
+      "end" : 1196,
+      "hmmStart" : 355,
+      "hmmEnd" : 432,
+      "hmmLength" : 1083,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 1115,
+      "envelopeEnd" : 1197,
+      "location-fragments" : [ {
+        "start" : 1119,
+        "end" : 1196,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 343,
+      "end" : 1116,
+      "hmmStart" : 2,
+      "hmmEnd" : 709,
+      "hmmLength" : 1083,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 342,
+      "envelopeEnd" : 1117,
+      "location-fragments" : [ {
+        "start" : 343,
+        "end" : 1116,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 1241.3,
+    "model-ac" : "PTHR15036"
+  }, {
+    "signature" : {
+      "accession" : "SSF49899",
+      "name" : "Concanavalin A-like lectins/glucanases",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR013320",
+        "name" : "ConA-like_dom_sf",
+        "description" : "Concanavalin A-like lectin/glucanase domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 979,
+      "end" : 1147,
+      "hmmLength" : 189,
+      "location-fragments" : [ {
+        "start" : 979,
+        "end" : 1147,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.24E-33,
+    "model-ac" : "0046423"
+  }, {
+    "signature" : {
+      "accession" : "PF00008",
+      "name" : "EGF",
+      "description" : "EGF-like domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR000742",
+        "name" : "EGF-like_dom",
+        "description" : "EGF-like domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 746,
+      "end" : 774,
+      "hmmStart" : 1,
+      "hmmEnd" : 29,
+      "hmmLength" : 32,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 6.4E-5,
+      "score" : 23.1,
+      "envelopeStart" : 746,
+      "envelopeEnd" : 777,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 746,
+        "end" : 774,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 6.0E-11,
+    "score" : 42.3,
+    "model-ac" : "PF00008"
+  }, {
+    "signature" : {
+      "accession" : "cd00110",
+      "name" : "LamG",
+      "description" : "LamG",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 110,
+      "end" : 263,
+      "sites" : null,
+      "evalue" : 1.08219E-31,
+      "score" : 119.83,
+      "location-fragments" : [ {
+        "start" : 110,
+        "end" : 263,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00110"
+  }, {
+    "signature" : {
+      "accession" : "cd00110",
+      "name" : "LamG",
+      "description" : "LamG",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1214,
+      "end" : 1356,
+      "sites" : null,
+      "evalue" : 1.80683E-21,
+      "score" : 90.5552,
+      "location-fragments" : [ {
+        "start" : 1214,
+        "end" : 1356,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00110"
+  }, {
+    "signature" : {
+      "accession" : "PS50026",
+      "name" : "EGF_3",
+      "description" : "EGF-like domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR000742",
+        "name" : "EGF-like_dom",
+        "description" : "EGF-like domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 742,
+      "end" : 779,
+      "score" : 15.989,
+      "alignment" : "QANVCNgNPCLNGGTCLEGWN--RPICDCSAtLYGGPTCG",
+      "location-fragments" : [ {
+        "start" : 742,
+        "end" : 779,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50026"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.10.25.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 300,
+      "end" : 350,
+      "hmmStart" : 45,
+      "hmmEnd" : 82,
+      "hmmLength" : 85,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 3.3E-6,
+      "score" : 29.1,
+      "envelopeStart" : 300,
+      "envelopeEnd" : 351,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 300,
+        "end" : 350,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.6E-20,
+    "score" : 73.5,
+    "model-ac" : "4bdxA00"
+  }, {
+    "signature" : {
+      "accession" : "cd00110",
+      "name" : "LamG",
+      "description" : "LamG",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 784,
+      "end" : 943,
+      "sites" : null,
+      "evalue" : 3.19353E-20,
+      "score" : 87.0884,
+      "location-fragments" : [ {
+        "start" : 784,
+        "end" : 943,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00110"
+  }, {
+    "signature" : {
+      "accession" : "SSF49899",
+      "name" : "Concanavalin A-like lectins/glucanases",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR013320",
+        "name" : "ConA-like_dom_sf",
+        "description" : "Concanavalin A-like lectin/glucanase domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 94,
+      "end" : 263,
+      "hmmLength" : 191,
+      "location-fragments" : [ {
+        "start" : 94,
+        "end" : 263,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 9.32E-36,
+    "model-ac" : "0038386"
+  }, {
+    "signature" : {
+      "accession" : "NON_CYTOPLASMIC_DOMAIN",
+      "name" : "Non cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 106,
+      "end" : 1694,
+      "location-fragments" : [ {
+        "start" : 106,
+        "end" : 1694,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "NON_CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "PS50026",
+      "name" : "EGF_3",
+      "description" : "EGF-like domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR000742",
+        "name" : "EGF-like_dom",
+        "description" : "EGF-like domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1160,
+      "end" : 1197,
+      "score" : 13.491,
+      "alignment" : "GPTKCSqNACANRGNCVQQWN--AYACECDMtSYTGPTCY",
+      "location-fragments" : [ {
+        "start" : 1160,
+        "end" : 1197,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50026"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1742,
+      "end" : 1759,
+      "location-fragments" : [ {
+        "start" : 1742,
+        "end" : 1759,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "CYTOPLASMIC_DOMAIN",
+      "name" : "Cytoplasmic domain",
+      "description" : "Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",
+      "signatureLibraryRelease" : {
+        "library" : "PHOBIUS",
+        "version" : "1.01"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1719,
+      "end" : 1840,
+      "location-fragments" : [ {
+        "start" : 1719,
+        "end" : 1840,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "CYTOPLASMIC_DOMAIN"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.60.120.200",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 91,
+      "end" : 287,
+      "hmmStart" : 31,
+      "hmmEnd" : 192,
+      "hmmLength" : 218,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.7E-36,
+      "score" : 126.3,
+      "envelopeStart" : 91,
+      "envelopeEnd" : 287,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 91,
+        "end" : 287,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 621.1,
+    "model-ac" : "5ik4A01"
+  }, {
+    "signature" : {
+      "accession" : "PTHR15036:SF35",
+      "name" : "NEUREXIN 1, ISOFORM F",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 343,
+      "end" : 1116,
+      "hmmStart" : 2,
+      "hmmEnd" : 709,
+      "hmmLength" : 1083,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 342,
+      "envelopeEnd" : 1117,
+      "location-fragments" : [ {
+        "start" : 343,
+        "end" : 1116,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1119,
+      "end" : 1196,
+      "hmmStart" : 355,
+      "hmmEnd" : 432,
+      "hmmLength" : 1083,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 1115,
+      "envelopeEnd" : 1197,
+      "location-fragments" : [ {
+        "start" : 1119,
+        "end" : 1196,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 1196,
+      "end" : 1674,
+      "hmmStart" : 713,
+      "hmmEnd" : 1083,
+      "hmmLength" : 1083,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "envelopeStart" : 1195,
+      "envelopeEnd" : 1674,
+      "location-fragments" : [ {
+        "start" : 1196,
+        "end" : 1674,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 112,
+      "end" : 350,
+      "hmmStart" : 223,
+      "hmmEnd" : 436,
+      "hmmLength" : 1083,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 99,
+      "envelopeEnd" : 352,
+      "location-fragments" : [ {
+        "start" : 112,
+        "end" : 350,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 1241.3,
+    "model-ac" : "PTHR15036:SF35"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:2.60.120.200",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 553,
+      "end" : 739,
+      "hmmStart" : 3,
+      "hmmEnd" : 195,
+      "hmmLength" : 195,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.6E-50,
+      "score" : 171.9,
+      "envelopeStart" : 553,
+      "envelopeEnd" : 739,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 553,
+        "end" : 739,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 696.0,
+    "model-ac" : "3qcwA02"
+  } ],
+  "xref" : [ {
+    "name" : "tr|Q3KN41|Q3KN41_DROME LP14275p OS=Drosophila melanogaster OX=7227 GN=Nrx-1 PE=1 SV=1",
+    "id" : "tr|Q3KN41|Q3KN41_DROME"
+  } ]
+} ]
+}
