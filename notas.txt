@@ -20,11 +20,13 @@ MariaDB
 ************
 
 -> Falta hacer el PDF 
--> Falta acomodar las imagenes en el PDF }
+-> Falta acomodar las imagenes en el PDF
+-> Falta incluir bien cath o el id mas bien
+-> ver como agregar una hoja mas al PDF
 
 Clustal w ya entrega phylotree es con el codigo de clustalw.py
 Ya ClustalW esta integrado en views.py.
 Al igual que las apis programadas.
 ---------------------------------------------
 Actualizacion:
-Cath ya funciona con python, se uso requests
+Ya se manda correos

@@ -1,0 +1,710 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MAVPLPSTLRLSSAPDEIQHPHIKFSEWKFKLFRVRSFEKAPEEAQKEKDSSEGKPCLEQSPVVLDKPGGQNSVLTQRALKLHPKFSKKFHVDGKSSDKAIHQARLRHFCRICGNHFKSDGHNRRYPVHGPVDAKTQSLFRKKEKRVTSWPDLIARVFRIDVKSDVDSIHPTEFCHNCWSIMHRKFGSAHSQVYCPRNVTVEWHPHTPSCDICFTAHRGLKRKRHQPNVQLSKKLKTVLNHARRDRRKRTQARVSSKEVMKKISNCSKIHLSTKLLAVDFPAHFVKSISCQICEHILADPVETTCKHLFCRICILRCLKVMGSYCPSCRYPCFPTDLQSPVKSFLSILNSLMVKCPAQECNEEVSLEKYNHHVSSHKESKETLVHINKGGRPRQHLLSLTRRAQKHRLRELKIQVKEFADKEEGGDVKSVCLTLFLLALRARNEHRQADELEAIMQGRGSGLQPAVCLAIRVNTFLSCSQYHKMYRTVKAITGRQIFQPLHALRNAEKVLLPGYHPFEWQPPLKNVSSRTDVGIIDGLSGLASSVDEYPVDTIAKRFRYDSALVSALMDMEEDILDGMRSQDLDDYVSGPFTVVVKESCDGMGDVSEKHGSGPAVPEKAVRFSFTVMRVTVEHGSQNVKIFEEPKPNSELCCKPLCLMLADESDHETLTAILSPLIAEREAMKSSELLLEMGGIPRTFKFIFRGTGYDEKLVREVEGLEASGSVYICTLCDATRLEASQNLVFHSITRSHAENLQRYEVWRSNPYHESVEELRDRVKGVSAKPFIETVPSIDALHCDIGNAAEFYKIFQLEIGEVYKNPNASKEERKRWQATLDKHLRKRMNLKPIMRMNGNFARKLMTQETVDAVCELIPSEERHEALRELMDLYLKMKPVWRSSCPAKECPESLCQYSFNSQRFAELLSTKFKYRYEGKITNYFHKTLAHVPEIIERDGSIGAWASEGNESGNKLFRRFRKMNARQSKCYEMEDVLKHHWLYTSKYLQKFMNAHNALKNSGFTMNSKETLGDSLDIEDSLESQDSMEF",
+  "md5" : "8dc1d098746d764d3bfad5e2b7f537bc",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "SM00184",
+      "name" : "ring_2",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR001841",
+        "name" : "Znf_RING",
+        "description" : "Zinc finger, RING-type",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 290,
+      "end" : 328,
+      "hmmStart" : 1,
+      "hmmEnd" : 23,
+      "hmmLength" : 23,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 7.1E-4,
+      "score" : 28.9,
+      "location-fragments" : [ {
+        "start" : 290,
+        "end" : 328,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 7.1E-4,
+    "score" : 28.9,
+    "model-ac" : "SM00184"
+  }, {
+    "signature" : {
+      "accession" : "PS50089",
+      "name" : "ZF_RING_2",
+      "description" : "Zinc finger RING-type profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001841",
+        "name" : "Znf_RING",
+        "description" : "Zinc finger, RING-type",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 290,
+      "end" : 329,
+      "score" : 11.398,
+      "alignment" : "CQICEHILADP--VETTCKHLFCRICILRC-LKVMGSYCPSCR",
+      "location-fragments" : [ {
+        "start" : 290,
+        "end" : 329,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50089"
+  }, {
+    "signature" : {
+      "accession" : "cd16530",
+      "name" : "RING-HC_RAG1",
+      "description" : "RING-HC_RAG1",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 286,
+      "end" : 331,
+      "sites" : [ {
+        "description" : "Zn binding site",
+        "numLocations" : 9,
+        "siteLocations" : [ {
+          "start" : 310,
+          "end" : 310,
+          "residue" : "C"
+        }, {
+          "start" : 295,
+          "end" : 295,
+          "residue" : "H"
+        }, {
+          "start" : 305,
+          "end" : 305,
+          "residue" : "C"
+        }, {
+          "start" : 313,
+          "end" : 313,
+          "residue" : "C"
+        }, {
+          "start" : 290,
+          "end" : 290,
+          "residue" : "C"
+        }, {
+          "start" : 328,
+          "end" : 328,
+          "residue" : "C"
+        }, {
+          "start" : 307,
+          "end" : 307,
+          "residue" : "H"
+        }, {
+          "start" : 325,
+          "end" : 325,
+          "residue" : "C"
+        }, {
+          "start" : 293,
+          "end" : 293,
+          "residue" : "C"
+        } ]
+      } ],
+      "evalue" : 3.39593E-27,
+      "score" : 102.519,
+      "location-fragments" : [ {
+        "start" : 286,
+        "end" : 331,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd16530"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.160.60",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 351,
+      "end" : 380,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.6E-19,
+      "score" : 71.3,
+      "envelopeStart" : 351,
+      "envelopeEnd" : 380,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 351,
+        "end" : 380,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.2E-19,
+    "score" : 71.7,
+    "model-ac" : "1rmdA02"
+  }, {
+    "signature" : {
+      "accession" : "PS51765",
+      "name" : "ZF_RAG1",
+      "description" : "Zinc finger RAG1-type profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR019485",
+        "name" : "RAG1_Znf",
+        "description" : "V(D)J recombination-activating protein 1, Zinc finger",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Interleukin-7 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1266695"
+        }, {
+          "name" : "MAPK6/MAPK4 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5687128"
+        }, {
+          "name" : "Protein ubiquitination",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7511"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 351,
+      "end" : 380,
+      "score" : 22.365,
+      "alignment" : "LMVKCPAQECNEEVSLEKYNHHVSSHKESK",
+      "location-fragments" : [ {
+        "start" : 351,
+        "end" : 380,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51765"
+  }, {
+    "signature" : {
+      "accession" : "PF10426",
+      "name" : "zf-RAG1",
+      "description" : "Recombination-activating protein 1 zinc-finger domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR019485",
+        "name" : "RAG1_Znf",
+        "description" : "V(D)J recombination-activating protein 1, Zinc finger",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Interleukin-7 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1266695"
+        }, {
+          "name" : "MAPK6/MAPK4 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5687128"
+        }, {
+          "name" : "Protein ubiquitination",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7511"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 351,
+      "end" : 380,
+      "hmmStart" : 1,
+      "hmmEnd" : 30,
+      "hmmLength" : 30,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.3E-17,
+      "score" : 62.7,
+      "envelopeStart" : 351,
+      "envelopeEnd" : 380,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 351,
+        "end" : 380,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.3E-18,
+    "score" : 66.7,
+    "model-ac" : "PF10426"
+  }, {
+    "signature" : {
+      "accession" : "PF12560",
+      "name" : "RAG1_imp_bd",
+      "description" : "RAG1 importin binding",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR035714",
+        "name" : "RAG1_imp-bd",
+        "description" : "RAG1 importin-binding",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Protein ubiquitination",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7511"
+        }, {
+          "name" : "MAPK6/MAPK4 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5687128"
+        }, {
+          "name" : "Interleukin-7 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1266695"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 12,
+      "end" : 288,
+      "hmmStart" : 2,
+      "hmmEnd" : 286,
+      "hmmLength" : 286,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 2.3E-116,
+      "score" : 388.3,
+      "envelopeStart" : 11,
+      "envelopeEnd" : 288,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 12,
+        "end" : 288,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 8.9E-117,
+    "score" : 389.6,
+    "model-ac" : "PF12560"
+  }, {
+    "signature" : {
+      "accession" : "PS51487",
+      "name" : "NBD",
+      "description" : "NBD domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR023336",
+        "name" : "RAG_nonamer-bd_dom",
+        "description" : "RAG nonamer-binding domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Interleukin-7 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1266695"
+        }, {
+          "name" : "MAPK6/MAPK4 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5687128"
+        }, {
+          "name" : "Protein ubiquitination",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7511"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 389,
+      "end" : 456,
+      "score" : 46.52,
+      "alignment" : "GGRPRQHLLSLTRRAQKHRLRELKIQVKEFADKEEGGDVKSVCLTLFLLALRARNEHRQADELEAIMQ",
+      "location-fragments" : [ {
+        "start" : 389,
+        "end" : 456,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS51487"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 42,
+      "end" : 70,
+      "location-fragments" : [ {
+        "start" : 42,
+        "end" : 70,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PF12940",
+      "name" : "RAG1",
+      "description" : "Recombination-activation protein 1 (RAG1), recombinase",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR024627",
+        "name" : "RAG1",
+        "description" : "V(D)J recombination-activating protein 1",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "V(D)J recombination",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0033151"
+        }, {
+          "name" : "endonuclease activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004519"
+        }, {
+          "name" : "ubiquitin protein ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0061630"
+        }, {
+          "name" : "sequence-specific DNA binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0043565"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Protein ubiquitination",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7511"
+        }, {
+          "name" : "MAPK6/MAPK4 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5687128"
+        }, {
+          "name" : "Interleukin-7 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1266695"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 384,
+      "end" : 1020,
+      "hmmStart" : 4,
+      "hmmEnd" : 644,
+      "hmmLength" : 651,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 0.0,
+      "score" : 1261.6,
+      "envelopeStart" : 381,
+      "envelopeEnd" : 1028,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 384,
+        "end" : 1020,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "score" : 1262.3,
+    "model-ac" : "PF12940"
+  }, {
+    "signature" : {
+      "accession" : "PTHR11539",
+      "name" : "V D J RECOMBINATION ACTIVATING PROTEIN 1",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : {
+        "accession" : "IPR024627",
+        "name" : "RAG1",
+        "description" : "V(D)J recombination-activating protein 1",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "V(D)J recombination",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0033151"
+        }, {
+          "name" : "endonuclease activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0004519"
+        }, {
+          "name" : "ubiquitin protein ligase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0061630"
+        }, {
+          "name" : "sequence-specific DNA binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0043565"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Protein ubiquitination",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7511"
+        }, {
+          "name" : "MAPK6/MAPK4 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5687128"
+        }, {
+          "name" : "Interleukin-7 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1266695"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 10,
+      "end" : 1040,
+      "hmmStart" : 4,
+      "hmmEnd" : 841,
+      "hmmLength" : 841,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 1040,
+      "location-fragments" : [ {
+        "start" : 10,
+        "end" : 1040,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 1561.4,
+    "model-ac" : "PTHR11539"
+  }, {
+    "signature" : {
+      "accession" : "PS00518",
+      "name" : "ZF_RING_1",
+      "description" : "Zinc finger RING-type signature.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PATTERNS",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR017907",
+        "name" : "Znf_RING_CS",
+        "description" : "Zinc finger, RING-type, conserved site",
+        "type" : "CONSERVED_SITE",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 305,
+      "end" : 314,
+      "level" : "STRONG",
+      "cigarAlignment" : "1M1I1M1I2M2I2M",
+      "alignment" : "CkHlFCriCI",
+      "location-fragments" : [ {
+        "start" : 305,
+        "end" : 314,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS00518"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 401,
+      "end" : 421,
+      "location-fragments" : [ {
+        "start" : 401,
+        "end" : 421,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "SSF57850",
+      "name" : "RING/U-box",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 265,
+      "end" : 349,
+      "hmmLength" : 86,
+      "location-fragments" : [ {
+        "start" : 265,
+        "end" : 349,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.02E-26,
+    "model-ac" : "0049212"
+  }, {
+    "signature" : {
+      "accession" : "PF00097",
+      "name" : "zf-C3HC4",
+      "description" : "Zinc finger, C3HC4 type (RING finger)",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR018957",
+        "name" : "Znf_C3HC4_RING-type",
+        "description" : "Zinc finger, C3HC4 RING-type",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "metal ion binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0046872"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 290,
+      "end" : 328,
+      "hmmStart" : 1,
+      "hmmEnd" : 41,
+      "hmmLength" : 41,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.7E-6,
+      "score" : 27.7,
+      "envelopeStart" : 290,
+      "envelopeEnd" : 328,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 290,
+        "end" : 328,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.7E-6,
+    "score" : 27.7,
+    "model-ac" : "PF00097"
+  }, {
+    "signature" : {
+      "accession" : "SSF57667",
+      "name" : "beta-beta-alpha zinc fingers",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036236",
+        "name" : "Znf_C2H2_sf",
+        "description" : "Zinc finger C2H2 superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 351,
+      "end" : 380,
+      "hmmLength" : 30,
+      "location-fragments" : [ {
+        "start" : 351,
+        "end" : 380,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 9.4E-9,
+    "model-ac" : "0043305"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.30.40.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR013083",
+        "name" : "Znf_RING/FYVE/PHD",
+        "description" : "Zinc finger, RING/FYVE/PHD-type",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 265,
+      "end" : 350,
+      "hmmStart" : 2,
+      "hmmEnd" : 85,
+      "hmmLength" : 86,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.8E-17,
+      "score" : 63.3,
+      "envelopeStart" : 265,
+      "envelopeEnd" : 350,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 265,
+        "end" : 350,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.8E-17,
+    "score" : 63.3,
+    "model-ac" : "1rmdA01"
+  } ],
+  "xref" : [ {
+    "name" : "tr|G3V6K9|G3V6K9_RAT V(D)J recombination-activating protein 1 OS=Rattus norvegicus OX=10116 GN=Rag1 PE=3 SV=1",
+    "id" : "tr|G3V6K9|G3V6K9_RAT"
+  } ]
+} ]
+}

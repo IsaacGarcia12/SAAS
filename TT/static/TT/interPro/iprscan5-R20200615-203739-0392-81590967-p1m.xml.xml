@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="83615a47d01c9740e94e6488d7134eec">MCSQEDFQAQRSQLVALLVSGSLEGFESILDWLLSWDVLSREDYEGLSLPGQPLSHSARRLLDTVCNKGVWGCQKLFEAVQEAQANSHTFELQGCWDVHSLHPTRDLQSHRPAIVRRLCSHVEAILELARDEGFLSQYECEEIRLPIFTSSQRARRLLDLAAVKANGLAAFLLQHVRKLPASLSLPYEAAECQKFTAKLRTMVSAQSRFLSTYDGSENLCLEDIYTENTLELRTEVGTAGALQKSPATLGLEELFGTHGHLNKDADTILVVGEAGSGKSTLLQRLHLLWASGQNFREFLFIFPFSCRQLQCMTKPLSLRTLLFEHCCWPDVGQDDVFQFLLDHPDRVLLTFDGLDEFKFRFTDRERHCSPLDPTSVQTLLFNLLQGNLLKNACKVLTSRPDAVSALLRKFVRTECHLKGFSEEGIKLYLRKHHREPGVADRLIHLIQATSALHGLCHLPVFSWMVSRCHRELLLQNRGFPTTSTDMYLLILQHFLLHASPPDSFPLGLGPGLLQSRLSTLLHLGHLALQGLAMSCYVFSAQQLQAAQVDSEDISLGFLVRAQSVVPGSKAPLEFLHITFQCFFAAFYLAVSADTSAASLKHLFSCGRPGNSLLLRLLPNLCIQGSRVKGGQAALLQKAEPHNLQITAAFLAGLLSQQHRDLLAACQVPERVLLQRQARARSCLAHSLREHFHSIPPAVPGETKSMHAMPGFIWLIRSLYEMQEVQLAREAVRRLDIGHLKLTFCRVGPAECAALAFVLQHLQRPVALQLDHNSVGDVGVEQLLPCLGVCTALYLRDNNISDRGARTLVECALRCEQLQKLALFNNKLTDGCASSVAKLLAHKQNFLSLRVGNNHITAAGAEVLAQGLKSNTSLQFLGFWGNSVGDKGSQALAEVVADHQRLKWLSLVGNNIGSVGAHALALMLEKNKSLEEL</sequence>
+    <xref id="tr|D4A5W3|D4A5W3_RAT" name="tr|D4A5W3|D4A5W3_RAT Caspase recruitment domain family, member 15 (Predicted) OS=Rattus norvegicus OX=10116 GN=Nod2 PE=4 SV=1"/>
+    <matches>
+      <hmmer2-match evalue="7.8E-22" score="88.5">
+        <signature ac="SM00368" name="LRR_RI_2">
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00368</model-ac>
+        <locations>
+          <hmmer2-location score="11.0" evalue="7.4" hmm-start="1" hmm-end="28" hmm-length="28" hmm-bounds="COMPLETE" start="814" end="841">
+            <location-fragments>
+              <hmmer2-location-fragment start="814" end="841" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="8.2" evalue="18.0" hmm-start="1" hmm-end="28" hmm-length="28" hmm-bounds="COMPLETE" start="758" end="788">
+            <location-fragments>
+              <hmmer2-location-fragment start="758" end="788" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="27.5" evalue="0.0019" hmm-start="1" hmm-end="28" hmm-length="28" hmm-bounds="COMPLETE" start="842" end="869">
+            <location-fragments>
+              <hmmer2-location-fragment start="842" end="869" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="2.2" evalue="130.0" hmm-start="1" hmm-end="28" hmm-length="28" hmm-bounds="COMPLETE" start="790" end="813">
+            <location-fragments>
+              <hmmer2-location-fragment start="790" end="813" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="21.0" evalue="0.17" hmm-start="1" hmm-end="28" hmm-length="28" hmm-bounds="COMPLETE" start="870" end="897">
+            <location-fragments>
+              <hmmer2-location-fragment start="870" end="897" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+          <hmmer2-location score="18.7" evalue="0.6" hmm-start="1" hmm-end="28" hmm-length="28" hmm-bounds="COMPLETE" start="898" end="925">
+            <location-fragments>
+              <hmmer2-location-fragment start="898" end="925" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="9.9E-13" score="46.9">
+        <signature ac="PF13516" desc="Leucine Rich repeat" name="LRR_6">
+          <entry ac="IPR001611" desc="Leucine-rich repeat" name="Leu-rich_rpt" type="REPEAT">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF13516</model-ac>
+        <locations>
+          <hmmer3-location env-end="920" env-start="897" post-processed="true" score="8.8" evalue="1.7" hmm-start="3" hmm-end="24" hmm-length="24" hmm-bounds="C_TERMINAL_COMPLETE" start="899" end="920">
+            <location-fragments>
+              <hmmer3-location-fragment start="899" end="920" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="808" env-start="790" post-processed="true" score="9.6" evalue="0.94" hmm-start="6" hmm-end="23" hmm-length="24" hmm-bounds="N_TERMINAL_COMPLETE" start="790" end="807">
+            <location-fragments>
+              <hmmer3-location-fragment start="790" end="807" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="864" env-start="841" post-processed="true" score="9.4" evalue="1.1" hmm-start="1" hmm-end="24" hmm-length="24" hmm-bounds="COMPLETE" start="841" end="864">
+            <location-fragments>
+              <hmmer3-location-fragment start="841" end="864" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.3E-24" score="85.1">
+        <signature ac="PF00619" desc="Caspase recruitment domain" name="CARD">
+          <entry ac="IPR001315" desc="CARD domain" name="CARD" type="DOMAIN">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0042981" name="regulation of apoptotic process"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00619</model-ac>
+        <locations>
+          <hmmer3-location env-end="93" env-start="4" post-processed="true" score="57.1" evalue="1.2E-15" hmm-start="4" hmm-end="80" hmm-length="85" hmm-bounds="INCOMPLETE" start="7" end="89">
+            <location-fragments>
+              <hmmer3-location-fragment start="7" end="89" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+          <hmmer3-location env-end="183" env-start="105" post-processed="true" score="24.8" evalue="1.5E-5" hmm-start="4" hmm-end="72" hmm-length="85" hmm-bounds="INCOMPLETE" start="107" end="177">
+            <location-fragments>
+              <hmmer3-location-fragment start="107" end="177" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="6.8E-12" score="45.4">
+        <signature ac="PF17779" desc="NOD2 winged helix domain" name="NOD2_WH">
+          <entry ac="IPR041075" desc="NOD2, winged helix domain" name="NOD2_WH" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF17779</model-ac>
+        <locations>
+          <hmmer3-location env-end="574" env-start="518" post-processed="true" score="40.7" evalue="2.0E-10" hmm-start="2" hmm-end="43" hmm-length="57" hmm-bounds="INCOMPLETE" start="519" end="560">
+            <location-fragments>
+              <hmmer3-location-fragment start="519" end="560" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="8.4E-18" score="65.1">
+        <signature ac="PF17776" desc="NLRC4 helical domain HD2" name="NLRC4_HD2">
+          <entry ac="IPR041267" desc="NLRC, helical domain HD2" name="NLRC_HD2" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF17776</model-ac>
+        <locations>
+          <hmmer3-location env-end="729" env-start="576" post-processed="true" score="63.8" evalue="2.0E-17" hmm-start="1" hmm-end="129" hmm-length="129" hmm-bounds="COMPLETE" start="576" end="729">
+            <location-fragments>
+              <hmmer3-location-fragment start="576" end="729" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.5E-40" score="140.8">
+        <signature ac="G3DSA:3.80.10.10">
+          <entry ac="IPR032675" desc="Leucine-rich repeat domain superfamily" name="LRR_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3tsrE00</model-ac>
+        <locations>
+          <hmmer3-location env-end="932" env-start="717" post-processed="true" score="139.6" evalue="3.4E-40" hmm-start="199" hmm-end="399" hmm-length="457" hmm-bounds="COMPLETE" start="717" end="932">
+            <location-fragments>
+              <hmmer3-location-fragment start="717" end="932" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.2E-32" score="113.9">
+        <signature ac="G3DSA:1.10.533.10">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>2n7zA00</model-ac>
+        <locations>
+          <hmmer3-location env-end="98" env-start="2" post-processed="true" score="73.7" evalue="3.9E-20" hmm-start="4" hmm-end="83" hmm-length="106" hmm-bounds="COMPLETE" start="2" end="98">
+            <location-fragments>
+              <hmmer3-location-fragment start="2" end="98" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.0E-31" score="109.7">
+        <signature ac="G3DSA:1.10.533.10">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4uz0A00</model-ac>
+        <locations>
+          <hmmer3-location env-end="183" env-start="101" post-processed="true" score="41.0" evalue="5.4E-10" hmm-start="12" hmm-end="82" hmm-length="95" hmm-bounds="COMPLETE" start="101" end="183">
+            <location-fragments>
+              <hmmer3-location-fragment start="101" end="183" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="4.7E-43" score="146.9">
+        <signature ac="PF05729" desc="NACHT domain" name="NACHT">
+          <entry ac="IPR007111" desc="NACHT nucleoside triphosphatase" name="NACHT_NTPase" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF05729</model-ac>
+        <locations>
+          <hmmer3-location env-end="436" env-start="266" post-processed="true" score="145.4" evalue="1.3E-42" hmm-start="1" hmm-end="165" hmm-length="166" hmm-bounds="N_TERMINAL_COMPLETE" start="266" end="435">
+            <location-fragments>
+              <hmmer3-location-fragment start="266" end="435" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="2.6E-21" score="77.9">
+        <signature ac="G3DSA:3.40.50.300">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4kxfL01</model-ac>
+        <locations>
+          <hmmer3-location env-end="414" env-start="190" post-processed="true" score="76.9" evalue="5.3E-21" hmm-start="38" hmm-end="197" hmm-length="208" hmm-bounds="COMPLETE" start="190" end="414">
+            <location-fragments>
+              <hmmer3-location-fragment start="190" end="414" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1650.4">
+        <signature ac="PTHR24106" name="FAMILY NOT NAMED">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR24106</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="932" hmm-start="7" hmm-end="936" hmm-length="1016" hmm-bounds="C_TERMINAL_COMPLETE" start="4" end="932">
+            <location-fragments>
+              <panther-location-fragment start="4" end="932" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1650.4">
+        <signature ac="PTHR24106:SF64" name="NUCLEOTIDE-BINDING OLIGOMERIZATION DOMAIN-CONTAINING PROTEIN 2">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR24106:SF64</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="932" hmm-start="7" hmm-end="936" hmm-length="1016" hmm-bounds="C_TERMINAL_COMPLETE" start="4" end="932">
+            <location-fragments>
+              <panther-location-fragment start="4" end="932" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <profilescan-match>
+        <signature ac="PS50209" desc="CARD caspase recruitment domain profile." name="CARD">
+          <entry ac="IPR001315" desc="CARD domain" name="CARD" type="DOMAIN">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0042981" name="regulation of apoptotic process"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50209</model-ac>
+        <locations>
+          <profilescan-location score="12.426" start="107" end="191">
+            <location-fragments>
+              <profilescan-location-fragment start="107" end="191" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>--------LQSHRPAIVRRLCsHVEAILELARDEGFLSQYECEEIRLPIfTSSQRARRLLDLAAVKANGLAAFLLQHVRKLPASLSLPYEAAE</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50837" desc="NACHT-NTPase domain profile." name="NACHT">
+          <entry ac="IPR007111" desc="NACHT nucleoside triphosphatase" name="NACHT_NTPase" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50837</model-ac>
+        <locations>
+          <profilescan-location score="21.732" start="266" end="402">
+            <location-fragments>
+              <profilescan-location-fragment start="266" end="402" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>DTILVVGEAGSGKSTLLQRLHLLWASGQNFREFLFIFPFSCRQLQcMTKPLSLRTLLFEHCCWPDVGQDDVFQFLLDHPDRVLLTFDGLDEFKFRFTdrerhcspldpTSVQTLLFNLLQGNLLKNACKVLTSRPDA---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS50209" desc="CARD caspase recruitment domain profile." name="CARD">
+          <entry ac="IPR001315" desc="CARD domain" name="CARD" type="DOMAIN">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0042981" name="regulation of apoptotic process"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50209</model-ac>
+        <locations>
+          <profilescan-location score="12.174" start="1" end="82">
+            <location-fragments>
+              <profilescan-location-fragment start="1" end="82" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>--MCSQEDFQAQRSQLVALLVsgsleGFESILDWLLSWDVLSREDYEGLSLPGqPLSHSARRLLDTVCNKGVWGCQKLFEAVQE-------------</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <rpsblast-match>
+        <signature ac="cd17870" desc="GPN1" name="GPN1">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd17870</model-ac>
+        <locations>
+          <rpsblast-location evalue="0.00196599" score="38.703" start="267" end="285">
+            <location-fragments>
+              <rpsblast-location-fragment start="267" end="285" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="3.11E-11">
+        <signature ac="SSF47986" name="DEATH domain">
+          <entry ac="IPR011029" desc="Death-like domain superfamily" name="DEATH-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0036420</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="89" start="105" end="181">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="105" end="181" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="1.08E-13">
+        <signature ac="SSF47986" name="DEATH domain">
+          <entry ac="IPR011029" desc="Death-like domain superfamily" name="DEATH-like_dom_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0036420</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="89" start="7" end="84">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="7" end="84" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="1.77E-38">
+        <signature ac="SSF52047" name="RNI-like">
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0045711</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="460" start="733" end="932">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="733" end="932" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="8.26E-9">
+        <signature ac="SSF52540" name="P-loop containing nucleoside triphosphate hydrolases">
+          <entry ac="IPR027417" desc="P-loop containing nucleoside triphosphate hydrolase" name="P-loop_NTPase" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0052726</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="283" start="267" end="448">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="267" end="448" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

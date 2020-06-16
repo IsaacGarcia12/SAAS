@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="8dc1d098746d764d3bfad5e2b7f537bc">MAVPLPSTLRLSSAPDEIQHPHIKFSEWKFKLFRVRSFEKAPEEAQKEKDSSEGKPCLEQSPVVLDKPGGQNSVLTQRALKLHPKFSKKFHVDGKSSDKAIHQARLRHFCRICGNHFKSDGHNRRYPVHGPVDAKTQSLFRKKEKRVTSWPDLIARVFRIDVKSDVDSIHPTEFCHNCWSIMHRKFGSAHSQVYCPRNVTVEWHPHTPSCDICFTAHRGLKRKRHQPNVQLSKKLKTVLNHARRDRRKRTQARVSSKEVMKKISNCSKIHLSTKLLAVDFPAHFVKSISCQICEHILADPVETTCKHLFCRICILRCLKVMGSYCPSCRYPCFPTDLQSPVKSFLSILNSLMVKCPAQECNEEVSLEKYNHHVSSHKESKETLVHINKGGRPRQHLLSLTRRAQKHRLRELKIQVKEFADKEEGGDVKSVCLTLFLLALRARNEHRQADELEAIMQGRGSGLQPAVCLAIRVNTFLSCSQYHKMYRTVKAITGRQIFQPLHALRNAEKVLLPGYHPFEWQPPLKNVSSRTDVGIIDGLSGLASSVDEYPVDTIAKRFRYDSALVSALMDMEEDILDGMRSQDLDDYVSGPFTVVVKESCDGMGDVSEKHGSGPAVPEKAVRFSFTVMRVTVEHGSQNVKIFEEPKPNSELCCKPLCLMLADESDHETLTAILSPLIAEREAMKSSELLLEMGGIPRTFKFIFRGTGYDEKLVREVEGLEASGSVYICTLCDATRLEASQNLVFHSITRSHAENLQRYEVWRSNPYHESVEELRDRVKGVSAKPFIETVPSIDALHCDIGNAAEFYKIFQLEIGEVYKNPNASKEERKRWQATLDKHLRKRMNLKPIMRMNGNFARKLMTQETVDAVCELIPSEERHEALRELMDLYLKMKPVWRSSCPAKECPESLCQYSFNSQRFAELLSTKFKYRYEGKITNYFHKTLAHVPEIIERDGSIGAWASEGNESGNKLFRRFRKMNARQSKCYEMEDVLKHHWLYTSKYLQKFMNAHNALKNSGFTMNSKETLGDSLDIEDSLESQDSMEF</sequence>
+    <xref id="tr|G3V6K9|G3V6K9_RAT" name="tr|G3V6K9|G3V6K9_RAT V(D)J recombination-activating protein 1 OS=Rattus norvegicus OX=10116 GN=Rag1 PE=3 SV=1"/>
+    <matches>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="401" end="421">
+            <location-fragments>
+              <coils-location-fragment start="401" end="421" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <hmmer2-match evalue="7.1E-4" score="28.9">
+        <signature ac="SM00184" name="ring_2">
+          <entry ac="IPR001841" desc="Zinc finger, RING-type" name="Znf_RING" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00184</model-ac>
+        <locations>
+          <hmmer2-location score="28.9" evalue="7.1E-4" hmm-start="1" hmm-end="23" hmm-length="23" hmm-bounds="COMPLETE" start="290" end="328">
+            <location-fragments>
+              <hmmer2-location-fragment start="290" end="328" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="1.2E-19" score="71.7">
+        <signature ac="G3DSA:3.30.160.60">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1rmdA02</model-ac>
+        <locations>
+          <hmmer3-location env-end="380" env-start="351" post-processed="true" score="71.3" evalue="1.6E-19" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="351" end="380">
+            <location-fragments>
+              <hmmer3-location-fragment start="351" end="380" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.3E-18" score="66.7">
+        <signature ac="PF10426" desc="Recombination-activating protein 1 zinc-finger domain" name="zf-RAG1">
+          <entry ac="IPR019485" desc="V(D)J recombination-activating protein 1, Zinc finger" name="RAG1_Znf" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-1266695" name="Interleukin-7 signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-5687128" name="MAPK6/MAPK4 signaling"/>
+            <pathway-xref db="MetaCyc" id="PWY-7511" name="Protein ubiquitination"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF10426</model-ac>
+        <locations>
+          <hmmer3-location env-end="380" env-start="351" post-processed="true" score="62.7" evalue="2.3E-17" hmm-start="1" hmm-end="30" hmm-length="30" hmm-bounds="COMPLETE" start="351" end="380">
+            <location-fragments>
+              <hmmer3-location-fragment start="351" end="380" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="8.9E-117" score="389.6">
+        <signature ac="PF12560" desc="RAG1 importin binding" name="RAG1_imp_bd">
+          <entry ac="IPR035714" desc="RAG1 importin-binding" name="RAG1_imp-bd" type="DOMAIN">
+            <pathway-xref db="MetaCyc" id="PWY-7511" name="Protein ubiquitination"/>
+            <pathway-xref db="Reactome" id="R-HSA-5687128" name="MAPK6/MAPK4 signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-1266695" name="Interleukin-7 signaling"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF12560</model-ac>
+        <locations>
+          <hmmer3-location env-end="288" env-start="11" post-processed="true" score="388.3" evalue="2.3E-116" hmm-start="2" hmm-end="286" hmm-length="286" hmm-bounds="C_TERMINAL_COMPLETE" start="12" end="288">
+            <location-fragments>
+              <hmmer3-location-fragment start="12" end="288" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="0.0" score="1262.3">
+        <signature ac="PF12940" desc="Recombination-activation protein 1 (RAG1), recombinase" name="RAG1">
+          <entry ac="IPR024627" desc="V(D)J recombination-activating protein 1" name="RAG1" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0033151" name="V(D)J recombination"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004519" name="endonuclease activity"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0061630" name="ubiquitin protein ligase activity"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0043565" name="sequence-specific DNA binding"/>
+            <pathway-xref db="MetaCyc" id="PWY-7511" name="Protein ubiquitination"/>
+            <pathway-xref db="Reactome" id="R-HSA-5687128" name="MAPK6/MAPK4 signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-1266695" name="Interleukin-7 signaling"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF12940</model-ac>
+        <locations>
+          <hmmer3-location env-end="1028" env-start="381" post-processed="true" score="1261.6" evalue="0.0" hmm-start="4" hmm-end="644" hmm-length="651" hmm-bounds="INCOMPLETE" start="384" end="1020">
+            <location-fragments>
+              <hmmer3-location-fragment start="384" end="1020" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.7E-6" score="27.7">
+        <signature ac="PF00097" desc="Zinc finger, C3HC4 type (RING finger)" name="zf-C3HC4">
+          <entry ac="IPR018957" desc="Zinc finger, C3HC4 RING-type" name="Znf_C3HC4_RING-type" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0046872" name="metal ion binding"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00097</model-ac>
+        <locations>
+          <hmmer3-location env-end="328" env-start="290" post-processed="true" score="27.7" evalue="1.7E-6" hmm-start="1" hmm-end="41" hmm-length="41" hmm-bounds="COMPLETE" start="290" end="328">
+            <location-fragments>
+              <hmmer3-location-fragment start="290" end="328" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.8E-17" score="63.3">
+        <signature ac="G3DSA:3.30.40.10">
+          <entry ac="IPR013083" desc="Zinc finger, RING/FYVE/PHD-type" name="Znf_RING/FYVE/PHD" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>1rmdA01</model-ac>
+        <locations>
+          <hmmer3-location env-end="350" env-start="265" post-processed="true" score="63.3" evalue="3.8E-17" hmm-start="2" hmm-end="85" hmm-length="86" hmm-bounds="COMPLETE" start="265" end="350">
+            <location-fragments>
+              <hmmer3-location-fragment start="265" end="350" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="42" end="70">
+            <location-fragments>
+              <mobidblite-location-fragment start="42" end="70" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1561.4">
+        <signature ac="PTHR11539" name="V D J RECOMBINATION ACTIVATING PROTEIN 1">
+          <entry ac="IPR024627" desc="V(D)J recombination-activating protein 1" name="RAG1" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0033151" name="V(D)J recombination"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004519" name="endonuclease activity"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0061630" name="ubiquitin protein ligase activity"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0043565" name="sequence-specific DNA binding"/>
+            <pathway-xref db="MetaCyc" id="PWY-7511" name="Protein ubiquitination"/>
+            <pathway-xref db="Reactome" id="R-HSA-5687128" name="MAPK6/MAPK4 signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-1266695" name="Interleukin-7 signaling"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR11539</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="1040" hmm-start="4" hmm-end="841" hmm-length="841" hmm-bounds="C_TERMINAL_COMPLETE" start="10" end="1040">
+            <location-fragments>
+              <panther-location-fragment start="10" end="1040" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <patternscan-match>
+        <signature ac="PS00518" desc="Zinc finger RING-type signature." name="ZF_RING_1">
+          <entry ac="IPR017907" desc="Zinc finger, RING-type, conserved site" name="Znf_RING_CS" type="CONSERVED_SITE"/>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS00518</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="305" end="314">
+            <location-fragments>
+              <patternscan-location-fragment start="305" end="314" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>CkHlFCriCI</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <profilescan-match>
+        <signature ac="PS50089" desc="Zinc finger RING-type profile." name="ZF_RING_2">
+          <entry ac="IPR001841" desc="Zinc finger, RING-type" name="Znf_RING" type="DOMAIN"/>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS50089</model-ac>
+        <locations>
+          <profilescan-location score="11.398" start="290" end="329">
+            <location-fragments>
+              <profilescan-location-fragment start="290" end="329" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>CQICEHILADP--VETTCKHLFCRICILRC-LKVMGSYCPSCR</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51765" desc="Zinc finger RAG1-type profile." name="ZF_RAG1">
+          <entry ac="IPR019485" desc="V(D)J recombination-activating protein 1, Zinc finger" name="RAG1_Znf" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-1266695" name="Interleukin-7 signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-5687128" name="MAPK6/MAPK4 signaling"/>
+            <pathway-xref db="MetaCyc" id="PWY-7511" name="Protein ubiquitination"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51765</model-ac>
+        <locations>
+          <profilescan-location score="22.365" start="351" end="380">
+            <location-fragments>
+              <profilescan-location-fragment start="351" end="380" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>LMVKCPAQECNEEVSLEKYNHHVSSHKESK</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <profilescan-match>
+        <signature ac="PS51487" desc="NBD domain profile." name="NBD">
+          <entry ac="IPR023336" desc="RAG nonamer-binding domain" name="RAG_nonamer-bd_dom" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-1266695" name="Interleukin-7 signaling"/>
+            <pathway-xref db="Reactome" id="R-HSA-5687128" name="MAPK6/MAPK4 signaling"/>
+            <pathway-xref db="MetaCyc" id="PWY-7511" name="Protein ubiquitination"/>
+          </entry>
+          <signature-library-release library="PROSITE_PROFILES" version="2019_11"/>
+        </signature>
+        <model-ac>PS51487</model-ac>
+        <locations>
+          <profilescan-location score="46.52" start="389" end="456">
+            <location-fragments>
+              <profilescan-location-fragment start="389" end="456" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>GGRPRQHLLSLTRRAQKHRLRELKIQVKEFADKEEGGDVKSVCLTLFLLALRARNEHRQADELEAIMQ</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <rpsblast-match>
+        <signature ac="cd16530" desc="RING-HC_RAG1" name="RING-HC_RAG1">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd16530</model-ac>
+        <locations>
+          <rpsblast-location evalue="3.39593E-27" score="102.519" start="286" end="331">
+            <location-fragments>
+              <rpsblast-location-fragment start="286" end="331" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="Zn binding site" numLocations="9">
+                <site-locations>
+                  <site-location residue="C" start="310" end="310"/>
+                  <site-location residue="H" start="295" end="295"/>
+                  <site-location residue="C" start="305" end="305"/>
+                  <site-location residue="C" start="313" end="313"/>
+                  <site-location residue="C" start="290" end="290"/>
+                  <site-location residue="C" start="328" end="328"/>
+                  <site-location residue="H" start="307" end="307"/>
+                  <site-location residue="C" start="325" end="325"/>
+                  <site-location residue="C" start="293" end="293"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="1.02E-26">
+        <signature ac="SSF57850" name="RING/U-box">
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0049212</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="86" start="265" end="349">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="265" end="349" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="9.4E-9">
+        <signature ac="SSF57667" name="beta-beta-alpha zinc fingers">
+          <entry ac="IPR036236" desc="Zinc finger C2H2 superfamily" name="Znf_C2H2_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0043305</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="30" start="351" end="380">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="351" end="380" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>

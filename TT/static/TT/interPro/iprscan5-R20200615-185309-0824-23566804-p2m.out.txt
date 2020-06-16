@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interProScanVersion="5.44-79.0">
+  <protein>
+    <sequence md5="c1281bd6feb47a7d2d68ef1acf0d4446">MNSPGGRRKKKGSGAPSSPVPPRLPPPCSVPAPSAAGPAPLPRSPHKRSLYYFSYPLLVGFALLRLVAFHLGLLFVWLCQRFSRALMAAKRSSRASPASASASPPAPVPGGEADHVRAFHKQAFEYISIALRIDEDEKGQKEQAVEWYKKGIEELEKGIAVIVIGQGEPCERARRLQAKMMTNLVMAKDRLQLLEKLQPVLQFSKSQTDVYNDNTNLTCRNGHLQSESGAVPKRKDPLTHPSNSLPRSKTVTKTGSTSLSGHHRAPSCSGLATVSGVRQGPGPATAIHKGTPKTNRTSKPSSTPPTAGQKKKDLKNFRNVDSNLANLIMNEIVDNGTAVKFDDIAGQELAKQALQEIVILPSLRPELFTGLRAPARGLLLFGPPGNGKTMLAKAVAAESSATFFNISAASLTSKYLGEGEKLVRALFAVARELQPSIIFIDEVDSLLCERREGEHDASRRLKTEFLIEFDGVQTAGDDRVLVMGATNRPQELDEAVLRRFIKRVYVSLPNEETRLLLLKNLLCKQGSPLTQKELAQLARMTDGYSGSDLTALAKDAALGPIRELKPEQVKNMSASEGTIHLFRKPQRSFFGKLLQEFRLVAADRRSWKILLFGAINLICTGFLLMWCSSTNSIALTAYTYLTIFDLFSLMTCLISYWVMMRKPSPVYSFGFERLEVLAVFASTVLAQLGALFILKESAERFLEQPEIHTGRLLVGTFVALSFNLFTMLSIRNKPFAYVSEAASTSWLQEHVADLSRSLCGIIPGLSSIFLPRMNPFVLIDLAGAFALCITYMLIEINNYFAVDTASAIAISLMTFGTMYPMSVYSGKVLLQTTPPHVIGQLDKLIREVSTLDGVLEVRNEHFWTLGFGSLAGSVHVRIRRDANEQMVLAHVTNRLYTLVSTLTVQIFKDDWIRPALLSGPVAANVLNFSDHHVIPMPPLKSTDVLNPVTSTPAKPSSLPPEFSFNTPGKNVSPVILLNTQTRPYGLGLNHGYTHYSSLLSQGLGVPGIGATQGFRTDLINTPSRYGTNNRIGQPRP</sequence>
+    <xref id="tr|A0A2Y9RC68|A0A2Y9RC68_TRIMA" name="tr|A0A2Y9RC68|A0A2Y9RC68_TRIMA Spastin OS=Trichechus manatus latirostris OX=127582 GN=LOC101347558 PE=3 SV=1"/>
+    <matches>
+      <hmmer2-match evalue="7.3E-16" score="68.7">
+        <signature ac="SM00382" name="AAA_5">
+          <entry ac="IPR003593" desc="AAA+ ATPase domain" name="AAA+_ATPase" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00382</model-ac>
+        <locations>
+          <hmmer2-location score="68.7" evalue="7.3E-16" hmm-start="1" hmm-end="92" hmm-length="92" hmm-bounds="COMPLETE" start="374" end="510">
+            <location-fragments>
+              <hmmer2-location-fragment start="374" end="510" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="1.1E-19" score="81.3">
+        <signature ac="SM00745" name="smart">
+          <entry ac="IPR007330" desc="MIT" name="MIT" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00745</model-ac>
+        <locations>
+          <hmmer2-location score="81.3" evalue="1.1E-19" hmm-start="1" hmm-end="81" hmm-length="81" hmm-bounds="COMPLETE" start="116" end="193">
+            <location-fragments>
+              <hmmer2-location-fragment start="116" end="193" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="6.5E-38" score="130.0">
+        <signature ac="PF00004" desc="ATPase family associated with various cellular activities (AAA)" name="AAA">
+          <entry ac="IPR003959" desc="ATPase, AAA-type, core" name="ATPase_AAA_core" type="DOMAIN">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF00004</model-ac>
+        <locations>
+          <hmmer3-location env-end="508" env-start="378" post-processed="true" score="129.0" evalue="1.4E-37" hmm-start="1" hmm-end="131" hmm-length="132" hmm-bounds="N_TERMINAL_COMPLETE" start="378" end="507">
+            <location-fragments>
+              <hmmer3-location-fragment start="378" end="507" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="5.7E-31" score="107.7">
+        <signature ac="PF01545" desc="Cation efflux family" name="Cation_efflux">
+          <entry ac="IPR002524" desc="Cation efflux protein" name="Cation_efflux" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055085" name="transmembrane transport"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0016021" name="integral component of membrane"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006812" name="cation transport"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008324" name="cation transmembrane transporter activity"/>
+          </entry>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF01545</model-ac>
+        <locations>
+          <hmmer3-location env-end="830" env-start="609" post-processed="true" score="107.1" evalue="9.0E-31" hmm-start="2" hmm-end="199" hmm-length="199" hmm-bounds="C_TERMINAL_COMPLETE" start="610" end="830">
+            <location-fragments>
+              <hmmer3-location-fragment start="610" end="830" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.8E-31" score="106.4">
+        <signature ac="TIGR01297" desc="CDF: cation diffusion facilitator family transporter" name="TIGR01297">
+          <entry ac="IPR002524" desc="Cation efflux protein" name="Cation_efflux" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055085" name="transmembrane transport"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0016021" name="integral component of membrane"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006812" name="cation transport"/>
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008324" name="cation transmembrane transporter activity"/>
+          </entry>
+          <signature-library-release library="TIGRFAM" version="15.0"/>
+        </signature>
+        <model-ac>TIGR01297</model-ac>
+        <locations>
+          <hmmer3-location env-end="910" env-start="605" post-processed="false" score="101.6" evalue="1.1E-29" hmm-start="5" hmm-end="279" hmm-length="285" hmm-bounds="INCOMPLETE" start="609" end="905">
+            <location-fragments>
+              <hmmer3-location-fragment start="609" end="905" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.7E-99" score="333.5">
+        <signature ac="G3DSA:1.10.8.60">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4l15A02</model-ac>
+        <locations>
+          <hmmer3-location env-end="602" env-start="334" post-processed="true" score="331.9" evalue="1.2E-98" hmm-start="3" hmm-end="237" hmm-length="83" hmm-bounds="INCOMPLETE" start="509" end="576">
+            <location-fragments>
+              <hmmer3-location-fragment start="509" end="576" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.7E-99" score="333.5">
+        <signature ac="G3DSA:3.40.50.300">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4l15A01</model-ac>
+        <locations>
+          <hmmer3-location env-end="602" env-start="334" post-processed="true" score="331.9" evalue="1.2E-98" hmm-start="3" hmm-end="237" hmm-length="226" hmm-bounds="INCOMPLETE" start="336" end="508">
+            <location-fragments>
+              <hmmer3-location-fragment start="336" end="508" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.9E-37" score="128.9">
+        <signature ac="G3DSA:1.20.58.280">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3eabD01</model-ac>
+        <locations>
+          <hmmer3-location env-end="195" env-start="110" post-processed="true" score="127.8" evalue="4.0E-37" hmm-start="4" hmm-end="88" hmm-length="88" hmm-bounds="COMPLETE" start="110" end="195">
+            <location-fragments>
+              <hmmer3-location-fragment start="110" end="195" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="4.6E-12" score="47.9">
+        <signature ac="G3DSA:1.20.1510.10">
+          <entry ac="IPR027469" desc="Cation efflux transmembrane domain superfamily" name="Cation_efflux_TMD_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>3h90A01</model-ac>
+        <locations>
+          <hmmer3-location env-end="830" env-start="607" post-processed="true" score="46.5" evalue="1.3E-11" hmm-start="11" hmm-end="183" hmm-length="199" hmm-bounds="COMPLETE" start="607" end="830">
+            <location-fragments>
+              <hmmer3-location-fragment start="607" end="830" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="3.6E-8" score="33.0">
+        <signature ac="PF17862" desc="AAA+ lid domain" name="AAA_lid_3">
+          <entry ac="IPR041569" desc="AAA ATPase, AAA+ lid domain" name="AAA_lid_3" type="DOMAIN"/>
+          <signature-library-release library="PFAM" version="32.0"/>
+        </signature>
+        <model-ac>PF17862</model-ac>
+        <locations>
+          <hmmer3-location env-end="574" env-start="533" post-processed="true" score="31.8" evalue="8.7E-8" hmm-start="4" hmm-end="37" hmm-length="45" hmm-bounds="INCOMPLETE" start="534" end="567">
+            <location-fragments>
+              <hmmer3-location-fragment start="534" end="567" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="217" end="316">
+            <location-fragments>
+              <mobidblite-location-fragment start="217" end="316" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="93" end="112">
+            <location-fragments>
+              <mobidblite-location-fragment start="93" end="112" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="241" end="264">
+            <location-fragments>
+              <mobidblite-location-fragment start="241" end="264" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1" end="40">
+            <location-fragments>
+              <mobidblite-location-fragment start="1" end="40" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Proline-rich" start="18" end="40">
+            <location-fragments>
+              <mobidblite-location-fragment start="18" end="40" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="290" end="309">
+            <location-fragments>
+              <mobidblite-location-fragment start="290" end="309" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="801.1">
+        <signature ac="PTHR46531" name="FAMILY NOT NAMED">
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR46531</model-ac>
+        <locations>
+          <panther-location env-start="576" env-end="1036" hmm-start="2" hmm-end="441" hmm-length="442" hmm-bounds="INCOMPLETE" start="577" end="1035">
+            <location-fragments>
+              <panther-location-fragment start="577" end="1035" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <patternscan-match>
+        <signature ac="PS00674" desc="AAA-protein family signature." name="AAA">
+          <entry ac="IPR003960" desc="ATPase, AAA-type, conserved site" name="ATPase_AAA_CS" type="CONSERVED_SITE">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+          </entry>
+          <signature-library-release library="PROSITE_PATTERNS" version="2019_11"/>
+        </signature>
+        <model-ac>PS00674</model-ac>
+        <locations>
+          <patternscan-location level="STRONG" start="480" end="499">
+            <location-fragments>
+              <patternscan-location-fragment start="480" end="499" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>VlVMgATNrpqeLDeAVlrR</alignment>
+          </patternscan-location>
+        </locations>
+      </patternscan-match>
+      <phobius-match>
+        <signature ac="TRANSMEMBRANE" desc="Region of a membrane-bound protein predicted to be embedded in the membrane." name="Transmembrane region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>TRANSMEMBRANE</model-ac>
+        <locations>
+          <phobius-location start="52" end="78">
+            <location-fragments>
+              <phobius-location-fragment start="52" end="78" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="795" end="799">
+            <location-fragments>
+              <phobius-location-fragment start="795" end="799" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="693" end="711">
+            <location-fragments>
+              <phobius-location-fragment start="693" end="711" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm." name="Cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="731" end="775">
+            <location-fragments>
+              <phobius-location-fragment start="731" end="775" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="TRANSMEMBRANE" desc="Region of a membrane-bound protein predicted to be embedded in the membrane." name="Transmembrane region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>TRANSMEMBRANE</model-ac>
+        <locations>
+          <phobius-location start="776" end="794">
+            <location-fragments>
+              <phobius-location-fragment start="776" end="794" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="TRANSMEMBRANE" desc="Region of a membrane-bound protein predicted to be embedded in the membrane." name="Transmembrane region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>TRANSMEMBRANE</model-ac>
+        <locations>
+          <phobius-location start="607" end="626">
+            <location-fragments>
+              <phobius-location-fragment start="607" end="626" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="TRANSMEMBRANE" desc="Region of a membrane-bound protein predicted to be embedded in the membrane." name="Transmembrane region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>TRANSMEMBRANE</model-ac>
+        <locations>
+          <phobius-location start="712" end="730">
+            <location-fragments>
+              <phobius-location-fragment start="712" end="730" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="TRANSMEMBRANE" desc="Region of a membrane-bound protein predicted to be embedded in the membrane." name="Transmembrane region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>TRANSMEMBRANE</model-ac>
+        <locations>
+          <phobius-location start="638" end="659">
+            <location-fragments>
+              <phobius-location-fragment start="638" end="659" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="TRANSMEMBRANE" desc="Region of a membrane-bound protein predicted to be embedded in the membrane." name="Transmembrane region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>TRANSMEMBRANE</model-ac>
+        <locations>
+          <phobius-location start="671" end="692">
+            <location-fragments>
+              <phobius-location-fragment start="671" end="692" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm." name="Cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="79" end="606">
+            <location-fragments>
+              <phobius-location-fragment start="79" end="606" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="TRANSMEMBRANE" desc="Region of a membrane-bound protein predicted to be embedded in the membrane." name="Transmembrane region">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>TRANSMEMBRANE</model-ac>
+        <locations>
+          <phobius-location start="800" end="819">
+            <location-fragments>
+              <phobius-location-fragment start="800" end="819" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="1" end="51">
+            <location-fragments>
+              <phobius-location-fragment start="1" end="51" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm." name="Cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="820" end="1036">
+            <location-fragments>
+              <phobius-location-fragment start="820" end="1036" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm." name="Cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="660" end="670">
+            <location-fragments>
+              <phobius-location-fragment start="660" end="670" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <phobius-match>
+        <signature ac="NON_CYTOPLASMIC_DOMAIN" desc="Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region." name="Non cytoplasmic domain">
+          <signature-library-release library="PHOBIUS" version="1.01"/>
+        </signature>
+        <model-ac>NON_CYTOPLASMIC_DOMAIN</model-ac>
+        <locations>
+          <phobius-location start="627" end="637">
+            <location-fragments>
+              <phobius-location-fragment start="627" end="637" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </phobius-location>
+        </locations>
+      </phobius-match>
+      <profilescan-match>
+        <signature ac="MF_03021" desc="Spastin [SPAST]." name="Spastin">
+          <entry ac="IPR017179" desc="Spastin" name="Spastin" type="FAMILY">
+            <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008568" name="microtubule-severing ATPase activity"/>
+          </entry>
+          <signature-library-release library="HAMAP" version="2020_01"/>
+        </signature>
+        <model-ac>MF_03021</model-ac>
+        <locations>
+          <profilescan-location score="30.147" start="1" end="614">
+            <location-fragments>
+              <profilescan-location-fragment start="1" end="614" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <alignment>Not available</alignment>
+          </profilescan-location>
+        </locations>
+      </profilescan-match>
+      <rpsblast-match>
+        <signature ac="cd02679" desc="MIT_spastin" name="MIT_spastin">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd02679</model-ac>
+        <locations>
+          <rpsblast-location evalue="2.81136E-32" score="118.149" start="116" end="194">
+            <location-fragments>
+              <rpsblast-location-fragment start="116" end="194" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites/>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <rpsblast-match>
+        <signature ac="cd00009" desc="AAA" name="AAA">
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00009</model-ac>
+        <locations>
+          <rpsblast-location evalue="1.58309E-24" score="98.7575" start="345" end="508">
+            <location-fragments>
+              <rpsblast-location-fragment start="345" end="508" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="Walker B motif" numLocations="6">
+                <site-locations>
+                  <site-location residue="F" start="439" end="439"/>
+                  <site-location residue="I" start="437" end="437"/>
+                  <site-location residue="D" start="441" end="441"/>
+                  <site-location residue="I" start="440" end="440"/>
+                  <site-location residue="E" start="442" end="442"/>
+                  <site-location residue="I" start="438" end="438"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="arginine finger" numLocations="1">
+                <site-locations>
+                  <site-location residue="R" start="499" end="499"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="Walker A motif" numLocations="8">
+                <site-locations>
+                  <site-location residue="N" start="386" end="386"/>
+                  <site-location residue="P" start="384" end="384"/>
+                  <site-location residue="G" start="385" end="385"/>
+                  <site-location residue="P" start="383" end="383"/>
+                  <site-location residue="T" start="389" end="389"/>
+                  <site-location residue="G" start="382" end="382"/>
+                  <site-location residue="K" start="388" end="388"/>
+                  <site-location residue="G" start="387" end="387"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="ATP binding site" numLocations="10">
+                <site-locations>
+                  <site-location residue="N" start="386" end="386"/>
+                  <site-location residue="G" start="385" end="385"/>
+                  <site-location residue="P" start="384" end="384"/>
+                  <site-location residue="D" start="441" end="441"/>
+                  <site-location residue="M" start="390" end="390"/>
+                  <site-location residue="T" start="389" end="389"/>
+                  <site-location residue="P" start="383" end="383"/>
+                  <site-location residue="K" start="388" end="388"/>
+                  <site-location residue="G" start="387" end="387"/>
+                  <site-location residue="N" start="487" end="487"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="1.22E-22">
+        <signature ac="SSF161111" name="Cation efflux protein transmembrane domain-like">
+          <entry ac="IPR027469" desc="Cation efflux transmembrane domain superfamily" name="Cation_efflux_TMD_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0054606</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="204" start="604" end="831">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="763" end="831" dc-status="N_TERMINAL_DISC"/>
+              <superfamilyhmmer3-location-fragment start="604" end="734" dc-status="C_TERMINAL_DISC"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="3.54E-53">
+        <signature ac="SSF52540" name="P-loop containing nucleoside triphosphate hydrolases">
+          <entry ac="IPR027417" desc="P-loop containing nucleoside triphosphate hydrolase" name="P-loop_NTPase" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0042094</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="293" start="339" end="566">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="339" end="566" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="57" end="79">
+            <location-fragments>
+              <tmhmm-location-fragment start="57" end="79" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="799" end="821">
+            <location-fragments>
+              <tmhmm-location-fragment start="799" end="821" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="675" end="694">
+            <location-fragments>
+              <tmhmm-location-fragment start="675" end="694" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="609" end="626">
+            <location-fragments>
+              <tmhmm-location-fragment start="609" end="626" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="638" end="660">
+            <location-fragments>
+              <tmhmm-location-fragment start="638" end="660" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="707" end="729">
+            <location-fragments>
+              <tmhmm-location-fragment start="707" end="729" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+      <tmhmm-match>
+        <signature ac="TMhelix" desc="Region of a membrane-bound protein predicted to be embedded in the membrane.">
+          <signature-library-release library="TMHMM" version="2.0c"/>
+        </signature>
+        <model-ac>TMhelix</model-ac>
+        <locations>
+          <tmhmm-location start="776" end="794">
+            <location-fragments>
+              <tmhmm-location-fragment start="776" end="794" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </tmhmm-location>
+        </locations>
+      </tmhmm-match>
+    </matches>
+  </protein>
+</protein-matches>

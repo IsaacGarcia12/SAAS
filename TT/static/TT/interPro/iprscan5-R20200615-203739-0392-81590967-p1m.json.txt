@@ -1,0 +1,799 @@
+{
+ "interproscan-version": "5.44-79.0",
+"results": [ {
+  "sequence" : "MCSQEDFQAQRSQLVALLVSGSLEGFESILDWLLSWDVLSREDYEGLSLPGQPLSHSARRLLDTVCNKGVWGCQKLFEAVQEAQANSHTFELQGCWDVHSLHPTRDLQSHRPAIVRRLCSHVEAILELARDEGFLSQYECEEIRLPIFTSSQRARRLLDLAAVKANGLAAFLLQHVRKLPASLSLPYEAAECQKFTAKLRTMVSAQSRFLSTYDGSENLCLEDIYTENTLELRTEVGTAGALQKSPATLGLEELFGTHGHLNKDADTILVVGEAGSGKSTLLQRLHLLWASGQNFREFLFIFPFSCRQLQCMTKPLSLRTLLFEHCCWPDVGQDDVFQFLLDHPDRVLLTFDGLDEFKFRFTDRERHCSPLDPTSVQTLLFNLLQGNLLKNACKVLTSRPDAVSALLRKFVRTECHLKGFSEEGIKLYLRKHHREPGVADRLIHLIQATSALHGLCHLPVFSWMVSRCHRELLLQNRGFPTTSTDMYLLILQHFLLHASPPDSFPLGLGPGLLQSRLSTLLHLGHLALQGLAMSCYVFSAQQLQAAQVDSEDISLGFLVRAQSVVPGSKAPLEFLHITFQCFFAAFYLAVSADTSAASLKHLFSCGRPGNSLLLRLLPNLCIQGSRVKGGQAALLQKAEPHNLQITAAFLAGLLSQQHRDLLAACQVPERVLLQRQARARSCLAHSLREHFHSIPPAVPGETKSMHAMPGFIWLIRSLYEMQEVQLAREAVRRLDIGHLKLTFCRVGPAECAALAFVLQHLQRPVALQLDHNSVGDVGVEQLLPCLGVCTALYLRDNNISDRGARTLVECALRCEQLQKLALFNNKLTDGCASSVAKLLAHKQNFLSLRVGNNHITAAGAEVLAQGLKSNTSLQFLGFWGNSVGDKGSQALAEVVADHQRLKWLSLVGNNIGSVGAHALALMLEKNKSLEEL",
+  "md5" : "83615a47d01c9740e94e6488d7134eec",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "PF13516",
+      "name" : "LRR_6",
+      "description" : "Leucine Rich repeat",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR001611",
+        "name" : "Leu-rich_rpt",
+        "description" : "Leucine-rich repeat",
+        "type" : "REPEAT",
+        "goXRefs" : [ {
+          "name" : "protein binding",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0005515"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 899,
+      "end" : 920,
+      "hmmStart" : 3,
+      "hmmEnd" : 24,
+      "hmmLength" : 24,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 1.7,
+      "score" : 8.8,
+      "envelopeStart" : 897,
+      "envelopeEnd" : 920,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 899,
+        "end" : 920,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 790,
+      "end" : 807,
+      "hmmStart" : 6,
+      "hmmEnd" : 23,
+      "hmmLength" : 24,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 0.94,
+      "score" : 9.6,
+      "envelopeStart" : 790,
+      "envelopeEnd" : 808,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 790,
+        "end" : 807,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 841,
+      "end" : 864,
+      "hmmStart" : 1,
+      "hmmEnd" : 24,
+      "hmmLength" : 24,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 1.1,
+      "score" : 9.4,
+      "envelopeStart" : 841,
+      "envelopeEnd" : 864,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 841,
+        "end" : 864,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 9.9E-13,
+    "score" : 46.9,
+    "model-ac" : "PF13516"
+  }, {
+    "signature" : {
+      "accession" : "PTHR24106",
+      "name" : "FAMILY NOT NAMED",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 4,
+      "end" : 932,
+      "hmmStart" : 7,
+      "hmmEnd" : 936,
+      "hmmLength" : 1016,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 932,
+      "location-fragments" : [ {
+        "start" : 4,
+        "end" : 932,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 1650.4,
+    "model-ac" : "PTHR24106"
+  }, {
+    "signature" : {
+      "accession" : "PF00619",
+      "name" : "CARD",
+      "description" : "Caspase recruitment domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR001315",
+        "name" : "CARD",
+        "description" : "CARD domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "regulation of apoptotic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0042981"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 89,
+      "hmmStart" : 4,
+      "hmmEnd" : 80,
+      "hmmLength" : 85,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 1.2E-15,
+      "score" : 57.1,
+      "envelopeStart" : 4,
+      "envelopeEnd" : 93,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 89,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 107,
+      "end" : 177,
+      "hmmStart" : 4,
+      "hmmEnd" : 72,
+      "hmmLength" : 85,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 1.5E-5,
+      "score" : 24.8,
+      "envelopeStart" : 105,
+      "envelopeEnd" : 183,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 107,
+        "end" : 177,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.3E-24,
+    "score" : 85.1,
+    "model-ac" : "PF00619"
+  }, {
+    "signature" : {
+      "accession" : "PF17779",
+      "name" : "NOD2_WH",
+      "description" : "NOD2 winged helix domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR041075",
+        "name" : "NOD2_WH",
+        "description" : "NOD2, winged helix domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 519,
+      "end" : 560,
+      "hmmStart" : 2,
+      "hmmEnd" : 43,
+      "hmmLength" : 57,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 2.0E-10,
+      "score" : 40.7,
+      "envelopeStart" : 518,
+      "envelopeEnd" : 574,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 519,
+        "end" : 560,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 6.8E-12,
+    "score" : 45.4,
+    "model-ac" : "PF17779"
+  }, {
+    "signature" : {
+      "accession" : "SSF47986",
+      "name" : "DEATH domain",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR011029",
+        "name" : "DEATH-like_dom_sf",
+        "description" : "Death-like domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 105,
+      "end" : 181,
+      "hmmLength" : 89,
+      "location-fragments" : [ {
+        "start" : 105,
+        "end" : 181,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.11E-11,
+    "model-ac" : "0036420"
+  }, {
+    "signature" : {
+      "accession" : "SSF47986",
+      "name" : "DEATH domain",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR011029",
+        "name" : "DEATH-like_dom_sf",
+        "description" : "Death-like domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 7,
+      "end" : 84,
+      "hmmLength" : 89,
+      "location-fragments" : [ {
+        "start" : 7,
+        "end" : 84,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.08E-13,
+    "model-ac" : "0036420"
+  }, {
+    "signature" : {
+      "accession" : "SSF52047",
+      "name" : "RNI-like",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 733,
+      "end" : 932,
+      "hmmLength" : 460,
+      "location-fragments" : [ {
+        "start" : 733,
+        "end" : 932,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.77E-38,
+    "model-ac" : "0045711"
+  }, {
+    "signature" : {
+      "accession" : "PF17776",
+      "name" : "NLRC4_HD2",
+      "description" : "NLRC4 helical domain HD2",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR041267",
+        "name" : "NLRC_HD2",
+        "description" : "NLRC, helical domain HD2",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 576,
+      "end" : 729,
+      "hmmStart" : 1,
+      "hmmEnd" : 129,
+      "hmmLength" : 129,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.0E-17,
+      "score" : 63.8,
+      "envelopeStart" : 576,
+      "envelopeEnd" : 729,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 576,
+        "end" : 729,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 8.4E-18,
+    "score" : 65.1,
+    "model-ac" : "PF17776"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.80.10.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : {
+        "accession" : "IPR032675",
+        "name" : "LRR_dom_sf",
+        "description" : "Leucine-rich repeat domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 717,
+      "end" : 932,
+      "hmmStart" : 199,
+      "hmmEnd" : 399,
+      "hmmLength" : 457,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.4E-40,
+      "score" : 139.6,
+      "envelopeStart" : 717,
+      "envelopeEnd" : 932,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 717,
+        "end" : 932,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.5E-40,
+    "score" : 140.8,
+    "model-ac" : "3tsrE00"
+  }, {
+    "signature" : {
+      "accession" : "PS50209",
+      "name" : "CARD",
+      "description" : "CARD caspase recruitment domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001315",
+        "name" : "CARD",
+        "description" : "CARD domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "regulation of apoptotic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0042981"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 107,
+      "end" : 191,
+      "score" : 12.426,
+      "alignment" : "--------LQSHRPAIVRRLCsHVEAILELARDEGFLSQYECEEIRLPIfTSSQRARRLLDLAAVKANGLAAFLLQHVRKLPASLSLPYEAAE",
+      "location-fragments" : [ {
+        "start" : 107,
+        "end" : 191,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50209"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.10.533.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 2,
+      "end" : 98,
+      "hmmStart" : 4,
+      "hmmEnd" : 83,
+      "hmmLength" : 106,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.9E-20,
+      "score" : 73.7,
+      "envelopeStart" : 2,
+      "envelopeEnd" : 98,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 2,
+        "end" : 98,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.2E-32,
+    "score" : 113.9,
+    "model-ac" : "2n7zA00"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.10.533.10",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 101,
+      "end" : 183,
+      "hmmStart" : 12,
+      "hmmEnd" : 82,
+      "hmmLength" : 95,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 5.4E-10,
+      "score" : 41.0,
+      "envelopeStart" : 101,
+      "envelopeEnd" : 183,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 101,
+        "end" : 183,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.0E-31,
+    "score" : 109.7,
+    "model-ac" : "4uz0A00"
+  }, {
+    "signature" : {
+      "accession" : "PTHR24106:SF64",
+      "name" : "NUCLEOTIDE-BINDING OLIGOMERIZATION DOMAIN-CONTAINING PROTEIN 2",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "14.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 4,
+      "end" : 932,
+      "hmmStart" : 7,
+      "hmmEnd" : 936,
+      "hmmLength" : 1016,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 932,
+      "location-fragments" : [ {
+        "start" : 4,
+        "end" : 932,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 1650.4,
+    "model-ac" : "PTHR24106:SF64"
+  }, {
+    "signature" : {
+      "accession" : "PF05729",
+      "name" : "NACHT",
+      "description" : "NACHT domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "32.0"
+      },
+      "entry" : {
+        "accession" : "IPR007111",
+        "name" : "NACHT_NTPase",
+        "description" : "NACHT nucleoside triphosphatase",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 266,
+      "end" : 435,
+      "hmmStart" : 1,
+      "hmmEnd" : 165,
+      "hmmLength" : 166,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 1.3E-42,
+      "score" : 145.4,
+      "envelopeStart" : 266,
+      "envelopeEnd" : 436,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 266,
+        "end" : 435,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 4.7E-43,
+    "score" : 146.9,
+    "model-ac" : "PF05729"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.40.50.300",
+      "name" : null,
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 190,
+      "end" : 414,
+      "hmmStart" : 38,
+      "hmmEnd" : 197,
+      "hmmLength" : 208,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 5.3E-21,
+      "score" : 76.9,
+      "envelopeStart" : 190,
+      "envelopeEnd" : 414,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 190,
+        "end" : 414,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.6E-21,
+    "score" : 77.9,
+    "model-ac" : "4kxfL01"
+  }, {
+    "signature" : {
+      "accession" : "SM00368",
+      "name" : "LRR_RI_2",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 814,
+      "end" : 841,
+      "hmmStart" : 1,
+      "hmmEnd" : 28,
+      "hmmLength" : 28,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 7.4,
+      "score" : 11.0,
+      "location-fragments" : [ {
+        "start" : 814,
+        "end" : 841,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 758,
+      "end" : 788,
+      "hmmStart" : 1,
+      "hmmEnd" : 28,
+      "hmmLength" : 28,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 18.0,
+      "score" : 8.2,
+      "location-fragments" : [ {
+        "start" : 758,
+        "end" : 788,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 842,
+      "end" : 869,
+      "hmmStart" : 1,
+      "hmmEnd" : 28,
+      "hmmLength" : 28,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.0019,
+      "score" : 27.5,
+      "location-fragments" : [ {
+        "start" : 842,
+        "end" : 869,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 790,
+      "end" : 813,
+      "hmmStart" : 1,
+      "hmmEnd" : 28,
+      "hmmLength" : 28,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 130.0,
+      "score" : 2.2,
+      "location-fragments" : [ {
+        "start" : 790,
+        "end" : 813,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 870,
+      "end" : 897,
+      "hmmStart" : 1,
+      "hmmEnd" : 28,
+      "hmmLength" : 28,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.17,
+      "score" : 21.0,
+      "location-fragments" : [ {
+        "start" : 870,
+        "end" : 897,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    }, {
+      "start" : 898,
+      "end" : 925,
+      "hmmStart" : 1,
+      "hmmEnd" : 28,
+      "hmmLength" : 28,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 0.6,
+      "score" : 18.7,
+      "location-fragments" : [ {
+        "start" : 898,
+        "end" : 925,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 7.8E-22,
+    "score" : 88.5,
+    "model-ac" : "SM00368"
+  }, {
+    "signature" : {
+      "accession" : "PS50837",
+      "name" : "NACHT",
+      "description" : "NACHT-NTPase domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR007111",
+        "name" : "NACHT_NTPase",
+        "description" : "NACHT nucleoside triphosphatase",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 266,
+      "end" : 402,
+      "score" : 21.732,
+      "alignment" : "DTILVVGEAGSGKSTLLQRLHLLWASGQNFREFLFIFPFSCRQLQcMTKPLSLRTLLFEHCCWPDVGQDDVFQFLLDHPDRVLLTFDGLDEFKFRFTdrerhcspldpTSVQTLLFNLLQGNLLKNACKVLTSRPDA---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "location-fragments" : [ {
+        "start" : 266,
+        "end" : 402,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50837"
+  }, {
+    "signature" : {
+      "accession" : "cd17870",
+      "name" : "GPN1",
+      "description" : "GPN1",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.17"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 267,
+      "end" : 285,
+      "sites" : null,
+      "evalue" : 0.00196599,
+      "score" : 38.703,
+      "location-fragments" : [ {
+        "start" : 267,
+        "end" : 285,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd17870"
+  }, {
+    "signature" : {
+      "accession" : "PS50209",
+      "name" : "CARD",
+      "description" : "CARD caspase recruitment domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2019_11"
+      },
+      "entry" : {
+        "accession" : "IPR001315",
+        "name" : "CARD",
+        "description" : "CARD domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "regulation of apoptotic process",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0042981"
+        } ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 82,
+      "score" : 12.174,
+      "alignment" : "--MCSQEDFQAQRSQLVALLVsgsleGFESILDWLLSWDVLSREDYEGLSLPGqPLSHSARRLLDTVCNKGVWGCQKLFEAVQE-------------",
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 82,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50209"
+  }, {
+    "signature" : {
+      "accession" : "SSF52540",
+      "name" : "P-loop containing nucleoside triphosphate hydrolases",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR027417",
+        "name" : "P-loop_NTPase",
+        "description" : "P-loop containing nucleoside triphosphate hydrolase",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 267,
+      "end" : 448,
+      "hmmLength" : 283,
+      "location-fragments" : [ {
+        "start" : 267,
+        "end" : 448,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 8.26E-9,
+    "model-ac" : "0052726"
+  } ],
+  "xref" : [ {
+    "name" : "tr|D4A5W3|D4A5W3_RAT Caspase recruitment domain family, member 15 (Predicted) OS=Rattus norvegicus OX=10116 GN=Nod2 PE=4 SV=1",
+    "id" : "tr|D4A5W3|D4A5W3_RAT"
+  } ]
+} ]
+}

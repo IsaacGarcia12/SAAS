@@ -41,12 +41,20 @@ E_VALUE_THRESH = 0.1
 for alignment in b_record.alignments:
     for hsp in alignment.hsps:
         if hsp.expect < E_VALUE_THRESH:
-            with open("parsed.xml") as out:
-                out.write()
-                print("****Alineacion****")
-                print("secuencia: %s" % alignment.title)
-                print("longitud: %i" % alignment.length)
-                print("e value: %f" % hsp.expect)
-                print(hsp.query[0:75] + "...")
-                print(hsp.match[0:75] + "...")
-                print(hsp.sbjct[0:75] + "...")
+            print("****Alineacion****")
+            print("secuencia: %s" % alignment.title) 
+            print("longitud: %i" % alignment.length)
+            print("e value: %f" % hsp.expect)
+            print(hsp.query[0:75] + "...")
+            print(hsp.match[0:75] + "...")
+            print(hsp.sbjct[0:75] + "...")
+            with open("xmlParseado.xml", 'w') as parsed:
+                linea ="****Alineacion****"
+                linea2 = "secuencia: %s" % alignment.title
+                linea3 = "longitud: %i" % alignment.length
+                linea4 ="longitud: %i" % alignment.length
+                linea5 = "e value: %f" % hsp.expect
+                linea6 = hsp.query[0:75] + "..."
+                linea7 = hsp.match[0:75] + "..."
+                linea8 =hsp.sbjct[0:75] + "..."
+                parsed.writelines([linea+'\n'+linea2+'\n'+linea3+'\n'+linea4+'\n'+linea5+'\n'+linea6+'\n'+linea7+'\n'+linea8])

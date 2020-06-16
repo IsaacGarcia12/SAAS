@@ -5,19 +5,20 @@
 </head>
 <body>
     <div class="centro" align="center">
-        <h2>Ingrese la secuencia:</h2>
+        <h2 class="alert alert-light" role="alert">Ingrese la secuencia:</h2>
 
         <form action="{%url 'cadena'%}" method="post">
             {%csrf_token%}
-            <textarea name="cadena" cols=50 rows=10></textarea>     <br>
-    <h2>Para clustal necesitara de al menos 2 secuencias, ingrese la segunda cadena en la siguiente caja:</h2>
-            <textarea name="cadena1" cols=50 rows=10></textarea> <br>
-            Nombre: <input type="text" name="nombre" align="center">  <br>
-            Correo:  <input type="text" name="mail" align="center"> <br>
-            <button type="submit" value="snd">Enviar</button>
+            <textarea name="cadena" cols=50 rows=10></textarea> <br><br>
+            <h2 class="alert alert-light" role="alert" >Para clustal necesitará de al menos 2 secuencias, ingrese la segunda cadena en la siguiente caja:</h2>
+            <textarea name="cadena1" cols=50 rows=10></textarea> <br> <br>
+
+            Nombre del trabajo: <input type="text" name="nombre" align="center">  <br> <br>
+            Correo:  <input type="text" name="mail" align="center"> <br><br>
+            <button class="btn btn-primary"  type="submit" value="snd">Enviar</button>
         </form>
     </div>
-    <a href="{% url 'impresionPDF'%}">PDF</a>
+    <br>
     {% endblock %}
 </body>
 </html>

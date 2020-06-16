@@ -2,9 +2,12 @@
 {% block content %}
 {% load static %}
 <div>
-    <h1>Esta es la cadena que se ingreso</h1>
-    {{cadena}} <br>
+    <h1 align="center"class="alert alert-success">Esta es la cadena que se ingreso</h1> <br>
+    <p align="center" class="alert alert-light" role="alert">{{cadena}}</p> <br>
     <a href="{%url 'index'%}">Regresar a pantalla inicial</a> <br>
-    <a href="{%  url 'impresionPDF' %}">PDF</a>
+    <form action="{% static 'TT/PDF_Prueba2020-Jun-14__19_47_30.pdf'%}">
+        <button class="btn btn-primary">PDF</button>
+    </form>
+    <a href="{% static 'TT/PDF_Prueba2020-Jun-14__19_47_30.pdf'%}">PDF</a>
 </div>
 {% endblock %}

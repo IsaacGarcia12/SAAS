@@ -2,11 +2,14 @@
 from django.http import HttpResponse, HttpRequest, HttpResponseRedirect
 from django.shortcuts import render
 from django.views.generic import View
+from SAmin.settings import EMAIL_HOST_USER
+from SAmin.settings import FILES_ROOT, ARCHIVOS_ROOT
+from django.core.mail import send_mail, EmailMessage
 
 #Importaciones
 from .models import Secuencia, Blast, Cath
-from .forms import IngresarForm
-from .utils import render_pdf
+from .forms import IngresarForm, Subscribe
+from TT.utils import render_pdf
 from . import crearPDF
 
 #Modulos de python generales
@@ -16,8 +19,16 @@ from io import StringIO
 import sys
 import time
 import cairosvg
-from urllib import request
 import requests
+import pylab
+
+#Modulos para poder mandar correos
+from socket import gethostname
+from email.mime.application import MIMEApplication
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+import smtplib
+import json
 
 #Modulos de biopython
 from Bio import SeqIO
@@ -75,7 +86,34 @@ def Funcionamiento(request):
 
     #Imprimimos el Arbol
     with open('arbol.png', 'wb') as arbol:
-        Phylo.draw_ascii(tree)
+        arbol.write(Phylo.draw_ascii(tree))
+
+    #Codigo para enviar el correo
+    server = smtplib.SMTP('smtp.gmail.com', 587)
+    server.starttls()
+    server.login('cob.log.cof@gmail.com', 'graveworm')
+    
+    #Crearmos mensaje(obj)
+    msg = MIMEMultipart()
+    message = 'Your results are ready'
+    msg['Subject'] = 'SAAS results'
+    msg['From'] = 'cob.log.cof@gmail.com'
+    msg['To'] = mail
+    
+    # Insertar el texto al mensaje
+    msg.attach(MIMEText(message, "plain"))
+
+    #Adjuntamos el pdf al mensaje saliente
+    with open("/home/isaac/Escritorio/SAmin/TT/PDF_Prueba2020-Jun-15__14_04_39.pdf", "rb") as f:
+        leer = f.read()
+        attach = MIMEApplication(leer,_subtype="pdf")
+            #attach = email.mime.application.MIMEApplication(f.read(),_subtype="pdf")
+    attach.add_header('Content-Disposition','attachment',filename=str("/home/isaac/Escritorio/SAmin/TT/PDF_Prueba2020-Jun-15__14_04_39.pdf"))
+    msg.attach(attach)
+    
+    #Mandamos el mensaje
+    server.send_message(msg)
+
 
     cadena_obj = Secuencia(Secuencia = cadena, Nombre = nombre, Correo = mail)
     cadena_obj.save()
@@ -86,7 +124,7 @@ def Funcionamiento(request):
     return render(request, 'TT/cadena.html', {'cadena':cadena})
 
 def creaPDF(request):
-    cairosvg.svg2png(url='/home/isaac/Escritorio/SAmin/iprscan5-R20200608-185227-0730-22289433-p2m.svg.svg', write_to='/home/isaac/Escritorio/SAmin/TT/static/TT/prueba1.png')
+    cairosvg.svg2png(url='/home/isaac/Escritorio/SAmin/TT/static/TT/interPro/iprscan5-R20200521-215216-0973-96722144-p2m.svg.svg', write_to='/home/isaac/Escritorio/SAmin/TT/static/TT/prueba1.png')
     return render(request, 'TT/generarPDF.html')
 
 def index(request):
