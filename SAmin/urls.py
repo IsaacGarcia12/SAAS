@@ -23,6 +23,5 @@ urlpatterns = [
     path('visualizaPDF/', views.creaPDF, name='impresionPDF'),
     path('about/', views.about, name='acerca'),
     path('contacto/', views.contacto, name='contacto'),
-    path('correo/', views.subscribe, name = 'envio'),
     path('admin/', admin.site.urls),
 ]

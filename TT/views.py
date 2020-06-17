@@ -6,7 +6,7 @@ from SAmin.settings import EMAIL_HOST_USER
 from SAmin.settings import FILES_ROOT, ARCHIVOS_ROOT
 from django.core.mail import send_mail, EmailMessage
 
-#Importaciones
+#Importaciones especiales
 from .models import Secuencia, Blast, Cath
 from .forms import IngresarForm, Subscribe
 from TT.utils import render_pdf
@@ -44,6 +44,7 @@ def Funcionamiento(request):
     nombre  = request.POST.get('nombre')
     cadena1 = request.POST.get('cadena1')
 
+    #Variable que nos da el momento exacto
     moment=time.strftime("%Y-%b-%d__%H_%M_%S",time.localtime())
 
     #Hacemos un archivo para algunas apis
@@ -57,7 +58,7 @@ def Funcionamiento(request):
         out_handle.write(result_handle.read())
     result_handle.close()
 
-    #Interpro
+    #Interpro:
     interpro = subprocess.Popen(['python', '/home/isaac/Escritorio/SAmin/TT/interpro.py', '--email', mail, cadena])                               
     
     #CATH:
@@ -67,8 +68,6 @@ def Funcionamiento(request):
     idCath = req_dict['task_id']
     with open('/home/isaac/Escritorio/SAmin/TT/static/TT/cath_results/salida'+moment+'.json', 'w') as out:
         out.write(req_dict['task_id'])
-        #out.write(r_dict)
-    
     #cath = subprocess.Popen(["perl", "/home/isaac/Escritorio/SAmin/TT/cath.pl", cadena], stdin=subprocess.PIPE)
     
     #CLUSTAL Obtencion del phylotree:
@@ -76,19 +75,17 @@ def Funcionamiento(request):
     print (cline)
     stdout, stderr = cline()
     print(stdout)
-
     #Con esto leemos el phytlotree
     tree = Phylo.read("/home/isaac/Escritorio/SAmin/TT/creacion.dnd", "newick")
     tree.rooted = True
-
-    #Con esto lo convertimos a otro tipo de notacion
-    #Phylo.convert('new.dnd', 'newick', 'new.xml', 'phyloxml')
-
-    #Imprimimos el Arbol
-    with open('arbol.png', 'wb') as arbol:
-        arbol.write(Phylo.draw_ascii(tree))
+    #tree = Phylo.read("new.dnd", "newick")
+    #tree.rooted = True
+    Phylo.draw(tree, do_show=False) 
+    pylab.axis('off')
+    pylab.savefig('tree3.png',format='png', bbox_inches='tight', dpi=300)
 
     #Codigo para enviar el correo
+    
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
     server.login('cob.log.cof@gmail.com', 'graveworm')

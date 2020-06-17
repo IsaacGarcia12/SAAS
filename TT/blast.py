@@ -38,17 +38,17 @@ b_record = NCBIXML.read(string_result_handle)
 # now get the alignment info for all e values greater than some threshold
 E_VALUE_THRESH = 0.1
 
-for alignment in b_record.alignments:
-    for hsp in alignment.hsps:
-        if hsp.expect < E_VALUE_THRESH:
-            print("****Alineacion****")
-            print("secuencia: %s" % alignment.title) 
-            print("longitud: %i" % alignment.length)
-            print("e value: %f" % hsp.expect)
-            print(hsp.query[0:75] + "...")
-            print(hsp.match[0:75] + "...")
-            print(hsp.sbjct[0:75] + "...")
-            with open("xmlParseado.xml", 'w') as parsed:
+with open("xmlParseado.xml", 'w') as parsed:
+    for alignment in b_record.alignments:
+        for hsp in alignment.hsps:
+            if hsp.expect < E_VALUE_THRESH:
+                print("****Alineacion****")
+                print("secuencia: %s" % alignment.title) 
+                print("longitud: %i" % alignment.length)
+                print("e value: %f" % hsp.expect)
+                print(hsp.query[0:75] + "...")
+                print(hsp.match[0:75] + "...")
+                print(hsp.sbjct[0:75] + "...")
                 linea ="****Alineacion****"
                 linea2 = "secuencia: %s" % alignment.title
                 linea3 = "longitud: %i" % alignment.length

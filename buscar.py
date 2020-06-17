@@ -16,6 +16,10 @@ archivoJson = glob.glob('/home/isaac/Escritorio/SAmin/TT/static/TT/cath_results/
 ultimo_json = max(archivoJson, key=os.path.getctime)
 print(ultimo_json)
 
+archivoPDF = glob.glob('/home/isaac/Escritorio/SAmin/TT/*.pdf')
+ultimo_pdf = max(archivoPDF, key=os.path.getctime)
+prtin(ultimo_pdf)
+
 
 
 
